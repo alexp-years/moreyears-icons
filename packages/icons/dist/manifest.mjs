@@ -1,6 +1,6 @@
 export const manifest = {
   "version": "0.1.0",
-  "generatedAt": "2026-02-08T00:34:50.111Z",
+  "generatedAt": "2026-02-08T01:10:29.405Z",
   "weights": [
     "Outline",
     "Linear",

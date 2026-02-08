@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:poc": "npm run icons:build && npm run build -- --webpack",
     "start": "next start",
     "lint": "eslint",
-    "icons:build": "node scripts/build-icons.mjs"
+    "icons:build": "node scripts/build-icons.mjs",
+    "icons:pack": "npm run icons:build && npm pack ./packages/icons"
   },
   "dependencies": {
     "@solar-icons/react": "^1.0.1",
