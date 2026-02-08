@@ -11,7 +11,7 @@ export function PageHeader({ title, description, children }: PageHeaderProps) {
   return (
     <div className="space-y-4">
       <div className="space-y-2">
-        <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">
+        <p className="text-xs uppercase tracking-[0.3em] text-primary/80">
           More Years
         </p>
         <h1 className="text-4xl font-display text-foreground sm:text-5xl">

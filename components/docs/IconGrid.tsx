@@ -140,7 +140,7 @@ export function IconGrid({
 
   return (
     <div className="space-y-8">
-      <Card className="border-border/60 bg-muted/30">
+      <Card className="border-border bg-card/90">
         <CardHeader>
           <CardTitle className="text-lg">More Years Icon CDN (POC)</CardTitle>
         </CardHeader>
@@ -150,7 +150,7 @@ export function IconGrid({
         </CardContent>
       </Card>
 
-      <div className="flex flex-wrap items-center justify-between gap-4">
+      <div className="flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-border bg-card/85 p-4">
         <div>
           <p className="text-sm font-medium text-foreground">Icon weight</p>
           <p className="text-xs text-muted-foreground">
@@ -158,7 +158,7 @@ export function IconGrid({
           </p>
         </div>
         <Tabs value={weight} onValueChange={setWeight}>
-          <TabsList className="flex flex-wrap">
+          <TabsList className="flex flex-wrap border border-primary/20 bg-secondary/35">
             {(manifest.weights?.length ? manifest.weights : DEFAULT_WEIGHTS).map(
               (option) => (
                 <TabsTrigger key={option} value={option}>
@@ -170,7 +170,7 @@ export function IconGrid({
         </Tabs>
       </div>
 
-      <div className="space-y-2">
+      <div className="space-y-2 rounded-2xl border border-border bg-card/85 p-4">
         <p className="text-sm font-medium text-foreground">Search icons</p>
         <Input
           value={query}
@@ -184,7 +184,7 @@ export function IconGrid({
         </p>
       </div>
 
-      <div className="space-y-3">
+      <div className="space-y-3 rounded-2xl border border-border bg-card/85 p-4">
         <div className="flex items-center justify-between gap-4">
           <div>
             <p className="text-sm font-medium text-foreground">
@@ -248,9 +248,9 @@ export function IconGrid({
                   return (
                     <div
                       key={copyKey}
-                      className="flex flex-col gap-3 rounded-2xl border border-border/60 bg-background/80 p-4 shadow-sm"
+                      className="flex flex-col gap-3 rounded-2xl border border-border bg-card p-4 shadow-sm"
                     >
-                      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-muted text-foreground">
+                      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-accent text-foreground">
                         <img
                           src={url}
                           alt={icon.name}
@@ -278,7 +278,7 @@ export function IconGrid({
                           </a>
                         </Button>
                         <Button
-                          variant="outline"
+                          variant={copiedKey === copyKey ? "default" : "outline"}
                           size="sm"
                           onClick={() => handleCopy(copyKey, url)}
                         >
@@ -330,9 +330,9 @@ export function IconGrid({
                     return (
                       <div
                         key={copyKey}
-                        className="flex flex-col gap-3 rounded-2xl border border-border/60 bg-background/80 p-4 shadow-sm"
+                        className="flex flex-col gap-3 rounded-2xl border border-border bg-card p-4 shadow-sm"
                       >
-                        <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-muted text-foreground">
+                        <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-accent text-foreground">
                           <img
                             src={url}
                             alt={icon.name}
@@ -360,7 +360,7 @@ export function IconGrid({
                             </a>
                           </Button>
                           <Button
-                            variant="outline"
+                            variant={copiedKey === copyKey ? "default" : "outline"}
                             size="sm"
                             onClick={() => handleCopy(copyKey, url)}
                           >

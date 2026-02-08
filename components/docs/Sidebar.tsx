@@ -11,13 +11,13 @@ export function Sidebar() {
   const pathname = usePathname();
 
   return (
-    <aside className="border-border/60 bg-background/80 backdrop-blur md:sticky md:top-0 md:h-screen md:border-r">
+    <aside className="border-sidebar-border bg-sidebar/90 backdrop-blur md:sticky md:top-0 md:h-screen md:border-r">
       <div className="flex items-center justify-between px-6 py-6 md:flex-col md:items-start md:gap-4">
         <div>
-          <p className="font-display text-2xl text-foreground">More Years</p>
-          <p className="text-sm text-muted-foreground">Design system docs</p>
+          <p className="font-display text-2xl text-primary">More Years</p>
+          <p className="text-sm text-muted-foreground">Icon CDN docs</p>
         </div>
-        <Badge className="text-[11px]" variant="secondary">
+        <Badge className="border-primary/20 text-[11px]" variant="secondary">
           Pre-release
         </Badge>
       </div>
@@ -33,9 +33,9 @@ export function Sidebar() {
                 href={item.href}
                 className={cn(
                   "rounded-xl border border-transparent px-4 py-3 text-sm transition",
-                  "hover:border-border/60 hover:bg-muted/50",
+                  "hover:border-primary/25 hover:bg-accent",
                   isActive
-                    ? "border-border bg-muted text-foreground shadow-sm"
+                    ? "border-primary/30 bg-primary/10 text-primary shadow-sm"
                     : "text-muted-foreground"
                 )}
               >

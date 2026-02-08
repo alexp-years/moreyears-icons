@@ -15,9 +15,15 @@ export default function OverviewPage() {
         description="A proof of concept for our icon library: CDN-hosted SVGs, an npm package, and a searchable catalog for the team."
       >
         <div className="flex flex-wrap gap-2">
-          <Badge variant="secondary">Local-first</Badge>
-          <Badge variant="secondary">NPM package</Badge>
-          <Badge variant="secondary">CDN-ready</Badge>
+          <Badge className="border-primary/20" variant="secondary">
+            Local-first
+          </Badge>
+          <Badge className="border-primary/20" variant="secondary">
+            NPM package
+          </Badge>
+          <Badge className="border-primary/20" variant="secondary">
+            CDN-ready
+          </Badge>
         </div>
       </PageHeader>
 
@@ -25,7 +31,7 @@ export default function OverviewPage() {
         {navItems.map((item) => (
           <Card
             key={item.href}
-            className="border-border/60 bg-card/80 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+            className="border-border bg-card/90 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
           >
             <CardHeader>
               <CardTitle className="text-xl">{item.title}</CardTitle>
@@ -41,7 +47,7 @@ export default function OverviewPage() {
       </section>
 
       <section className="grid gap-6 md:grid-cols-2">
-        <Card className="border-border/60">
+        <Card className="border-border bg-card/90">
           <CardHeader>
             <CardTitle>How to use this</CardTitle>
           </CardHeader>
@@ -57,7 +63,7 @@ export default function OverviewPage() {
             </p>
           </CardContent>
         </Card>
-        <Card className="border-border/60">
+        <Card className="border-border bg-card/90">
           <CardHeader>
             <CardTitle>Next up</CardTitle>
           </CardHeader>
