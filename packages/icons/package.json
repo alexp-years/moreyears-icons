@@ -1,0 +1,30 @@
+{
+  "name": "@moreyears/icons",
+  "version": "0.1.0",
+  "description": "More Years icon pack (POC) built from Solar templates.",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    },
+    "./react": {
+      "import": "./dist/react.mjs",
+      "types": "./dist/react.d.ts"
+    },
+    "./manifest": {
+      "import": "./dist/manifest.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "node ../../scripts/build-icons.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
