@@ -17,7 +17,7 @@ export function Sidebar() {
           <p className="font-display text-2xl text-primary">More Years</p>
           <p className="text-sm text-muted-foreground">Icon CDN docs</p>
         </div>
-        <Badge className="border-primary/20 text-[11px]" variant="secondary">
+        <Badge className="border-primary/20 text-primary text-[11px]" variant="outline">
           Pre-release
         </Badge>
       </div>
