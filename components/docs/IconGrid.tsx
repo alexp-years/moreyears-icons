@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useMemo, useRef, useState, type ReactNode } from "react";
@@ -48,13 +47,19 @@ type IconGridProps = {
 };
 
 const DEFAULT_WEIGHTS = [
-  "Outline",
-  "Linear",
-  "Bold",
-  "BoldDuotone",
-  "LineDuotone",
-  "Broken",
+  "linear",
+  "bold",
+  "bold-duotone",
+  "outline",
+  "line-duotone",
+  "broken",
 ];
+
+const formatWeightLabel = (weight: string) =>
+  weight
+    .split("-")
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
 
 const resolveWeight = (
   available: string[],
@@ -207,7 +212,7 @@ export function IconGrid({
           </p>
           {resolvedWeight !== weight && (
             <p className="text-[10px] text-amber-600">
-              FB: {resolvedWeight}
+              FB: {formatWeightLabel(resolvedWeight)}
             </p>
           )}
         </div>
@@ -243,8 +248,8 @@ export function IconGrid({
           <CardTitle className="text-lg">More Years Icon CDN (POC)</CardTitle>
         </CardHeader>
         <CardContent className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
-          <Badge variant="secondary">Solar-based template</Badge>
-          <span>Swap in your real SVGs later without changing the API.</span>
+          <Badge variant="secondary">@moreyears/icons package</Badge>
+          <span>Synced from the published npm package while keeping stable CDN-style URLs.</span>
         </CardContent>
       </Card>
 
@@ -271,7 +276,7 @@ export function IconGrid({
                   <span className="text-muted-foreground text-xs font-normal">
                     Weight:
                   </span>
-                  {weight}
+                  {formatWeightLabel(weight)}
                   <ChevronDown className="size-3.5 text-muted-foreground" />
                 </Button>
               </DropdownMenuTrigger>
@@ -284,7 +289,7 @@ export function IconGrid({
                 >
                   {weights.map((w) => (
                     <DropdownMenuRadioItem key={w} value={w}>
-                      {w}
+                      {formatWeightLabel(w)}
                     </DropdownMenuRadioItem>
                   ))}
                 </DropdownMenuRadioGroup>

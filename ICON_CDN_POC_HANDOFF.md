@@ -6,7 +6,7 @@ Ship a production-safe proof of concept for:
 - Static SVG CDN endpoints (`/icons/<weight>/<id>.svg`)
 - Reusable npm package (`@moreyears/icons`)
 
-This POC is Solar-based and intentionally designed so the in-house icon pack can replace source inputs without changing consumer APIs.
+This POC now syncs from the published `@moreyears/icons` package while preserving stable CDN-style paths in this app.
 
 ## Current State
 - Web app routes intentionally exposed: `/`, `/icons`
@@ -30,14 +30,14 @@ This POC is Solar-based and intentionally designed so the in-house icon pack can
   - `/icons/manifest.json`
 - Package exports:
   - `@moreyears/icons`
-  - `@moreyears/icons/react`
   - `@moreyears/icons/manifest`
 
-These contracts should not change when swapping from Solar to in-house icons.
+These contracts should remain stable as the upstream package evolves.
 
 ## Build and Deploy Commands
 - Local dev:
 ```bash
+npm i @moreyears/icons@latest
 npm run icons:build
 npm run dev
 ```
@@ -60,7 +60,7 @@ npm run icons:build && npm run build -- --webpack
   - `/icons/*.svg` immutable long cache (`1 year`)
 
 ## Developer Workflow for New Icon Source
-1. Replace Solar-derived source stage in `scripts/build-icons.mjs` with in-house source loader.
+1. Update to the latest published package version (`@moreyears/icons`).
 2. Preserve:
   - `id` uniqueness behavior
   - `weights` per icon
@@ -68,6 +68,7 @@ npm run icons:build && npm run build -- --webpack
   - output paths and file naming
 3. Run:
 ```bash
+npm i @moreyears/icons@latest
 npm run icons:build
 npm run lint
 npm run build:poc

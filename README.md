@@ -1,6 +1,6 @@
 # More Years Icon CDN POC
 
-Proof of concept for a custom icon CDN and npm package, currently generated from Solar icons.
+Proof of concept for a custom icon CDN and npm package, synced from the published `@moreyears/icons` package.
 
 ## Scope
 - Public app routes:
@@ -14,6 +14,7 @@ Proof of concept for a custom icon CDN and npm package, currently generated from
 
 ## Commands
 ```bash
+npm i @moreyears/icons
 npm run icons:build
 npm run dev
 ```

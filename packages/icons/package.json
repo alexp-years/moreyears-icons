@@ -1,7 +1,7 @@
 {
   "name": "@moreyears/icons",
   "version": "0.1.0",
-  "description": "More Years icon pack (POC) built from Solar templates.",
+  "description": "More Years icon pack (POC) synced from the published @moreyears/icons package.",
   "type": "module",
   "sideEffects": false,
   "files": [

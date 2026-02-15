@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export type IconWeight = "Outline" | "Linear" | "Bold" | "BoldDuotone" | "LineDuotone" | "Broken";
+export type IconWeight = "linear" | "bold" | "bold-duotone" | "outline" | "line-duotone" | "broken";
 
 export type IconMeta = {
   id: string;

@@ -1,17457 +1,17867 @@
 export const manifest = {
-  "version": "0.1.0",
-  "generatedAt": "2026-02-08T01:10:29.405Z",
+  "version": "1.0.0",
+  "generatedAt": "2026-02-15T19:04:45.485Z",
   "weights": [
-    "Outline",
-    "Linear",
-    "Bold",
-    "BoldDuotone",
-    "LineDuotone",
-    "Broken"
+    "linear",
+    "bold",
+    "bold-duotone",
+    "outline",
+    "line-duotone",
+    "broken"
   ],
   "icons": [
     {
+      "id": "4k",
+      "name": "4K",
+      "sourceName": "essentional-ui/4k",
+      "category": "Essentional, UI",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
       "id": "accessibility",
       "name": "Accessibility",
-      "sourceName": "Accessibility",
-      "category": "Ui",
+      "sourceName": "essentional-ui/accessibility",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "accumulator",
       "name": "Accumulator",
-      "sourceName": "Accumulator",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/accumulator",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "add",
+      "name": "Add",
+      "sourceName": "additional/add",
+      "category": "Additional",
+      "weights": [
+        "bold"
       ]
     },
     {
       "id": "add-circle",
       "name": "Add Circle",
-      "sourceName": "AddCircle",
-      "category": "Ui",
+      "sourceName": "essentional-ui/add-circle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "add-folder",
       "name": "Add Folder",
-      "sourceName": "AddFolder",
+      "sourceName": "folders/add-folder",
       "category": "Folders",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "add-square",
       "name": "Add Square",
-      "sourceName": "AddSquare",
-      "category": "Ui",
+      "sourceName": "essentional-ui/add-square",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "adhesive-plaster",
       "name": "Adhesive Plaster",
-      "sourceName": "AdhesivePlaster",
+      "sourceName": "medicine/adhesive-plaster",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "adhesive-plaster2",
-      "name": "Adhesive Plaster2",
-      "sourceName": "AdhesivePlaster2",
+      "id": "adhesive-plaster-2",
+      "name": "Adhesive Plaster 2",
+      "sourceName": "medicine/adhesive-plaster-2",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "airbuds",
       "name": "Airbuds",
-      "sourceName": "Airbuds",
-      "category": "Devices",
+      "sourceName": "electronic-devices/airbuds",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "airbuds-case",
       "name": "Airbuds Case",
-      "sourceName": "AirbudsCase",
-      "category": "Devices",
+      "sourceName": "electronic-devices/airbuds-case",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "airbuds-case-charge",
       "name": "Airbuds Case Charge",
-      "sourceName": "AirbudsCaseCharge",
-      "category": "Devices",
+      "sourceName": "electronic-devices/airbuds-case-charge",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "airbuds-case-minimalistic",
       "name": "Airbuds Case Minimalistic",
-      "sourceName": "AirbudsCaseMinimalistic",
-      "category": "Devices",
+      "sourceName": "electronic-devices/airbuds-case-minimalistic",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "airbuds-case-open",
       "name": "Airbuds Case Open",
-      "sourceName": "AirbudsCaseOpen",
-      "category": "Devices",
+      "sourceName": "electronic-devices/airbuds-case-open",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "airbuds-charge",
       "name": "Airbuds Charge",
-      "sourceName": "AirbudsCharge",
-      "category": "Devices",
+      "sourceName": "electronic-devices/airbuds-charge",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "airbuds-check",
       "name": "Airbuds Check",
-      "sourceName": "AirbudsCheck",
-      "category": "Devices",
+      "sourceName": "electronic-devices/airbuds-check",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "airbuds-left",
       "name": "Airbuds Left",
-      "sourceName": "AirbudsLeft",
-      "category": "Devices",
+      "sourceName": "electronic-devices/airbuds-left",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "airbuds-remove",
       "name": "Airbuds Remove",
-      "sourceName": "AirbudsRemove",
-      "category": "Devices",
+      "sourceName": "electronic-devices/airbuds-remove",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "airbuds-right",
       "name": "Airbuds Right",
-      "sourceName": "AirbudsRight",
-      "category": "Devices",
+      "sourceName": "electronic-devices/airbuds-right",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "alarm",
       "name": "Alarm",
-      "sourceName": "Alarm",
+      "sourceName": "time/alarm",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "alarm-add",
       "name": "Alarm Add",
-      "sourceName": "AlarmAdd",
+      "sourceName": "time/alarm-add",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "alarm-pause",
       "name": "Alarm Pause",
-      "sourceName": "AlarmPause",
+      "sourceName": "time/alarm-pause",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "alarm-play",
       "name": "Alarm Play",
-      "sourceName": "AlarmPlay",
+      "sourceName": "time/alarm-play",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "alarm-remove",
       "name": "Alarm Remove",
-      "sourceName": "AlarmRemove",
+      "sourceName": "time/alarm-remove",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "alarm-sleep",
       "name": "Alarm Sleep",
-      "sourceName": "AlarmSleep",
+      "sourceName": "time/alarm-sleep",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "alarm-turn-off",
       "name": "Alarm Turn Off",
-      "sourceName": "AlarmTurnOff",
+      "sourceName": "time/alarm-turn-off",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "album",
       "name": "Album",
-      "sourceName": "Album",
-      "category": "Video",
+      "sourceName": "video-audio-sound/album",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "align-bottom",
       "name": "Align Bottom",
-      "sourceName": "AlignBottom",
-      "category": "Tools",
+      "sourceName": "design-tools/align-bottom",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "align-horizonta-spacing",
       "name": "Align Horizonta Spacing",
-      "sourceName": "AlignHorizontaSpacing",
-      "category": "Tools",
+      "sourceName": "design-tools/align-horizonta-spacing",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "align-horizontal-center",
       "name": "Align Horizontal Center",
-      "sourceName": "AlignHorizontalCenter",
-      "category": "Tools",
+      "sourceName": "design-tools/align-horizontal-center",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "align-left",
       "name": "Align Left",
-      "sourceName": "AlignLeft",
-      "category": "Tools",
+      "sourceName": "design-tools/align-left",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "align-right",
       "name": "Align Right",
-      "sourceName": "AlignRight",
-      "category": "Tools",
+      "sourceName": "design-tools/align-right",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "align-top",
       "name": "Align Top",
-      "sourceName": "AlignTop",
-      "category": "Tools",
+      "sourceName": "design-tools/align-top",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "align-vertical-center",
       "name": "Align Vertical Center",
-      "sourceName": "AlignVerticalCenter",
-      "category": "Tools",
+      "sourceName": "design-tools/align-vertical-center",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "align-vertical-spacing",
       "name": "Align Vertical Spacing",
-      "sourceName": "AlignVerticalSpacing",
-      "category": "Tools",
+      "sourceName": "design-tools/align-vertical-spacing",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "allergens",
+      "name": "Allergens",
+      "sourceName": "health-benefits/allergens",
+      "category": "Health Benefits",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "alt-arrow-down",
       "name": "Alt Arrow Down",
-      "sourceName": "AltArrowDown",
+      "sourceName": "arrows/alt-arrow-down",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "alt-arrow-left",
       "name": "Alt Arrow Left",
-      "sourceName": "AltArrowLeft",
+      "sourceName": "arrows/alt-arrow-left",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "alt-arrow-right",
       "name": "Alt Arrow Right",
-      "sourceName": "AltArrowRight",
+      "sourceName": "arrows/alt-arrow-right",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "alt-arrow-up",
       "name": "Alt Arrow Up",
-      "sourceName": "AltArrowUp",
+      "sourceName": "arrows/alt-arrow-up",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "sourceName": "ingredients/apple",
+      "category": "Ingredients",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "archive",
       "name": "Archive",
-      "sourceName": "Archive",
+      "sourceName": "notes/archive",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "archive-check",
       "name": "Archive Check",
-      "sourceName": "ArchiveCheck",
+      "sourceName": "notes/archive-check",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "archive-down",
       "name": "Archive Down",
-      "sourceName": "ArchiveDown",
+      "sourceName": "notes/archive-down",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "archive-down-minimlistic",
       "name": "Archive Down Minimlistic",
-      "sourceName": "ArchiveDownMinimlistic",
+      "sourceName": "notes/archive-down-minimlistic",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "archive-minimalistic",
       "name": "Archive Minimalistic",
-      "sourceName": "ArchiveMinimalistic",
+      "sourceName": "notes/archive-minimalistic",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "archive-up",
       "name": "Archive Up",
-      "sourceName": "ArchiveUp",
+      "sourceName": "notes/archive-up",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "archive-up-minimlistic",
       "name": "Archive Up Minimlistic",
-      "sourceName": "ArchiveUpMinimlistic",
+      "sourceName": "notes/archive-up-minimlistic",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "armchair",
       "name": "Armchair",
-      "sourceName": "Armchair",
-      "category": "Home",
+      "sourceName": "home-furniture/armchair",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "armchair2",
-      "name": "Armchair2",
-      "sourceName": "Armchair2",
-      "category": "Home",
+      "id": "armchair-2",
+      "name": "Armchair 2",
+      "sourceName": "home-furniture/armchair-2",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "arrow-down",
       "name": "Arrow Down",
-      "sourceName": "ArrowDown",
+      "sourceName": "arrows/arrow-down",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "arrow-down-additional",
+      "name": "Arrow Down",
+      "sourceName": "additional/arrow-down",
+      "category": "Additional",
+      "weights": [
+        "bold"
       ]
     },
     {
       "id": "arrow-left",
       "name": "Arrow Left",
-      "sourceName": "ArrowLeft",
+      "sourceName": "arrows/arrow-left",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "arrow-left-additional",
+      "name": "Arrow Left",
+      "sourceName": "additional/arrow-left",
+      "category": "Additional",
+      "weights": [
+        "bold"
       ]
     },
     {
       "id": "arrow-left-down",
       "name": "Arrow Left Down",
-      "sourceName": "ArrowLeftDown",
+      "sourceName": "arrows/arrow-left-down",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "arrow-left-up",
       "name": "Arrow Left Up",
-      "sourceName": "ArrowLeftUp",
+      "sourceName": "arrows/arrow-left-up",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "arrow-right",
       "name": "Arrow Right",
-      "sourceName": "ArrowRight",
+      "sourceName": "arrows/arrow-right",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "arrow-right-additional",
+      "name": "Arrow Right",
+      "sourceName": "additional/arrow-right",
+      "category": "Additional",
+      "weights": [
+        "bold"
       ]
     },
     {
       "id": "arrow-right-down",
       "name": "Arrow Right Down",
-      "sourceName": "ArrowRightDown",
+      "sourceName": "arrows/arrow-right-down",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "arrow-right-up",
       "name": "Arrow Right Up",
-      "sourceName": "ArrowRightUp",
+      "sourceName": "arrows/arrow-right-up",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "arrow-to-down-left",
       "name": "Arrow To Down Left",
-      "sourceName": "ArrowToDownLeft",
+      "sourceName": "arrows-action/arrow-to-down-left",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "arrow-to-down-right",
       "name": "Arrow To Down Right",
-      "sourceName": "ArrowToDownRight",
+      "sourceName": "arrows-action/arrow-to-down-right",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "arrow-to-top-left",
       "name": "Arrow To Top Left",
-      "sourceName": "ArrowToTopLeft",
+      "sourceName": "arrows-action/arrow-to-top-left",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "arrow-to-top-right",
       "name": "Arrow To Top Right",
-      "sourceName": "ArrowToTopRight",
+      "sourceName": "arrows-action/arrow-to-top-right",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "arrow-up",
       "name": "Arrow Up",
-      "sourceName": "ArrowUp",
+      "sourceName": "arrows/arrow-up",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "arrow-up-additional",
+      "name": "Arrow Up",
+      "sourceName": "additional/arrow-up",
+      "category": "Additional",
+      "weights": [
+        "bold"
       ]
     },
     {
       "id": "asteroid",
       "name": "Asteroid",
-      "sourceName": "Asteroid",
+      "sourceName": "astronomy/asteroid",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "atom",
       "name": "Atom",
-      "sourceName": "Atom",
+      "sourceName": "astronomy/atom",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "augmented-reality",
       "name": "Augmented Reality",
-      "sourceName": "AugmentedReality",
-      "category": "Ui",
+      "sourceName": "essentional-ui/augmented-reality",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "backpack",
       "name": "Backpack",
-      "sourceName": "Backpack",
+      "sourceName": "school/backpack",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "backspace",
       "name": "Backspace",
-      "sourceName": "Backspace",
+      "sourceName": "text-formatting/backspace",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bacteria",
       "name": "Bacteria",
-      "sourceName": "Bacteria",
+      "sourceName": "medicine/bacteria",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "bacteria-health-benefits",
+      "name": "Bacteria",
+      "sourceName": "health-benefits/bacteria",
+      "category": "Health Benefits",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "bag",
       "name": "Bag",
-      "sourceName": "Bag",
-      "category": "Shopping",
+      "sourceName": "shopping-ecommerce/bag",
+      "category": "Shopping, Ecommerce",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "bag-2",
+      "name": "Bag 2",
+      "sourceName": "shopping-ecommerce/bag-2",
+      "category": "Shopping, Ecommerce",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "bag-3",
+      "name": "Bag 3",
+      "sourceName": "shopping-ecommerce/bag-3",
+      "category": "Shopping, Ecommerce",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "bag-4",
+      "name": "Bag 4",
+      "sourceName": "shopping-ecommerce/bag-4",
+      "category": "Shopping, Ecommerce",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "bag-5",
+      "name": "Bag 5",
+      "sourceName": "shopping-ecommerce/bag-5",
+      "category": "Shopping, Ecommerce",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bag-check",
       "name": "Bag Check",
-      "sourceName": "BagCheck",
-      "category": "Shopping",
+      "sourceName": "shopping-ecommerce/bag-check",
+      "category": "Shopping, Ecommerce",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bag-cross",
       "name": "Bag Cross",
-      "sourceName": "BagCross",
-      "category": "Shopping",
+      "sourceName": "shopping-ecommerce/bag-cross",
+      "category": "Shopping, Ecommerce",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bag-heart",
       "name": "Bag Heart",
-      "sourceName": "BagHeart",
-      "category": "Shopping",
+      "sourceName": "shopping-ecommerce/bag-heart",
+      "category": "Shopping, Ecommerce",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bag-music",
       "name": "Bag Music",
-      "sourceName": "BagMusic",
-      "category": "Shopping",
+      "sourceName": "shopping-ecommerce/bag-music",
+      "category": "Shopping, Ecommerce",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "bag-music2",
-      "name": "Bag Music2",
-      "sourceName": "BagMusic2",
-      "category": "Shopping",
+      "id": "bag-music-2",
+      "name": "Bag Music 2",
+      "sourceName": "shopping-ecommerce/bag-music-2",
+      "category": "Shopping, Ecommerce",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bag-smile",
       "name": "Bag Smile",
-      "sourceName": "BagSmile",
-      "category": "Shopping",
+      "sourceName": "shopping-ecommerce/bag-smile",
+      "category": "Shopping, Ecommerce",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "bag2",
-      "name": "Bag2",
-      "sourceName": "Bag2",
-      "category": "Shopping",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "bag3",
-      "name": "Bag3",
-      "sourceName": "Bag3",
-      "category": "Shopping",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "bag4",
-      "name": "Bag4",
-      "sourceName": "Bag4",
-      "category": "Shopping",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "bag5",
-      "name": "Bag5",
-      "sourceName": "Bag5",
-      "category": "Shopping",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "balloon",
       "name": "Balloon",
-      "sourceName": "Balloon",
-      "category": "Ui",
+      "sourceName": "essentional-ui/balloon",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "balls",
       "name": "Balls",
-      "sourceName": "Balls",
+      "sourceName": "sports/balls",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "banknote",
       "name": "Banknote",
-      "sourceName": "Banknote",
+      "sourceName": "money/banknote",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "banknote2",
-      "name": "Banknote2",
-      "sourceName": "Banknote2",
+      "id": "banknote-2",
+      "name": "Banknote 2",
+      "sourceName": "money/banknote-2",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bar-chair",
       "name": "Bar Chair",
-      "sourceName": "BarChair",
-      "category": "Home",
+      "sourceName": "home-furniture/bar-chair",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "basketball",
       "name": "Basketball",
-      "sourceName": "Basketball",
+      "sourceName": "sports/basketball",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bath",
       "name": "Bath",
-      "sourceName": "Bath",
-      "category": "Home",
+      "sourceName": "home-furniture/bath",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "battery-charge",
       "name": "Battery Charge",
-      "sourceName": "BatteryCharge",
-      "category": "Ui",
+      "sourceName": "essentional-ui/battery-charge",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "battery-charge-minimalistic",
       "name": "Battery Charge Minimalistic",
-      "sourceName": "BatteryChargeMinimalistic",
-      "category": "Ui",
+      "sourceName": "essentional-ui/battery-charge-minimalistic",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "battery-full",
       "name": "Battery Full",
-      "sourceName": "BatteryFull",
-      "category": "Ui",
+      "sourceName": "essentional-ui/battery-full",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "battery-full-minimalistic",
       "name": "Battery Full Minimalistic",
-      "sourceName": "BatteryFullMinimalistic",
-      "category": "Ui",
+      "sourceName": "essentional-ui/battery-full-minimalistic",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "battery-half",
       "name": "Battery Half",
-      "sourceName": "BatteryHalf",
-      "category": "Ui",
+      "sourceName": "essentional-ui/battery-half",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "battery-half-minimalistic",
       "name": "Battery Half Minimalistic",
-      "sourceName": "BatteryHalfMinimalistic",
-      "category": "Ui",
+      "sourceName": "essentional-ui/battery-half-minimalistic",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "battery-low",
       "name": "Battery Low",
-      "sourceName": "BatteryLow",
-      "category": "Ui",
+      "sourceName": "essentional-ui/battery-low",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "battery-low-minimalistic",
       "name": "Battery Low Minimalistic",
-      "sourceName": "BatteryLowMinimalistic",
-      "category": "Ui",
+      "sourceName": "essentional-ui/battery-low-minimalistic",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bed",
       "name": "Bed",
-      "sourceName": "Bed",
-      "category": "Home",
+      "sourceName": "home-furniture/bed",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bedside-table",
       "name": "Bedside Table",
-      "sourceName": "BedsideTable",
-      "category": "Home",
+      "sourceName": "home-furniture/bedside-table",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "bedside-table2",
-      "name": "Bedside Table2",
-      "sourceName": "BedsideTable2",
-      "category": "Home",
+      "id": "bedside-table-2",
+      "name": "Bedside Table 2",
+      "sourceName": "home-furniture/bedside-table-2",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "bedside-table3",
-      "name": "Bedside Table3",
-      "sourceName": "BedsideTable3",
-      "category": "Home",
+      "id": "bedside-table-3",
+      "name": "Bedside Table 3",
+      "sourceName": "home-furniture/bedside-table-3",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "bedside-table4",
-      "name": "Bedside Table4",
-      "sourceName": "BedsideTable4",
-      "category": "Home",
+      "id": "bedside-table-4",
+      "name": "Bedside Table 4",
+      "sourceName": "home-furniture/bedside-table-4",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bell",
       "name": "Bell",
-      "sourceName": "Bell",
+      "sourceName": "notifications/bell",
       "category": "Notifications",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bell-bing",
       "name": "Bell Bing",
-      "sourceName": "BellBing",
+      "sourceName": "notifications/bell-bing",
       "category": "Notifications",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bell-off",
       "name": "Bell Off",
-      "sourceName": "BellOff",
+      "sourceName": "notifications/bell-off",
       "category": "Notifications",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "benzene-ring",
       "name": "Benzene Ring",
-      "sourceName": "BenzeneRing",
+      "sourceName": "medicine/benzene-ring",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bicycling",
       "name": "Bicycling",
-      "sourceName": "Bicycling",
+      "sourceName": "sports/bicycling",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bicycling-round",
       "name": "Bicycling Round",
-      "sourceName": "BicyclingRound",
+      "sourceName": "sports/bicycling-round",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bill",
       "name": "Bill",
-      "sourceName": "Bill",
+      "sourceName": "money/bill",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "bill-list-2",
+      "name": "Bill",
+      "sourceName": "list/bill",
+      "category": "List",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bill-check",
       "name": "Bill Check",
-      "sourceName": "BillCheck",
+      "sourceName": "money/bill-check",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bill-cross",
       "name": "Bill Cross",
-      "sourceName": "BillCross",
+      "sourceName": "money/bill-cross",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bill-list",
       "name": "Bill List",
-      "sourceName": "BillList",
+      "sourceName": "money/bill-list",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "bill2",
-      "name": "Bill2",
-      "sourceName": "Bill2",
-      "category": "List",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "black-hole",
       "name": "Black Hole",
-      "sourceName": "BlackHole",
+      "sourceName": "astronomy/black-hole",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "black-hole2",
-      "name": "Black Hole2",
-      "sourceName": "BlackHole2",
+      "id": "black-hole-2",
+      "name": "Black Hole 2",
+      "sourceName": "astronomy/black-hole-2",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "black-hole3",
-      "name": "Black Hole3",
-      "sourceName": "BlackHole3",
+      "id": "black-hole-3",
+      "name": "Black Hole 3",
+      "sourceName": "astronomy/black-hole-3",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bluetooth",
       "name": "Bluetooth",
-      "sourceName": "Bluetooth",
-      "category": "Devices",
+      "sourceName": "electronic-devices/bluetooth",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bluetooth-circle",
       "name": "Bluetooth Circle",
-      "sourceName": "BluetoothCircle",
-      "category": "Devices",
+      "sourceName": "electronic-devices/bluetooth-circle",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bluetooth-square",
       "name": "Bluetooth Square",
-      "sourceName": "BluetoothSquare",
-      "category": "Devices",
+      "sourceName": "electronic-devices/bluetooth-square",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bluetooth-wave",
       "name": "Bluetooth Wave",
-      "sourceName": "BluetoothWave",
-      "category": "Devices",
+      "sourceName": "electronic-devices/bluetooth-wave",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "body",
       "name": "Body",
-      "sourceName": "Body",
-      "category": "Ui",
+      "sourceName": "essentional-ui/body",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "body-shape",
       "name": "Body Shape",
-      "sourceName": "BodyShape",
+      "sourceName": "sports/body-shape",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "body-shape-minimalistic",
       "name": "Body Shape Minimalistic",
-      "sourceName": "BodyShapeMinimalistic",
+      "sourceName": "sports/body-shape-minimalistic",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bolt",
       "name": "Bolt",
-      "sourceName": "Bolt",
-      "category": "Ui",
+      "sourceName": "essentional-ui/bolt",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bolt-circle",
       "name": "Bolt Circle",
-      "sourceName": "BoltCircle",
-      "category": "Ui",
+      "sourceName": "essentional-ui/bolt-circle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bomb",
       "name": "Bomb",
-      "sourceName": "Bomb",
+      "sourceName": "security/bomb",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bomb-emoji",
       "name": "Bomb Emoji",
-      "sourceName": "BombEmoji",
+      "sourceName": "security/bomb-emoji",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bomb-minimalistic",
       "name": "Bomb Minimalistic",
-      "sourceName": "BombMinimalistic",
+      "sourceName": "security/bomb-minimalistic",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bone",
       "name": "Bone",
-      "sourceName": "Bone",
+      "sourceName": "medicine/bone",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bone-broken",
       "name": "Bone Broken",
-      "sourceName": "BoneBroken",
+      "sourceName": "medicine/bone-broken",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bone-crack",
       "name": "Bone Crack",
-      "sourceName": "BoneCrack",
+      "sourceName": "medicine/bone-crack",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bones",
       "name": "Bones",
-      "sourceName": "Bones",
+      "sourceName": "medicine/bones",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bonfire",
       "name": "Bonfire",
-      "sourceName": "Bonfire",
-      "category": "Nature",
+      "sourceName": "nature-travel/bonfire",
+      "category": "Nature, Travel",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "book",
       "name": "Book",
-      "sourceName": "Book",
+      "sourceName": "school/book",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "book-2",
+      "name": "Book 2",
+      "sourceName": "school/book-2",
+      "category": "School",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "book-bookmark",
       "name": "Book Bookmark",
-      "sourceName": "BookBookmark",
+      "sourceName": "school/book-bookmark",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "book-bookmark-minimalistic",
       "name": "Book Bookmark Minimalistic",
-      "sourceName": "BookBookmarkMinimalistic",
+      "sourceName": "school/book-bookmark-minimalistic",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "book-minimalistic",
       "name": "Book Minimalistic",
-      "sourceName": "BookMinimalistic",
+      "sourceName": "school/book-minimalistic",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "book2",
-      "name": "Book2",
-      "sourceName": "Book2",
-      "category": "School",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bookmark",
       "name": "Bookmark",
-      "sourceName": "Bookmark",
+      "sourceName": "school/bookmark",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bookmark-circle",
       "name": "Bookmark Circle",
-      "sourceName": "BookmarkCircle",
+      "sourceName": "school/bookmark-circle",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bookmark-opened",
       "name": "Bookmark Opened",
-      "sourceName": "BookmarkOpened",
+      "sourceName": "school/bookmark-opened",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bookmark-square",
       "name": "Bookmark Square",
-      "sourceName": "BookmarkSquare",
+      "sourceName": "school/bookmark-square",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bookmark-square-minimalistic",
       "name": "Bookmark Square Minimalistic",
-      "sourceName": "BookmarkSquareMinimalistic",
+      "sourceName": "school/bookmark-square-minimalistic",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "boombox",
       "name": "Boombox",
-      "sourceName": "Boombox",
-      "category": "Devices",
+      "sourceName": "electronic-devices/boombox",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bottle",
       "name": "Bottle",
-      "sourceName": "Bottle",
-      "category": "Food",
+      "sourceName": "food-kitchen/bottle",
+      "category": "Food, Kitchen",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bowling",
       "name": "Bowling",
-      "sourceName": "Bowling",
+      "sourceName": "sports/bowling",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "box",
       "name": "Box",
-      "sourceName": "Box",
-      "category": "Ui",
+      "sourceName": "essentional-ui/box",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "box-minimalistic",
       "name": "Box Minimalistic",
-      "sourceName": "BoxMinimalistic",
-      "category": "Ui",
+      "sourceName": "essentional-ui/box-minimalistic",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "brain",
+      "name": "Brain",
+      "sourceName": "health-benefits/brain",
+      "category": "Health Benefits",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "branching-paths-down",
       "name": "Branching Paths Down",
-      "sourceName": "BranchingPathsDown",
-      "category": "Map",
+      "sourceName": "map-location/branching-paths-down",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "branching-paths-up",
       "name": "Branching Paths Up",
-      "sourceName": "BranchingPathsUp",
-      "category": "Map",
+      "sourceName": "map-location/branching-paths-up",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "broom",
       "name": "Broom",
-      "sourceName": "Broom",
-      "category": "Ui",
+      "sourceName": "essentional-ui/broom",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bug",
       "name": "Bug",
-      "sourceName": "Bug",
-      "category": "It",
+      "sourceName": "network-it-programming/bug",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bug-minimalistic",
       "name": "Bug Minimalistic",
-      "sourceName": "BugMinimalistic",
-      "category": "It",
+      "sourceName": "network-it-programming/bug-minimalistic",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "buildings",
       "name": "Buildings",
-      "sourceName": "Buildings",
-      "category": "Building",
+      "sourceName": "building-infrastructure/buildings",
+      "category": "Building, Infrastructure",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "buildings2",
-      "name": "Buildings2",
-      "sourceName": "Buildings2",
-      "category": "Building",
+      "id": "buildings-2",
+      "name": "Buildings 2",
+      "sourceName": "building-infrastructure/buildings-2",
+      "category": "Building, Infrastructure",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "buildings3",
-      "name": "Buildings3",
-      "sourceName": "Buildings3",
-      "category": "Building",
+      "id": "buildings-3",
+      "name": "Buildings 3",
+      "sourceName": "building-infrastructure/buildings-3",
+      "category": "Building, Infrastructure",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "bus",
       "name": "Bus",
-      "sourceName": "Bus",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/bus",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "cake",
+      "name": "Cake",
+      "sourceName": "ingredients/cake",
+      "category": "Ingredients",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "calculator",
       "name": "Calculator",
-      "sourceName": "Calculator",
+      "sourceName": "school/calculator",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "calculator-minimalistic",
       "name": "Calculator Minimalistic",
-      "sourceName": "CalculatorMinimalistic",
+      "sourceName": "school/calculator-minimalistic",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "calendar",
       "name": "Calendar",
-      "sourceName": "Calendar",
+      "sourceName": "time/calendar",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "calendar-add",
       "name": "Calendar Add",
-      "sourceName": "CalendarAdd",
+      "sourceName": "time/calendar-add",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "calendar-date",
       "name": "Calendar Date",
-      "sourceName": "CalendarDate",
+      "sourceName": "time/calendar-date",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "calendar-mark",
       "name": "Calendar Mark",
-      "sourceName": "CalendarMark",
+      "sourceName": "time/calendar-mark",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "calendar-minimalistic",
       "name": "Calendar Minimalistic",
-      "sourceName": "CalendarMinimalistic",
+      "sourceName": "time/calendar-minimalistic",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "calendar-search",
       "name": "Calendar Search",
-      "sourceName": "CalendarSearch",
+      "sourceName": "time/calendar-search",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "call-cancel",
       "name": "Call Cancel",
-      "sourceName": "CallCancel",
+      "sourceName": "call/call-cancel",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "call-cancel-rounded",
       "name": "Call Cancel Rounded",
-      "sourceName": "CallCancelRounded",
+      "sourceName": "call/call-cancel-rounded",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "call-chat",
       "name": "Call Chat",
-      "sourceName": "CallChat",
+      "sourceName": "call/call-chat",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "call-chat-rounded",
       "name": "Call Chat Rounded",
-      "sourceName": "CallChatRounded",
+      "sourceName": "call/call-chat-rounded",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "call-dropped",
       "name": "Call Dropped",
-      "sourceName": "CallDropped",
+      "sourceName": "call/call-dropped",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "call-dropped-rounded",
       "name": "Call Dropped Rounded",
-      "sourceName": "CallDroppedRounded",
+      "sourceName": "call/call-dropped-rounded",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "call-medicine",
       "name": "Call Medicine",
-      "sourceName": "CallMedicine",
+      "sourceName": "call/call-medicine",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "call-medicine-rounded",
       "name": "Call Medicine Rounded",
-      "sourceName": "CallMedicineRounded",
+      "sourceName": "call/call-medicine-rounded",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "camera",
       "name": "Camera",
-      "sourceName": "Camera",
-      "category": "Video",
+      "sourceName": "video-audio-sound/camera",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "camera-add",
       "name": "Camera Add",
-      "sourceName": "CameraAdd",
-      "category": "Video",
+      "sourceName": "video-audio-sound/camera-add",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "camera-minimalistic",
       "name": "Camera Minimalistic",
-      "sourceName": "CameraMinimalistic",
-      "category": "Video",
+      "sourceName": "video-audio-sound/camera-minimalistic",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "camera-rotate",
       "name": "Camera Rotate",
-      "sourceName": "CameraRotate",
-      "category": "Video",
+      "sourceName": "video-audio-sound/camera-rotate",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "camera-square",
       "name": "Camera Square",
-      "sourceName": "CameraSquare",
-      "category": "Video",
+      "sourceName": "video-audio-sound/camera-square",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "card",
       "name": "Card",
-      "sourceName": "Card",
+      "sourceName": "money/card",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "card-2",
+      "name": "Card 2",
+      "sourceName": "money/card-2",
+      "category": "Money",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "card-recive",
       "name": "Card Recive",
-      "sourceName": "CardRecive",
+      "sourceName": "money/card-recive",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "card-search",
       "name": "Card Search",
-      "sourceName": "CardSearch",
+      "sourceName": "money/card-search",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "card-send",
       "name": "Card Send",
-      "sourceName": "CardSend",
+      "sourceName": "money/card-send",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "card-transfer",
       "name": "Card Transfer",
-      "sourceName": "CardTransfer",
+      "sourceName": "money/card-transfer",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "card2",
-      "name": "Card2",
-      "sourceName": "Card2",
-      "category": "Money",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cardholder",
       "name": "Cardholder",
-      "sourceName": "Cardholder",
+      "sourceName": "money/cardholder",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "carrot",
+      "name": "Carrot",
+      "sourceName": "ingredients/carrot",
+      "category": "Ingredients",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "cart",
       "name": "Cart",
-      "sourceName": "Cart",
-      "category": "Shopping",
+      "sourceName": "shopping-ecommerce/cart",
+      "category": "Shopping, Ecommerce",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "cart-2",
+      "name": "Cart 2",
+      "sourceName": "shopping-ecommerce/cart-2",
+      "category": "Shopping, Ecommerce",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "cart-3",
+      "name": "Cart 3",
+      "sourceName": "shopping-ecommerce/cart-3",
+      "category": "Shopping, Ecommerce",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "cart-4",
+      "name": "Cart 4",
+      "sourceName": "shopping-ecommerce/cart-4",
+      "category": "Shopping, Ecommerce",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "cart-5",
+      "name": "Cart 5",
+      "sourceName": "shopping-ecommerce/cart-5",
+      "category": "Shopping, Ecommerce",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cart-check",
       "name": "Cart Check",
-      "sourceName": "CartCheck",
-      "category": "Shopping",
+      "sourceName": "shopping-ecommerce/cart-check",
+      "category": "Shopping, Ecommerce",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cart-cross",
       "name": "Cart Cross",
-      "sourceName": "CartCross",
-      "category": "Shopping",
+      "sourceName": "shopping-ecommerce/cart-cross",
+      "category": "Shopping, Ecommerce",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cart-large",
       "name": "Cart Large",
-      "sourceName": "CartLarge",
-      "category": "Shopping",
+      "sourceName": "shopping-ecommerce/cart-large",
+      "category": "Shopping, Ecommerce",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "cart-large-2",
+      "name": "Cart Large 2",
+      "sourceName": "shopping-ecommerce/cart-large-2",
+      "category": "Shopping, Ecommerce",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "cart-large-3",
+      "name": "Cart Large 3",
+      "sourceName": "shopping-ecommerce/cart-large-3",
+      "category": "Shopping, Ecommerce",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "cart-large-4",
+      "name": "Cart Large 4",
+      "sourceName": "shopping-ecommerce/cart-large-4",
+      "category": "Shopping, Ecommerce",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cart-large-minimalistic",
       "name": "Cart Large Minimalistic",
-      "sourceName": "CartLargeMinimalistic",
-      "category": "Shopping",
+      "sourceName": "shopping-ecommerce/cart-large-minimalistic",
+      "category": "Shopping, Ecommerce",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "cart-large2",
-      "name": "Cart Large2",
-      "sourceName": "CartLarge2",
-      "category": "Shopping",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "cart-large3",
-      "name": "Cart Large3",
-      "sourceName": "CartLarge3",
-      "category": "Shopping",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "cart-large4",
-      "name": "Cart Large4",
-      "sourceName": "CartLarge4",
-      "category": "Shopping",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cart-plus",
       "name": "Cart Plus",
-      "sourceName": "CartPlus",
-      "category": "Shopping",
+      "sourceName": "shopping-ecommerce/cart-plus",
+      "category": "Shopping, Ecommerce",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "cart2",
-      "name": "Cart2",
-      "sourceName": "Cart2",
-      "category": "Shopping",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "cart3",
-      "name": "Cart3",
-      "sourceName": "Cart3",
-      "category": "Shopping",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "cart4",
-      "name": "Cart4",
-      "sourceName": "Cart4",
-      "category": "Shopping",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "cart5",
-      "name": "Cart5",
-      "sourceName": "Cart5",
-      "category": "Shopping",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "case",
       "name": "Case",
-      "sourceName": "Case",
+      "sourceName": "school/case",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "case-minimalistic",
       "name": "Case Minimalistic",
-      "sourceName": "CaseMinimalistic",
+      "sourceName": "school/case-minimalistic",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "case-round",
       "name": "Case Round",
-      "sourceName": "CaseRound",
+      "sourceName": "school/case-round",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "case-round-minimalistic",
       "name": "Case Round Minimalistic",
-      "sourceName": "CaseRoundMinimalistic",
+      "sourceName": "school/case-round-minimalistic",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cash-out",
       "name": "Cash Out",
-      "sourceName": "CashOut",
+      "sourceName": "money/cash-out",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cassette",
       "name": "Cassette",
-      "sourceName": "Cassette",
-      "category": "Devices",
+      "sourceName": "electronic-devices/cassette",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "cassette2",
-      "name": "Cassette2",
-      "sourceName": "Cassette2",
-      "category": "Devices",
+      "id": "cassette-2",
+      "name": "Cassette 2",
+      "sourceName": "electronic-devices/cassette-2",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cat",
       "name": "Cat",
-      "sourceName": "Cat",
-      "category": "Ui",
+      "sourceName": "essentional-ui/cat",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chair",
       "name": "Chair",
-      "sourceName": "Chair",
-      "category": "Home",
+      "sourceName": "home-furniture/chair",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "chair2",
-      "name": "Chair2",
-      "sourceName": "Chair2",
-      "category": "Home",
+      "id": "chair-2",
+      "name": "Chair 2",
+      "sourceName": "home-furniture/chair-2",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chandelier",
       "name": "Chandelier",
-      "sourceName": "Chandelier",
-      "category": "Home",
+      "sourceName": "home-furniture/chandelier",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chart",
       "name": "Chart",
-      "sourceName": "Chart",
-      "category": "Business",
+      "sourceName": "business-statistic/chart",
+      "category": "Business, Statistic",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "chart-2",
+      "name": "Chart 2",
+      "sourceName": "business-statistic/chart-2",
+      "category": "Business, Statistic",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chart-square",
       "name": "Chart Square",
-      "sourceName": "ChartSquare",
-      "category": "Business",
+      "sourceName": "business-statistic/chart-square",
+      "category": "Business, Statistic",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "chart2",
-      "name": "Chart2",
-      "sourceName": "Chart2",
-      "category": "Business",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chat-dots",
       "name": "Chat Dots",
-      "sourceName": "ChatDots",
-      "category": "Messages",
+      "sourceName": "messages-conversation/chat-dots",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chat-line",
       "name": "Chat Line",
-      "sourceName": "ChatLine",
-      "category": "Messages",
+      "sourceName": "messages-conversation/chat-line",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chat-round",
       "name": "Chat Round",
-      "sourceName": "ChatRound",
-      "category": "Messages",
+      "sourceName": "messages-conversation/chat-round",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chat-round-call",
       "name": "Chat Round Call",
-      "sourceName": "ChatRoundCall",
-      "category": "Messages",
+      "sourceName": "messages-conversation/chat-round-call",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chat-round-check",
       "name": "Chat Round Check",
-      "sourceName": "ChatRoundCheck",
-      "category": "Messages",
+      "sourceName": "messages-conversation/chat-round-check",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chat-round-dots",
       "name": "Chat Round Dots",
-      "sourceName": "ChatRoundDots",
-      "category": "Messages",
+      "sourceName": "messages-conversation/chat-round-dots",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chat-round-like",
       "name": "Chat Round Like",
-      "sourceName": "ChatRoundLike",
-      "category": "Messages",
+      "sourceName": "messages-conversation/chat-round-like",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chat-round-line",
       "name": "Chat Round Line",
-      "sourceName": "ChatRoundLine",
-      "category": "Messages",
+      "sourceName": "messages-conversation/chat-round-line",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chat-round-money",
       "name": "Chat Round Money",
-      "sourceName": "ChatRoundMoney",
-      "category": "Messages",
+      "sourceName": "messages-conversation/chat-round-money",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chat-round-unread",
       "name": "Chat Round Unread",
-      "sourceName": "ChatRoundUnread",
-      "category": "Messages",
+      "sourceName": "messages-conversation/chat-round-unread",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chat-round-video",
       "name": "Chat Round Video",
-      "sourceName": "ChatRoundVideo",
-      "category": "Messages",
+      "sourceName": "messages-conversation/chat-round-video",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chat-square",
       "name": "Chat Square",
-      "sourceName": "ChatSquare",
-      "category": "Messages",
+      "sourceName": "messages-conversation/chat-square",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "chat-square-2",
+      "name": "Chat Square 2",
+      "sourceName": "business-statistic/chat-square-2",
+      "category": "Business, Statistic",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chat-square-arrow",
       "name": "Chat Square Arrow",
-      "sourceName": "ChatSquareArrow",
-      "category": "Messages",
+      "sourceName": "messages-conversation/chat-square-arrow",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chat-square-call",
       "name": "Chat Square Call",
-      "sourceName": "ChatSquareCall",
-      "category": "Messages",
+      "sourceName": "messages-conversation/chat-square-call",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chat-square-check",
       "name": "Chat Square Check",
-      "sourceName": "ChatSquareCheck",
-      "category": "Messages",
+      "sourceName": "messages-conversation/chat-square-check",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chat-square-code",
       "name": "Chat Square Code",
-      "sourceName": "ChatSquareCode",
-      "category": "Messages",
+      "sourceName": "messages-conversation/chat-square-code",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chat-square-like",
       "name": "Chat Square Like",
-      "sourceName": "ChatSquareLike",
-      "category": "Messages",
+      "sourceName": "messages-conversation/chat-square-like",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "chat-square2",
-      "name": "Chat Square2",
-      "sourceName": "ChatSquare2",
-      "category": "Business",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chat-unread",
       "name": "Chat Unread",
-      "sourceName": "ChatUnread",
-      "category": "Messages",
+      "sourceName": "messages-conversation/chat-unread",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "check-circle",
       "name": "Check Circle",
-      "sourceName": "CheckCircle",
-      "category": "Ui",
+      "sourceName": "essentional-ui/check-circle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "check-read",
       "name": "Check Read",
-      "sourceName": "CheckRead",
-      "category": "Messages",
+      "sourceName": "messages-conversation/check-read",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "check-square",
       "name": "Check Square",
-      "sourceName": "CheckSquare",
-      "category": "Ui",
+      "sourceName": "essentional-ui/check-square",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "checklist",
       "name": "Checklist",
-      "sourceName": "Checklist",
+      "sourceName": "list/checklist",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "checklist-minimalistic",
       "name": "Checklist Minimalistic",
-      "sourceName": "ChecklistMinimalistic",
+      "sourceName": "list/checklist-minimalistic",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "cheese-dairy",
+      "name": "Cheese Dairy",
+      "sourceName": "ingredients/cheese-dairy",
+      "category": "Ingredients",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "chef-hat",
       "name": "Chef Hat",
-      "sourceName": "ChefHat",
-      "category": "Food",
+      "sourceName": "food-kitchen/chef-hat",
+      "category": "Food, Kitchen",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chef-hat-heart",
       "name": "Chef Hat Heart",
-      "sourceName": "ChefHatHeart",
-      "category": "Food",
+      "sourceName": "food-kitchen/chef-hat-heart",
+      "category": "Food, Kitchen",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "chef-hat-minimalistic",
       "name": "Chef Hat Minimalistic",
-      "sourceName": "ChefHatMinimalistic",
-      "category": "Food",
+      "sourceName": "food-kitchen/chef-hat-minimalistic",
+      "category": "Food, Kitchen",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "chicken-steam",
+      "name": "Chicken Steam",
+      "sourceName": "ingredients/chicken-steam",
+      "category": "Ingredients",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "circle-bottom-down",
       "name": "Circle Bottom Down",
-      "sourceName": "CircleBottomDown",
+      "sourceName": "arrows-action/circle-bottom-down",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "circle-bottom-up",
       "name": "Circle Bottom Up",
-      "sourceName": "CircleBottomUp",
+      "sourceName": "arrows-action/circle-bottom-up",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "circle-top-down",
       "name": "Circle Top Down",
-      "sourceName": "CircleTopDown",
+      "sourceName": "arrows-action/circle-top-down",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "circle-top-up",
       "name": "Circle Top Up",
-      "sourceName": "CircleTopUp",
+      "sourceName": "arrows-action/circle-top-up",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "city",
       "name": "City",
-      "sourceName": "City",
-      "category": "Building",
+      "sourceName": "building-infrastructure/city",
+      "category": "Building, Infrastructure",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "clapperboard",
       "name": "Clapperboard",
-      "sourceName": "Clapperboard",
-      "category": "Video",
+      "sourceName": "video-audio-sound/clapperboard",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "clapperboard-edit",
       "name": "Clapperboard Edit",
-      "sourceName": "ClapperboardEdit",
-      "category": "Video",
+      "sourceName": "video-audio-sound/clapperboard-edit",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "clapperboard-open",
       "name": "Clapperboard Open",
-      "sourceName": "ClapperboardOpen",
-      "category": "Video",
+      "sourceName": "video-audio-sound/clapperboard-open",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "clapperboard-open-play",
       "name": "Clapperboard Open Play",
-      "sourceName": "ClapperboardOpenPlay",
-      "category": "Video",
+      "sourceName": "video-audio-sound/clapperboard-open-play",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "clapperboard-play",
       "name": "Clapperboard Play",
-      "sourceName": "ClapperboardPlay",
-      "category": "Video",
+      "sourceName": "video-audio-sound/clapperboard-play",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "clapperboard-text",
       "name": "Clapperboard Text",
-      "sourceName": "ClapperboardText",
-      "category": "Video",
+      "sourceName": "video-audio-sound/clapperboard-text",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "clipboard",
       "name": "Clipboard",
-      "sourceName": "Clipboard",
+      "sourceName": "notes/clipboard",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "clipboard-add",
       "name": "Clipboard Add",
-      "sourceName": "ClipboardAdd",
+      "sourceName": "notes/clipboard-add",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "clipboard-check",
       "name": "Clipboard Check",
-      "sourceName": "ClipboardCheck",
+      "sourceName": "notes/clipboard-check",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "clipboard-heart",
-      "name": "Clipboard Heart",
-      "sourceName": "ClipboardHeart",
-      "category": "Notes",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "clipboard-list",
       "name": "Clipboard List",
-      "sourceName": "ClipboardList",
+      "sourceName": "notes/clipboard-list",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "clipboard-remove",
       "name": "Clipboard Remove",
-      "sourceName": "ClipboardRemove",
+      "sourceName": "notes/clipboard-remove",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "clipboard-text",
       "name": "Clipboard Text",
-      "sourceName": "ClipboardText",
+      "sourceName": "notes/clipboard-text",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "clock-circle",
       "name": "Clock Circle",
-      "sourceName": "ClockCircle",
+      "sourceName": "time/clock-circle",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "clock-square",
       "name": "Clock Square",
-      "sourceName": "ClockSquare",
+      "sourceName": "time/clock-square",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "close-circle",
       "name": "Close Circle",
-      "sourceName": "CloseCircle",
-      "category": "Ui",
+      "sourceName": "essentional-ui/close-circle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "close-square",
       "name": "Close Square",
-      "sourceName": "CloseSquare",
-      "category": "Ui",
+      "sourceName": "essentional-ui/close-square",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "closet",
       "name": "Closet",
-      "sourceName": "Closet",
-      "category": "Home",
+      "sourceName": "home-furniture/closet",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "closet2",
-      "name": "Closet2",
-      "sourceName": "Closet2",
-      "category": "Home",
+      "id": "closet-2",
+      "name": "Closet 2",
+      "sourceName": "home-furniture/closet-2",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cloud",
       "name": "Cloud",
-      "sourceName": "Cloud",
+      "sourceName": "weather/cloud",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cloud-bolt",
       "name": "Cloud Bolt",
-      "sourceName": "CloudBolt",
+      "sourceName": "weather/cloud-bolt",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cloud-bolt-minimalistic",
       "name": "Cloud Bolt Minimalistic",
-      "sourceName": "CloudBoltMinimalistic",
+      "sourceName": "weather/cloud-bolt-minimalistic",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cloud-check",
       "name": "Cloud Check",
-      "sourceName": "CloudCheck",
+      "sourceName": "weather/cloud-check",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cloud-download",
       "name": "Cloud Download",
-      "sourceName": "CloudDownload",
+      "sourceName": "weather/cloud-download",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cloud-file",
       "name": "Cloud File",
-      "sourceName": "CloudFile",
+      "sourceName": "files/cloud-file",
       "category": "Files",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cloud-minus",
       "name": "Cloud Minus",
-      "sourceName": "CloudMinus",
+      "sourceName": "weather/cloud-minus",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cloud-plus",
       "name": "Cloud Plus",
-      "sourceName": "CloudPlus",
+      "sourceName": "weather/cloud-plus",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cloud-rain",
       "name": "Cloud Rain",
-      "sourceName": "CloudRain",
+      "sourceName": "weather/cloud-rain",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cloud-snowfall",
       "name": "Cloud Snowfall",
-      "sourceName": "CloudSnowfall",
+      "sourceName": "weather/cloud-snowfall",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cloud-snowfall-minimalistic",
       "name": "Cloud Snowfall Minimalistic",
-      "sourceName": "CloudSnowfallMinimalistic",
+      "sourceName": "weather/cloud-snowfall-minimalistic",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cloud-storage",
       "name": "Cloud Storage",
-      "sourceName": "CloudStorage",
-      "category": "Devices",
+      "sourceName": "electronic-devices/cloud-storage",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cloud-storm",
       "name": "Cloud Storm",
-      "sourceName": "CloudStorm",
+      "sourceName": "weather/cloud-storm",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cloud-sun",
       "name": "Cloud Sun",
-      "sourceName": "CloudSun",
+      "sourceName": "weather/cloud-sun",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "cloud-sun2",
-      "name": "Cloud Sun2",
-      "sourceName": "CloudSun2",
+      "id": "cloud-sun-2",
+      "name": "Cloud Sun 2",
+      "sourceName": "weather/cloud-sun-2",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cloud-upload",
       "name": "Cloud Upload",
-      "sourceName": "CloudUpload",
+      "sourceName": "weather/cloud-upload",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cloud-waterdrop",
       "name": "Cloud Waterdrop",
-      "sourceName": "CloudWaterdrop",
+      "sourceName": "weather/cloud-waterdrop",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cloud-waterdrops",
       "name": "Cloud Waterdrops",
-      "sourceName": "CloudWaterdrops",
+      "sourceName": "weather/cloud-waterdrops",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "clouds",
       "name": "Clouds",
-      "sourceName": "Clouds",
+      "sourceName": "weather/clouds",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cloudy-moon",
       "name": "Cloudy Moon",
-      "sourceName": "CloudyMoon",
+      "sourceName": "weather/cloudy-moon",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "clound-cross",
       "name": "Clound Cross",
-      "sourceName": "CloundCross",
+      "sourceName": "weather/clound-cross",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "code",
       "name": "Code",
-      "sourceName": "Code",
-      "category": "It",
+      "sourceName": "network-it-programming/code",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "code-2",
+      "name": "Code 2",
+      "sourceName": "network-it-programming/code-2",
+      "category": "Network, IT, Programming",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "code-circle",
       "name": "Code Circle",
-      "sourceName": "CodeCircle",
-      "category": "It",
+      "sourceName": "network-it-programming/code-circle",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "code-file",
       "name": "Code File",
-      "sourceName": "CodeFile",
+      "sourceName": "files/code-file",
       "category": "Files",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "code-scan",
       "name": "Code Scan",
-      "sourceName": "CodeScan",
+      "sourceName": "security/code-scan",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "code-square",
       "name": "Code Square",
-      "sourceName": "CodeSquare",
-      "category": "It",
+      "sourceName": "network-it-programming/code-square",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "code2",
-      "name": "Code2",
-      "sourceName": "Code2",
-      "category": "It",
+      "id": "cognitive",
+      "name": "Cognitive",
+      "sourceName": "health-benefits/cognitive",
+      "category": "Health Benefits",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "colour-tuneing",
       "name": "Colour Tuneing",
-      "sourceName": "ColourTuneing",
-      "category": "Tools",
+      "sourceName": "design-tools/colour-tuneing",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "command",
       "name": "Command",
-      "sourceName": "Command",
-      "category": "It",
+      "sourceName": "network-it-programming/command",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "compass",
       "name": "Compass",
-      "sourceName": "Compass",
-      "category": "Map",
+      "sourceName": "map-location/compass",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "compass-big",
       "name": "Compass Big",
-      "sourceName": "CompassBig",
-      "category": "Map",
+      "sourceName": "map-location/compass-big",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "compass-square",
       "name": "Compass Square",
-      "sourceName": "CompassSquare",
-      "category": "Map",
+      "sourceName": "map-location/compass-square",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "condicioner",
       "name": "Condicioner",
-      "sourceName": "Condicioner",
-      "category": "Home",
+      "sourceName": "home-furniture/condicioner",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "condicioner2",
-      "name": "Condicioner2",
-      "sourceName": "Condicioner2",
-      "category": "Home",
+      "id": "condicioner-2",
+      "name": "Condicioner 2",
+      "sourceName": "home-furniture/condicioner-2",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "confetti",
       "name": "Confetti",
-      "sourceName": "Confetti",
-      "category": "Ui",
+      "sourceName": "essentional-ui/confetti",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "confetti-minimalistic",
       "name": "Confetti Minimalistic",
-      "sourceName": "ConfettiMinimalistic",
-      "category": "Ui",
+      "sourceName": "essentional-ui/confetti-minimalistic",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "confounded-circle",
       "name": "Confounded Circle",
-      "sourceName": "ConfoundedCircle",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/confounded-circle",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "confounded-square",
       "name": "Confounded Square",
-      "sourceName": "ConfoundedSquare",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/confounded-square",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "copy",
       "name": "Copy",
-      "sourceName": "Copy",
-      "category": "Ui",
+      "sourceName": "essentional-ui/copy",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "copyright",
       "name": "Copyright",
-      "sourceName": "Copyright",
-      "category": "Ui",
+      "sourceName": "essentional-ui/copyright",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "corkscrew",
       "name": "Corkscrew",
-      "sourceName": "Corkscrew",
-      "category": "Food",
+      "sourceName": "food-kitchen/corkscrew",
+      "category": "Food, Kitchen",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cosmetic",
       "name": "Cosmetic",
-      "sourceName": "Cosmetic",
-      "category": "Ui",
+      "sourceName": "essentional-ui/cosmetic",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "course-down",
       "name": "Course Down",
-      "sourceName": "CourseDown",
-      "category": "Business",
+      "sourceName": "business-statistic/course-down",
+      "category": "Business, Statistic",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "course-up",
       "name": "Course Up",
-      "sourceName": "CourseUp",
-      "category": "Business",
+      "sourceName": "business-statistic/course-up",
+      "category": "Business, Statistic",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cpu",
-      "name": "Cpu",
-      "sourceName": "Cpu",
-      "category": "Devices",
+      "name": "CPU",
+      "sourceName": "electronic-devices/cpu",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cpu-bolt",
-      "name": "Cpu Bolt",
-      "sourceName": "CpuBolt",
-      "category": "Devices",
+      "name": "CPU Bolt",
+      "sourceName": "electronic-devices/cpu-bolt",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "creative-commons",
       "name": "Creative Commons",
-      "sourceName": "CreativeCommons",
-      "category": "Ui",
+      "sourceName": "essentional-ui/creative-commons",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "crop",
       "name": "Crop",
-      "sourceName": "Crop",
-      "category": "Tools",
+      "sourceName": "design-tools/crop",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "crop-minimalistic",
       "name": "Crop Minimalistic",
-      "sourceName": "CropMinimalistic",
-      "category": "Tools",
+      "sourceName": "design-tools/crop-minimalistic",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "crown",
       "name": "Crown",
-      "sourceName": "Crown",
-      "category": "Ui",
+      "sourceName": "essentional-ui/crown",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "crown-line",
       "name": "Crown Line",
-      "sourceName": "CrownLine",
-      "category": "Ui",
+      "sourceName": "essentional-ui/crown-line",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "crown-minimalistic",
       "name": "Crown Minimalistic",
-      "sourceName": "CrownMinimalistic",
-      "category": "Ui",
+      "sourceName": "essentional-ui/crown-minimalistic",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "crown-star",
       "name": "Crown Star",
-      "sourceName": "CrownStar",
-      "category": "Ui",
+      "sourceName": "essentional-ui/crown-star",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cup",
       "name": "Cup",
-      "sourceName": "Cup",
-      "category": "Ui",
+      "sourceName": "essentional-ui/cup",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "cup-food-kitchen",
+      "name": "Cup",
+      "sourceName": "food-kitchen/cup",
+      "category": "Food, Kitchen",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cup-first",
       "name": "Cup First",
-      "sourceName": "CupFirst",
-      "category": "Ui",
+      "sourceName": "essentional-ui/cup-first",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cup-hot",
       "name": "Cup Hot",
-      "sourceName": "CupHot",
-      "category": "Food",
+      "sourceName": "food-kitchen/cup-hot",
+      "category": "Food, Kitchen",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cup-music",
       "name": "Cup Music",
-      "sourceName": "CupMusic",
-      "category": "Ui",
+      "sourceName": "essentional-ui/cup-music",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cup-paper",
       "name": "Cup Paper",
-      "sourceName": "CupPaper",
-      "category": "Food",
+      "sourceName": "food-kitchen/cup-paper",
+      "category": "Food, Kitchen",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cup-star",
       "name": "Cup Star",
-      "sourceName": "CupStar",
-      "category": "Ui",
+      "sourceName": "essentional-ui/cup-star",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cursor",
       "name": "Cursor",
-      "sourceName": "Cursor",
-      "category": "Ui",
+      "sourceName": "essentional-ui/cursor",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "cursor-square",
       "name": "Cursor Square",
-      "sourceName": "CursorSquare",
-      "category": "Ui",
+      "sourceName": "essentional-ui/cursor-square",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "danger",
       "name": "Danger",
-      "sourceName": "Danger",
-      "category": "Ui",
+      "sourceName": "essentional-ui/danger",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "danger-circle",
       "name": "Danger Circle",
-      "sourceName": "DangerCircle",
-      "category": "Ui",
+      "sourceName": "essentional-ui/danger-circle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "danger-square",
       "name": "Danger Square",
-      "sourceName": "DangerSquare",
-      "category": "Ui",
+      "sourceName": "essentional-ui/danger-square",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "danger-triangle",
       "name": "Danger Triangle",
-      "sourceName": "DangerTriangle",
-      "category": "Ui",
+      "sourceName": "essentional-ui/danger-triangle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "database",
       "name": "Database",
-      "sourceName": "Database",
-      "category": "Ui",
+      "sourceName": "essentional-ui/database",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "delivery",
       "name": "Delivery",
-      "sourceName": "Delivery",
-      "category": "Ui",
+      "sourceName": "essentional-ui/delivery",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "devices",
       "name": "Devices",
-      "sourceName": "Devices",
-      "category": "Devices",
+      "sourceName": "electronic-devices/devices",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "diagram-down",
       "name": "Diagram Down",
-      "sourceName": "DiagramDown",
-      "category": "Business",
+      "sourceName": "business-statistic/diagram-down",
+      "category": "Business, Statistic",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "diagram-up",
       "name": "Diagram Up",
-      "sourceName": "DiagramUp",
-      "category": "Business",
+      "sourceName": "business-statistic/diagram-up",
+      "category": "Business, Statistic",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "dialog",
       "name": "Dialog",
-      "sourceName": "Dialog",
-      "category": "Messages",
+      "sourceName": "messages-conversation/dialog",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "dialog2",
-      "name": "Dialog2",
-      "sourceName": "Dialog2",
-      "category": "Messages",
+      "id": "dialog-2",
+      "name": "Dialog 2",
+      "sourceName": "messages-conversation/dialog-2",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "diploma",
       "name": "Diploma",
-      "sourceName": "Diploma",
+      "sourceName": "school/diploma",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "diploma-verified",
       "name": "Diploma Verified",
-      "sourceName": "DiplomaVerified",
+      "sourceName": "school/diploma-verified",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "diskette",
       "name": "Diskette",
-      "sourceName": "Diskette",
-      "category": "Devices",
+      "sourceName": "electronic-devices/diskette",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "dislike",
       "name": "Dislike",
-      "sourceName": "Dislike",
+      "sourceName": "like/dislike",
       "category": "Like",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "display",
       "name": "Display",
-      "sourceName": "Display",
-      "category": "Devices",
+      "sourceName": "electronic-devices/display",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "dna",
-      "name": "Dna",
-      "sourceName": "Dna",
+      "name": "DNA",
+      "sourceName": "medicine/dna",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "document",
       "name": "Document",
-      "sourceName": "Document",
+      "sourceName": "school/document",
+      "category": "School",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "document-notes",
+      "name": "Document",
+      "sourceName": "notes/document",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "document-add",
       "name": "Document Add",
-      "sourceName": "DocumentAdd",
+      "sourceName": "notes/document-add",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "document-medicine",
       "name": "Document Medicine",
-      "sourceName": "DocumentMedicine",
+      "sourceName": "notes/document-medicine",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "document-text",
       "name": "Document Text",
-      "sourceName": "DocumentText",
+      "sourceName": "notes/document-text",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "document2",
-      "name": "Document2",
-      "sourceName": "Document2",
-      "category": "School",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "documents",
       "name": "Documents",
-      "sourceName": "Documents",
+      "sourceName": "notes/documents",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "documents-minimalistic",
       "name": "Documents Minimalistic",
-      "sourceName": "DocumentsMinimalistic",
+      "sourceName": "notes/documents-minimalistic",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "dog-1",
+      "name": "Dog 1",
+      "sourceName": "dogs/dog-1",
+      "category": "Dogs",
+      "weights": [
+        "linear",
+        "bold"
+      ]
+    },
+    {
+      "id": "dog-2",
+      "name": "Dog 2",
+      "sourceName": "dogs/dog-2",
+      "category": "Dogs",
+      "weights": [
+        "linear",
+        "bold"
+      ]
+    },
+    {
+      "id": "dog-side",
+      "name": "Dog Side",
+      "sourceName": "dogs/dog-side",
+      "category": "Dogs",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "dollar",
       "name": "Dollar",
-      "sourceName": "Dollar",
+      "sourceName": "money/dollar",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "dollar-minimalistic",
       "name": "Dollar Minimalistic",
-      "sourceName": "DollarMinimalistic",
+      "sourceName": "money/dollar-minimalistic",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "donut",
       "name": "Donut",
-      "sourceName": "Donut",
-      "category": "Food",
+      "sourceName": "food-kitchen/donut",
+      "category": "Food, Kitchen",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "donut-bitten",
       "name": "Donut Bitten",
-      "sourceName": "DonutBitten",
-      "category": "Food",
+      "sourceName": "food-kitchen/donut-bitten",
+      "category": "Food, Kitchen",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "double-alt-arrow-down",
       "name": "Double Alt Arrow Down",
-      "sourceName": "DoubleAltArrowDown",
+      "sourceName": "arrows/double-alt-arrow-down",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "double-alt-arrow-left",
       "name": "Double Alt Arrow Left",
-      "sourceName": "DoubleAltArrowLeft",
+      "sourceName": "arrows/double-alt-arrow-left",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "double-alt-arrow-right",
       "name": "Double Alt Arrow Right",
-      "sourceName": "DoubleAltArrowRight",
+      "sourceName": "arrows/double-alt-arrow-right",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "double-alt-arrow-up",
       "name": "Double Alt Arrow Up",
-      "sourceName": "DoubleAltArrowUp",
+      "sourceName": "arrows/double-alt-arrow-up",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "download",
       "name": "Download",
-      "sourceName": "Download",
+      "sourceName": "arrows-action/download",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "download-minimalistic",
       "name": "Download Minimalistic",
-      "sourceName": "DownloadMinimalistic",
+      "sourceName": "arrows-action/download-minimalistic",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "download-square",
       "name": "Download Square",
-      "sourceName": "DownloadSquare",
+      "sourceName": "arrows-action/download-square",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "download-twice-square",
       "name": "Download Twice Square",
-      "sourceName": "DownloadTwiceSquare",
+      "sourceName": "arrows-action/download-twice-square",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "dropper",
       "name": "Dropper",
-      "sourceName": "Dropper",
+      "sourceName": "medicine/dropper",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "dropper-2",
+      "name": "Dropper 2",
+      "sourceName": "medicine/dropper-2",
+      "category": "Medicine",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "dropper-3",
+      "name": "Dropper 3",
+      "sourceName": "medicine/dropper-3",
+      "category": "Medicine",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "dropper-minimalistic",
       "name": "Dropper Minimalistic",
-      "sourceName": "DropperMinimalistic",
+      "sourceName": "medicine/dropper-minimalistic",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "dropper-minimalistic2",
-      "name": "Dropper Minimalistic2",
-      "sourceName": "DropperMinimalistic2",
+      "id": "dropper-minimalistic-2",
+      "name": "Dropper Minimalistic 2",
+      "sourceName": "medicine/dropper-minimalistic-2",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "dropper2",
-      "name": "Dropper2",
-      "sourceName": "Dropper2",
-      "category": "Medicine",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "dropper3",
-      "name": "Dropper3",
-      "sourceName": "Dropper3",
-      "category": "Medicine",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "dumbbell",
       "name": "Dumbbell",
-      "sourceName": "Dumbbell",
+      "sourceName": "sports/dumbbell",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "dumbbell-large",
       "name": "Dumbbell Large",
-      "sourceName": "DumbbellLarge",
+      "sourceName": "sports/dumbbell-large",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "dumbbell-large-minimalistic",
       "name": "Dumbbell Large Minimalistic",
-      "sourceName": "DumbbellLargeMinimalistic",
+      "sourceName": "sports/dumbbell-large-minimalistic",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "dumbbell-small",
       "name": "Dumbbell Small",
-      "sourceName": "DumbbellSmall",
+      "sourceName": "sports/dumbbell-small",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "dumbbells",
       "name": "Dumbbells",
-      "sourceName": "Dumbbells",
+      "sourceName": "sports/dumbbells",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "dumbbells2",
-      "name": "Dumbbells2",
-      "sourceName": "Dumbbells2",
+      "id": "dumbbells-2",
+      "name": "Dumbbells 2",
+      "sourceName": "sports/dumbbells-2",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "earth",
       "name": "Earth",
-      "sourceName": "Earth",
+      "sourceName": "astronomy/earth",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "egg-fresh",
+      "name": "Egg Fresh",
+      "sourceName": "ingredients/egg-fresh",
+      "category": "Ingredients",
+      "weights": [
+        "linear",
+        "bold"
+      ]
+    },
+    {
+      "id": "egg-fried",
+      "name": "Egg Fried",
+      "sourceName": "ingredients/egg-fried",
+      "category": "Ingredients",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "electric-refueling",
       "name": "Electric Refueling",
-      "sourceName": "ElectricRefueling",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/electric-refueling",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "emoji-funny-circle",
       "name": "Emoji Funny Circle",
-      "sourceName": "EmojiFunnyCircle",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/emoji-funny-circle",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "emoji-funny-square",
       "name": "Emoji Funny Square",
-      "sourceName": "EmojiFunnySquare",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/emoji-funny-square",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "end-call",
       "name": "End Call",
-      "sourceName": "EndCall",
+      "sourceName": "call/end-call",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "end-call-rounded",
       "name": "End Call Rounded",
-      "sourceName": "EndCallRounded",
+      "sourceName": "call/end-call-rounded",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "eraser",
       "name": "Eraser",
-      "sourceName": "Eraser",
+      "sourceName": "text-formatting/eraser",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "eraser-circle",
       "name": "Eraser Circle",
-      "sourceName": "EraserCircle",
+      "sourceName": "text-formatting/eraser-circle",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "eraser-square",
       "name": "Eraser Square",
-      "sourceName": "EraserSquare",
+      "sourceName": "text-formatting/eraser-square",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "euro",
       "name": "Euro",
-      "sourceName": "Euro",
+      "sourceName": "money/euro",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "exit",
       "name": "Exit",
-      "sourceName": "Exit",
+      "sourceName": "arrows-action/exit",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "explicit",
       "name": "Explicit",
-      "sourceName": "Explicit",
-      "category": "Ui",
+      "sourceName": "essentional-ui/explicit",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "export",
       "name": "Export",
-      "sourceName": "Export",
+      "sourceName": "arrows-action/export",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "expressionless-circle",
       "name": "Expressionless Circle",
-      "sourceName": "ExpressionlessCircle",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/expressionless-circle",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "expressionless-square",
       "name": "Expressionless Square",
-      "sourceName": "ExpressionlessSquare",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/expressionless-square",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "eye",
       "name": "Eye",
-      "sourceName": "Eye",
+      "sourceName": "security/eye",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "eye-closed",
       "name": "Eye Closed",
-      "sourceName": "EyeClosed",
+      "sourceName": "security/eye-closed",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "eye-health",
+      "name": "Eye Health",
+      "sourceName": "health-benefits/eye-health",
+      "category": "Health Benefits",
+      "weights": [
+        "bold"
       ]
     },
     {
       "id": "eye-scan",
       "name": "Eye Scan",
-      "sourceName": "EyeScan",
+      "sourceName": "security/eye-scan",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "face-scan-circle",
       "name": "Face Scan Circle",
-      "sourceName": "FaceScanCircle",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/face-scan-circle",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "face-scan-square",
       "name": "Face Scan Square",
-      "sourceName": "FaceScanSquare",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/face-scan-square",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "facemask-circle",
       "name": "Facemask Circle",
-      "sourceName": "FacemaskCircle",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/facemask-circle",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "facemask-square",
       "name": "Facemask Square",
-      "sourceName": "FacemaskSquare",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/facemask-square",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "feed",
       "name": "Feed",
-      "sourceName": "Feed",
-      "category": "Ui",
+      "sourceName": "essentional-ui/feed",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "ferris-wheel",
       "name": "Ferris Wheel",
-      "sourceName": "FerrisWheel",
-      "category": "Ui",
+      "sourceName": "essentional-ui/ferris-wheel",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "figma",
       "name": "Figma",
-      "sourceName": "Figma",
-      "category": "Ui",
+      "sourceName": "essentional-ui/figma",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "figma-file",
       "name": "Figma File",
-      "sourceName": "FigmaFile",
+      "sourceName": "files/figma-file",
       "category": "Files",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "file",
       "name": "File",
-      "sourceName": "File",
+      "sourceName": "files/file",
       "category": "Files",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "file-check",
       "name": "File Check",
-      "sourceName": "FileCheck",
+      "sourceName": "files/file-check",
       "category": "Files",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "file-corrupted",
       "name": "File Corrupted",
-      "sourceName": "FileCorrupted",
+      "sourceName": "files/file-corrupted",
       "category": "Files",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "file-download",
       "name": "File Download",
-      "sourceName": "FileDownload",
+      "sourceName": "files/file-download",
       "category": "Files",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "file-favourite",
       "name": "File Favourite",
-      "sourceName": "FileFavourite",
+      "sourceName": "files/file-favourite",
       "category": "Files",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "file-left",
       "name": "File Left",
-      "sourceName": "FileLeft",
+      "sourceName": "files/file-left",
       "category": "Files",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "file-remove",
       "name": "File Remove",
-      "sourceName": "FileRemove",
+      "sourceName": "files/file-remove",
       "category": "Files",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "file-right",
       "name": "File Right",
-      "sourceName": "FileRight",
+      "sourceName": "files/file-right",
       "category": "Files",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "file-send",
       "name": "File Send",
-      "sourceName": "FileSend",
+      "sourceName": "files/file-send",
       "category": "Files",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "file-smile",
-      "name": "File Smile",
-      "sourceName": "FileSmile",
+      "name": "File Smile :)",
+      "sourceName": "files/file-smile",
       "category": "Files",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "file-text",
       "name": "File Text",
-      "sourceName": "FileText",
+      "sourceName": "files/file-text",
       "category": "Files",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "filter",
       "name": "Filter",
-      "sourceName": "Filter",
-      "category": "Ui",
+      "sourceName": "essentional-ui/filter",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "filters",
       "name": "Filters",
-      "sourceName": "Filters",
-      "category": "Tools",
+      "sourceName": "design-tools/filters",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "fire",
       "name": "Fire",
-      "sourceName": "Fire",
-      "category": "Nature",
+      "sourceName": "nature-travel/fire",
+      "category": "Nature, Travel",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "fire-minimalistic",
       "name": "Fire Minimalistic",
-      "sourceName": "FireMinimalistic",
-      "category": "Nature",
+      "sourceName": "nature-travel/fire-minimalistic",
+      "category": "Nature, Travel",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "fire-square",
       "name": "Fire Square",
-      "sourceName": "FireSquare",
-      "category": "Nature",
+      "sourceName": "nature-travel/fire-square",
+      "category": "Nature, Travel",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "fish",
+      "name": "Fish",
+      "sourceName": "ingredients/fish",
+      "category": "Ingredients",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "flag",
       "name": "Flag",
-      "sourceName": "Flag",
-      "category": "Ui",
+      "sourceName": "essentional-ui/flag",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "flag2",
-      "name": "Flag2",
-      "sourceName": "Flag2",
-      "category": "Ui",
+      "id": "flag-2",
+      "name": "Flag 2",
+      "sourceName": "essentional-ui/flag-2",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "flame",
       "name": "Flame",
-      "sourceName": "Flame",
-      "category": "Nature",
+      "sourceName": "nature-travel/flame",
+      "category": "Nature, Travel",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "flash-drive",
       "name": "Flash Drive",
-      "sourceName": "FlashDrive",
-      "category": "Devices",
+      "sourceName": "electronic-devices/flash-drive",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "flashlight",
       "name": "Flashlight",
-      "sourceName": "Flashlight",
-      "category": "Ui",
+      "sourceName": "essentional-ui/flashlight",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "flashlight-on",
       "name": "Flashlight On",
-      "sourceName": "FlashlightOn",
-      "category": "Ui",
+      "sourceName": "essentional-ui/flashlight-on",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "flip-horizontal",
       "name": "Flip Horizontal",
-      "sourceName": "FlipHorizontal",
-      "category": "Tools",
+      "sourceName": "design-tools/flip-horizontal",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "flip-vertical",
       "name": "Flip Vertical",
-      "sourceName": "FlipVertical",
-      "category": "Tools",
+      "sourceName": "design-tools/flip-vertical",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "floor-lamp",
       "name": "Floor Lamp",
-      "sourceName": "FloorLamp",
-      "category": "Home",
+      "sourceName": "home-furniture/floor-lamp",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "floor-lamp-minimalistic",
       "name": "Floor Lamp Minimalistic",
-      "sourceName": "FloorLampMinimalistic",
-      "category": "Home",
+      "sourceName": "home-furniture/floor-lamp-minimalistic",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "fog",
       "name": "Fog",
-      "sourceName": "Fog",
+      "sourceName": "weather/fog",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "folder",
       "name": "Folder",
-      "sourceName": "Folder",
+      "sourceName": "folders/folder",
       "category": "Folders",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "folder-2",
+      "name": "Folder 2",
+      "sourceName": "folders/folder-2",
+      "category": "Folders",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "folder-check",
       "name": "Folder Check",
-      "sourceName": "FolderCheck",
+      "sourceName": "folders/folder-check",
       "category": "Folders",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "folder-cloud",
       "name": "Folder Cloud",
-      "sourceName": "FolderCloud",
+      "sourceName": "folders/folder-cloud",
       "category": "Folders",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "folder-error",
       "name": "Folder Error",
-      "sourceName": "FolderError",
+      "sourceName": "folders/folder-error",
       "category": "Folders",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "folder-favourite-bookmark",
-      "name": "Folder Favourite Bookmark",
-      "sourceName": "FolderFavouriteBookmark",
+      "name": "Folder Favourite (Bookmark)",
+      "sourceName": "folders/folder-favourite-bookmark",
       "category": "Folders",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "folder-favourite-star",
-      "name": "Folder Favourite Star",
-      "sourceName": "FolderFavouriteStar",
+      "name": "Folder Favourite (Star)",
+      "sourceName": "folders/folder-favourite-star",
       "category": "Folders",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "folder-open",
       "name": "Folder Open",
-      "sourceName": "FolderOpen",
+      "sourceName": "folders/folder-open",
       "category": "Folders",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "folder-path-connect",
       "name": "Folder Path Connect",
-      "sourceName": "FolderPathConnect",
+      "sourceName": "folders/folder-path-connect",
       "category": "Folders",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "folder-security",
       "name": "Folder Security",
-      "sourceName": "FolderSecurity",
+      "sourceName": "folders/folder-security",
       "category": "Folders",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "folder-with-files",
       "name": "Folder With Files",
-      "sourceName": "FolderWithFiles",
+      "sourceName": "folders/folder-with-files",
       "category": "Folders",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "folder2",
-      "name": "Folder2",
-      "sourceName": "Folder2",
-      "category": "Folders",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "football",
       "name": "Football",
-      "sourceName": "Football",
+      "sourceName": "sports/football",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "forbidden",
       "name": "Forbidden",
-      "sourceName": "Forbidden",
-      "category": "Ui",
+      "sourceName": "essentional-ui/forbidden",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "forbidden-circle",
       "name": "Forbidden Circle",
-      "sourceName": "ForbiddenCircle",
-      "category": "Ui",
+      "sourceName": "essentional-ui/forbidden-circle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "forward",
       "name": "Forward",
-      "sourceName": "Forward",
+      "sourceName": "messages-conversation/forward",
+      "category": "Messages, Conversation",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "forward-arrows-action",
+      "name": "Forward",
+      "sourceName": "arrows-action/forward",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "forward-right",
-      "name": "Forward Right",
-      "sourceName": "ForwardRight",
-      "category": "Messages",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "forward2",
-      "name": "Forward2",
-      "sourceName": "Forward2",
+      "id": "forward-2",
+      "name": "Forward 2",
+      "sourceName": "arrows-action/forward-2",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "four-k",
-      "name": "Four K",
-      "sourceName": "FourK",
-      "category": "Ui",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "fridge",
       "name": "Fridge",
-      "sourceName": "Fridge",
-      "category": "Home",
+      "sourceName": "home-furniture/fridge",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "fuel",
       "name": "Fuel",
-      "sourceName": "Fuel",
-      "category": "Ui",
+      "sourceName": "essentional-ui/fuel",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "full-screen",
       "name": "Full Screen",
-      "sourceName": "FullScreen",
-      "category": "Video",
+      "sourceName": "video-audio-sound/full-screen",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "full-screen-circle",
       "name": "Full Screen Circle",
-      "sourceName": "FullScreenCircle",
-      "category": "Video",
+      "sourceName": "video-audio-sound/full-screen-circle",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "full-screen-square",
       "name": "Full Screen Square",
-      "sourceName": "FullScreenSquare",
-      "category": "Video",
+      "sourceName": "video-audio-sound/full-screen-square",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gallery",
       "name": "Gallery",
-      "sourceName": "Gallery",
-      "category": "Video",
+      "sourceName": "video-audio-sound/gallery",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gallery-add",
       "name": "Gallery Add",
-      "sourceName": "GalleryAdd",
-      "category": "Video",
+      "sourceName": "video-audio-sound/gallery-add",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gallery-check",
       "name": "Gallery Check",
-      "sourceName": "GalleryCheck",
-      "category": "Video",
+      "sourceName": "video-audio-sound/gallery-check",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gallery-circle",
       "name": "Gallery Circle",
-      "sourceName": "GalleryCircle",
-      "category": "Video",
+      "sourceName": "video-audio-sound/gallery-circle",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gallery-download",
       "name": "Gallery Download",
-      "sourceName": "GalleryDownload",
-      "category": "Video",
+      "sourceName": "video-audio-sound/gallery-download",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gallery-edit",
       "name": "Gallery Edit",
-      "sourceName": "GalleryEdit",
-      "category": "Video",
+      "sourceName": "video-audio-sound/gallery-edit",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gallery-favourite",
       "name": "Gallery Favourite",
-      "sourceName": "GalleryFavourite",
-      "category": "Video",
+      "sourceName": "video-audio-sound/gallery-favourite",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gallery-minimalistic",
       "name": "Gallery Minimalistic",
-      "sourceName": "GalleryMinimalistic",
-      "category": "Video",
+      "sourceName": "video-audio-sound/gallery-minimalistic",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gallery-remove",
       "name": "Gallery Remove",
-      "sourceName": "GalleryRemove",
-      "category": "Video",
+      "sourceName": "video-audio-sound/gallery-remove",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gallery-round",
       "name": "Gallery Round",
-      "sourceName": "GalleryRound",
-      "category": "Video",
+      "sourceName": "video-audio-sound/gallery-round",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gallery-send",
       "name": "Gallery Send",
-      "sourceName": "GallerySend",
-      "category": "Video",
+      "sourceName": "video-audio-sound/gallery-send",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gallery-wide",
       "name": "Gallery Wide",
-      "sourceName": "GalleryWide",
-      "category": "Video",
+      "sourceName": "video-audio-sound/gallery-wide",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gameboy",
       "name": "Gameboy",
-      "sourceName": "Gameboy",
-      "category": "Devices",
+      "sourceName": "electronic-devices/gameboy",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gamepad",
       "name": "Gamepad",
-      "sourceName": "Gamepad",
-      "category": "Devices",
+      "sourceName": "electronic-devices/gamepad",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gamepad-charge",
       "name": "Gamepad Charge",
-      "sourceName": "GamepadCharge",
-      "category": "Devices",
+      "sourceName": "electronic-devices/gamepad-charge",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gamepad-minimalistic",
       "name": "Gamepad Minimalistic",
-      "sourceName": "GamepadMinimalistic",
-      "category": "Devices",
+      "sourceName": "electronic-devices/gamepad-minimalistic",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gamepad-no-charge",
       "name": "Gamepad No Charge",
-      "sourceName": "GamepadNoCharge",
-      "category": "Devices",
+      "sourceName": "electronic-devices/gamepad-no-charge",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gamepad-old",
       "name": "Gamepad Old",
-      "sourceName": "GamepadOld",
-      "category": "Devices",
+      "sourceName": "electronic-devices/gamepad-old",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "garage",
       "name": "Garage",
-      "sourceName": "Garage",
-      "category": "Building",
+      "sourceName": "building-infrastructure/garage",
+      "category": "Building, Infrastructure",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gas-station",
       "name": "Gas Station",
-      "sourceName": "GasStation",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/gas-station",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "ghost",
       "name": "Ghost",
-      "sourceName": "Ghost",
-      "category": "Ui",
+      "sourceName": "essentional-ui/ghost",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "ghost-smile",
       "name": "Ghost Smile",
-      "sourceName": "GhostSmile",
-      "category": "Ui",
+      "sourceName": "essentional-ui/ghost-smile",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gift",
       "name": "Gift",
-      "sourceName": "Gift",
-      "category": "Ui",
+      "sourceName": "essentional-ui/gift",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "glasses",
       "name": "Glasses",
-      "sourceName": "Glasses",
-      "category": "Ui",
+      "sourceName": "essentional-ui/glasses",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "global",
       "name": "Global",
-      "sourceName": "Global",
-      "category": "Map",
+      "sourceName": "map-location/global",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "globus",
       "name": "Globus",
-      "sourceName": "Globus",
-      "category": "Map",
+      "sourceName": "map-location/globus",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "gluten",
+      "name": "Gluten",
+      "sourceName": "ingredients/gluten",
+      "category": "Ingredients",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "golf",
       "name": "Golf",
-      "sourceName": "Golf",
+      "sourceName": "sports/golf",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "gps",
-      "name": "Gps",
-      "sourceName": "Gps",
-      "category": "Map",
+      "name": "GPS",
+      "sourceName": "map-location/gps",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "grain",
+      "name": "Grain",
+      "sourceName": "ingredients/grain",
+      "category": "Ingredients",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "graph",
       "name": "Graph",
-      "sourceName": "Graph",
-      "category": "Business",
+      "sourceName": "business-statistic/graph",
+      "category": "Business, Statistic",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "graph-down",
       "name": "Graph Down",
-      "sourceName": "GraphDown",
-      "category": "Business",
+      "sourceName": "business-statistic/graph-down",
+      "category": "Business, Statistic",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "graph-down-new",
       "name": "Graph Down New",
-      "sourceName": "GraphDownNew",
-      "category": "Business",
+      "sourceName": "business-statistic/graph-down-new",
+      "category": "Business, Statistic",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "graph-new",
       "name": "Graph New",
-      "sourceName": "GraphNew",
-      "category": "Business",
+      "sourceName": "business-statistic/graph-new",
+      "category": "Business, Statistic",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "graph-new-up",
       "name": "Graph New Up",
-      "sourceName": "GraphNewUp",
-      "category": "Business",
+      "sourceName": "business-statistic/graph-new-up",
+      "category": "Business, Statistic",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "graph-up",
       "name": "Graph Up",
-      "sourceName": "GraphUp",
-      "category": "Business",
+      "sourceName": "business-statistic/graph-up",
+      "category": "Business, Statistic",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "hamburger-menu",
       "name": "Hamburger Menu",
-      "sourceName": "HamburgerMenu",
-      "category": "Ui",
+      "sourceName": "essentional-ui/hamburger-menu",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "hand-heart",
       "name": "Hand Heart",
-      "sourceName": "HandHeart",
+      "sourceName": "hands/hand-heart",
       "category": "Hands",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "hand-money",
       "name": "Hand Money",
-      "sourceName": "HandMoney",
+      "sourceName": "hands/hand-money",
       "category": "Hands",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "hand-pills",
       "name": "Hand Pills",
-      "sourceName": "HandPills",
+      "sourceName": "hands/hand-pills",
       "category": "Hands",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "hand-shake",
       "name": "Hand Shake",
-      "sourceName": "HandShake",
+      "sourceName": "hands/hand-shake",
       "category": "Hands",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "hand-stars",
       "name": "Hand Stars",
-      "sourceName": "HandStars",
+      "sourceName": "hands/hand-stars",
       "category": "Hands",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "hanger",
       "name": "Hanger",
-      "sourceName": "Hanger",
-      "category": "Ui",
+      "sourceName": "essentional-ui/hanger",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "hanger2",
-      "name": "Hanger2",
-      "sourceName": "Hanger2",
-      "category": "Ui",
+      "id": "hanger-2",
+      "name": "Hanger 2",
+      "sourceName": "essentional-ui/hanger-2",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "hashtag",
       "name": "Hashtag",
-      "sourceName": "Hashtag",
-      "category": "It",
+      "sourceName": "network-it-programming/hashtag",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "hashtag-chat",
       "name": "Hashtag Chat",
-      "sourceName": "HashtagChat",
-      "category": "It",
+      "sourceName": "network-it-programming/hashtag-chat",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "hashtag-circle",
       "name": "Hashtag Circle",
-      "sourceName": "HashtagCircle",
-      "category": "It",
+      "sourceName": "network-it-programming/hashtag-circle",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "hashtag-square",
       "name": "Hashtag Square",
-      "sourceName": "HashtagSquare",
-      "category": "It",
+      "sourceName": "network-it-programming/hashtag-square",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "headphones-round",
       "name": "Headphones Round",
-      "sourceName": "HeadphonesRound",
-      "category": "Devices",
+      "sourceName": "electronic-devices/headphones-round",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "headphones-round-sound",
       "name": "Headphones Round Sound",
-      "sourceName": "HeadphonesRoundSound",
-      "category": "Devices",
+      "sourceName": "electronic-devices/headphones-round-sound",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "headphones-square",
       "name": "Headphones Square",
-      "sourceName": "HeadphonesSquare",
-      "category": "Devices",
+      "sourceName": "electronic-devices/headphones-square",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "headphones-square-sound",
       "name": "Headphones Square Sound",
-      "sourceName": "HeadphonesSquareSound",
-      "category": "Devices",
+      "sourceName": "electronic-devices/headphones-square-sound",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "health",
       "name": "Health",
-      "sourceName": "Health",
+      "sourceName": "medicine/health",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "heart",
       "name": "Heart",
-      "sourceName": "Heart",
+      "sourceName": "like/heart",
       "category": "Like",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "heart-angle",
       "name": "Heart Angle",
-      "sourceName": "HeartAngle",
+      "sourceName": "like/heart-angle",
       "category": "Like",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "heart-broken",
       "name": "Heart Broken",
-      "sourceName": "HeartBroken",
+      "sourceName": "like/heart-broken",
       "category": "Like",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "heart-lock",
       "name": "Heart Lock",
-      "sourceName": "HeartLock",
+      "sourceName": "like/heart-lock",
       "category": "Like",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "heart-pulse",
       "name": "Heart Pulse",
-      "sourceName": "HeartPulse",
+      "sourceName": "medicine/heart-pulse",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "heart-pulse2",
-      "name": "Heart Pulse2",
-      "sourceName": "HeartPulse2",
+      "id": "heart-pulse-2",
+      "name": "Heart Pulse 2",
+      "sourceName": "medicine/heart-pulse-2",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "heart-shine",
       "name": "Heart Shine",
-      "sourceName": "HeartShine",
+      "sourceName": "like/heart-shine",
       "category": "Like",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "heart-unlock",
       "name": "Heart Unlock",
-      "sourceName": "HeartUnlock",
+      "sourceName": "like/heart-unlock",
       "category": "Like",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "hearts",
       "name": "Hearts",
-      "sourceName": "Hearts",
+      "sourceName": "like/hearts",
       "category": "Like",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "help",
       "name": "Help",
-      "sourceName": "Help",
-      "category": "Ui",
+      "sourceName": "essentional-ui/help",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "high-definition",
       "name": "High Definition",
-      "sourceName": "HighDefinition",
-      "category": "Ui",
+      "sourceName": "essentional-ui/high-definition",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "high-quality",
       "name": "High Quality",
-      "sourceName": "HighQuality",
-      "category": "Ui",
+      "sourceName": "essentional-ui/high-quality",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "hiking",
       "name": "Hiking",
-      "sourceName": "Hiking",
+      "sourceName": "sports/hiking",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "hiking-minimalistic",
       "name": "Hiking Minimalistic",
-      "sourceName": "HikingMinimalistic",
+      "sourceName": "sports/hiking-minimalistic",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "hiking-round",
       "name": "Hiking Round",
-      "sourceName": "HikingRound",
+      "sourceName": "sports/hiking-round",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "history",
       "name": "History",
-      "sourceName": "History",
+      "sourceName": "time/history",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "history2",
-      "name": "History2",
-      "sourceName": "History2",
+      "id": "history-2",
+      "name": "History 2",
+      "sourceName": "time/history-2",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "history3",
-      "name": "History3",
-      "sourceName": "History3",
+      "id": "history-3",
+      "name": "History 3",
+      "sourceName": "time/history-3",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "home",
       "name": "Home",
-      "sourceName": "Home",
-      "category": "Ui",
+      "sourceName": "essentional-ui/home",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "home-building-infrastructure",
+      "name": "Home",
+      "sourceName": "building-infrastructure/home",
+      "category": "Building, Infrastructure",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "home-2",
+      "name": "Home 2",
+      "sourceName": "essentional-ui/home-2",
+      "category": "Essentional, UI",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "home-add",
       "name": "Home Add",
-      "sourceName": "HomeAdd",
-      "category": "Ui",
+      "sourceName": "essentional-ui/home-add",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "home-add-angle",
       "name": "Home Add Angle",
-      "sourceName": "HomeAddAngle",
-      "category": "Ui",
+      "sourceName": "essentional-ui/home-add-angle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "home-angle",
       "name": "Home Angle",
-      "sourceName": "HomeAngle",
-      "category": "Ui",
+      "sourceName": "essentional-ui/home-angle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "home-angle2",
-      "name": "Home Angle2",
-      "sourceName": "HomeAngle2",
-      "category": "Ui",
+      "id": "home-angle-2",
+      "name": "Home Angle 2",
+      "sourceName": "essentional-ui/home-angle-2",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "home-smile",
       "name": "Home Smile",
-      "sourceName": "HomeSmile",
-      "category": "Ui",
+      "sourceName": "essentional-ui/home-smile",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "home-smile-angle",
       "name": "Home Smile Angle",
-      "sourceName": "HomeSmileAngle",
-      "category": "Ui",
+      "sourceName": "essentional-ui/home-smile-angle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "home-wi-fi",
-      "name": "Home Wi Fi",
-      "sourceName": "HomeWiFi",
-      "category": "Ui",
+      "id": "home-wifi",
+      "name": "Home WiFi",
+      "sourceName": "essentional-ui/home-wifi",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "home-wi-fi-angle",
-      "name": "Home Wi Fi Angle",
-      "sourceName": "HomeWiFiAngle",
-      "category": "Ui",
+      "id": "home-wifi-angle",
+      "name": "Home WiFi Angle",
+      "sourceName": "essentional-ui/home-wifi-angle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "home2",
-      "name": "Home2",
-      "sourceName": "Home2",
-      "category": "Ui",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "hospital",
       "name": "Hospital",
-      "sourceName": "Hospital",
-      "category": "Building",
+      "sourceName": "building-infrastructure/hospital",
+      "category": "Building, Infrastructure",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "hourglass",
       "name": "Hourglass",
-      "sourceName": "Hourglass",
+      "sourceName": "time/hourglass",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "hourglass-line",
       "name": "Hourglass Line",
-      "sourceName": "HourglassLine",
+      "sourceName": "time/hourglass-line",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "house",
-      "name": "House",
-      "sourceName": "House",
-      "category": "Building",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "import",
       "name": "Import",
-      "sourceName": "Import",
+      "sourceName": "arrows-action/import",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "inbox",
       "name": "Inbox",
-      "sourceName": "Inbox",
-      "category": "Messages",
+      "sourceName": "messages-conversation/inbox",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "inbox-archive",
       "name": "Inbox Archive",
-      "sourceName": "InboxArchive",
-      "category": "Messages",
+      "sourceName": "messages-conversation/inbox-archive",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "inbox-in",
       "name": "Inbox In",
-      "sourceName": "InboxIn",
-      "category": "Messages",
+      "sourceName": "messages-conversation/inbox-in",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "inbox-line",
       "name": "Inbox Line",
-      "sourceName": "InboxLine",
-      "category": "Messages",
+      "sourceName": "messages-conversation/inbox-line",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "inbox-out",
       "name": "Inbox Out",
-      "sourceName": "InboxOut",
-      "category": "Messages",
+      "sourceName": "messages-conversation/inbox-out",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "inbox-unread",
       "name": "Inbox Unread",
-      "sourceName": "InboxUnread",
-      "category": "Messages",
+      "sourceName": "messages-conversation/inbox-unread",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "incognito",
       "name": "Incognito",
-      "sourceName": "Incognito",
+      "sourceName": "security/incognito",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "incoming-call",
       "name": "Incoming Call",
-      "sourceName": "IncomingCall",
+      "sourceName": "call/incoming-call",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "incoming-call-rounded",
       "name": "Incoming Call Rounded",
-      "sourceName": "IncomingCallRounded",
+      "sourceName": "call/incoming-call-rounded",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "infinity",
       "name": "Infinity",
-      "sourceName": "Infinity",
+      "sourceName": "astronomy/infinity",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "info-circle",
       "name": "Info Circle",
-      "sourceName": "InfoCircle",
-      "category": "Ui",
+      "sourceName": "essentional-ui/info-circle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "info-square",
       "name": "Info Square",
-      "sourceName": "InfoSquare",
-      "category": "Ui",
+      "sourceName": "essentional-ui/info-square",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "i-phone",
-      "name": "IPhone",
-      "sourceName": "IPhone",
-      "category": "Devices",
+      "id": "iphone",
+      "name": "iPhone",
+      "sourceName": "electronic-devices/iphone",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "jar-of-pills",
       "name": "Jar Of Pills",
-      "sourceName": "JarOfPills",
+      "sourceName": "medicine/jar-of-pills",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "jar-of-pills2",
-      "name": "Jar Of Pills2",
-      "sourceName": "JarOfPills2",
+      "id": "jar-of-pills-2",
+      "name": "Jar Of Pills 2",
+      "sourceName": "medicine/jar-of-pills-2",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "key",
       "name": "Key",
-      "sourceName": "Key",
+      "sourceName": "security/key",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "key-minimalistic",
       "name": "Key Minimalistic",
-      "sourceName": "KeyMinimalistic",
+      "sourceName": "security/key-minimalistic",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "key-minimalistic-2",
+      "name": "Key Minimalistic 2",
+      "sourceName": "security/key-minimalistic-2",
+      "category": "Security",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "key-minimalistic-square",
       "name": "Key Minimalistic Square",
-      "sourceName": "KeyMinimalisticSquare",
+      "sourceName": "security/key-minimalistic-square",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "key-minimalistic-square2",
-      "name": "Key Minimalistic Square2",
-      "sourceName": "KeyMinimalisticSquare2",
+      "id": "key-minimalistic-square-2",
+      "name": "Key Minimalistic Square 2",
+      "sourceName": "security/key-minimalistic-square-2",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "key-minimalistic-square3",
-      "name": "Key Minimalistic Square3",
-      "sourceName": "KeyMinimalisticSquare3",
+      "id": "key-minimalistic-square-3",
+      "name": "Key Minimalistic Square 3",
+      "sourceName": "security/key-minimalistic-square-3",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "key-minimalistic2",
-      "name": "Key Minimalistic2",
-      "sourceName": "KeyMinimalistic2",
-      "category": "Security",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "key-square",
       "name": "Key Square",
-      "sourceName": "KeySquare",
+      "sourceName": "security/key-square",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "key-square2",
-      "name": "Key Square2",
-      "sourceName": "KeySquare2",
+      "id": "key-square-2",
+      "name": "Key Square 2",
+      "sourceName": "security/key-square-2",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "keyboard",
       "name": "Keyboard",
-      "sourceName": "Keyboard",
-      "category": "Devices",
+      "sourceName": "electronic-devices/keyboard",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "kick-scooter",
       "name": "Kick Scooter",
-      "sourceName": "KickScooter",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/kick-scooter",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "kidney",
+      "name": "Kidney",
+      "sourceName": "health-benefits/kidney",
+      "category": "Health Benefits",
+      "weights": [
+        "linear",
+        "bold"
+      ]
+    },
+    {
+      "id": "knife-fork",
+      "name": "Knife Fork",
+      "sourceName": "ingredients/knife-fork",
+      "category": "Ingredients",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "ladle",
       "name": "Ladle",
-      "sourceName": "Ladle",
-      "category": "Food",
+      "sourceName": "food-kitchen/ladle",
+      "category": "Food, Kitchen",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "lamp",
       "name": "Lamp",
-      "sourceName": "Lamp",
-      "category": "Home",
+      "sourceName": "home-furniture/lamp",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "laptop",
       "name": "Laptop",
-      "sourceName": "Laptop",
-      "category": "Devices",
+      "sourceName": "electronic-devices/laptop",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "laptop-2",
+      "name": "Laptop 2",
+      "sourceName": "electronic-devices/laptop-2",
+      "category": "Electronic, Devices",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "laptop-3",
+      "name": "Laptop 3",
+      "sourceName": "electronic-devices/laptop-3",
+      "category": "Electronic, Devices",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "laptop-minimalistic",
       "name": "Laptop Minimalistic",
-      "sourceName": "LaptopMinimalistic",
-      "category": "Devices",
+      "sourceName": "electronic-devices/laptop-minimalistic",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "laptop2",
-      "name": "Laptop2",
-      "sourceName": "Laptop2",
-      "category": "Devices",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "laptop3",
-      "name": "Laptop3",
-      "sourceName": "Laptop3",
-      "category": "Devices",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "layers",
       "name": "Layers",
-      "sourceName": "Layers",
-      "category": "Tools",
+      "sourceName": "design-tools/layers",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "layers-minimalistic",
       "name": "Layers Minimalistic",
-      "sourceName": "LayersMinimalistic",
-      "category": "Tools",
+      "sourceName": "design-tools/layers-minimalistic",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "leaf",
       "name": "Leaf",
-      "sourceName": "Leaf",
-      "category": "Nature",
+      "sourceName": "nature-travel/leaf",
+      "category": "Nature, Travel",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "legume",
+      "name": "Legume",
+      "sourceName": "ingredients/legume",
+      "category": "Ingredients",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "letter",
       "name": "Letter",
-      "sourceName": "Letter",
-      "category": "Messages",
+      "sourceName": "messages-conversation/letter",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "letter-opened",
       "name": "Letter Opened",
-      "sourceName": "LetterOpened",
-      "category": "Messages",
+      "sourceName": "messages-conversation/letter-opened",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "letter-unread",
       "name": "Letter Unread",
-      "sourceName": "LetterUnread",
-      "category": "Messages",
+      "sourceName": "messages-conversation/letter-unread",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "library",
       "name": "Library",
-      "sourceName": "Library",
-      "category": "Video",
+      "sourceName": "video-audio-sound/library",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "lightbulb",
       "name": "Lightbulb",
-      "sourceName": "Lightbulb",
-      "category": "Devices",
+      "sourceName": "electronic-devices/lightbulb",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "lightbulb-bolt",
       "name": "Lightbulb Bolt",
-      "sourceName": "LightbulbBolt",
-      "category": "Devices",
+      "sourceName": "electronic-devices/lightbulb-bolt",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "lightbulb-minimalistic",
       "name": "Lightbulb Minimalistic",
-      "sourceName": "LightbulbMinimalistic",
-      "category": "Devices",
+      "sourceName": "electronic-devices/lightbulb-minimalistic",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "lightning",
       "name": "Lightning",
-      "sourceName": "Lightning",
-      "category": "Devices",
+      "sourceName": "electronic-devices/lightning",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "lightning-additional",
+      "name": "Lightning",
+      "sourceName": "additional/lightning",
+      "category": "Additional",
+      "weights": [
+        "bold"
       ]
     },
     {
       "id": "like",
       "name": "Like",
-      "sourceName": "Like",
+      "sourceName": "like/like",
       "category": "Like",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "link",
       "name": "Link",
-      "sourceName": "Link",
+      "sourceName": "text-formatting/link",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "link-broken",
       "name": "Link Broken",
-      "sourceName": "LinkBroken",
+      "sourceName": "text-formatting/link-broken",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "link-broken-minimalistic",
       "name": "Link Broken Minimalistic",
-      "sourceName": "LinkBrokenMinimalistic",
+      "sourceName": "text-formatting/link-broken-minimalistic",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "link-circle",
       "name": "Link Circle",
-      "sourceName": "LinkCircle",
+      "sourceName": "text-formatting/link-circle",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "link-minimalistic",
       "name": "Link Minimalistic",
-      "sourceName": "LinkMinimalistic",
+      "sourceName": "text-formatting/link-minimalistic",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "link-minimalistic2",
-      "name": "Link Minimalistic2",
-      "sourceName": "LinkMinimalistic2",
+      "id": "link-minimalistic-2",
+      "name": "Link Minimalistic 2",
+      "sourceName": "text-formatting/link-minimalistic-2",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "link-round",
       "name": "Link Round",
-      "sourceName": "LinkRound",
+      "sourceName": "text-formatting/link-round",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "link-round-angle",
       "name": "Link Round Angle",
-      "sourceName": "LinkRoundAngle",
+      "sourceName": "text-formatting/link-round-angle",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "link-square",
       "name": "Link Square",
-      "sourceName": "LinkSquare",
+      "sourceName": "text-formatting/link-square",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "list",
       "name": "List",
-      "sourceName": "List",
+      "sourceName": "list/list",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "list-arrow-down",
       "name": "List Arrow Down",
-      "sourceName": "ListArrowDown",
+      "sourceName": "list/list-arrow-down",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "list-arrow-down-minimalistic",
       "name": "List Arrow Down Minimalistic",
-      "sourceName": "ListArrowDownMinimalistic",
+      "sourceName": "list/list-arrow-down-minimalistic",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "list-arrow-up",
       "name": "List Arrow Up",
-      "sourceName": "ListArrowUp",
+      "sourceName": "list/list-arrow-up",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "list-arrow-up-minimalistic",
       "name": "List Arrow Up Minimalistic",
-      "sourceName": "ListArrowUpMinimalistic",
+      "sourceName": "list/list-arrow-up-minimalistic",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "list-check",
       "name": "List Check",
-      "sourceName": "ListCheck",
+      "sourceName": "list/list-check",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "list-check-minimalistic",
       "name": "List Check Minimalistic",
-      "sourceName": "ListCheckMinimalistic",
+      "sourceName": "list/list-check-minimalistic",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "list-cross",
       "name": "List Cross",
-      "sourceName": "ListCross",
+      "sourceName": "list/list-cross",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "list-cross-minimalistic",
       "name": "List Cross Minimalistic",
-      "sourceName": "ListCrossMinimalistic",
+      "sourceName": "list/list-cross-minimalistic",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "list-down",
       "name": "List Down",
-      "sourceName": "ListDown",
+      "sourceName": "list/list-down",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "list-down-minimalistic",
       "name": "List Down Minimalistic",
-      "sourceName": "ListDownMinimalistic",
+      "sourceName": "list/list-down-minimalistic",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "list-heart",
       "name": "List Heart",
-      "sourceName": "ListHeart",
+      "sourceName": "list/list-heart",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "list-heart-minimalistic",
       "name": "List Heart Minimalistic",
-      "sourceName": "ListHeartMinimalistic",
+      "sourceName": "list/list-heart-minimalistic",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "list-up",
       "name": "List Up",
-      "sourceName": "ListUp",
+      "sourceName": "list/list-up",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "list-up-minimalistic",
       "name": "List Up Minimalistic",
-      "sourceName": "ListUpMinimalistic",
+      "sourceName": "list/list-up-minimalistic",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "list-vertical",
-      "name": "List Vertical",
-      "sourceName": "ListVertical",
-      "category": "List",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "lock",
       "name": "Lock",
-      "sourceName": "Lock",
+      "sourceName": "security/lock",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "lock-keyhole",
       "name": "Lock Keyhole",
-      "sourceName": "LockKeyhole",
+      "sourceName": "security/lock-keyhole",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "lock-keyhole-minimalistic",
       "name": "Lock Keyhole Minimalistic",
-      "sourceName": "LockKeyholeMinimalistic",
+      "sourceName": "security/lock-keyhole-minimalistic",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "lock-keyhole-minimalistic-unlocked",
       "name": "Lock Keyhole Minimalistic Unlocked",
-      "sourceName": "LockKeyholeMinimalisticUnlocked",
+      "sourceName": "security/lock-keyhole-minimalistic-unlocked",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "lock-keyhole-unlocked",
       "name": "Lock Keyhole Unlocked",
-      "sourceName": "LockKeyholeUnlocked",
+      "sourceName": "security/lock-keyhole-unlocked",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "lock-password",
       "name": "Lock Password",
-      "sourceName": "LockPassword",
+      "sourceName": "security/lock-password",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "lock-password-unlocked",
       "name": "Lock Password Unlocked",
-      "sourceName": "LockPasswordUnlocked",
+      "sourceName": "security/lock-password-unlocked",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "lock-unlocked",
       "name": "Lock Unlocked",
-      "sourceName": "LockUnlocked",
+      "sourceName": "security/lock-unlocked",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "login",
       "name": "Login",
-      "sourceName": "Login",
+      "sourceName": "arrows-action/login",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "login2",
-      "name": "Login2",
-      "sourceName": "Login2",
+      "id": "login-2",
+      "name": "Login 2",
+      "sourceName": "arrows-action/login-2",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "login3",
-      "name": "Login3",
-      "sourceName": "Login3",
+      "id": "login-3",
+      "name": "Login 3",
+      "sourceName": "arrows-action/login-3",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "logout",
       "name": "Logout",
-      "sourceName": "Logout",
+      "sourceName": "arrows-action/logout",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "logout2",
-      "name": "Logout2",
-      "sourceName": "Logout2",
+      "id": "logout-2",
+      "name": "Logout 2",
+      "sourceName": "arrows-action/logout-2",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "logout3",
-      "name": "Logout3",
-      "sourceName": "Logout3",
+      "id": "logout-3",
+      "name": "Logout 3",
+      "sourceName": "arrows-action/logout-3",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "lungs",
+      "name": "Lungs",
+      "sourceName": "health-benefits/lungs",
+      "category": "Health Benefits",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "magic-stick",
       "name": "Magic Stick",
-      "sourceName": "MagicStick",
-      "category": "Ui",
+      "sourceName": "essentional-ui/magic-stick",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "magic-stick2",
-      "name": "Magic Stick2",
-      "sourceName": "MagicStick2",
-      "category": "Ui",
+      "id": "magic-stick-2",
+      "name": "Magic Stick 2",
+      "sourceName": "essentional-ui/magic-stick-2",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "magic-stick3",
-      "name": "Magic Stick3",
-      "sourceName": "MagicStick3",
-      "category": "Ui",
+      "id": "magic-stick-3",
+      "name": "Magic Stick 3",
+      "sourceName": "essentional-ui/magic-stick-3",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "magnet",
       "name": "Magnet",
-      "sourceName": "Magnet",
-      "category": "Ui",
+      "sourceName": "essentional-ui/magnet",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "magnet-wave",
       "name": "Magnet Wave",
-      "sourceName": "MagnetWave",
-      "category": "Ui",
+      "sourceName": "essentional-ui/magnet-wave",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "magnifer",
       "name": "Magnifer",
-      "sourceName": "Magnifer",
+      "sourceName": "search/magnifer",
       "category": "Search",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "magnifer-bug",
       "name": "Magnifer Bug",
-      "sourceName": "MagniferBug",
+      "sourceName": "search/magnifer-bug",
       "category": "Search",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "magnifer-zoom-in",
       "name": "Magnifer Zoom In",
-      "sourceName": "MagniferZoomIn",
+      "sourceName": "search/magnifer-zoom-in",
       "category": "Search",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "magnifer-zoom-out",
       "name": "Magnifer Zoom Out",
-      "sourceName": "MagniferZoomOut",
+      "sourceName": "search/magnifer-zoom-out",
       "category": "Search",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "mailbox",
       "name": "Mailbox",
-      "sourceName": "Mailbox",
-      "category": "Messages",
+      "sourceName": "messages-conversation/mailbox",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "map",
       "name": "Map",
-      "sourceName": "Map",
-      "category": "Map",
+      "sourceName": "map-location/map",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "map-arrow-down",
       "name": "Map Arrow Down",
-      "sourceName": "MapArrowDown",
-      "category": "Map",
+      "sourceName": "map-location/map-arrow-down",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "map-arrow-left",
       "name": "Map Arrow Left",
-      "sourceName": "MapArrowLeft",
-      "category": "Map",
+      "sourceName": "map-location/map-arrow-left",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "map-arrow-right",
       "name": "Map Arrow Right",
-      "sourceName": "MapArrowRight",
-      "category": "Map",
+      "sourceName": "map-location/map-arrow-right",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "map-arrow-square",
       "name": "Map Arrow Square",
-      "sourceName": "MapArrowSquare",
-      "category": "Map",
+      "sourceName": "map-location/map-arrow-square",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "map-arrow-up",
       "name": "Map Arrow Up",
-      "sourceName": "MapArrowUp",
-      "category": "Map",
+      "sourceName": "map-location/map-arrow-up",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "map-point",
       "name": "Map Point",
-      "sourceName": "MapPoint",
-      "category": "Map",
+      "sourceName": "map-location/map-point",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "map-point-add",
       "name": "Map Point Add",
-      "sourceName": "MapPointAdd",
-      "category": "Map",
+      "sourceName": "map-location/map-point-add",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "map-point-favourite",
       "name": "Map Point Favourite",
-      "sourceName": "MapPointFavourite",
-      "category": "Map",
+      "sourceName": "map-location/map-point-favourite",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "map-point-hospital",
       "name": "Map Point Hospital",
-      "sourceName": "MapPointHospital",
-      "category": "Map",
+      "sourceName": "map-location/map-point-hospital",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "map-point-remove",
       "name": "Map Point Remove",
-      "sourceName": "MapPointRemove",
-      "category": "Map",
+      "sourceName": "map-location/map-point-remove",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "map-point-rotate",
       "name": "Map Point Rotate",
-      "sourceName": "MapPointRotate",
-      "category": "Map",
+      "sourceName": "map-location/map-point-rotate",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "map-point-school",
       "name": "Map Point School",
-      "sourceName": "MapPointSchool",
-      "category": "Map",
+      "sourceName": "map-location/map-point-school",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "map-point-search",
       "name": "Map Point Search",
-      "sourceName": "MapPointSearch",
-      "category": "Map",
+      "sourceName": "map-location/map-point-search",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "map-point-wave",
       "name": "Map Point Wave",
-      "sourceName": "MapPointWave",
-      "category": "Map",
+      "sourceName": "map-location/map-point-wave",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "mask-happly",
       "name": "Mask Happly",
-      "sourceName": "MaskHapply",
-      "category": "Ui",
+      "sourceName": "essentional-ui/mask-happly",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "mask-sad",
       "name": "Mask Sad",
-      "sourceName": "MaskSad",
-      "category": "Ui",
+      "sourceName": "essentional-ui/mask-sad",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "masks",
       "name": "Masks",
-      "sourceName": "Masks",
-      "category": "Ui",
+      "sourceName": "essentional-ui/masks",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "maximize",
       "name": "Maximize",
-      "sourceName": "Maximize",
+      "sourceName": "arrows-action/maximize",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "maximize-square",
       "name": "Maximize Square",
-      "sourceName": "MaximizeSquare",
+      "sourceName": "arrows-action/maximize-square",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "maximize-square-2",
+      "name": "Maximize Square 2",
+      "sourceName": "arrows-action/maximize-square-2",
+      "category": "Arrows Action",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "maximize-square-3",
+      "name": "Maximize Square 3",
+      "sourceName": "arrows-action/maximize-square-3",
+      "category": "Arrows Action",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "maximize-square-minimalistic",
       "name": "Maximize Square Minimalistic",
-      "sourceName": "MaximizeSquareMinimalistic",
+      "sourceName": "arrows-action/maximize-square-minimalistic",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "maximize-square2",
-      "name": "Maximize Square2",
-      "sourceName": "MaximizeSquare2",
-      "category": "Arrows Action",
+      "id": "meat",
+      "name": "Meat",
+      "sourceName": "ingredients/meat",
+      "category": "Ingredients",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "maximize-square3",
-      "name": "Maximize Square3",
-      "sourceName": "MaximizeSquare3",
-      "category": "Arrows Action",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "medal-ribbon",
       "name": "Medal Ribbon",
-      "sourceName": "MedalRibbon",
+      "sourceName": "like/medal-ribbon",
       "category": "Like",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "medal-ribbon-star",
       "name": "Medal Ribbon Star",
-      "sourceName": "MedalRibbonStar",
+      "sourceName": "like/medal-ribbon-star",
       "category": "Like",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "medal-ribbons-star",
       "name": "Medal Ribbons Star",
-      "sourceName": "MedalRibbonsStar",
+      "sourceName": "like/medal-ribbons-star",
       "category": "Like",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "medal-star",
       "name": "Medal Star",
-      "sourceName": "MedalStar",
+      "sourceName": "like/medal-star",
       "category": "Like",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "medal-star-circle",
       "name": "Medal Star Circle",
-      "sourceName": "MedalStarCircle",
+      "sourceName": "like/medal-star-circle",
       "category": "Like",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "medal-star-square",
       "name": "Medal Star Square",
-      "sourceName": "MedalStarSquare",
+      "sourceName": "like/medal-star-square",
       "category": "Like",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "medical-kit",
       "name": "Medical Kit",
-      "sourceName": "MedicalKit",
+      "sourceName": "medicine/medical-kit",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "meditation",
       "name": "Meditation",
-      "sourceName": "Meditation",
+      "sourceName": "sports/meditation",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "meditation-round",
       "name": "Meditation Round",
-      "sourceName": "MeditationRound",
+      "sourceName": "sports/meditation-round",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "men",
       "name": "Men",
-      "sourceName": "Men",
+      "sourceName": "astronomy/men",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "mention-circle",
       "name": "Mention Circle",
-      "sourceName": "MentionCircle",
-      "category": "Ui",
+      "sourceName": "essentional-ui/mention-circle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "mention-square",
       "name": "Mention Square",
-      "sourceName": "MentionSquare",
-      "category": "Ui",
+      "sourceName": "essentional-ui/mention-square",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "menu-dots",
       "name": "Menu Dots",
-      "sourceName": "MenuDots",
-      "category": "Ui",
+      "sourceName": "essentional-ui/menu-dots",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "menu-dots-circle",
       "name": "Menu Dots Circle",
-      "sourceName": "MenuDotsCircle",
-      "category": "Ui",
+      "sourceName": "essentional-ui/menu-dots-circle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "menu-dots-square",
       "name": "Menu Dots Square",
-      "sourceName": "MenuDotsSquare",
-      "category": "Ui",
+      "sourceName": "essentional-ui/menu-dots-square",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "microphone",
       "name": "Microphone",
-      "sourceName": "Microphone",
-      "category": "Video",
+      "sourceName": "video-audio-sound/microphone",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "microphone-2",
+      "name": "Microphone 2",
+      "sourceName": "video-audio-sound/microphone-2",
+      "category": "Video, Audio, Sound",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "microphone-3",
+      "name": "Microphone 3",
+      "sourceName": "video-audio-sound/microphone-3",
+      "category": "Video, Audio, Sound",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "microphone-large",
       "name": "Microphone Large",
-      "sourceName": "MicrophoneLarge",
-      "category": "Video",
+      "sourceName": "video-audio-sound/microphone-large",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "microphone2",
-      "name": "Microphone2",
-      "sourceName": "Microphone2",
-      "category": "Video",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "microphone3",
-      "name": "Microphone3",
-      "sourceName": "Microphone3",
-      "category": "Video",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "minimalistic-magnifer",
       "name": "Minimalistic Magnifer",
-      "sourceName": "MinimalisticMagnifer",
+      "sourceName": "search/minimalistic-magnifer",
       "category": "Search",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "minimalistic-magnifer-bug",
       "name": "Minimalistic Magnifer Bug",
-      "sourceName": "MinimalisticMagniferBug",
+      "sourceName": "search/minimalistic-magnifer-bug",
       "category": "Search",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "minimalistic-magnifer-zoom-in",
       "name": "Minimalistic Magnifer Zoom In",
-      "sourceName": "MinimalisticMagniferZoomIn",
+      "sourceName": "search/minimalistic-magnifer-zoom-in",
       "category": "Search",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "minimalistic-magnifer-zoom-out",
       "name": "Minimalistic Magnifer Zoom Out",
-      "sourceName": "MinimalisticMagniferZoomOut",
+      "sourceName": "search/minimalistic-magnifer-zoom-out",
       "category": "Search",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "minimize",
       "name": "Minimize",
-      "sourceName": "Minimize",
+      "sourceName": "arrows-action/minimize",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "minimize-square",
       "name": "Minimize Square",
-      "sourceName": "MinimizeSquare",
+      "sourceName": "arrows-action/minimize-square",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "minimize-square-2",
+      "name": "Minimize Square 2",
+      "sourceName": "arrows-action/minimize-square-2",
+      "category": "Arrows Action",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "minimize-square-3",
+      "name": "Minimize Square 3",
+      "sourceName": "arrows-action/minimize-square-3",
+      "category": "Arrows Action",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "minimize-square-minimalistic",
       "name": "Minimize Square Minimalistic",
-      "sourceName": "MinimizeSquareMinimalistic",
+      "sourceName": "arrows-action/minimize-square-minimalistic",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "minimize-square2",
-      "name": "Minimize Square2",
-      "sourceName": "MinimizeSquare2",
-      "category": "Arrows Action",
+      "id": "mint",
+      "name": "Mint",
+      "sourceName": "ingredients/mint",
+      "category": "Ingredients",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "minimize-square3",
-      "name": "Minimize Square3",
-      "sourceName": "MinimizeSquare3",
-      "category": "Arrows Action",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "minus-circle",
       "name": "Minus Circle",
-      "sourceName": "MinusCircle",
-      "category": "Ui",
+      "sourceName": "essentional-ui/minus-circle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "minus-square",
       "name": "Minus Square",
-      "sourceName": "MinusSquare",
-      "category": "Ui",
+      "sourceName": "essentional-ui/minus-square",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "mirror",
       "name": "Mirror",
-      "sourceName": "Mirror",
-      "category": "Home",
+      "sourceName": "essentional-ui/mirror",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "mirror-home-furniture",
+      "name": "Mirror",
+      "sourceName": "home-furniture/mirror",
+      "category": "Home, Furniture",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "mirror-left",
       "name": "Mirror Left",
-      "sourceName": "MirrorLeft",
-      "category": "Tools",
+      "sourceName": "design-tools/mirror-left",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "mirror-right",
       "name": "Mirror Right",
-      "sourceName": "MirrorRight",
-      "category": "Tools",
+      "sourceName": "design-tools/mirror-right",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "mirror2",
-      "name": "Mirror2",
-      "sourceName": "Mirror2",
-      "category": "Ui",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "money-bag",
       "name": "Money Bag",
-      "sourceName": "MoneyBag",
+      "sourceName": "money/money-bag",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "monitor",
       "name": "Monitor",
-      "sourceName": "Monitor",
-      "category": "Devices",
+      "sourceName": "electronic-devices/monitor",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "monitor-camera",
       "name": "Monitor Camera",
-      "sourceName": "MonitorCamera",
-      "category": "Devices",
+      "sourceName": "electronic-devices/monitor-camera",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "monitor-smartphone",
       "name": "Monitor Smartphone",
-      "sourceName": "MonitorSmartphone",
-      "category": "Devices",
+      "sourceName": "electronic-devices/monitor-smartphone",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "moon",
       "name": "Moon",
-      "sourceName": "Moon",
+      "sourceName": "weather/moon",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "moon-fog",
       "name": "Moon Fog",
-      "sourceName": "MoonFog",
+      "sourceName": "weather/moon-fog",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "moon-sleep",
       "name": "Moon Sleep",
-      "sourceName": "MoonSleep",
+      "sourceName": "weather/moon-sleep",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "moon-stars",
       "name": "Moon Stars",
-      "sourceName": "MoonStars",
+      "sourceName": "weather/moon-stars",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "mouse",
       "name": "Mouse",
-      "sourceName": "Mouse",
-      "category": "Devices",
+      "sourceName": "electronic-devices/mouse",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "mouse-circle",
       "name": "Mouse Circle",
-      "sourceName": "MouseCircle",
-      "category": "Devices",
+      "sourceName": "electronic-devices/mouse-circle",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "mouse-minimalistic",
       "name": "Mouse Minimalistic",
-      "sourceName": "MouseMinimalistic",
-      "category": "Devices",
+      "sourceName": "electronic-devices/mouse-minimalistic",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "move-to-folder",
       "name": "Move To Folder",
-      "sourceName": "MoveToFolder",
+      "sourceName": "folders/move-to-folder",
       "category": "Folders",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "mug",
-      "name": "Mug",
-      "sourceName": "Mug",
-      "category": "Food",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "multiple-forward-left",
       "name": "Multiple Forward Left",
-      "sourceName": "MultipleForwardLeft",
-      "category": "Messages",
+      "sourceName": "messages-conversation/multiple-forward-left",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "multiple-forward-right",
       "name": "Multiple Forward Right",
-      "sourceName": "MultipleForwardRight",
-      "category": "Messages",
+      "sourceName": "messages-conversation/multiple-forward-right",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "music-library",
       "name": "Music Library",
-      "sourceName": "MusicLibrary",
-      "category": "Video",
+      "sourceName": "video-audio-sound/music-library",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "music-library2",
-      "name": "Music Library2",
-      "sourceName": "MusicLibrary2",
-      "category": "Video",
+      "id": "music-library-2",
+      "name": "Music Library 2",
+      "sourceName": "video-audio-sound/music-library-2",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "music-note",
       "name": "Music Note",
-      "sourceName": "MusicNote",
-      "category": "Video",
+      "sourceName": "video-audio-sound/music-note",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "music-note-2",
+      "name": "Music Note 2",
+      "sourceName": "video-audio-sound/music-note-2",
+      "category": "Video, Audio, Sound",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "music-note-3",
+      "name": "Music Note 3",
+      "sourceName": "video-audio-sound/music-note-3",
+      "category": "Video, Audio, Sound",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "music-note-4",
+      "name": "Music Note 4",
+      "sourceName": "video-audio-sound/music-note-4",
+      "category": "Video, Audio, Sound",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "music-note-slider",
       "name": "Music Note Slider",
-      "sourceName": "MusicNoteSlider",
-      "category": "Video",
+      "sourceName": "video-audio-sound/music-note-slider",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "music-note-slider2",
-      "name": "Music Note Slider2",
-      "sourceName": "MusicNoteSlider2",
-      "category": "Video",
+      "id": "music-note-slider-2",
+      "name": "Music Note Slider 2",
+      "sourceName": "video-audio-sound/music-note-slider-2",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "music-note2",
-      "name": "Music Note2",
-      "sourceName": "MusicNote2",
-      "category": "Video",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "music-note3",
-      "name": "Music Note3",
-      "sourceName": "MusicNote3",
-      "category": "Video",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "music-note4",
-      "name": "Music Note4",
-      "sourceName": "MusicNote4",
-      "category": "Video",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "music-notes",
       "name": "Music Notes",
-      "sourceName": "MusicNotes",
-      "category": "Video",
+      "sourceName": "video-audio-sound/music-notes",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "muted",
       "name": "Muted",
-      "sourceName": "Muted",
-      "category": "Video",
+      "sourceName": "video-audio-sound/muted",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "notebook",
       "name": "Notebook",
-      "sourceName": "Notebook",
+      "sourceName": "school/notebook",
+      "category": "School",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "notebook-notes",
+      "name": "Notebook",
+      "sourceName": "notes/notebook",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "notebook-bookmark",
       "name": "Notebook Bookmark",
-      "sourceName": "NotebookBookmark",
+      "sourceName": "school/notebook-bookmark",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "notebook-minimalistic",
       "name": "Notebook Minimalistic",
-      "sourceName": "NotebookMinimalistic",
+      "sourceName": "school/notebook-minimalistic",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "notebook-square",
       "name": "Notebook Square",
-      "sourceName": "NotebookSquare",
+      "sourceName": "school/notebook-square",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "notebook2",
-      "name": "Notebook2",
-      "sourceName": "Notebook2",
-      "category": "School",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "notes",
       "name": "Notes",
-      "sourceName": "Notes",
+      "sourceName": "notes/notes",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "notes-minimalistic",
       "name": "Notes Minimalistic",
-      "sourceName": "NotesMinimalistic",
+      "sourceName": "notes/notes-minimalistic",
       "category": "Notes",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "notification-lines-remove",
       "name": "Notification Lines Remove",
-      "sourceName": "NotificationLinesRemove",
+      "sourceName": "notifications/notification-lines-remove",
       "category": "Notifications",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "notification-remove",
       "name": "Notification Remove",
-      "sourceName": "NotificationRemove",
+      "sourceName": "notifications/notification-remove",
       "category": "Notifications",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "notification-unread",
       "name": "Notification Unread",
-      "sourceName": "NotificationUnread",
+      "sourceName": "notifications/notification-unread",
       "category": "Notifications",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "notification-unread-lines",
       "name": "Notification Unread Lines",
-      "sourceName": "NotificationUnreadLines",
+      "sourceName": "notifications/notification-unread-lines",
       "category": "Notifications",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "object-scan",
       "name": "Object Scan",
-      "sourceName": "ObjectScan",
+      "sourceName": "security/object-scan",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "outgoing-call",
       "name": "Outgoing Call",
-      "sourceName": "OutgoingCall",
+      "sourceName": "call/outgoing-call",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "outgoing-call-rounded",
       "name": "Outgoing Call Rounded",
-      "sourceName": "OutgoingCallRounded",
+      "sourceName": "call/outgoing-call-rounded",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "oven-mitts",
       "name": "Oven Mitts",
-      "sourceName": "OvenMitts",
-      "category": "Food",
+      "sourceName": "food-kitchen/oven-mitts",
+      "category": "Food, Kitchen",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "oven-mitts-minimalistic",
       "name": "Oven Mitts Minimalistic",
-      "sourceName": "OvenMittsMinimalistic",
-      "category": "Food",
+      "sourceName": "food-kitchen/oven-mitts-minimalistic",
+      "category": "Food, Kitchen",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "paint-roller",
       "name": "Paint Roller",
-      "sourceName": "PaintRoller",
-      "category": "Tools",
+      "sourceName": "design-tools/paint-roller",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "palette",
       "name": "Palette",
-      "sourceName": "Palette",
-      "category": "Tools",
+      "sourceName": "design-tools/palette",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "palette-round",
       "name": "Palette Round",
-      "sourceName": "PaletteRound",
-      "category": "Tools",
+      "sourceName": "design-tools/palette-round",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "pallete2",
-      "name": "Pallete2",
-      "sourceName": "Pallete2",
-      "category": "Tools",
+      "id": "pallete-2",
+      "name": "Pallete 2",
+      "sourceName": "design-tools/pallete-2",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "panorama",
       "name": "Panorama",
-      "sourceName": "Panorama",
-      "category": "Video",
+      "sourceName": "video-audio-sound/panorama",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "paper-bin",
       "name": "Paper Bin",
-      "sourceName": "PaperBin",
-      "category": "Ui",
+      "sourceName": "essentional-ui/paper-bin",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "paperclip",
       "name": "Paperclip",
-      "sourceName": "Paperclip",
-      "category": "Messages",
+      "sourceName": "messages-conversation/paperclip",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "paperclip-2",
+      "name": "Paperclip 2",
+      "sourceName": "messages-conversation/paperclip-2",
+      "category": "Messages, Conversation",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "paperclip-rounded",
       "name": "Paperclip Rounded",
-      "sourceName": "PaperclipRounded",
-      "category": "Messages",
+      "sourceName": "messages-conversation/paperclip-rounded",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "paperclip-rounded2",
-      "name": "Paperclip Rounded2",
-      "sourceName": "PaperclipRounded2",
-      "category": "Messages",
+      "id": "paperclip-rounded-2",
+      "name": "Paperclip Rounded 2",
+      "sourceName": "messages-conversation/paperclip-rounded-2",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "paperclip2",
-      "name": "Paperclip2",
-      "sourceName": "Paperclip2",
-      "category": "Messages",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "paragraph-spacing",
       "name": "Paragraph Spacing",
-      "sourceName": "ParagraphSpacing",
+      "sourceName": "text-formatting/paragraph-spacing",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "passport",
       "name": "Passport",
-      "sourceName": "Passport",
+      "sourceName": "school/passport",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "passport-minimalistic",
       "name": "Passport Minimalistic",
-      "sourceName": "PassportMinimalistic",
+      "sourceName": "school/passport-minimalistic",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "password",
       "name": "Password",
-      "sourceName": "Password",
+      "sourceName": "security/password",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "password-minimalistic",
       "name": "Password Minimalistic",
-      "sourceName": "PasswordMinimalistic",
+      "sourceName": "security/password-minimalistic",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "password-minimalistic-input",
       "name": "Password Minimalistic Input",
-      "sourceName": "PasswordMinimalisticInput",
+      "sourceName": "security/password-minimalistic-input",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "pause",
       "name": "Pause",
-      "sourceName": "Pause",
-      "category": "Video",
+      "sourceName": "video-audio-sound/pause",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "pause-circle",
       "name": "Pause Circle",
-      "sourceName": "PauseCircle",
-      "category": "Video",
+      "sourceName": "video-audio-sound/pause-circle",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "paw",
       "name": "Paw",
-      "sourceName": "Paw",
-      "category": "Ui",
+      "sourceName": "essentional-ui/paw",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "paw-flex",
+      "name": "Paw Flex",
+      "sourceName": "dogs/paw-flex",
+      "category": "Dogs",
+      "weights": [
+        "linear",
+        "bold"
+      ]
+    },
+    {
+      "id": "peanut",
+      "name": "Peanut",
+      "sourceName": "ingredients/peanut",
+      "category": "Ingredients",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "pen",
       "name": "Pen",
-      "sourceName": "Pen",
-      "category": "Messages",
+      "sourceName": "messages-conversation/pen",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "pen-2",
+      "name": "Pen 2",
+      "sourceName": "messages-conversation/pen-2",
+      "category": "Messages, Conversation",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "pen-new-round",
       "name": "Pen New Round",
-      "sourceName": "PenNewRound",
-      "category": "Messages",
+      "sourceName": "messages-conversation/pen-new-round",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "pen-new-square",
       "name": "Pen New Square",
-      "sourceName": "PenNewSquare",
-      "category": "Messages",
+      "sourceName": "messages-conversation/pen-new-square",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "pen2",
-      "name": "Pen2",
-      "sourceName": "Pen2",
-      "category": "Messages",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "people-nearby",
       "name": "People Nearby",
-      "sourceName": "PeopleNearby",
-      "category": "Map",
+      "sourceName": "map-location/people-nearby",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "perfume",
       "name": "Perfume",
-      "sourceName": "Perfume",
-      "category": "Ui",
+      "sourceName": "essentional-ui/perfume",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "pet-food",
+      "name": "Pet Food",
+      "sourceName": "dogs/pet-food",
+      "category": "Dogs",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "phone",
       "name": "Phone",
-      "sourceName": "Phone",
+      "sourceName": "call/phone",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "phone-calling",
       "name": "Phone Calling",
-      "sourceName": "PhoneCalling",
+      "sourceName": "call/phone-calling",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "phone-calling-rounded",
       "name": "Phone Calling Rounded",
-      "sourceName": "PhoneCallingRounded",
+      "sourceName": "call/phone-calling-rounded",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "phone-rounded",
       "name": "Phone Rounded",
-      "sourceName": "PhoneRounded",
+      "sourceName": "call/phone-rounded",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "pie-chart",
       "name": "Pie Chart",
-      "sourceName": "PieChart",
-      "category": "Business",
+      "sourceName": "business-statistic/pie-chart",
+      "category": "Business, Statistic",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "pie-chart2",
-      "name": "Pie Chart2",
-      "sourceName": "PieChart2",
-      "category": "Business",
+      "id": "pie-chart-2",
+      "name": "Pie Chart 2",
+      "sourceName": "business-statistic/pie-chart-2",
+      "category": "Business, Statistic",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "pie-chart3",
-      "name": "Pie Chart3",
-      "sourceName": "PieChart3",
-      "category": "Business",
+      "id": "pie-chart-3",
+      "name": "Pie Chart 3",
+      "sourceName": "business-statistic/pie-chart-3",
+      "category": "Business, Statistic",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "pill",
       "name": "Pill",
-      "sourceName": "Pill",
+      "sourceName": "medicine/pill",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "pills",
       "name": "Pills",
-      "sourceName": "Pills",
+      "sourceName": "medicine/pills",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "pills2",
-      "name": "Pills2",
-      "sourceName": "Pills2",
+      "id": "pills-2",
+      "name": "Pills 2",
+      "sourceName": "medicine/pills-2",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "pills3",
-      "name": "Pills3",
-      "sourceName": "Pills3",
+      "id": "pills-3",
+      "name": "Pills 3",
+      "sourceName": "medicine/pills-3",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "pin",
       "name": "Pin",
-      "sourceName": "Pin",
-      "category": "Ui",
+      "sourceName": "essentional-ui/pin",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "pin-circle",
       "name": "Pin Circle",
-      "sourceName": "PinCircle",
-      "category": "Ui",
+      "sourceName": "essentional-ui/pin-circle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "pin-list",
       "name": "Pin List",
-      "sourceName": "PinList",
-      "category": "Ui",
+      "sourceName": "essentional-ui/pin-list",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "pip",
-      "name": "Pip",
-      "sourceName": "Pip",
-      "category": "Video",
+      "name": "PIP",
+      "sourceName": "video-audio-sound/pip",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "pip2",
-      "name": "Pip2",
-      "sourceName": "Pip2",
-      "category": "Video",
+      "id": "pip-2",
+      "name": "PIP 2",
+      "sourceName": "video-audio-sound/pip-2",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "pipette",
       "name": "Pipette",
-      "sourceName": "Pipette",
-      "category": "Tools",
+      "sourceName": "design-tools/pipette",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "plaaylist-minimalistic",
       "name": "Plaaylist Minimalistic",
-      "sourceName": "PlaaylistMinimalistic",
+      "sourceName": "list/plaaylist-minimalistic",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "plain",
       "name": "Plain",
-      "sourceName": "Plain",
-      "category": "Messages",
+      "sourceName": "messages-conversation/plain",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "plain2",
-      "name": "Plain2",
-      "sourceName": "Plain2",
-      "category": "Messages",
+      "id": "plain-2",
+      "name": "Plain 2",
+      "sourceName": "messages-conversation/plain-2",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "plain3",
-      "name": "Plain3",
-      "sourceName": "Plain3",
-      "category": "Messages",
+      "id": "plain-3",
+      "name": "Plain 3",
+      "sourceName": "messages-conversation/plain-3",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "planet",
       "name": "Planet",
-      "sourceName": "Planet",
+      "sourceName": "astronomy/planet",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "planet2",
-      "name": "Planet2",
-      "sourceName": "Planet2",
+      "id": "planet-2",
+      "name": "Planet 2",
+      "sourceName": "astronomy/planet-2",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "planet3",
-      "name": "Planet3",
-      "sourceName": "Planet3",
+      "id": "planet-3",
+      "name": "Planet 3",
+      "sourceName": "astronomy/planet-3",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "planet4",
-      "name": "Planet4",
-      "sourceName": "Planet4",
+      "id": "planet-4",
+      "name": "Planet 4",
+      "sourceName": "astronomy/planet-4",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "plate",
       "name": "Plate",
-      "sourceName": "Plate",
-      "category": "Ui",
+      "sourceName": "essentional-ui/plate",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "play",
       "name": "Play",
-      "sourceName": "Play",
-      "category": "Video",
+      "sourceName": "video-audio-sound/play",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "play-circle",
       "name": "Play Circle",
-      "sourceName": "PlayCircle",
-      "category": "Video",
+      "sourceName": "video-audio-sound/play-circle",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "play-stream",
       "name": "Play Stream",
-      "sourceName": "PlayStream",
-      "category": "Video",
+      "sourceName": "video-audio-sound/play-stream",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "playback-speed",
       "name": "Playback Speed",
-      "sourceName": "PlaybackSpeed",
-      "category": "Video",
+      "sourceName": "video-audio-sound/playback-speed",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "playlist",
       "name": "Playlist",
-      "sourceName": "Playlist",
+      "sourceName": "list/playlist",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "playlist-minimalistic2",
-      "name": "Playlist Minimalistic2",
-      "sourceName": "PlaylistMinimalistic2",
+      "id": "playlist-2",
+      "name": "Playlist 2",
+      "sourceName": "list/playlist-2",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "playlist-minimalistic3",
-      "name": "Playlist Minimalistic3",
-      "sourceName": "PlaylistMinimalistic3",
+      "id": "playlist-minimalistic-2",
+      "name": "Playlist Minimalistic 2",
+      "sourceName": "list/playlist-minimalistic-2",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "playlist2",
-      "name": "Playlist2",
-      "sourceName": "Playlist2",
+      "id": "playlist-minimalistic-3",
+      "name": "Playlist Minimalistic 3",
+      "sourceName": "list/playlist-minimalistic-3",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "plug-circle",
       "name": "Plug Circle",
-      "sourceName": "PlugCircle",
-      "category": "Devices",
+      "sourceName": "electronic-devices/plug-circle",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "plus-minus",
-      "name": "Plus Minus",
-      "sourceName": "PlusMinus",
+      "name": "Plus, Minus",
+      "sourceName": "school/plus-minus",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "podcast",
       "name": "Podcast",
-      "sourceName": "Podcast",
-      "category": "Video",
+      "sourceName": "video-audio-sound/podcast",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "point-on-map",
       "name": "Point On Map",
-      "sourceName": "PointOnMap",
-      "category": "Map",
+      "sourceName": "map-location/point-on-map",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "point-on-map-perspective",
       "name": "Point On Map Perspective",
-      "sourceName": "PointOnMapPerspective",
-      "category": "Map",
+      "sourceName": "map-location/point-on-map-perspective",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "posts-carousel-horizontal",
       "name": "Posts Carousel Horizontal",
-      "sourceName": "PostsCarouselHorizontal",
-      "category": "Ui",
+      "sourceName": "essentional-ui/posts-carousel-horizontal",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "posts-carousel-vertical",
       "name": "Posts Carousel Vertical",
-      "sourceName": "PostsCarouselVertical",
-      "category": "Ui",
+      "sourceName": "essentional-ui/posts-carousel-vertical",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "power",
       "name": "Power",
-      "sourceName": "Power",
-      "category": "Ui",
+      "sourceName": "essentional-ui/power",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "presentation-graph",
       "name": "Presentation Graph",
-      "sourceName": "PresentationGraph",
-      "category": "Business",
+      "sourceName": "business-statistic/presentation-graph",
+      "category": "Business, Statistic",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "printer",
       "name": "Printer",
-      "sourceName": "Printer",
-      "category": "Devices",
+      "sourceName": "electronic-devices/printer",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "printer-2",
+      "name": "Printer 2",
+      "sourceName": "electronic-devices/printer-2",
+      "category": "Electronic, Devices",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "printer-minimalistic",
       "name": "Printer Minimalistic",
-      "sourceName": "PrinterMinimalistic",
-      "category": "Devices",
+      "sourceName": "electronic-devices/printer-minimalistic",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "printer2",
-      "name": "Printer2",
-      "sourceName": "Printer2",
-      "category": "Devices",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "programming",
       "name": "Programming",
-      "sourceName": "Programming",
-      "category": "It",
+      "sourceName": "network-it-programming/programming",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "projector",
       "name": "Projector",
-      "sourceName": "Projector",
-      "category": "Devices",
+      "sourceName": "electronic-devices/projector",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "pulse",
       "name": "Pulse",
-      "sourceName": "Pulse",
+      "sourceName": "medicine/pulse",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "pulse2",
-      "name": "Pulse2",
-      "sourceName": "Pulse2",
+      "id": "pulse-2",
+      "name": "Pulse 2",
+      "sourceName": "medicine/pulse-2",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "qr-code",
-      "name": "Qr Code",
-      "sourceName": "QrCode",
+      "name": "QR Code",
+      "sourceName": "security/qr-code",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "question-circle",
       "name": "Question Circle",
-      "sourceName": "QuestionCircle",
-      "category": "Ui",
+      "sourceName": "essentional-ui/question-circle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "question-square",
       "name": "Question Square",
-      "sourceName": "QuestionSquare",
-      "category": "Ui",
+      "sourceName": "essentional-ui/question-square",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "quit-full-screen",
       "name": "Quit Full Screen",
-      "sourceName": "QuitFullScreen",
-      "category": "Video",
+      "sourceName": "video-audio-sound/quit-full-screen",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "quit-full-screen-circle",
       "name": "Quit Full Screen Circle",
-      "sourceName": "QuitFullScreenCircle",
-      "category": "Video",
+      "sourceName": "video-audio-sound/quit-full-screen-circle",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "quit-full-screen-square",
       "name": "Quit Full Screen Square",
-      "sourceName": "QuitFullScreenSquare",
-      "category": "Video",
+      "sourceName": "video-audio-sound/quit-full-screen-square",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "quit-pip",
-      "name": "Quit Pip",
-      "sourceName": "QuitPip",
-      "category": "Video",
+      "name": "Quit PIP",
+      "sourceName": "video-audio-sound/quit-pip",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "radar",
       "name": "Radar",
-      "sourceName": "Radar",
-      "category": "Map",
+      "sourceName": "map-location/radar",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "radar2",
-      "name": "Radar2",
-      "sourceName": "Radar2",
-      "category": "Map",
+      "id": "radar-2",
+      "name": "Radar 2",
+      "sourceName": "map-location/radar-2",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "radial-blur",
       "name": "Radial Blur",
-      "sourceName": "RadialBlur",
-      "category": "Tools",
+      "sourceName": "design-tools/radial-blur",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "radio",
       "name": "Radio",
-      "sourceName": "Radio",
-      "category": "Devices",
+      "sourceName": "electronic-devices/radio",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "radio-minimalistic",
       "name": "Radio Minimalistic",
-      "sourceName": "RadioMinimalistic",
-      "category": "Devices",
+      "sourceName": "electronic-devices/radio-minimalistic",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "ranking",
       "name": "Ranking",
-      "sourceName": "Ranking",
+      "sourceName": "sports/ranking",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "recive-square",
       "name": "Recive Square",
-      "sourceName": "ReciveSquare",
+      "sourceName": "arrows-action/recive-square",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "recive-twice-square",
       "name": "Recive Twice Square",
-      "sourceName": "ReciveTwiceSquare",
+      "sourceName": "arrows-action/recive-twice-square",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "record",
       "name": "Record",
-      "sourceName": "Record",
-      "category": "Video",
+      "sourceName": "video-audio-sound/record",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "record-audio-circle",
-      "name": "Record Audio Circle",
-      "sourceName": "RecordAudioCircle",
-      "category": "Video",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "record-circle",
       "name": "Record Circle",
-      "sourceName": "RecordCircle",
+      "sourceName": "video-audio-sound/record-circle",
+      "category": "Video, Audio, Sound",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "record-circle-call",
+      "name": "Record Circle",
+      "sourceName": "call/record-circle",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "record-minimalistic",
       "name": "Record Minimalistic",
-      "sourceName": "RecordMinimalistic",
+      "sourceName": "call/record-minimalistic",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "record-square",
       "name": "Record Square",
-      "sourceName": "RecordSquare",
+      "sourceName": "call/record-square",
       "category": "Call",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "reel",
       "name": "Reel",
-      "sourceName": "Reel",
-      "category": "Video",
+      "sourceName": "video-audio-sound/reel",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "reel2",
-      "name": "Reel2",
-      "sourceName": "Reel2",
-      "category": "Video",
+      "id": "reel-2",
+      "name": "Reel 2",
+      "sourceName": "video-audio-sound/reel-2",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "refresh",
       "name": "Refresh",
-      "sourceName": "Refresh",
+      "sourceName": "arrows/refresh",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "refresh-circle",
       "name": "Refresh Circle",
-      "sourceName": "RefreshCircle",
+      "sourceName": "arrows/refresh-circle",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "refresh-square",
       "name": "Refresh Square",
-      "sourceName": "RefreshSquare",
+      "sourceName": "arrows/refresh-square",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "relax",
+      "name": "Relax",
+      "sourceName": "health-benefits/relax",
+      "category": "Health Benefits",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "remote-controller",
       "name": "Remote Controller",
-      "sourceName": "RemoteController",
-      "category": "Home",
+      "sourceName": "home-furniture/remote-controller",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "remote-controller-2",
+      "name": "Remote Controller 2",
+      "sourceName": "home-furniture/remote-controller-2",
+      "category": "Home, Furniture",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "remote-controller-minimalistic",
       "name": "Remote Controller Minimalistic",
-      "sourceName": "RemoteControllerMinimalistic",
-      "category": "Home",
+      "sourceName": "home-furniture/remote-controller-minimalistic",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "remote-controller2",
-      "name": "Remote Controller2",
-      "sourceName": "RemoteController2",
-      "category": "Home",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "remove-folder",
       "name": "Remove Folder",
-      "sourceName": "RemoveFolder",
+      "sourceName": "folders/remove-folder",
       "category": "Folders",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "reorder",
       "name": "Reorder",
-      "sourceName": "Reorder",
-      "category": "Ui",
+      "sourceName": "essentional-ui/reorder",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "reorder2",
-      "name": "Reorder2",
-      "sourceName": "Reorder2",
+      "id": "reorder-arrows-action",
+      "name": "Reorder",
+      "sourceName": "arrows-action/reorder",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "repeat",
       "name": "Repeat",
-      "sourceName": "Repeat",
-      "category": "Video",
+      "sourceName": "video-audio-sound/repeat",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "repeat-one",
       "name": "Repeat One",
-      "sourceName": "RepeatOne",
-      "category": "Video",
+      "sourceName": "video-audio-sound/repeat-one",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "repeat-one-minimalistic",
       "name": "Repeat One Minimalistic",
-      "sourceName": "RepeatOneMinimalistic",
-      "category": "Video",
+      "sourceName": "video-audio-sound/repeat-one-minimalistic",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "reply",
       "name": "Reply",
-      "sourceName": "Reply",
+      "sourceName": "arrows-action/reply",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "reply2",
-      "name": "Reply2",
-      "sourceName": "Reply2",
+      "id": "reply-2",
+      "name": "Reply 2",
+      "sourceName": "arrows-action/reply-2",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "restart",
       "name": "Restart",
-      "sourceName": "Restart",
+      "sourceName": "arrows/restart",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "restart-circle",
       "name": "Restart Circle",
-      "sourceName": "RestartCircle",
+      "sourceName": "arrows/restart-circle",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "restart-square",
       "name": "Restart Square",
-      "sourceName": "RestartSquare",
+      "sourceName": "arrows/restart-square",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "revote",
       "name": "Revote",
-      "sourceName": "Revote",
-      "category": "Ui",
+      "sourceName": "essentional-ui/revote",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "rewind-10-seconds-back",
+      "name": "Rewind 10 Seconds Back",
+      "sourceName": "video-audio-sound/rewind-10-seconds-back",
+      "category": "Video, Audio, Sound",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "rewind-10-seconds-forward",
+      "name": "Rewind 10 Seconds Forward",
+      "sourceName": "video-audio-sound/rewind-10-seconds-forward",
+      "category": "Video, Audio, Sound",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "rewind-15-seconds-back",
+      "name": "Rewind 15 Seconds Back",
+      "sourceName": "video-audio-sound/rewind-15-seconds-back",
+      "category": "Video, Audio, Sound",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "rewind-15-seconds-forward",
+      "name": "Rewind 15 Seconds Forward",
+      "sourceName": "video-audio-sound/rewind-15-seconds-forward",
+      "category": "Video, Audio, Sound",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "rewind-5-seconds-back",
+      "name": "Rewind 5 Seconds Back",
+      "sourceName": "video-audio-sound/rewind-5-seconds-back",
+      "category": "Video, Audio, Sound",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "rewind-5-seconds-forward",
+      "name": "Rewind 5 Seconds Forward",
+      "sourceName": "video-audio-sound/rewind-5-seconds-forward",
+      "category": "Video, Audio, Sound",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "rewind-back",
       "name": "Rewind Back",
-      "sourceName": "RewindBack",
-      "category": "Video",
+      "sourceName": "video-audio-sound/rewind-back",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "rewind-back-circle",
       "name": "Rewind Back Circle",
-      "sourceName": "RewindBackCircle",
-      "category": "Video",
+      "sourceName": "video-audio-sound/rewind-back-circle",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "rewind-forward",
       "name": "Rewind Forward",
-      "sourceName": "RewindForward",
-      "category": "Video",
+      "sourceName": "video-audio-sound/rewind-forward",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "rewind-forward-circle",
       "name": "Rewind Forward Circle",
-      "sourceName": "RewindForwardCircle",
-      "category": "Video",
+      "sourceName": "video-audio-sound/rewind-forward-circle",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "rewind10-seconds-back",
-      "name": "Rewind10Seconds Back",
-      "sourceName": "Rewind10SecondsBack",
-      "category": "Video",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "rewind10-seconds-forward",
-      "name": "Rewind10Seconds Forward",
-      "sourceName": "Rewind10SecondsForward",
-      "category": "Video",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "rewind15-seconds-back",
-      "name": "Rewind15Seconds Back",
-      "sourceName": "Rewind15SecondsBack",
-      "category": "Video",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "rewind15-seconds-forward",
-      "name": "Rewind15Seconds Forward",
-      "sourceName": "Rewind15SecondsForward",
-      "category": "Video",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "rewind5-seconds-back",
-      "name": "Rewind5Seconds Back",
-      "sourceName": "Rewind5SecondsBack",
-      "category": "Video",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "rewind5-seconds-forward",
-      "name": "Rewind5Seconds Forward",
-      "sourceName": "Rewind5SecondsForward",
-      "category": "Video",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "rocket",
       "name": "Rocket",
-      "sourceName": "Rocket",
+      "sourceName": "astronomy/rocket",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "rocket2",
-      "name": "Rocket2",
-      "sourceName": "Rocket2",
+      "id": "rocket-2",
+      "name": "Rocket 2",
+      "sourceName": "astronomy/rocket-2",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "rolling-pin",
       "name": "Rolling Pin",
-      "sourceName": "RollingPin",
-      "category": "Food",
+      "sourceName": "food-kitchen/rolling-pin",
+      "category": "Food, Kitchen",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-alt-arrow-down",
       "name": "Round Alt Arrow Down",
-      "sourceName": "RoundAltArrowDown",
+      "sourceName": "arrows/round-alt-arrow-down",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-alt-arrow-left",
       "name": "Round Alt Arrow Left",
-      "sourceName": "RoundAltArrowLeft",
+      "sourceName": "arrows/round-alt-arrow-left",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-alt-arrow-right",
       "name": "Round Alt Arrow Right",
-      "sourceName": "RoundAltArrowRight",
+      "sourceName": "arrows/round-alt-arrow-right",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-alt-arrow-up",
       "name": "Round Alt Arrow Up",
-      "sourceName": "RoundAltArrowUp",
+      "sourceName": "arrows/round-alt-arrow-up",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-arrow-down",
       "name": "Round Arrow Down",
-      "sourceName": "RoundArrowDown",
+      "sourceName": "arrows/round-arrow-down",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-arrow-left",
       "name": "Round Arrow Left",
-      "sourceName": "RoundArrowLeft",
+      "sourceName": "arrows/round-arrow-left",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-arrow-left-down",
       "name": "Round Arrow Left Down",
-      "sourceName": "RoundArrowLeftDown",
+      "sourceName": "arrows/round-arrow-left-down",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-arrow-left-up",
       "name": "Round Arrow Left Up",
-      "sourceName": "RoundArrowLeftUp",
+      "sourceName": "arrows/round-arrow-left-up",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-arrow-right",
       "name": "Round Arrow Right",
-      "sourceName": "RoundArrowRight",
+      "sourceName": "arrows/round-arrow-right",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-arrow-right-down",
       "name": "Round Arrow Right Down",
-      "sourceName": "RoundArrowRightDown",
+      "sourceName": "arrows/round-arrow-right-down",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-arrow-right-up",
       "name": "Round Arrow Right Up",
-      "sourceName": "RoundArrowRightUp",
+      "sourceName": "arrows/round-arrow-right-up",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-arrow-up",
       "name": "Round Arrow Up",
-      "sourceName": "RoundArrowUp",
+      "sourceName": "arrows/round-arrow-up",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-double-alt-arrow-down",
       "name": "Round Double Alt Arrow Down",
-      "sourceName": "RoundDoubleAltArrowDown",
+      "sourceName": "arrows/round-double-alt-arrow-down",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-double-alt-arrow-left",
       "name": "Round Double Alt Arrow Left",
-      "sourceName": "RoundDoubleAltArrowLeft",
+      "sourceName": "arrows/round-double-alt-arrow-left",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-double-alt-arrow-right",
       "name": "Round Double Alt Arrow Right",
-      "sourceName": "RoundDoubleAltArrowRight",
+      "sourceName": "arrows/round-double-alt-arrow-right",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-double-alt-arrow-up",
       "name": "Round Double Alt Arrow Up",
-      "sourceName": "RoundDoubleAltArrowUp",
+      "sourceName": "arrows/round-double-alt-arrow-up",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-graph",
       "name": "Round Graph",
-      "sourceName": "RoundGraph",
-      "category": "Business",
+      "sourceName": "business-statistic/round-graph",
+      "category": "Business, Statistic",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-sort-horizontal",
       "name": "Round Sort Horizontal",
-      "sourceName": "RoundSortHorizontal",
+      "sourceName": "arrows/round-sort-horizontal",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-sort-vertical",
       "name": "Round Sort Vertical",
-      "sourceName": "RoundSortVertical",
+      "sourceName": "arrows/round-sort-vertical",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-transfer-diagonal",
       "name": "Round Transfer Diagonal",
-      "sourceName": "RoundTransferDiagonal",
+      "sourceName": "arrows/round-transfer-diagonal",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-transfer-horizontal",
       "name": "Round Transfer Horizontal",
-      "sourceName": "RoundTransferHorizontal",
+      "sourceName": "arrows/round-transfer-horizontal",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "round-transfer-vertical",
       "name": "Round Transfer Vertical",
-      "sourceName": "RoundTransferVertical",
+      "sourceName": "arrows/round-transfer-vertical",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "rounded-magnifer",
       "name": "Rounded Magnifer",
-      "sourceName": "RoundedMagnifer",
+      "sourceName": "search/rounded-magnifer",
       "category": "Search",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "rounded-magnifer-bug",
       "name": "Rounded Magnifer Bug",
-      "sourceName": "RoundedMagniferBug",
+      "sourceName": "search/rounded-magnifer-bug",
       "category": "Search",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "rounded-magnifer-zoom-in",
       "name": "Rounded Magnifer Zoom In",
-      "sourceName": "RoundedMagniferZoomIn",
+      "sourceName": "search/rounded-magnifer-zoom-in",
       "category": "Search",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "rounded-magnifer-zoom-out",
       "name": "Rounded Magnifer Zoom Out",
-      "sourceName": "RoundedMagniferZoomOut",
+      "sourceName": "search/rounded-magnifer-zoom-out",
       "category": "Search",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "route",
       "name": "Route",
-      "sourceName": "Route",
-      "category": "Map",
+      "sourceName": "map-location/route",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "routing",
       "name": "Routing",
-      "sourceName": "Routing",
-      "category": "Map",
+      "sourceName": "map-location/routing",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "routing2",
-      "name": "Routing2",
-      "sourceName": "Routing2",
-      "category": "Map",
+      "id": "routing-2",
+      "name": "Routing 2",
+      "sourceName": "map-location/routing-2",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "routing3",
-      "name": "Routing3",
-      "sourceName": "Routing3",
-      "category": "Map",
+      "id": "routing-3",
+      "name": "Routing 3",
+      "sourceName": "map-location/routing-3",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "ruble",
       "name": "Ruble",
-      "sourceName": "Ruble",
+      "sourceName": "money/ruble",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "rugby",
       "name": "Rugby",
-      "sourceName": "Rugby",
+      "sourceName": "sports/rugby",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "ruler",
       "name": "Ruler",
-      "sourceName": "Ruler",
-      "category": "Tools",
+      "sourceName": "design-tools/ruler",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "ruler-angular",
       "name": "Ruler Angular",
-      "sourceName": "RulerAngular",
-      "category": "Tools",
+      "sourceName": "design-tools/ruler-angular",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "ruler-cross-pen",
       "name": "Ruler Cross Pen",
-      "sourceName": "RulerCrossPen",
-      "category": "Tools",
+      "sourceName": "design-tools/ruler-cross-pen",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "ruler-pen",
       "name": "Ruler Pen",
-      "sourceName": "RulerPen",
-      "category": "Tools",
+      "sourceName": "design-tools/ruler-pen",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "running",
       "name": "Running",
-      "sourceName": "Running",
+      "sourceName": "sports/running",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "running-2",
+      "name": "Running 2",
+      "sourceName": "sports/running-2",
+      "category": "Sports",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "running-round",
       "name": "Running Round",
-      "sourceName": "RunningRound",
+      "sourceName": "sports/running-round",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "running2",
-      "name": "Running2",
-      "sourceName": "Running2",
-      "category": "Sports",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sad-circle",
       "name": "Sad Circle",
-      "sourceName": "SadCircle",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/sad-circle",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sad-square",
       "name": "Sad Square",
-      "sourceName": "SadSquare",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/sad-square",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "safe-2",
+      "name": "Safe 2",
+      "sourceName": "money/safe-2",
+      "category": "Money",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "safe-circle",
       "name": "Safe Circle",
-      "sourceName": "SafeCircle",
+      "sourceName": "money/safe-circle",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "safe-square",
       "name": "Safe Square",
-      "sourceName": "SafeSquare",
+      "sourceName": "money/safe-square",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "safe2",
-      "name": "Safe2",
-      "sourceName": "Safe2",
-      "category": "Money",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sale",
       "name": "Sale",
-      "sourceName": "Sale",
+      "sourceName": "money/sale",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sale-square",
       "name": "Sale Square",
-      "sourceName": "SaleSquare",
+      "sourceName": "money/sale-square",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "satellite",
       "name": "Satellite",
-      "sourceName": "Satellite",
+      "sourceName": "astronomy/satellite",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "scale",
       "name": "Scale",
-      "sourceName": "Scale",
+      "sourceName": "arrows-action/scale",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "scanner",
       "name": "Scanner",
-      "sourceName": "Scanner",
+      "sourceName": "security/scanner",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "scanner2",
-      "name": "Scanner2",
-      "sourceName": "Scanner2",
+      "id": "scanner-2",
+      "name": "Scanner 2",
+      "sourceName": "security/scanner-2",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "scissors",
       "name": "Scissors",
-      "sourceName": "Scissors",
-      "category": "Ui",
+      "sourceName": "essentional-ui/scissors",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "scissors-square",
       "name": "Scissors Square",
-      "sourceName": "ScissorsSquare",
-      "category": "Ui",
+      "sourceName": "essentional-ui/scissors-square",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "scooter",
       "name": "Scooter",
-      "sourceName": "Scooter",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/scooter",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "screen-share",
       "name": "Screen Share",
-      "sourceName": "ScreenShare",
+      "sourceName": "arrows-action/screen-share",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "screencast",
       "name": "Screencast",
-      "sourceName": "Screencast",
-      "category": "It",
+      "sourceName": "network-it-programming/screencast",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "screencast2",
-      "name": "Screencast2",
-      "sourceName": "Screencast2",
-      "category": "It",
+      "id": "screencast-2",
+      "name": "Screencast 2",
+      "sourceName": "network-it-programming/screencast-2",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sd-card",
-      "name": "Sd Card",
-      "sourceName": "SdCard",
-      "category": "Devices",
+      "name": "SD Card",
+      "sourceName": "electronic-devices/sd-card",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "send-square",
       "name": "Send Square",
-      "sourceName": "SendSquare",
+      "sourceName": "arrows-action/send-square",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "send-twice-square",
       "name": "Send Twice Square",
-      "sourceName": "SendTwiceSquare",
+      "sourceName": "arrows-action/send-twice-square",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "server",
       "name": "Server",
-      "sourceName": "Server",
-      "category": "Devices",
+      "sourceName": "electronic-devices/server",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "server-2",
+      "name": "Server 2",
+      "sourceName": "electronic-devices/server-2",
+      "category": "Electronic, Devices",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "server-minimalistic",
       "name": "Server Minimalistic",
-      "sourceName": "ServerMinimalistic",
-      "category": "Devices",
+      "sourceName": "electronic-devices/server-minimalistic",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "server-path",
       "name": "Server Path",
-      "sourceName": "ServerPath",
-      "category": "Devices",
+      "sourceName": "electronic-devices/server-path",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "server-square",
       "name": "Server Square",
-      "sourceName": "ServerSquare",
-      "category": "Devices",
+      "sourceName": "electronic-devices/server-square",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "server-square-cloud",
       "name": "Server Square Cloud",
-      "sourceName": "ServerSquareCloud",
-      "category": "Devices",
+      "sourceName": "electronic-devices/server-square-cloud",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "server-square-update",
       "name": "Server Square Update",
-      "sourceName": "ServerSquareUpdate",
-      "category": "Devices",
+      "sourceName": "electronic-devices/server-square-update",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "server2",
-      "name": "Server2",
-      "sourceName": "Server2",
-      "category": "Devices",
+      "id": "sesame",
+      "name": "Sesame",
+      "sourceName": "ingredients/sesame",
+      "category": "Ingredients",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "settings",
       "name": "Settings",
-      "sourceName": "Settings",
-      "category": "Settings",
+      "sourceName": "settings-fine-tuning/settings",
+      "category": "Settings, Fine Tuning",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "settings-minimalistic",
       "name": "Settings Minimalistic",
-      "sourceName": "SettingsMinimalistic",
-      "category": "Settings",
+      "sourceName": "settings-fine-tuning/settings-minimalistic",
+      "category": "Settings, Fine Tuning",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "share",
       "name": "Share",
-      "sourceName": "Share",
-      "category": "Ui",
+      "sourceName": "essentional-ui/share",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "share-circle",
       "name": "Share Circle",
-      "sourceName": "ShareCircle",
-      "category": "Ui",
+      "sourceName": "essentional-ui/share-circle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "shield",
       "name": "Shield",
-      "sourceName": "Shield",
+      "sourceName": "security/shield",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "shield-check",
       "name": "Shield Check",
-      "sourceName": "ShieldCheck",
+      "sourceName": "security/shield-check",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "shield-cross",
       "name": "Shield Cross",
-      "sourceName": "ShieldCross",
+      "sourceName": "security/shield-cross",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "shield-keyhole",
       "name": "Shield Keyhole",
-      "sourceName": "ShieldKeyhole",
+      "sourceName": "security/shield-keyhole",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "shield-keyhole-minimalistic",
       "name": "Shield Keyhole Minimalistic",
-      "sourceName": "ShieldKeyholeMinimalistic",
+      "sourceName": "security/shield-keyhole-minimalistic",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "shield-minimalistic",
       "name": "Shield Minimalistic",
-      "sourceName": "ShieldMinimalistic",
+      "sourceName": "security/shield-minimalistic",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "shield-minus",
       "name": "Shield Minus",
-      "sourceName": "ShieldMinus",
+      "sourceName": "security/shield-minus",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "shield-network",
       "name": "Shield Network",
-      "sourceName": "ShieldNetwork",
+      "sourceName": "security/shield-network",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "shield-plus",
       "name": "Shield Plus",
-      "sourceName": "ShieldPlus",
+      "sourceName": "security/shield-plus",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "shield-star",
       "name": "Shield Star",
-      "sourceName": "ShieldStar",
+      "sourceName": "security/shield-star",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "shield-up",
       "name": "Shield Up",
-      "sourceName": "ShieldUp",
+      "sourceName": "security/shield-up",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "shield-user",
       "name": "Shield User",
-      "sourceName": "ShieldUser",
+      "sourceName": "security/shield-user",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "shield-warning",
       "name": "Shield Warning",
-      "sourceName": "ShieldWarning",
+      "sourceName": "security/shield-warning",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "shock-absorber",
       "name": "Shock Absorber",
-      "sourceName": "ShockAbsorber",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/shock-absorber",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "shop",
       "name": "Shop",
-      "sourceName": "Shop",
-      "category": "Shopping",
+      "sourceName": "shopping-ecommerce/shop",
+      "category": "Shopping, Ecommerce",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "shop-2",
+      "name": "Shop 2",
+      "sourceName": "shopping-ecommerce/shop-2",
+      "category": "Shopping, Ecommerce",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "shop-minimalistic",
       "name": "Shop Minimalistic",
-      "sourceName": "ShopMinimalistic",
-      "category": "Shopping",
+      "sourceName": "shopping-ecommerce/shop-minimalistic",
+      "category": "Shopping, Ecommerce",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "shop2",
-      "name": "Shop2",
-      "sourceName": "Shop2",
-      "category": "Shopping",
+      "id": "shrimp",
+      "name": "Shrimp",
+      "sourceName": "ingredients/shrimp",
+      "category": "Ingredients",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "shuffle",
       "name": "Shuffle",
-      "sourceName": "Shuffle",
-      "category": "Video",
+      "sourceName": "video-audio-sound/shuffle",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sidebar-code",
       "name": "Sidebar Code",
-      "sourceName": "SidebarCode",
-      "category": "It",
+      "sourceName": "network-it-programming/sidebar-code",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sidebar-minimalistic",
       "name": "Sidebar Minimalistic",
-      "sourceName": "SidebarMinimalistic",
-      "category": "It",
+      "sourceName": "network-it-programming/sidebar-minimalistic",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "siderbar",
       "name": "Siderbar",
-      "sourceName": "Siderbar",
-      "category": "It",
+      "sourceName": "network-it-programming/siderbar",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "signpost",
       "name": "Signpost",
-      "sourceName": "Signpost",
-      "category": "Map",
+      "sourceName": "map-location/signpost",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "signpost2",
-      "name": "Signpost2",
-      "sourceName": "Signpost2",
-      "category": "Map",
+      "id": "signpost-2",
+      "name": "Signpost 2",
+      "sourceName": "map-location/signpost-2",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sim-card",
-      "name": "Sim Card",
-      "sourceName": "SimCard",
-      "category": "Devices",
+      "name": "SIM Card",
+      "sourceName": "electronic-devices/sim-card",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sim-card-minimalistic",
-      "name": "Sim Card Minimalistic",
-      "sourceName": "SimCardMinimalistic",
-      "category": "Devices",
+      "name": "SIM Card Minimalistic",
+      "sourceName": "electronic-devices/sim-card-minimalistic",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sim-cards",
-      "name": "Sim Cards",
-      "sourceName": "SimCards",
-      "category": "Devices",
+      "name": "SIM Cards",
+      "sourceName": "electronic-devices/sim-cards",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "siren",
       "name": "Siren",
-      "sourceName": "Siren",
+      "sourceName": "security/siren",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "siren-rounded",
       "name": "Siren Rounded",
-      "sourceName": "SirenRounded",
+      "sourceName": "security/siren-rounded",
       "category": "Security",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "skateboard",
       "name": "Skateboard",
-      "sourceName": "Skateboard",
+      "sourceName": "sports/skateboard",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "skateboarding",
       "name": "Skateboarding",
-      "sourceName": "Skateboarding",
+      "sourceName": "sports/skateboarding",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "skateboarding-round",
       "name": "Skateboarding Round",
-      "sourceName": "SkateboardingRound",
+      "sourceName": "sports/skateboarding-round",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "skin",
+      "name": "Skin",
+      "sourceName": "health-benefits/skin",
+      "category": "Health Benefits",
+      "weights": [
+        "linear"
       ]
     },
     {
       "id": "skip-next",
       "name": "Skip Next",
-      "sourceName": "SkipNext",
-      "category": "Video",
+      "sourceName": "video-audio-sound/skip-next",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "skip-previous",
       "name": "Skip Previous",
-      "sourceName": "SkipPrevious",
-      "category": "Video",
+      "sourceName": "video-audio-sound/skip-previous",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "skirt",
       "name": "Skirt",
-      "sourceName": "Skirt",
-      "category": "Ui",
+      "sourceName": "essentional-ui/skirt",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "slash-circle",
       "name": "Slash Circle",
-      "sourceName": "SlashCircle",
-      "category": "It",
+      "sourceName": "network-it-programming/slash-circle",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "slash-square",
       "name": "Slash Square",
-      "sourceName": "SlashSquare",
-      "category": "It",
+      "sourceName": "network-it-programming/slash-square",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sledgehammer",
       "name": "Sledgehammer",
-      "sourceName": "Sledgehammer",
-      "category": "Ui",
+      "sourceName": "essentional-ui/sledgehammer",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "sleep-rest",
+      "name": "Sleep Rest",
+      "sourceName": "health-benefits/sleep-rest",
+      "category": "Health Benefits",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "sleeping",
       "name": "Sleeping",
-      "sourceName": "Sleeping",
-      "category": "Ui",
+      "sourceName": "essentional-ui/sleeping",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sleeping-circle",
       "name": "Sleeping Circle",
-      "sourceName": "SleepingCircle",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/sleeping-circle",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sleeping-square",
       "name": "Sleeping Square",
-      "sourceName": "SleepingSquare",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/sleeping-square",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "slider-horizontal",
       "name": "Slider Horizontal",
-      "sourceName": "SliderHorizontal",
-      "category": "Ui",
+      "sourceName": "essentional-ui/slider-horizontal",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "slider-minimalistic-horizontal",
       "name": "Slider Minimalistic Horizontal",
-      "sourceName": "SliderMinimalisticHorizontal",
-      "category": "Ui",
+      "sourceName": "essentional-ui/slider-minimalistic-horizontal",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "slider-vertical",
       "name": "Slider Vertical",
-      "sourceName": "SliderVertical",
-      "category": "Ui",
+      "sourceName": "essentional-ui/slider-vertical",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "slider-vertical-minimalistic",
       "name": "Slider Vertical Minimalistic",
-      "sourceName": "SliderVerticalMinimalistic",
-      "category": "Ui",
+      "sourceName": "essentional-ui/slider-vertical-minimalistic",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "smart-home",
       "name": "Smart Home",
-      "sourceName": "SmartHome",
-      "category": "Ui",
+      "sourceName": "essentional-ui/smart-home",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "smart-home-angle",
       "name": "Smart Home Angle",
-      "sourceName": "SmartHomeAngle",
-      "category": "Ui",
+      "sourceName": "essentional-ui/smart-home-angle",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "smart-speaker",
       "name": "Smart Speaker",
-      "sourceName": "SmartSpeaker",
-      "category": "Devices",
+      "sourceName": "electronic-devices/smart-speaker",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "smart-speaker-2",
+      "name": "Smart Speaker 2",
+      "sourceName": "electronic-devices/smart-speaker-2",
+      "category": "Electronic, Devices",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "smart-speaker-minimalistic",
       "name": "Smart Speaker Minimalistic",
-      "sourceName": "SmartSpeakerMinimalistic",
-      "category": "Devices",
+      "sourceName": "electronic-devices/smart-speaker-minimalistic",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "smart-speaker2",
-      "name": "Smart Speaker2",
-      "sourceName": "SmartSpeaker2",
-      "category": "Devices",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "smart-vacuum-cleaner",
       "name": "Smart Vacuum Cleaner",
-      "sourceName": "SmartVacuumCleaner",
-      "category": "Home",
+      "sourceName": "home-furniture/smart-vacuum-cleaner",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "smart-vacuum-cleaner2",
-      "name": "Smart Vacuum Cleaner2",
-      "sourceName": "SmartVacuumCleaner2",
-      "category": "Home",
+      "id": "smart-vacuum-cleaner-2",
+      "name": "Smart Vacuum Cleaner 2",
+      "sourceName": "home-furniture/smart-vacuum-cleaner-2",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "smartphone",
       "name": "Smartphone",
-      "sourceName": "Smartphone",
-      "category": "Devices",
+      "sourceName": "electronic-devices/smartphone",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "smartphone-2",
+      "name": "Smartphone 2",
+      "sourceName": "electronic-devices/smartphone-2",
+      "category": "Electronic, Devices",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "smartphone-rotate-2",
+      "name": "Smartphone Rotate 2",
+      "sourceName": "electronic-devices/smartphone-rotate-2",
+      "category": "Electronic, Devices",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "smartphone-rotate-angle",
       "name": "Smartphone Rotate Angle",
-      "sourceName": "SmartphoneRotateAngle",
-      "category": "Devices",
+      "sourceName": "electronic-devices/smartphone-rotate-angle",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "smartphone-rotate-orientation",
       "name": "Smartphone Rotate Orientation",
-      "sourceName": "SmartphoneRotateOrientation",
-      "category": "Devices",
+      "sourceName": "electronic-devices/smartphone-rotate-orientation",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "smartphone-rotate2",
-      "name": "Smartphone Rotate2",
-      "sourceName": "SmartphoneRotate2",
-      "category": "Devices",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "smartphone-update",
       "name": "Smartphone Update",
-      "sourceName": "SmartphoneUpdate",
-      "category": "Devices",
+      "sourceName": "electronic-devices/smartphone-update",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "smartphone-vibration",
       "name": "Smartphone Vibration",
-      "sourceName": "SmartphoneVibration",
-      "category": "Devices",
+      "sourceName": "electronic-devices/smartphone-vibration",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "smartphone2",
-      "name": "Smartphone2",
-      "sourceName": "Smartphone2",
-      "category": "Devices",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "smile-circle",
       "name": "Smile Circle",
-      "sourceName": "SmileCircle",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/smile-circle",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "smile-square",
       "name": "Smile Square",
-      "sourceName": "SmileSquare",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/smile-square",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "snowflake",
       "name": "Snowflake",
-      "sourceName": "Snowflake",
+      "sourceName": "weather/snowflake",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "socket",
       "name": "Socket",
-      "sourceName": "Socket",
-      "category": "Devices",
+      "sourceName": "electronic-devices/socket",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sofa",
       "name": "Sofa",
-      "sourceName": "Sofa",
-      "category": "Home",
+      "sourceName": "home-furniture/sofa",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "sofa2",
-      "name": "Sofa2",
-      "sourceName": "Sofa2",
-      "category": "Home",
+      "id": "sofa-2",
+      "name": "Sofa 2",
+      "sourceName": "home-furniture/sofa-2",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "sofa3",
-      "name": "Sofa3",
-      "sourceName": "Sofa3",
-      "category": "Home",
+      "id": "sofa-3",
+      "name": "Sofa 3",
+      "sourceName": "home-furniture/sofa-3",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sort",
       "name": "Sort",
-      "sourceName": "Sort",
-      "category": "Ui",
+      "sourceName": "essentional-ui/sort",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sort-by-alphabet",
       "name": "Sort By Alphabet",
-      "sourceName": "SortByAlphabet",
+      "sourceName": "list/sort-by-alphabet",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sort-by-time",
       "name": "Sort By Time",
-      "sourceName": "SortByTime",
+      "sourceName": "list/sort-by-time",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sort-from-bottom-to-top",
       "name": "Sort From Bottom To Top",
-      "sourceName": "SortFromBottomToTop",
+      "sourceName": "list/sort-from-bottom-to-top",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sort-from-top-to-bottom",
       "name": "Sort From Top To Bottom",
-      "sourceName": "SortFromTopToBottom",
+      "sourceName": "list/sort-from-top-to-bottom",
       "category": "List",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sort-horizontal",
       "name": "Sort Horizontal",
-      "sourceName": "SortHorizontal",
+      "sourceName": "arrows/sort-horizontal",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sort-vertical",
       "name": "Sort Vertical",
-      "sourceName": "SortVertical",
+      "sourceName": "arrows/sort-vertical",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "soundwave",
       "name": "Soundwave",
-      "sourceName": "Soundwave",
-      "category": "Video",
+      "sourceName": "video-audio-sound/soundwave",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "soundwave-circle",
       "name": "Soundwave Circle",
-      "sourceName": "SoundwaveCircle",
-      "category": "Video",
+      "sourceName": "video-audio-sound/soundwave-circle",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "soundwave-square",
       "name": "Soundwave Square",
-      "sourceName": "SoundwaveSquare",
-      "category": "Video",
+      "sourceName": "video-audio-sound/soundwave-square",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "soy-bean",
+      "name": "Soy Bean",
+      "sourceName": "ingredients/soy-bean",
+      "category": "Ingredients",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "speaker",
       "name": "Speaker",
-      "sourceName": "Speaker",
-      "category": "Home",
+      "sourceName": "home-furniture/speaker",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "speaker-minimalistic",
       "name": "Speaker Minimalistic",
-      "sourceName": "SpeakerMinimalistic",
-      "category": "Home",
+      "sourceName": "home-furniture/speaker-minimalistic",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "special-effects",
       "name": "Special Effects",
-      "sourceName": "SpecialEffects",
-      "category": "Ui",
+      "sourceName": "essentional-ui/special-effects",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "spedometer-low",
       "name": "Spedometer Low",
-      "sourceName": "SpedometerLow",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/spedometer-low",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "spedometer-max",
       "name": "Spedometer Max",
-      "sourceName": "SpedometerMax",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/spedometer-max",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "spedometer-middle",
       "name": "Spedometer Middle",
-      "sourceName": "SpedometerMiddle",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/spedometer-middle",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "sprout",
+      "name": "Sprout",
+      "sourceName": "ingredients/sprout",
+      "category": "Ingredients",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "square-academic-cap",
       "name": "Square Academic Cap",
-      "sourceName": "SquareAcademicCap",
+      "sourceName": "school/square-academic-cap",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "square-academic-cap2",
-      "name": "Square Academic Cap2",
-      "sourceName": "SquareAcademicCap2",
+      "id": "square-academic-cap-2",
+      "name": "Square Academic Cap 2",
+      "sourceName": "school/square-academic-cap-2",
       "category": "School",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-alt-arrow-down",
       "name": "Square Alt Arrow Down",
-      "sourceName": "SquareAltArrowDown",
+      "sourceName": "arrows/square-alt-arrow-down",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-alt-arrow-left",
       "name": "Square Alt Arrow Left",
-      "sourceName": "SquareAltArrowLeft",
+      "sourceName": "arrows/square-alt-arrow-left",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-alt-arrow-right",
       "name": "Square Alt Arrow Right",
-      "sourceName": "SquareAltArrowRight",
+      "sourceName": "arrows/square-alt-arrow-right",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-alt-arrow-up",
       "name": "Square Alt Arrow Up",
-      "sourceName": "SquareAltArrowUp",
+      "sourceName": "arrows/square-alt-arrow-up",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-arrow-down",
       "name": "Square Arrow Down",
-      "sourceName": "SquareArrowDown",
+      "sourceName": "arrows/square-arrow-down",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-arrow-left",
       "name": "Square Arrow Left",
-      "sourceName": "SquareArrowLeft",
+      "sourceName": "arrows/square-arrow-left",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-arrow-left-down",
       "name": "Square Arrow Left Down",
-      "sourceName": "SquareArrowLeftDown",
+      "sourceName": "arrows/square-arrow-left-down",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-arrow-left-up",
       "name": "Square Arrow Left Up",
-      "sourceName": "SquareArrowLeftUp",
+      "sourceName": "arrows/square-arrow-left-up",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-arrow-right",
       "name": "Square Arrow Right",
-      "sourceName": "SquareArrowRight",
+      "sourceName": "arrows/square-arrow-right",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-arrow-right-down",
       "name": "Square Arrow Right Down",
-      "sourceName": "SquareArrowRightDown",
+      "sourceName": "arrows/square-arrow-right-down",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-arrow-right-up",
       "name": "Square Arrow Right Up",
-      "sourceName": "SquareArrowRightUp",
+      "sourceName": "arrows/square-arrow-right-up",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-arrow-up",
       "name": "Square Arrow Up",
-      "sourceName": "SquareArrowUp",
+      "sourceName": "arrows/square-arrow-up",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-bottom-down",
       "name": "Square Bottom Down",
-      "sourceName": "SquareBottomDown",
+      "sourceName": "arrows-action/square-bottom-down",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-bottom-up",
       "name": "Square Bottom Up",
-      "sourceName": "SquareBottomUp",
+      "sourceName": "arrows-action/square-bottom-up",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-double-alt-arrow-down",
       "name": "Square Double Alt Arrow Down",
-      "sourceName": "SquareDoubleAltArrowDown",
+      "sourceName": "arrows/square-double-alt-arrow-down",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-double-alt-arrow-left",
       "name": "Square Double Alt Arrow Left",
-      "sourceName": "SquareDoubleAltArrowLeft",
+      "sourceName": "arrows/square-double-alt-arrow-left",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-double-alt-arrow-right",
       "name": "Square Double Alt Arrow Right",
-      "sourceName": "SquareDoubleAltArrowRight",
+      "sourceName": "arrows/square-double-alt-arrow-right",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-double-alt-arrow-up",
       "name": "Square Double Alt Arrow Up",
-      "sourceName": "SquareDoubleAltArrowUp",
+      "sourceName": "arrows/square-double-alt-arrow-up",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-forward",
       "name": "Square Forward",
-      "sourceName": "SquareForward",
-      "category": "Messages",
+      "sourceName": "messages-conversation/square-forward",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-share-line",
       "name": "Square Share Line",
-      "sourceName": "SquareShareLine",
-      "category": "Messages",
+      "sourceName": "messages-conversation/square-share-line",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-sort-horizontal",
       "name": "Square Sort Horizontal",
-      "sourceName": "SquareSortHorizontal",
+      "sourceName": "arrows/square-sort-horizontal",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-sort-vertical",
       "name": "Square Sort Vertical",
-      "sourceName": "SquareSortVertical",
+      "sourceName": "arrows/square-sort-vertical",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-top-down",
       "name": "Square Top Down",
-      "sourceName": "SquareTopDown",
+      "sourceName": "arrows-action/square-top-down",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-top-up",
       "name": "Square Top Up",
-      "sourceName": "SquareTopUp",
+      "sourceName": "arrows-action/square-top-up",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-transfer-horizontal",
       "name": "Square Transfer Horizontal",
-      "sourceName": "SquareTransferHorizontal",
+      "sourceName": "arrows/square-transfer-horizontal",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "square-transfer-vertical",
       "name": "Square Transfer Vertical",
-      "sourceName": "SquareTransferVertical",
+      "sourceName": "arrows/square-transfer-vertical",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "ssd-round",
-      "name": "Ssd Round",
-      "sourceName": "SsdRound",
-      "category": "Devices",
+      "name": "SSD Round",
+      "sourceName": "electronic-devices/ssd-round",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "ssd-square",
-      "name": "Ssd Square",
-      "sourceName": "SsdSquare",
-      "category": "Devices",
+      "name": "SSD Square",
+      "sourceName": "electronic-devices/ssd-square",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "star",
       "name": "Star",
-      "sourceName": "Star",
+      "sourceName": "astronomy/star",
+      "category": "Astronomy",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "star-like",
+      "name": "Star",
+      "sourceName": "like/star",
       "category": "Like",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "star-angle",
       "name": "Star Angle",
-      "sourceName": "StarAngle",
+      "sourceName": "astronomy/star-angle",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "star-circle",
       "name": "Star Circle",
-      "sourceName": "StarCircle",
+      "sourceName": "astronomy/star-circle",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "star-fall",
       "name": "Star Fall",
-      "sourceName": "StarFall",
+      "sourceName": "astronomy/star-fall",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "star-fall-2",
+      "name": "Star Fall 2",
+      "sourceName": "astronomy/star-fall-2",
+      "category": "Astronomy",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "star-fall-minimalistic",
       "name": "Star Fall Minimalistic",
-      "sourceName": "StarFallMinimalistic",
+      "sourceName": "astronomy/star-fall-minimalistic",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "star-fall-minimalistic2",
-      "name": "Star Fall Minimalistic2",
-      "sourceName": "StarFallMinimalistic2",
+      "id": "star-fall-minimalistic-2",
+      "name": "Star Fall Minimalistic 2",
+      "sourceName": "astronomy/star-fall-minimalistic-2",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "star-fall2",
-      "name": "Star Fall2",
-      "sourceName": "StarFall2",
-      "category": "Astronomy",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "star-rainbow",
       "name": "Star Rainbow",
-      "sourceName": "StarRainbow",
+      "sourceName": "astronomy/star-rainbow",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "star-ring",
       "name": "Star Ring",
-      "sourceName": "StarRing",
+      "sourceName": "astronomy/star-ring",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "star-rings",
       "name": "Star Rings",
-      "sourceName": "StarRings",
+      "sourceName": "astronomy/star-rings",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "star-shine",
       "name": "Star Shine",
-      "sourceName": "StarShine",
+      "sourceName": "like/star-shine",
       "category": "Like",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "star2",
-      "name": "Star2",
-      "sourceName": "Star2",
-      "category": "Astronomy",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "stars",
       "name": "Stars",
-      "sourceName": "Stars",
+      "sourceName": "weather/stars",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "stars-astronomy",
+      "name": "Stars",
+      "sourceName": "astronomy/stars",
+      "category": "Astronomy",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "stars-line",
       "name": "Stars Line",
-      "sourceName": "StarsLine",
+      "sourceName": "astronomy/stars-line",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "stars-minimalistic",
       "name": "Stars Minimalistic",
-      "sourceName": "StarsMinimalistic",
+      "sourceName": "astronomy/stars-minimalistic",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "stars2",
-      "name": "Stars2",
-      "sourceName": "Stars2",
-      "category": "Astronomy",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "station",
       "name": "Station",
-      "sourceName": "Station",
-      "category": "It",
+      "sourceName": "network-it-programming/station",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "station-minimalistic",
       "name": "Station Minimalistic",
-      "sourceName": "StationMinimalistic",
-      "category": "It",
+      "sourceName": "network-it-programming/station-minimalistic",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "stethoscope",
       "name": "Stethoscope",
-      "sourceName": "Stethoscope",
+      "sourceName": "medicine/stethoscope",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sticker-circle",
       "name": "Sticker Circle",
-      "sourceName": "StickerCircle",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/sticker-circle",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sticker-smile-circle",
       "name": "Sticker Smile Circle",
-      "sourceName": "StickerSmileCircle",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/sticker-smile-circle",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "sticker-smile-circle2",
-      "name": "Sticker Smile Circle2",
-      "sourceName": "StickerSmileCircle2",
-      "category": "Faces",
+      "id": "sticker-smile-circle-2",
+      "name": "Sticker Smile Circle 2",
+      "sourceName": "faces-emotions-stickers/sticker-smile-circle-2",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sticker-smile-square",
       "name": "Sticker Smile Square",
-      "sourceName": "StickerSmileSquare",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/sticker-smile-square",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sticker-square",
       "name": "Sticker Square",
-      "sourceName": "StickerSquare",
-      "category": "Faces",
+      "sourceName": "faces-emotions-stickers/sticker-square",
+      "category": "Faces, Emotions, Stickers",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "stomach-digestion",
+      "name": "Stomach Digestion",
+      "sourceName": "health-benefits/stomach-digestion",
+      "category": "Health Benefits",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "stop",
       "name": "Stop",
-      "sourceName": "Stop",
-      "category": "Video",
+      "sourceName": "video-audio-sound/stop",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "stop-circle",
       "name": "Stop Circle",
-      "sourceName": "StopCircle",
-      "category": "Video",
+      "sourceName": "video-audio-sound/stop-circle",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "stopwatch",
       "name": "Stopwatch",
-      "sourceName": "Stopwatch",
+      "sourceName": "time/stopwatch",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "stopwatch-pause",
       "name": "Stopwatch Pause",
-      "sourceName": "StopwatchPause",
+      "sourceName": "time/stopwatch-pause",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "stopwatch-play",
       "name": "Stopwatch Play",
-      "sourceName": "StopwatchPlay",
+      "sourceName": "time/stopwatch-play",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "stream",
       "name": "Stream",
-      "sourceName": "Stream",
-      "category": "Video",
+      "sourceName": "video-audio-sound/stream",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "streets",
       "name": "Streets",
-      "sourceName": "Streets",
-      "category": "Map",
+      "sourceName": "map-location/streets",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "streets-map-point",
       "name": "Streets Map Point",
-      "sourceName": "StreetsMapPoint",
-      "category": "Map",
+      "sourceName": "map-location/streets-map-point",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "streets-navigation",
       "name": "Streets Navigation",
-      "sourceName": "StreetsNavigation",
-      "category": "Map",
+      "sourceName": "map-location/streets-navigation",
+      "category": "Map & Location",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "stretching",
       "name": "Stretching",
-      "sourceName": "Stretching",
+      "sourceName": "sports/stretching",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "stretching-round",
       "name": "Stretching Round",
-      "sourceName": "StretchingRound",
+      "sourceName": "sports/stretching-round",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "structure",
       "name": "Structure",
-      "sourceName": "Structure",
-      "category": "It",
+      "sourceName": "network-it-programming/structure",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "subtitles",
       "name": "Subtitles",
-      "sourceName": "Subtitles",
-      "category": "Ui",
+      "sourceName": "essentional-ui/subtitles",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "subtract",
+      "name": "Subtract",
+      "sourceName": "additional/subtract",
+      "category": "Additional",
+      "weights": [
+        "bold"
       ]
     },
     {
       "id": "suitcase",
       "name": "Suitcase",
-      "sourceName": "Suitcase",
-      "category": "Nature",
+      "sourceName": "nature-travel/suitcase",
+      "category": "Nature, Travel",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "suitcase-lines",
       "name": "Suitcase Lines",
-      "sourceName": "SuitcaseLines",
-      "category": "Nature",
+      "sourceName": "nature-travel/suitcase-lines",
+      "category": "Nature, Travel",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "suitcase-tag",
       "name": "Suitcase Tag",
-      "sourceName": "SuitcaseTag",
-      "category": "Nature",
+      "sourceName": "nature-travel/suitcase-tag",
+      "category": "Nature, Travel",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sun",
       "name": "Sun",
-      "sourceName": "Sun",
+      "sourceName": "weather/sun",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "sun-2",
+      "name": "Sun 2",
+      "sourceName": "weather/sun-2",
+      "category": "Weather",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sun-fog",
       "name": "Sun Fog",
-      "sourceName": "SunFog",
+      "sourceName": "weather/sun-fog",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "sun2",
-      "name": "Sun2",
-      "sourceName": "Sun2",
-      "category": "Weather",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sunrise",
       "name": "Sunrise",
-      "sourceName": "Sunrise",
+      "sourceName": "weather/sunrise",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "sunset",
       "name": "Sunset",
-      "sourceName": "Sunset",
+      "sourceName": "weather/sunset",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "suspension",
       "name": "Suspension",
-      "sourceName": "Suspension",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/suspension",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "suspension-bolt",
       "name": "Suspension Bolt",
-      "sourceName": "SuspensionBolt",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/suspension-bolt",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "suspension-cross",
       "name": "Suspension Cross",
-      "sourceName": "SuspensionCross",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/suspension-cross",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "swimming",
       "name": "Swimming",
-      "sourceName": "Swimming",
+      "sourceName": "sports/swimming",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "syringe",
       "name": "Syringe",
-      "sourceName": "Syringe",
+      "sourceName": "medicine/syringe",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "t-shirt",
+      "name": "T-shirt",
+      "sourceName": "essentional-ui/t-shirt",
+      "category": "Essentional, UI",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "tablet",
       "name": "Tablet",
-      "sourceName": "Tablet",
-      "category": "Devices",
+      "sourceName": "electronic-devices/tablet",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "tag",
       "name": "Tag",
-      "sourceName": "Tag",
+      "sourceName": "money/tag",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "tag-horizontal",
       "name": "Tag Horizontal",
-      "sourceName": "TagHorizontal",
+      "sourceName": "money/tag-horizontal",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "tag-price",
       "name": "Tag Price",
-      "sourceName": "TagPrice",
+      "sourceName": "money/tag-price",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "target",
       "name": "Target",
-      "sourceName": "Target",
-      "category": "Ui",
+      "sourceName": "essentional-ui/target",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "tea-cup",
       "name": "Tea Cup",
-      "sourceName": "TeaCup",
-      "category": "Food",
+      "sourceName": "food-kitchen/tea-cup",
+      "category": "Food, Kitchen",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "telescope",
       "name": "Telescope",
-      "sourceName": "Telescope",
-      "category": "Devices",
+      "sourceName": "electronic-devices/telescope",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "temperature",
       "name": "Temperature",
-      "sourceName": "Temperature",
+      "sourceName": "weather/temperature",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "tennis",
       "name": "Tennis",
-      "sourceName": "Tennis",
+      "sourceName": "sports/tennis",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "tennis2",
-      "name": "Tennis2",
-      "sourceName": "Tennis2",
+      "id": "tennis-2",
+      "name": "Tennis 2",
+      "sourceName": "sports/tennis-2",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "test-tube",
       "name": "Test Tube",
-      "sourceName": "TestTube",
+      "sourceName": "medicine/test-tube",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "test-tube-minimalistic",
       "name": "Test Tube Minimalistic",
-      "sourceName": "TestTubeMinimalistic",
+      "sourceName": "medicine/test-tube-minimalistic",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "text",
       "name": "Text",
-      "sourceName": "Text",
+      "sourceName": "text-formatting/text",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "text-bold",
       "name": "Text Bold",
-      "sourceName": "TextBold",
+      "sourceName": "text-formatting/text-bold",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "text-bold-circle",
       "name": "Text Bold Circle",
-      "sourceName": "TextBoldCircle",
+      "sourceName": "text-formatting/text-bold-circle",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "text-bold-square",
       "name": "Text Bold Square",
-      "sourceName": "TextBoldSquare",
+      "sourceName": "text-formatting/text-bold-square",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "text-circle",
       "name": "Text Circle",
-      "sourceName": "TextCircle",
+      "sourceName": "text-formatting/text-circle",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "text-cross",
       "name": "Text Cross",
-      "sourceName": "TextCross",
+      "sourceName": "text-formatting/text-cross",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "text-cross-circle",
       "name": "Text Cross Circle",
-      "sourceName": "TextCrossCircle",
+      "sourceName": "text-formatting/text-cross-circle",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "text-cross-square",
       "name": "Text Cross Square",
-      "sourceName": "TextCrossSquare",
+      "sourceName": "text-formatting/text-cross-square",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "text-field",
       "name": "Text Field",
-      "sourceName": "TextField",
+      "sourceName": "text-formatting/text-field",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "text-field-focus",
       "name": "Text Field Focus",
-      "sourceName": "TextFieldFocus",
+      "sourceName": "text-formatting/text-field-focus",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "text-italic",
       "name": "Text Italic",
-      "sourceName": "TextItalic",
+      "sourceName": "text-formatting/text-italic",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "text-italic-circle",
       "name": "Text Italic Circle",
-      "sourceName": "TextItalicCircle",
+      "sourceName": "text-formatting/text-italic-circle",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "text-italic-square",
       "name": "Text Italic Square",
-      "sourceName": "TextItalicSquare",
+      "sourceName": "text-formatting/text-italic-square",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "text-selection",
       "name": "Text Selection",
-      "sourceName": "TextSelection",
+      "sourceName": "text-formatting/text-selection",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "text-square",
       "name": "Text Square",
-      "sourceName": "TextSquare",
+      "sourceName": "text-formatting/text-square",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "text-square2",
-      "name": "Text Square2",
-      "sourceName": "TextSquare2",
+      "id": "text-square-2",
+      "name": "Text Square 2",
+      "sourceName": "text-formatting/text-square-2",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "text-underline",
       "name": "Text Underline",
-      "sourceName": "TextUnderline",
+      "sourceName": "text-formatting/text-underline",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "text-underline-circle",
       "name": "Text Underline Circle",
-      "sourceName": "TextUnderlineCircle",
+      "sourceName": "text-formatting/text-underline-circle",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "text-underline-cross",
       "name": "Text Underline Cross",
-      "sourceName": "TextUnderlineCross",
+      "sourceName": "text-formatting/text-underline-cross",
       "category": "Text Formatting",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "thermometer",
       "name": "Thermometer",
-      "sourceName": "Thermometer",
+      "sourceName": "medicine/thermometer",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "three-squares",
       "name": "Three Squares",
-      "sourceName": "ThreeSquares",
-      "category": "Tools",
+      "sourceName": "design-tools/three-squares",
+      "category": "Design, Tools",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "ticker-star",
       "name": "Ticker Star",
-      "sourceName": "TickerStar",
+      "sourceName": "money/ticker-star",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "ticket",
       "name": "Ticket",
-      "sourceName": "Ticket",
+      "sourceName": "money/ticket",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "ticket-sale",
       "name": "Ticket Sale",
-      "sourceName": "TicketSale",
+      "sourceName": "money/ticket-sale",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "to-pip",
-      "name": "To Pip",
-      "sourceName": "ToPip",
-      "category": "Video",
+      "name": "To PIP",
+      "sourceName": "video-audio-sound/to-pip",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "tooth",
+      "name": "Tooth",
+      "sourceName": "health-benefits/tooth",
+      "category": "Health Benefits",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "tornado",
       "name": "Tornado",
-      "sourceName": "Tornado",
+      "sourceName": "weather/tornado",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "tornado-small",
       "name": "Tornado Small",
-      "sourceName": "TornadoSmall",
+      "sourceName": "weather/tornado-small",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "traffic",
       "name": "Traffic",
-      "sourceName": "Traffic",
-      "category": "Ui",
+      "sourceName": "essentional-ui/traffic",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "traffic-economy",
       "name": "Traffic Economy",
-      "sourceName": "TrafficEconomy",
-      "category": "Ui",
+      "sourceName": "essentional-ui/traffic-economy",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "tram",
       "name": "Tram",
-      "sourceName": "Tram",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/tram",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "transfer-horizontal",
       "name": "Transfer Horizontal",
-      "sourceName": "TransferHorizontal",
+      "sourceName": "arrows/transfer-horizontal",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "transfer-vertical",
       "name": "Transfer Vertical",
-      "sourceName": "TransferVertical",
+      "sourceName": "arrows/transfer-vertical",
       "category": "Arrows",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "translation",
       "name": "Translation",
-      "sourceName": "Translation",
-      "category": "It",
+      "sourceName": "network-it-programming/translation",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "translation2",
-      "name": "Translation2",
-      "sourceName": "Translation2",
-      "category": "It",
+      "id": "translation-2",
+      "name": "Translation 2",
+      "sourceName": "network-it-programming/translation-2",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "transmission",
       "name": "Transmission",
-      "sourceName": "Transmission",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/transmission",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "transmission-circle",
       "name": "Transmission Circle",
-      "sourceName": "TransmissionCircle",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/transmission-circle",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "transmission-square",
       "name": "Transmission Square",
-      "sourceName": "TransmissionSquare",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/transmission-square",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "trash-bin-2",
+      "name": "Trash Bin 2",
+      "sourceName": "essentional-ui/trash-bin-2",
+      "category": "Essentional, UI",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "trash-bin-minimalistic",
       "name": "Trash Bin Minimalistic",
-      "sourceName": "TrashBinMinimalistic",
-      "category": "Ui",
+      "sourceName": "essentional-ui/trash-bin-minimalistic",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "trash-bin-minimalistic2",
-      "name": "Trash Bin Minimalistic2",
-      "sourceName": "TrashBinMinimalistic2",
-      "category": "Ui",
+      "id": "trash-bin-minimalistic-2",
+      "name": "Trash Bin Minimalistic 2",
+      "sourceName": "essentional-ui/trash-bin-minimalistic-2",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "trash-bin-trash",
       "name": "Trash Bin Trash",
-      "sourceName": "TrashBinTrash",
-      "category": "Ui",
+      "sourceName": "essentional-ui/trash-bin-trash",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "trash-bin2",
-      "name": "Trash Bin2",
-      "sourceName": "TrashBin2",
-      "category": "Ui",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "treadmill",
       "name": "Treadmill",
-      "sourceName": "Treadmill",
+      "sourceName": "sports/treadmill",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "treadmill-round",
       "name": "Treadmill Round",
-      "sourceName": "TreadmillRound",
+      "sourceName": "sports/treadmill-round",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "trellis",
       "name": "Trellis",
-      "sourceName": "Trellis",
-      "category": "Home",
+      "sourceName": "home-furniture/trellis",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "t-shirt",
-      "name": "TShirt",
-      "sourceName": "TShirt",
-      "category": "Ui",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "tuning",
       "name": "Tuning",
-      "sourceName": "Tuning",
-      "category": "Settings",
+      "sourceName": "settings-fine-tuning/tuning",
+      "category": "Settings, Fine Tuning",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "tuning-2",
+      "name": "Tuning 2",
+      "sourceName": "settings-fine-tuning/tuning-2",
+      "category": "Settings, Fine Tuning",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "tuning-3",
+      "name": "Tuning 3",
+      "sourceName": "settings-fine-tuning/tuning-3",
+      "category": "Settings, Fine Tuning",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "tuning-4",
+      "name": "Tuning 4",
+      "sourceName": "settings-fine-tuning/tuning-4",
+      "category": "Settings, Fine Tuning",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "tuning-square",
       "name": "Tuning Square",
-      "sourceName": "TuningSquare",
-      "category": "Settings",
+      "sourceName": "settings-fine-tuning/tuning-square",
+      "category": "Settings, Fine Tuning",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "tuning-square2",
-      "name": "Tuning Square2",
-      "sourceName": "TuningSquare2",
-      "category": "Settings",
+      "id": "tuning-square-2",
+      "name": "Tuning Square 2",
+      "sourceName": "settings-fine-tuning/tuning-square-2",
+      "category": "Settings, Fine Tuning",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "tuning2",
-      "name": "Tuning2",
-      "sourceName": "Tuning2",
-      "category": "Settings",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "tuning3",
-      "name": "Tuning3",
-      "sourceName": "Tuning3",
-      "category": "Settings",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "tuning4",
-      "name": "Tuning4",
-      "sourceName": "Tuning4",
-      "category": "Settings",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "turntable",
       "name": "Turntable",
-      "sourceName": "Turntable",
-      "category": "Devices",
+      "sourceName": "electronic-devices/turntable",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "turntable-minimalistic",
       "name": "Turntable Minimalistic",
-      "sourceName": "TurntableMinimalistic",
-      "category": "Devices",
+      "sourceName": "electronic-devices/turntable-minimalistic",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "turntable-music-note",
       "name": "Turntable Music Note",
-      "sourceName": "TurntableMusicNote",
-      "category": "Devices",
+      "sourceName": "electronic-devices/turntable-music-note",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "tv",
-      "name": "Tv",
-      "sourceName": "Tv",
-      "category": "Devices",
+      "name": "TV",
+      "sourceName": "electronic-devices/tv",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "ufo",
-      "name": "Ufo",
-      "sourceName": "Ufo",
+      "name": "UFO",
+      "sourceName": "astronomy/ufo",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "ufo2",
-      "name": "Ufo2",
-      "sourceName": "Ufo2",
+      "id": "ufo-2",
+      "name": "UFO 2",
+      "sourceName": "astronomy/ufo-2",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "ufo3",
-      "name": "Ufo3",
-      "sourceName": "Ufo3",
+      "id": "ufo-3",
+      "name": "UFO 3",
+      "sourceName": "astronomy/ufo-3",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "umbrella",
       "name": "Umbrella",
-      "sourceName": "Umbrella",
-      "category": "Ui",
+      "sourceName": "essentional-ui/umbrella",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "undo-left",
       "name": "Undo Left",
-      "sourceName": "UndoLeft",
+      "sourceName": "arrows-action/undo-left",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "undo-left-round",
       "name": "Undo Left Round",
-      "sourceName": "UndoLeftRound",
+      "sourceName": "arrows-action/undo-left-round",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "undo-left-round-square",
       "name": "Undo Left Round Square",
-      "sourceName": "UndoLeftRoundSquare",
+      "sourceName": "arrows-action/undo-left-round-square",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "undo-left-square",
       "name": "Undo Left Square",
-      "sourceName": "UndoLeftSquare",
+      "sourceName": "arrows-action/undo-left-square",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "undo-right",
       "name": "Undo Right",
-      "sourceName": "UndoRight",
+      "sourceName": "arrows-action/undo-right",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "undo-right-round",
       "name": "Undo Right Round",
-      "sourceName": "UndoRightRound",
+      "sourceName": "arrows-action/undo-right-round",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "undo-right-round-square",
       "name": "Undo Right Round Square",
-      "sourceName": "UndoRightRoundSquare",
+      "sourceName": "arrows-action/undo-right-round-square",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "undo-right-square",
       "name": "Undo Right Square",
-      "sourceName": "UndoRightSquare",
+      "sourceName": "arrows-action/undo-right-square",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "unread",
       "name": "Unread",
-      "sourceName": "Unread",
-      "category": "Messages",
+      "sourceName": "messages-conversation/unread",
+      "category": "Messages, Conversation",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "upload",
       "name": "Upload",
-      "sourceName": "Upload",
+      "sourceName": "arrows-action/upload",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "upload-minimalistic",
       "name": "Upload Minimalistic",
-      "sourceName": "UploadMinimalistic",
+      "sourceName": "arrows-action/upload-minimalistic",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "upload-square",
       "name": "Upload Square",
-      "sourceName": "UploadSquare",
+      "sourceName": "arrows-action/upload-square",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "upload-track",
       "name": "Upload Track",
-      "sourceName": "UploadTrack",
-      "category": "Video",
+      "sourceName": "video-audio-sound/upload-track",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "upload-track2",
-      "name": "Upload Track2",
-      "sourceName": "UploadTrack2",
-      "category": "Video",
+      "id": "upload-track-2",
+      "name": "Upload Track 2",
+      "sourceName": "video-audio-sound/upload-track-2",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "upload-twice-square",
       "name": "Upload Twice Square",
-      "sourceName": "UploadTwiceSquare",
+      "sourceName": "arrows-action/upload-twice-square",
       "category": "Arrows Action",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "usb",
-      "name": "Usb",
-      "sourceName": "Usb",
-      "category": "It",
+      "name": "USB",
+      "sourceName": "network-it-programming/usb",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "usb-circle",
-      "name": "Usb Circle",
-      "sourceName": "UsbCircle",
-      "category": "It",
+      "name": "USB Circle",
+      "sourceName": "network-it-programming/usb-circle",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "usb-square",
-      "name": "Usb Square",
-      "sourceName": "UsbSquare",
-      "category": "It",
+      "name": "USB Square",
+      "sourceName": "network-it-programming/usb-square",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user",
       "name": "User",
-      "sourceName": "User",
+      "sourceName": "users/user",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-block",
       "name": "User Block",
-      "sourceName": "UserBlock",
+      "sourceName": "users/user-block",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-block-rounded",
       "name": "User Block Rounded",
-      "sourceName": "UserBlockRounded",
+      "sourceName": "users/user-block-rounded",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-check",
       "name": "User Check",
-      "sourceName": "UserCheck",
+      "sourceName": "users/user-check",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-check-rounded",
       "name": "User Check Rounded",
-      "sourceName": "UserCheckRounded",
+      "sourceName": "users/user-check-rounded",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-circle",
       "name": "User Circle",
-      "sourceName": "UserCircle",
+      "sourceName": "users/user-circle",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-cross",
       "name": "User Cross",
-      "sourceName": "UserCross",
+      "sourceName": "users/user-cross",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-cross-rounded",
       "name": "User Cross Rounded",
-      "sourceName": "UserCrossRounded",
+      "sourceName": "users/user-cross-rounded",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-hand-up",
       "name": "User Hand Up",
-      "sourceName": "UserHandUp",
+      "sourceName": "users/user-hand-up",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-hands",
       "name": "User Hands",
-      "sourceName": "UserHands",
+      "sourceName": "users/user-hands",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-heart",
       "name": "User Heart",
-      "sourceName": "UserHeart",
+      "sourceName": "users/user-heart",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-heart-rounded",
       "name": "User Heart Rounded",
-      "sourceName": "UserHeartRounded",
+      "sourceName": "users/user-heart-rounded",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-id",
       "name": "User Id",
-      "sourceName": "UserId",
+      "sourceName": "users/user-id",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-minus",
       "name": "User Minus",
-      "sourceName": "UserMinus",
+      "sourceName": "users/user-minus",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-minus-rounded",
       "name": "User Minus Rounded",
-      "sourceName": "UserMinusRounded",
+      "sourceName": "users/user-minus-rounded",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-plus",
       "name": "User Plus",
-      "sourceName": "UserPlus",
+      "sourceName": "users/user-plus",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-plus-rounded",
       "name": "User Plus Rounded",
-      "sourceName": "UserPlusRounded",
+      "sourceName": "users/user-plus-rounded",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-rounded",
       "name": "User Rounded",
-      "sourceName": "UserRounded",
+      "sourceName": "users/user-rounded",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-speak",
       "name": "User Speak",
-      "sourceName": "UserSpeak",
+      "sourceName": "users/user-speak",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "user-speak-rounded",
       "name": "User Speak Rounded",
-      "sourceName": "UserSpeakRounded",
+      "sourceName": "users/user-speak-rounded",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "users-group-rounded",
       "name": "Users Group Rounded",
-      "sourceName": "UsersGroupRounded",
+      "sourceName": "users/users-group-rounded",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "users-group-two-rounded",
       "name": "Users Group Two Rounded",
-      "sourceName": "UsersGroupTwoRounded",
+      "sourceName": "users/users-group-two-rounded",
       "category": "Users",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "vegetables",
+      "name": "Vegetables",
+      "sourceName": "ingredients/vegetables",
+      "category": "Ingredients",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "verified-check",
       "name": "Verified Check",
-      "sourceName": "VerifiedCheck",
+      "sourceName": "money/verified-check",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "video-frame",
       "name": "Video Frame",
-      "sourceName": "VideoFrame",
-      "category": "Video",
+      "sourceName": "video-audio-sound/video-frame",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "video-frame-2",
+      "name": "Video Frame 2",
+      "sourceName": "video-audio-sound/video-frame-2",
+      "category": "Video, Audio, Sound",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "video-frame-cut",
       "name": "Video Frame Cut",
-      "sourceName": "VideoFrameCut",
-      "category": "Video",
+      "sourceName": "video-audio-sound/video-frame-cut",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "video-frame-cut2",
-      "name": "Video Frame Cut2",
-      "sourceName": "VideoFrameCut2",
-      "category": "Video",
+      "id": "video-frame-cut-2",
+      "name": "Video Frame Cut 2",
+      "sourceName": "video-audio-sound/video-frame-cut-2",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "video-frame-play-horizontal",
       "name": "Video Frame Play Horizontal",
-      "sourceName": "VideoFramePlayHorizontal",
-      "category": "Video",
+      "sourceName": "video-audio-sound/video-frame-play-horizontal",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "video-frame-play-vertical",
       "name": "Video Frame Play Vertical",
-      "sourceName": "VideoFramePlayVertical",
-      "category": "Video",
+      "sourceName": "video-audio-sound/video-frame-play-vertical",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "video-frame-replace",
       "name": "Video Frame Replace",
-      "sourceName": "VideoFrameReplace",
-      "category": "Video",
+      "sourceName": "video-audio-sound/video-frame-replace",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "video-frame2",
-      "name": "Video Frame2",
-      "sourceName": "VideoFrame2",
-      "category": "Video",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "video-library",
       "name": "Video Library",
-      "sourceName": "VideoLibrary",
-      "category": "Video",
+      "sourceName": "video-audio-sound/video-library",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "videocamera",
       "name": "Videocamera",
-      "sourceName": "Videocamera",
-      "category": "Video",
+      "sourceName": "video-audio-sound/videocamera",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "videocamera-add",
       "name": "Videocamera Add",
-      "sourceName": "VideocameraAdd",
-      "category": "Video",
+      "sourceName": "video-audio-sound/videocamera-add",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "videocamera-record",
       "name": "Videocamera Record",
-      "sourceName": "VideocameraRecord",
-      "category": "Video",
+      "sourceName": "video-audio-sound/videocamera-record",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "vinyl",
       "name": "Vinyl",
-      "sourceName": "Vinyl",
-      "category": "Video",
+      "sourceName": "video-audio-sound/vinyl",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "vinyl-record",
       "name": "Vinyl Record",
-      "sourceName": "VinylRecord",
-      "category": "Video",
+      "sourceName": "video-audio-sound/vinyl-record",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "virus",
       "name": "Virus",
-      "sourceName": "Virus",
+      "sourceName": "medicine/virus",
       "category": "Medicine",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "virus-immunity",
+      "name": "Virus Immunity",
+      "sourceName": "health-benefits/virus-immunity",
+      "category": "Health Benefits",
+      "weights": [
+        "linear",
+        "bold"
       ]
     },
     {
       "id": "volleyball",
       "name": "Volleyball",
-      "sourceName": "Volleyball",
+      "sourceName": "sports/volleyball",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
-      "id": "volleyball2",
-      "name": "Volleyball2",
-      "sourceName": "Volleyball2",
+      "id": "volleyball-2",
+      "name": "Volleyball 2",
+      "sourceName": "sports/volleyball-2",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "volume",
       "name": "Volume",
-      "sourceName": "Volume",
-      "category": "Video",
+      "sourceName": "video-audio-sound/volume",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "volume-cross",
       "name": "Volume Cross",
-      "sourceName": "VolumeCross",
-      "category": "Video",
+      "sourceName": "video-audio-sound/volume-cross",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "volume-knob",
       "name": "Volume Knob",
-      "sourceName": "VolumeKnob",
-      "category": "Home",
+      "sourceName": "home-furniture/volume-knob",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "volume-loud",
       "name": "Volume Loud",
-      "sourceName": "VolumeLoud",
-      "category": "Video",
+      "sourceName": "video-audio-sound/volume-loud",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "volume-small",
       "name": "Volume Small",
-      "sourceName": "VolumeSmall",
-      "category": "Video",
+      "sourceName": "video-audio-sound/volume-small",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "wad-of-money",
       "name": "Wad Of Money",
-      "sourceName": "WadOfMoney",
+      "sourceName": "money/wad-of-money",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "walking",
       "name": "Walking",
-      "sourceName": "Walking",
+      "sourceName": "sports/walking",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "walking-round",
       "name": "Walking Round",
-      "sourceName": "WalkingRound",
+      "sourceName": "sports/walking-round",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "wallet",
       "name": "Wallet",
-      "sourceName": "Wallet",
+      "sourceName": "money/wallet",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "wallet-2",
+      "name": "Wallet 2",
+      "sourceName": "money/wallet-2",
+      "category": "Money",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "wallet-money",
       "name": "Wallet Money",
-      "sourceName": "WalletMoney",
+      "sourceName": "money/wallet-money",
       "category": "Money",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "wallet2",
-      "name": "Wallet2",
-      "sourceName": "Wallet2",
-      "category": "Money",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "wallpaper",
       "name": "Wallpaper",
-      "sourceName": "Wallpaper",
-      "category": "Video",
+      "sourceName": "video-audio-sound/wallpaper",
+      "category": "Video, Audio, Sound",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "washing-machine",
       "name": "Washing Machine",
-      "sourceName": "WashingMachine",
-      "category": "Home",
+      "sourceName": "home-furniture/washing-machine",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "washing-machine-minimalistic",
       "name": "Washing Machine Minimalistic",
-      "sourceName": "WashingMachineMinimalistic",
-      "category": "Home",
+      "sourceName": "home-furniture/washing-machine-minimalistic",
+      "category": "Home, Furniture",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "watch-round",
       "name": "Watch Round",
-      "sourceName": "WatchRound",
+      "sourceName": "time/watch-round",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "watch-square",
       "name": "Watch Square",
-      "sourceName": "WatchSquare",
+      "sourceName": "time/watch-square",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "watch-square-minimalistic",
       "name": "Watch Square Minimalistic",
-      "sourceName": "WatchSquareMinimalistic",
+      "sourceName": "time/watch-square-minimalistic",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "watch-square-minimalistic-charge",
       "name": "Watch Square Minimalistic Charge",
-      "sourceName": "WatchSquareMinimalisticCharge",
+      "sourceName": "time/watch-square-minimalistic-charge",
       "category": "Time",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "water",
       "name": "Water",
-      "sourceName": "Water",
+      "sourceName": "sports/water",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "water-sun",
       "name": "Water Sun",
-      "sourceName": "WaterSun",
+      "sourceName": "sports/water-sun",
       "category": "Sports",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "waterdrop",
       "name": "Waterdrop",
-      "sourceName": "Waterdrop",
-      "category": "Ui",
+      "sourceName": "essentional-ui/waterdrop",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "waterdrops",
       "name": "Waterdrops",
-      "sourceName": "Waterdrops",
+      "sourceName": "weather/waterdrops",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "weigher",
       "name": "Weigher",
-      "sourceName": "Weigher",
-      "category": "Devices",
+      "sourceName": "electronic-devices/weigher",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "wheel",
       "name": "Wheel",
-      "sourceName": "Wheel",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/wheel",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "wheel-angle",
       "name": "Wheel Angle",
-      "sourceName": "WheelAngle",
-      "category": "Parts",
+      "sourceName": "transport-parts-service/wheel-angle",
+      "category": "Transport, Parts, Service",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "whisk",
       "name": "Whisk",
-      "sourceName": "Whisk",
-      "category": "Food",
+      "sourceName": "food-kitchen/whisk",
+      "category": "Food, Kitchen",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "wi-fi-router",
-      "name": "Wi Fi Router",
-      "sourceName": "WiFiRouter",
-      "category": "It",
+      "name": "Wi-Fi Router",
+      "sourceName": "network-it-programming/wi-fi-router",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "wi-fi-router-minimalistic",
-      "name": "Wi Fi Router Minimalistic",
-      "sourceName": "WiFiRouterMinimalistic",
-      "category": "It",
+      "name": "Wi-Fi Router Minimalistic",
+      "sourceName": "network-it-programming/wi-fi-router-minimalistic",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "wi-fi-router-round",
-      "name": "Wi Fi Router Round",
-      "sourceName": "WiFiRouterRound",
-      "category": "It",
+      "name": "Wi-Fi Router Round",
+      "sourceName": "network-it-programming/wi-fi-router-round",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "widget",
       "name": "Widget",
-      "sourceName": "Widget",
-      "category": "Settings",
+      "sourceName": "settings-fine-tuning/widget",
+      "category": "Settings, Fine Tuning",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "widget-2",
+      "name": "Widget 2",
+      "sourceName": "settings-fine-tuning/widget-2",
+      "category": "Settings, Fine Tuning",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "widget-3",
+      "name": "Widget 3",
+      "sourceName": "settings-fine-tuning/widget-3",
+      "category": "Settings, Fine Tuning",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "widget-4",
+      "name": "Widget 4",
+      "sourceName": "settings-fine-tuning/widget-4",
+      "category": "Settings, Fine Tuning",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "widget-5",
+      "name": "Widget 5",
+      "sourceName": "settings-fine-tuning/widget-5",
+      "category": "Settings, Fine Tuning",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "widget-6",
+      "name": "Widget 6",
+      "sourceName": "settings-fine-tuning/widget-6",
+      "category": "Settings, Fine Tuning",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "widget-add",
       "name": "Widget Add",
-      "sourceName": "WidgetAdd",
-      "category": "Settings",
+      "sourceName": "settings-fine-tuning/widget-add",
+      "category": "Settings, Fine Tuning",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "widget2",
-      "name": "Widget2",
-      "sourceName": "Widget2",
-      "category": "Settings",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "widget3",
-      "name": "Widget3",
-      "sourceName": "Widget3",
-      "category": "Settings",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "widget4",
-      "name": "Widget4",
-      "sourceName": "Widget4",
-      "category": "Settings",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "widget5",
-      "name": "Widget5",
-      "sourceName": "Widget5",
-      "category": "Settings",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "widget6",
-      "name": "Widget6",
-      "sourceName": "Widget6",
-      "category": "Settings",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
-      ]
-    },
-    {
-      "id": "win-rar",
-      "name": "Win Rar",
-      "sourceName": "WinRar",
-      "category": "Ui",
-      "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "wind",
       "name": "Wind",
-      "sourceName": "Wind",
+      "sourceName": "weather/wind",
       "category": "Weather",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "window-frame",
       "name": "Window Frame",
-      "sourceName": "WindowFrame",
-      "category": "It",
+      "sourceName": "network-it-programming/window-frame",
+      "category": "Network, IT, Programming",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "wineglass",
       "name": "Wineglass",
-      "sourceName": "Wineglass",
-      "category": "Food",
+      "sourceName": "food-kitchen/wineglass",
+      "category": "Food, Kitchen",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "wineglass-triangle",
       "name": "Wineglass Triangle",
-      "sourceName": "WineglassTriangle",
-      "category": "Food",
+      "sourceName": "food-kitchen/wineglass-triangle",
+      "category": "Food, Kitchen",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
+      ]
+    },
+    {
+      "id": "winrar",
+      "name": "WinRar",
+      "sourceName": "essentional-ui/winrar",
+      "category": "Essentional, UI",
+      "weights": [
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "wireless-charge",
       "name": "Wireless Charge",
-      "sourceName": "WirelessCharge",
-      "category": "Devices",
+      "sourceName": "electronic-devices/wireless-charge",
+      "category": "Electronic, Devices",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "women",
       "name": "Women",
-      "sourceName": "Women",
+      "sourceName": "astronomy/women",
       "category": "Astronomy",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "xxx",
-      "name": "Xxx",
-      "sourceName": "Xxx",
-      "category": "Ui",
+      "name": "XXX",
+      "sourceName": "essentional-ui/xxx",
+      "category": "Essentional, UI",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     },
     {
       "id": "zip-file",
-      "name": "Zip File",
-      "sourceName": "ZipFile",
+      "name": "ZIP File",
+      "sourceName": "files/zip-file",
       "category": "Files",
       "weights": [
-        "Outline",
-        "Linear",
-        "Bold",
-        "BoldDuotone",
-        "LineDuotone",
-        "Broken"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ]
     }
   ]

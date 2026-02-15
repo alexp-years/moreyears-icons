@@ -131,8 +131,8 @@
   --years-gray-950: #262626;
   --radius: 0.625rem;
 
-  /* Page background: subtle warm white; cards are white for depth */
-  --background: var(--years-yellow-50);
+  /* Page background: warm neutral surface with high contrast cards */
+  --background: #f5f1e8;
   --foreground: var(--years-gray-900);
   --card: #ffffff;
   --card-foreground: var(--years-gray-900);
@@ -156,7 +156,7 @@
   --accent-foreground: var(--years-purple-900);
 
   --destructive: var(--years-pink-600);
-  --border: var(--years-gray-200);
+  --border: #e3ddd2;
   --input: var(--years-gray-300);
   --ring: var(--years-purple-600);
 
@@ -167,56 +167,15 @@
   --chart-4: var(--years-yellow-500);
   --chart-5: var(--years-pink-500);
 
-  /* Sidebar: clean with purple brand highlights */
-  --sidebar: #ffffff;
-  --sidebar-foreground: var(--years-gray-700);
-  --sidebar-primary: var(--years-purple-600);
-  --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: var(--years-purple-50);
-  --sidebar-accent-foreground: var(--years-purple-900);
-  --sidebar-border: var(--years-gray-200);
-  --sidebar-ring: var(--years-purple-600);
-}
-
-.dark {
-  --background: var(--years-gray-950);
-  --foreground: var(--years-gray-100);
-  --card: var(--years-gray-900);
-  --card-foreground: var(--years-gray-100);
-  --popover: var(--years-gray-900);
-  --popover-foreground: var(--years-gray-100);
-
-  /* Lighter purple for legibility on dark backgrounds */
-  --primary: var(--years-purple-500);
-  --primary-foreground: #ffffff;
-
-  --secondary: var(--years-gray-800);
-  --secondary-foreground: var(--years-gray-100);
-  --muted: var(--years-gray-800);
-  --muted-foreground: var(--years-gray-400);
-
-  --accent: var(--years-gray-800);
-  --accent-foreground: var(--years-purple-200);
-
-  --destructive: var(--years-pink-500);
-  --border: var(--years-gray-700);
-  --input: var(--years-gray-700);
-  --ring: var(--years-purple-500);
-
-  --chart-1: var(--years-purple-400);
-  --chart-2: var(--years-blue-400);
-  --chart-3: var(--years-green-400);
-  --chart-4: var(--years-yellow-400);
-  --chart-5: var(--years-pink-400);
-
-  --sidebar: var(--years-gray-900);
-  --sidebar-foreground: var(--years-gray-200);
-  --sidebar-primary: var(--years-purple-500);
-  --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: var(--years-gray-800);
-  --sidebar-accent-foreground: var(--years-purple-200);
-  --sidebar-border: var(--years-gray-800);
-  --sidebar-ring: var(--years-purple-500);
+  /* Sidebar: purple shell styled for shadcn sidebar primitives */
+  --sidebar: #6f56b7;
+  --sidebar-foreground: #f4efff;
+  --sidebar-primary: var(--years-yellow-500);
+  --sidebar-primary-foreground: var(--years-purple-950);
+  --sidebar-accent: rgba(255, 255, 255, 0.11);
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: rgba(255, 255, 255, 0.17);
+  --sidebar-ring: var(--years-yellow-500);
 }
 
 @layer base {

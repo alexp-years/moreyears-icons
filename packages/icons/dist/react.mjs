@@ -1,9 +1,9 @@
 import React from "react";
-import { getIcon, resolveWeight, getIconUrl } from "./index.mjs";
+import { getIcon, resolveWeight, getIconUrl, fallbackWeights } from "./index.mjs";
 
 export function Icon({
   name,
-  weight = "Outline",
+  weight = fallbackWeights[0],
   size = 24,
   color = "currentColor",
   baseUrl = "",
