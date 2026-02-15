@@ -15,8 +15,8 @@ export default function DocsLayout({
             <SidebarTrigger />
             <p className="ml-2 font-display text-lg text-primary">MoreYears CDN</p>
           </header>
-          <div className="px-6 py-8 md:px-12 md:py-10 lg:px-16 lg:py-12">
-            <main className="mx-auto flex w-full max-w-[1240px] flex-col gap-11">{children}</main>
+          <div className="px-6 py-8 md:px-10 md:py-10 lg:px-16 lg:py-12">
+            <main className="flex w-full flex-col gap-11">{children}</main>
           </div>
         </SidebarInset>
       </div>

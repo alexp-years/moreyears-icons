@@ -132,7 +132,7 @@
   --radius: 0.625rem;
 
   /* Page background: warm neutral surface with high contrast cards */
-  --background: #f5f1e8;
+  --background: var(--years-yellow-50);
   --foreground: var(--years-gray-900);
   --card: #ffffff;
   --card-foreground: var(--years-gray-900);
