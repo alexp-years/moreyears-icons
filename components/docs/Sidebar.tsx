@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
@@ -12,7 +12,7 @@ import {
   Home,
   Shapes,
 } from "lucide-react";
-import { docsNav, type DocNavSection } from "@/lib/docs-nav";
+import { docsNav } from "@/lib/docs-nav";
 import { cn } from "@/lib/utils";
 import {
   Sidebar as SidebarShell,
@@ -44,12 +44,6 @@ const matchesPath = (pathname: string, href: string) => {
   return pathname === href || pathname.startsWith(`${href}/`);
 };
 
-const isSectionActive = (pathname: string, section: DocNavSection) => {
-  const sectionMatch = section.href ? matchesPath(pathname, section.href) : false;
-  const itemMatch = section.items?.some((item) => matchesPath(pathname, item.href));
-  return sectionMatch || Boolean(itemMatch);
-};
-
 export function Sidebar() {
   const pathname = usePathname();
   const { setOpenMobile } = useSidebar();
@@ -60,6 +54,33 @@ export function Sidebar() {
   );
 
   const closeMobileSidebar = () => setOpenMobile(false);
+
+  useEffect(() => {
+    const topLevelSection = docsNav.find(
+      (section) =>
+        section.href &&
+        pathname === section.href &&
+        Boolean(section.items?.length)
+    );
+
+    if (topLevelSection) {
+      setOpenSections((previous) => ({
+        ...previous,
+        [topLevelSection.id]: true,
+      }));
+    }
+
+    const parentOfChild = docsNav.find((section) =>
+      section.items?.some((item) => matchesPath(pathname, item.href))
+    );
+
+    if (parentOfChild) {
+      setOpenSections((previous) => ({
+        ...previous,
+        [parentOfChild.id]: true,
+      }));
+    }
+  }, [pathname]);
 
   return (
     <SidebarShell className="m-2.5 h-[calc(100vh-1.25rem)] rounded-2xl border-0 shadow-[inset_0_0_0_1px_rgba(255,255,255,0.08)] md:m-3 md:h-[calc(100vh-1.5rem)]">
@@ -91,10 +112,14 @@ export function Sidebar() {
                 const topLevelActive = section.href
                   ? matchesPath(pathname, section.href)
                   : false;
-                const active = isSectionActive(pathname, section);
+                const hasActiveChild = Boolean(
+                  section.items?.some((item) => matchesPath(pathname, item.href))
+                );
+                const active = topLevelActive || hasActiveChild;
                 const expanded =
                   hasChildren &&
-                  ((openSections[section.id] ?? section.id === "home") || active);
+                  (openSections[section.id] ?? section.id === "home");
+                const canToggle = hasChildren;
 
                 return (
                   <SidebarMenuItem key={section.id}>
@@ -120,9 +145,6 @@ export function Sidebar() {
                               )}
                             />
                             <span>{section.title}</span>
-                            {!hasChildren && (
-                              <ChevronRight className="ml-auto size-4 text-sidebar-foreground/68" />
-                            )}
                           </Link>
                         </SidebarMenuButton>
                       ) : (
@@ -157,7 +179,7 @@ export function Sidebar() {
                         </SidebarMenuButton>
                       )}
 
-                      {section.href && hasChildren && (
+                      {section.href && canToggle && (
                         <button
                           type="button"
                           onClick={() =>
@@ -167,7 +189,7 @@ export function Sidebar() {
                             }))
                           }
                           aria-label={`Toggle ${section.title}`}
-                          className="flex size-8 items-center justify-center rounded-md text-sidebar-foreground/70 transition hover:bg-sidebar-accent/70 hover:text-sidebar-accent-foreground"
+                          className="flex size-8 cursor-pointer items-center justify-center rounded-md text-sidebar-foreground/70 transition hover:bg-sidebar-accent/70 hover:text-sidebar-accent-foreground"
                         >
                           <ChevronDown
                             className={cn("size-4 transition-transform", expanded && "rotate-180")}

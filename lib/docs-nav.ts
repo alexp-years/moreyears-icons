@@ -42,6 +42,7 @@ export const docsNav: DocNavSection[] = [
   {
     id: "shapes",
     title: "Shapes",
+    href: "/shapes",
     description: "Placeholder area for shape strategy and reusable assets.",
     items: [
       {
@@ -65,3 +66,4 @@ export const docsNav: DocNavSection[] = [
 ];
 
 export const homeSection = docsNav.find((section) => section.id === "home");
+export const shapesSection = docsNav.find((section) => section.id === "shapes");

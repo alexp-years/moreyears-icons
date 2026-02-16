@@ -25,7 +25,7 @@ export default async function ExploreIconsPage() {
   return (
     <div className="space-y-6">
       {/* Package notice bar */}
-      <div className="rounded-md bg-[var(--years-green-100)] px-3 py-2">
+      <div className="inline-flex rounded-[4px] bg-[var(--years-green-100)] px-3 py-2">
         <p className="text-base text-[var(--years-green-950)]">
           <span className="font-bold italic">@moreyears/icons package</span>{" "}
           Synced from the published npm package while keeping stable CDN-style

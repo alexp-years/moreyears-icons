@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   Dialog,
   DialogContent,
@@ -20,13 +20,19 @@ import { Separator } from "@/components/ui/separator";
 import {
   Check,
   Copy,
-  Download,
   Palette,
   RotateCcw,
   FileCode2,
   FileImage,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { getTileColors } from "@/lib/color-utils";
+import {
+  applySvgSettings,
+  downloadPngFile,
+  downloadSvgFile,
+  IconSvgPreview,
+} from "@/components/docs/IconSvgPreview";
 
 type IconMeta = {
   id: string;
@@ -77,106 +83,6 @@ async function copyToClipboard(value: string) {
   }
 }
 
-function applySvgSettings(
-  svgString: string,
-  color: string,
-  strokeWidth: number
-): string {
-  let svg = svgString;
-  svg = svg.replace(/#896FCA/gi, color);
-  svg = svg.replace(
-    /stroke-width="[^"]*"/g,
-    `stroke-width="${strokeWidth}"`
-  );
-  return svg;
-}
-
-function ensureSvgDimensions(svg: string, size: number): string {
-  if (!svg.includes("width=")) {
-    return svg.replace(
-      "<svg",
-      `<svg width="${size}" height="${size}"`
-    );
-  }
-  let result = svg.replace(/width="[^"]*"/, `width="${size}"`);
-  result = result.replace(/height="[^"]*"/, `height="${size}"`);
-  return result;
-}
-
-async function downloadSvg(
-  svgString: string,
-  filename: string,
-  color: string,
-  strokeWidth: number
-) {
-  const modified = applySvgSettings(svgString, color, strokeWidth);
-  const blob = new Blob([modified], {
-    type: "image/svg+xml;charset=utf-8",
-  });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = filename;
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
-}
-
-async function downloadPng(
-  svgString: string,
-  filename: string,
-  color: string,
-  strokeWidth: number,
-  exportSize = 512
-): Promise<void> {
-  const modified = ensureSvgDimensions(
-    applySvgSettings(svgString, color, strokeWidth),
-    exportSize
-  );
-  const blob = new Blob([modified], {
-    type: "image/svg+xml;charset=utf-8",
-  });
-  const url = URL.createObjectURL(blob);
-
-  return new Promise((resolve, reject) => {
-    const img = new Image();
-    img.onload = () => {
-      const canvas = document.createElement("canvas");
-      canvas.width = exportSize;
-      canvas.height = exportSize;
-      const ctx = canvas.getContext("2d");
-      if (!ctx) {
-        URL.revokeObjectURL(url);
-        reject(new Error("Canvas context unavailable"));
-        return;
-      }
-      ctx.drawImage(img, 0, 0, exportSize, exportSize);
-      canvas.toBlob((pngBlob) => {
-        URL.revokeObjectURL(url);
-        if (!pngBlob) {
-          reject(new Error("PNG conversion failed"));
-          return;
-        }
-        const pngUrl = URL.createObjectURL(pngBlob);
-        const a = document.createElement("a");
-        a.href = pngUrl;
-        a.download = filename;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(pngUrl);
-        resolve();
-      }, "image/png");
-    };
-    img.onerror = () => {
-      URL.revokeObjectURL(url);
-      reject(new Error("SVG image load failed"));
-    };
-    img.src = url;
-  });
-}
-
 export function IconDetailModal({
   icon,
   open,
@@ -193,7 +99,7 @@ export function IconDetailModal({
   const [copiedField, setCopiedField] = useState<string | null>(null);
   const [colorPickerOpen, setColorPickerOpen] = useState(false);
   const [downloading, setDownloading] = useState<string | null>(null);
-  const [svgContent, setSvgContent] = useState<string | null>(null);
+  const [rawSvg, setRawSvg] = useState<string | null>(null);
   const colorInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -202,17 +108,8 @@ export function IconDetailModal({
     setLocalStrokeWidth(initialStrokeWidth);
     setLocalWeight(initialWeight);
     setCopiedField(null);
-    setSvgContent(null);
+    setRawSvg(null);
   }, [icon, initialColor, initialStrokeWidth, initialWeight]);
-
-  useEffect(() => {
-    if (!icon || !open) return;
-    const url = getIconUrl(icon.id, localWeight);
-    fetch(url)
-      .then((r) => r.text())
-      .then(setSvgContent)
-      .catch(() => setSvgContent(null));
-  }, [icon, open, localWeight, getIconUrl]);
 
   const resolveWeight = useCallback(
     (available: string[], preferred: string) => {
@@ -266,14 +163,19 @@ export function IconDetailModal({
   };
 
   const handleDownloadSvg = async () => {
-    if (!icon || !svgContent) return;
+    if (!icon || !rawSvg) return;
     setDownloading("svg");
     try {
-      await downloadSvg(
-        svgContent,
-        `${icon.id}-${localWeight}.svg`,
+      const transformed = applySvgSettings(
+        rawSvg,
         localColor,
-        localStrokeWidth
+        localStrokeWidth,
+        resolvedWeight === "linear",
+        512
+      );
+      await downloadSvgFile(
+        transformed,
+        `${icon.id}-${resolvedWeight}.svg`,
       );
     } finally {
       setDownloading(null);
@@ -281,21 +183,30 @@ export function IconDetailModal({
   };
 
   const handleDownloadPng = async () => {
-    if (!icon || !svgContent) return;
+    if (!icon || !rawSvg) return;
     setDownloading("png");
     try {
-      await downloadPng(
-        svgContent,
-        `${icon.id}-${localWeight}.png`,
+      const transformed = applySvgSettings(
+        rawSvg,
         localColor,
-        localStrokeWidth
+        localStrokeWidth,
+        resolvedWeight === "linear",
+        512
       );
+      await downloadPngFile(transformed, `${icon.id}-${resolvedWeight}.png`);
     } finally {
       setDownloading(null);
     }
   };
 
-  if (!icon) return null;
+  const tileColors = useMemo(
+    () => getTileColors(localColor, PRESET_COLORS[0].value),
+    [localColor]
+  );
+
+  if (!icon) {
+    return null;
+  }
 
   const resolvedWeight = resolveWeight(icon.weights, localWeight);
   const previewUrl = getIconUrl(icon.id, resolvedWeight);
@@ -320,20 +231,20 @@ export function IconDetailModal({
         </DialogHeader>
 
         {/* Preview */}
-        <div className="mx-6 flex items-center justify-center rounded-2xl bg-[var(--years-purple-50)] border border-[var(--years-purple-100)] p-10">
-          <div
+        <div
+          className="mx-6 flex items-center justify-center rounded-2xl border p-10 transition-colors duration-200"
+          style={{
+            backgroundColor: tileColors.bg,
+            borderColor: tileColors.border,
+          }}
+        >
+          <IconSvgPreview
+            url={previewUrl}
+            color={localColor}
+            strokeWidth={localStrokeWidth}
+            applyStrokeWidth={resolvedWeight === "linear"}
+            onRawSvgLoaded={setRawSvg}
             className="size-24 transition-all duration-200"
-            style={{
-              backgroundColor: localColor,
-              WebkitMaskImage: `url(${previewUrl})`,
-              maskImage: `url(${previewUrl})`,
-              WebkitMaskSize: "contain",
-              maskSize: "contain",
-              WebkitMaskRepeat: "no-repeat",
-              maskRepeat: "no-repeat",
-              WebkitMaskPosition: "center",
-              maskPosition: "center",
-            }}
           />
         </div>
 
@@ -348,7 +259,7 @@ export function IconDetailModal({
               <button
                 type="button"
                 onClick={handleReset}
-                className="flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors"
+                className="flex cursor-pointer items-center gap-1.5 text-xs text-muted-foreground transition-colors hover:text-foreground"
               >
                 <RotateCcw className="size-3" />
                 Reset
@@ -369,7 +280,7 @@ export function IconDetailModal({
                       onClick={() => handleColorPreset(c.value)}
                       title={c.name}
                       className={cn(
-                        "size-6 rounded-full border-2 p-[2px] transition-all",
+                        "size-6 cursor-pointer rounded-full border-2 p-[2px] transition-all hover:scale-110",
                         localColor === c.value
                           ? "border-[var(--years-purple-500)] border-dashed"
                           : "border-white"
@@ -390,7 +301,7 @@ export function IconDetailModal({
                         type="button"
                         title="Custom color"
                         className={cn(
-                          "size-6 rounded-full border-2 p-[2px] transition-all flex items-center justify-center",
+                          "size-6 cursor-pointer rounded-full border-2 p-[2px] transition-all hover:scale-110 flex items-center justify-center",
                           !isPresetColor
                             ? "border-[var(--years-purple-500)] border-dashed"
                             : "border-white"
@@ -411,7 +322,7 @@ export function IconDetailModal({
                         <button
                           type="button"
                           onClick={() => colorInputRef.current?.click()}
-                          className="size-9 shrink-0 rounded-lg border border-border overflow-hidden cursor-pointer"
+                          className="size-9 shrink-0 rounded-lg border border-border overflow-hidden cursor-pointer transition-colors hover:border-foreground"
                           style={{ backgroundColor: localColor }}
                         />
                         <input
@@ -435,28 +346,31 @@ export function IconDetailModal({
                 </div>
               </div>
 
-              <Separator orientation="vertical" className="h-5 hidden sm:block" />
-
-              {/* Stroke Width */}
-              <div className="flex items-center gap-2">
-                <span className="text-xs font-medium text-muted-foreground">
-                  Stroke
-                </span>
-                <div className="flex items-center gap-1">
-                  <Input
-                    type="number"
-                    min={0.5}
-                    max={4}
-                    step={0.5}
-                    value={localStrokeWidth}
-                    onChange={(e) =>
-                      handleStrokeWidthChange(e.target.value)
-                    }
-                    className="h-8 w-16 text-center text-xs font-medium"
-                  />
-                  <span className="text-xs text-muted-foreground">px</span>
-                </div>
-              </div>
+              {resolvedWeight === "linear" && (
+                <>
+                  <Separator orientation="vertical" className="h-5 hidden sm:block" />
+                  {/* Stroke Width */}
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs font-medium text-muted-foreground">
+                      Stroke
+                    </span>
+                    <div className="flex items-center gap-1">
+                      <Input
+                        type="number"
+                        min={0.5}
+                        max={4}
+                        step={0.5}
+                        value={localStrokeWidth}
+                        onChange={(e) =>
+                          handleStrokeWidthChange(e.target.value)
+                        }
+                        className="h-8 w-16 text-center text-xs font-medium"
+                      />
+                      <span className="text-xs text-muted-foreground">px</span>
+                    </div>
+                  </div>
+                </>
+              )}
 
               <Separator orientation="vertical" className="h-5 hidden sm:block" />
 
@@ -468,7 +382,7 @@ export function IconDetailModal({
                 <select
                   value={localWeight}
                   onChange={(e) => setLocalWeight(e.target.value)}
-                  className="h-8 rounded-md border border-input bg-transparent px-2 text-xs font-medium outline-none focus:ring-2 focus:ring-ring/50"
+                  className="h-8 cursor-pointer rounded-md border border-input bg-transparent px-2 text-xs font-medium outline-none transition-colors hover:bg-muted/50 focus:ring-2 focus:ring-ring/50"
                 >
                   {icon.weights.map((w) => (
                     <option key={w} value={w}>
@@ -491,7 +405,7 @@ export function IconDetailModal({
                 size="sm"
                 className="gap-1.5 flex-1"
                 onClick={handleDownloadSvg}
-                disabled={!svgContent || downloading === "svg"}
+                disabled={!rawSvg || downloading === "svg"}
               >
                 <FileCode2 className="size-3.5" />
                 {downloading === "svg" ? "Downloading..." : "SVG"}
@@ -501,7 +415,7 @@ export function IconDetailModal({
                 size="sm"
                 className="gap-1.5 flex-1"
                 onClick={handleDownloadPng}
-                disabled={!svgContent || downloading === "png"}
+                disabled={!rawSvg || downloading === "png"}
               >
                 <FileImage className="size-3.5" />
                 {downloading === "png" ? "Downloading..." : "PNG"}
@@ -525,7 +439,7 @@ export function IconDetailModal({
                 <button
                   type="button"
                   onClick={() => handleCopy("name", icon.id)}
-                  className="shrink-0 rounded p-1 text-muted-foreground transition-colors hover:text-foreground"
+                  className="shrink-0 cursor-pointer rounded p-1 text-muted-foreground transition-colors hover:text-foreground"
                   title="Copy icon name"
                 >
                   {copiedField === "name" ? (
@@ -544,7 +458,7 @@ export function IconDetailModal({
                 <button
                   type="button"
                   onClick={() => handleCopy("react", reactSnippet)}
-                  className="shrink-0 rounded p-1 text-muted-foreground transition-colors hover:text-foreground"
+                  className="shrink-0 cursor-pointer rounded p-1 text-muted-foreground transition-colors hover:text-foreground"
                   title="Copy React usage"
                 >
                   {copiedField === "react" ? (

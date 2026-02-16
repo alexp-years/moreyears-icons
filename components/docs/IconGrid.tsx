@@ -31,7 +31,9 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import { IconDetailModal } from "@/components/docs/IconDetailModal";
+import { IconSvgPreview } from "@/components/docs/IconSvgPreview";
 import { cn } from "@/lib/utils";
+import { getTileColors } from "@/lib/color-utils";
 
 /* ── Types ── */
 type IconMeta = {
@@ -225,6 +227,11 @@ export function IconGrid({
     (c) => c.value === previewColor
   );
 
+  const tileColors = useMemo(
+    () => getTileColors(previewColor, DEFAULT_COLOR),
+    [previewColor]
+  );
+
   return (
     <div className="space-y-6">
       {/* ── Title ── */}
@@ -239,7 +246,7 @@ export function IconGrid({
             <DropdownMenuTrigger asChild>
               <button
                 type="button"
-                className="inline-flex h-10 w-40 items-center justify-between rounded-lg border border-[var(--years-gray-200)] bg-white px-3 text-base text-foreground outline-none transition-colors hover:bg-muted/30 focus:ring-2 focus:ring-ring/50"
+                className="inline-flex h-10 w-40 cursor-pointer items-center justify-between rounded-lg border border-[var(--years-purple-100)] bg-[var(--years-purple-50)] px-3 text-base text-foreground outline-none transition-colors hover:bg-[var(--years-purple-100)]/60 focus:ring-2 focus:ring-[var(--years-purple-200)]"
               >
                 <span>{formatWeightLabel(weight)}</span>
                 <ChevronDown className="size-5 text-muted-foreground" />
@@ -267,7 +274,7 @@ export function IconGrid({
             <DropdownMenuTrigger asChild>
               <button
                 type="button"
-                className="inline-flex h-10 w-72 items-center justify-between rounded-lg border border-[var(--years-gray-200)] bg-white px-3 text-base text-foreground outline-none transition-colors hover:bg-muted/30 focus:ring-2 focus:ring-ring/50"
+                className="inline-flex h-10 w-72 cursor-pointer items-center justify-between rounded-lg border border-[var(--years-purple-100)] bg-[var(--years-purple-50)] px-3 text-base text-foreground outline-none transition-colors hover:bg-[var(--years-purple-100)]/60 focus:ring-2 focus:ring-[var(--years-purple-200)]"
               >
                 <span className="truncate">
                   {selectedCategory === "all"
@@ -312,7 +319,7 @@ export function IconGrid({
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search for an icon..."
-            className="h-10 pr-10 rounded-lg border-[var(--years-gray-200)] bg-white text-base placeholder:text-[var(--years-gray-400)]"
+            className="h-10 rounded-lg border-[var(--years-purple-100)] bg-[var(--years-purple-50)] pr-10 text-base transition-colors placeholder:text-[var(--years-gray-400)] hover:border-[var(--years-purple-200)]"
           />
           {query ? (
             <button
@@ -321,26 +328,26 @@ export function IconGrid({
                 setQuery("");
                 searchRef.current?.focus();
               }}
-              className="absolute right-3 top-1/2 -translate-y-1/2 rounded-sm p-0.5 text-muted-foreground transition-colors hover:text-foreground"
+              className="absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer rounded-sm p-0.5 text-muted-foreground transition-colors hover:text-foreground"
             >
               <X className="size-4" />
             </button>
           ) : (
-            <Search className="pointer-events-none absolute right-3 top-1/2 size-5 -translate-y-1/2 text-muted-foreground" />
+            <Search className="pointer-events-none absolute right-3 top-1/2 size-5 -translate-y-1/2 text-[var(--years-purple-600)]" />
           )}
         </div>
       </div>
 
       {/* ── Icon Preview Settings Toolbar ── */}
-      <div className="flex flex-wrap items-center justify-between gap-4 rounded-xl border border-[var(--years-yellow-200)] bg-[var(--years-yellow-100)] px-6 py-4">
-        <p className="text-sm font-semibold text-foreground whitespace-nowrap">
+      <div className="flex flex-wrap items-center justify-between gap-4 rounded-xl border border-[var(--years-purple-400)] bg-[var(--years-purple-300)] px-6 py-4">
+        <p className="whitespace-nowrap text-sm font-semibold text-[var(--years-purple-700)]">
           Icon Preview Settings
         </p>
 
         <div className="flex flex-wrap items-center gap-x-8 gap-y-3">
           {/* Color swatches */}
           <div className="flex items-center gap-2">
-            <span className="text-sm font-semibold text-foreground">
+            <span className="text-sm font-semibold text-[var(--years-gray-900)]">
               Color
             </span>
             <div className="flex items-center gap-2">
@@ -351,7 +358,7 @@ export function IconGrid({
                   onClick={() => handleColorPreset(c.value)}
                   title={c.name}
                   className={cn(
-                    "size-6 rounded-full border-2 p-[2px] transition-all",
+                    "size-6 cursor-pointer rounded-full border-2 p-[2px] transition-all hover:scale-110",
                     previewColor === c.value
                       ? "border-[var(--years-purple-500)] border-dashed"
                       : "border-white"
@@ -374,7 +381,7 @@ export function IconGrid({
                     type="button"
                     title="Custom color"
                     className={cn(
-                      "size-6 rounded-full border-2 p-[2px] transition-all flex items-center justify-center",
+                      "size-6 cursor-pointer rounded-full border-2 p-[2px] transition-all hover:scale-110 flex items-center justify-center",
                       !isPresetColor
                         ? "border-[var(--years-purple-500)] border-dashed"
                         : "border-white"
@@ -401,7 +408,7 @@ export function IconGrid({
                     <button
                       type="button"
                       onClick={() => colorInputRef.current?.click()}
-                      className="size-9 shrink-0 rounded-lg border border-border overflow-hidden cursor-pointer"
+                      className="size-9 shrink-0 rounded-lg border border-border overflow-hidden cursor-pointer transition-colors hover:border-foreground"
                       style={{ backgroundColor: previewColor }}
                     />
                     <input
@@ -423,35 +430,39 @@ export function IconGrid({
             </div>
           </div>
 
-          <Separator
-            orientation="vertical"
-            className="h-8 hidden sm:block"
-          />
+          {weight === "linear" && (
+            <Separator
+              orientation="vertical"
+              className="h-8 hidden sm:block"
+            />
+          )}
 
-          {/* Stroke Width */}
-          <div className="flex items-center gap-2">
-            <span className="text-sm font-semibold text-foreground">
-              Stroke Width
-            </span>
-            <div className="flex items-center gap-1 rounded-lg bg-white p-1">
-              <Input
-                type="number"
-                min={0.5}
-                max={4}
-                step={0.5}
-                value={strokeWidth}
-                onChange={(e) => handleStrokeWidthChange(e.target.value)}
-                className="h-7 w-16 border-0 bg-transparent text-center text-sm font-semibold shadow-none focus-visible:ring-0"
-              />
-              <span className="pr-1 text-sm text-muted-foreground">px</span>
+          {/* Stroke Width (Linear only) */}
+          {weight === "linear" && (
+            <div className="flex items-center gap-2">
+              <span className="text-sm font-semibold text-foreground">
+                Stroke Width
+              </span>
+              <div className="flex items-center gap-1 rounded-lg border border-[var(--years-purple-100)] bg-[var(--years-purple-50)] p-1">
+                <Input
+                  type="number"
+                  min={0.5}
+                  max={4}
+                  step={0.5}
+                  value={strokeWidth}
+                  onChange={(e) => handleStrokeWidthChange(e.target.value)}
+                  className="h-7 w-16 border-0 bg-transparent text-center text-sm font-semibold shadow-none focus-visible:ring-0"
+                />
+                <span className="pr-1 text-sm text-muted-foreground">px</span>
+              </div>
             </div>
-          </div>
+          )}
 
           {/* Reset */}
           <button
             type="button"
             onClick={handleReset}
-            className="flex items-center gap-2 rounded-lg bg-[var(--years-yellow-50)] px-4 py-2.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
+            className="flex cursor-pointer items-center gap-2 rounded-lg border border-[var(--years-purple-200)] bg-[var(--years-purple-100)] px-4 py-2.5 text-sm text-[var(--years-gray-600)] transition-colors hover:bg-[var(--years-purple-200)] hover:text-[var(--years-gray-900)]"
           >
             <RotateCcw className="size-3.5" />
             Reset
@@ -504,21 +515,24 @@ export function IconGrid({
                   type="button"
                   onClick={() => setSelectedIcon(icon)}
                   title={icon.name}
-                  className="group aspect-square rounded-2xl border border-[var(--years-purple-100)] bg-[var(--years-purple-50)] p-4 transition-all duration-150 hover:shadow-md hover:border-[var(--years-purple-200)] hover:scale-[1.03] focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none cursor-pointer"
+                  className="group aspect-square rounded-2xl border p-4 transition-all duration-200 hover:shadow-md hover:scale-[1.03] focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none cursor-pointer"
+                  style={{
+                    backgroundColor: tileColors.bg,
+                    borderColor: tileColors.border,
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.borderColor = tileColors.hoverBorder;
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.borderColor = tileColors.border;
+                  }}
                 >
-                  <div
-                    className="size-full transition-colors duration-200"
-                    style={{
-                      backgroundColor: previewColor,
-                      WebkitMaskImage: `url(${url})`,
-                      maskImage: `url(${url})`,
-                      WebkitMaskSize: "contain",
-                      maskSize: "contain",
-                      WebkitMaskRepeat: "no-repeat",
-                      maskRepeat: "no-repeat",
-                      WebkitMaskPosition: "center",
-                      maskPosition: "center",
-                    }}
+                  <IconSvgPreview
+                    url={url}
+                    color={previewColor}
+                    strokeWidth={strokeWidth}
+                    applyStrokeWidth={resolvedWeight === "linear"}
+                    className="transition-all duration-200"
                   />
                 </button>
               );
