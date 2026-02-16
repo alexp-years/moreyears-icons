@@ -83,7 +83,7 @@ export function Sidebar() {
   }, [pathname]);
 
   return (
-    <SidebarShell className="m-2.5 h-[calc(100vh-1.25rem)] rounded-2xl border-0 shadow-[inset_0_0_0_1px_rgba(255,255,255,0.08)] md:m-3 md:h-[calc(100vh-1.5rem)]">
+    <SidebarShell className="m-2.5 h-[calc(100vh-1.25rem)] rounded-2xl border-0 shadow-[inset_0_0_0_1px_rgba(255,255,255,0.08)] md:top-3 md:m-3 md:h-[calc(100vh-1.5rem)]">
       <SidebarHeader>
         <div className="flex items-center gap-3 rounded-xl px-1 py-1">
           <div className="flex size-10 items-center justify-center rounded-xl bg-[color:rgba(53,39,104,0.58)] text-white">
