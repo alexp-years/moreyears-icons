@@ -55,6 +55,12 @@ export const docsNav: DocNavSection[] = [
         href: "/shapes/library",
         description: "Placeholder for squircles and future shape primitives.",
       },
+      {
+        title: "Superellipse builder",
+        href: "/shapes/builder",
+        description:
+          "Interactive tool to create and export custom superellipse shapes.",
+      },
     ],
   },
   {

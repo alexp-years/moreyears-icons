@@ -7,6 +7,7 @@ import { shapesSection } from "@/lib/docs-nav";
 const featureIconMap: Record<string, string> = {
   "/shapes/introduction": "shapes",
   "/shapes/library": "shapes",
+  "/shapes/builder": "shapes",
 };
 
 export default function ShapesOverviewPage() {

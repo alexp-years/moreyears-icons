@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "@moreyears/icons": "^1.0.0",
-    "@squircle-js/react": "^1.3.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.563.0",
