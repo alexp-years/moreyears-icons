@@ -8,6 +8,7 @@ export type IconMeta = {
   sourceName: string;
   category: string;
   weights: IconWeight[];
+  tags: string[];
 };
 
 export type IconManifest = {

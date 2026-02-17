@@ -42,6 +42,7 @@ type IconMeta = {
   sourceName: string;
   category: string;
   weights: string[];
+  tags: string[];
 };
 
 type IconManifest = {
@@ -136,7 +137,8 @@ export function IconGrid({
         (icon) =>
           icon.name.toLowerCase().includes(normalizedQuery) ||
           icon.id.toLowerCase().includes(normalizedQuery) ||
-          icon.category.toLowerCase().includes(normalizedQuery)
+          icon.category.toLowerCase().includes(normalizedQuery) ||
+          icon.tags?.some((tag) => tag.toLowerCase().includes(normalizedQuery))
       );
     }
     return icons;

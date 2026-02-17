@@ -102,7 +102,7 @@ const writeModules = async (manifest) => {
     ? manifest.weights.map((weight) => `"${weight}"`).join(" | ")
     : "string";
 
-  const typesModule = `import * as React from "react";\n\nexport type IconWeight = ${iconWeightUnion};\n\nexport type IconMeta = {\n  id: string;\n  name: string;\n  sourceName: string;\n  category: string;\n  weights: IconWeight[];\n};\n\nexport type IconManifest = {\n  version: string;\n  generatedAt: string;\n  weights: IconWeight[];\n  icons: IconMeta[];\n};\n\nexport const manifest: IconManifest;\nexport const icons: IconMeta[];\nexport const weights: IconWeight[];\nexport const fallbackWeights: IconWeight[];\n\nexport function getIcon(nameOrId: string): IconMeta | undefined;\nexport function resolveWeight(\n  available: IconWeight[],\n  preferred?: IconWeight,\n  fallbackOrder?: IconWeight[]\n): IconWeight;\n\nexport function getIconUrl(options: {\n  baseUrl?: string;\n  prefix?: string;\n  id: string;\n  weight: IconWeight;\n}): string;\n\nexport type IconProps = {\n  name: string;\n  weight?: IconWeight;\n  size?: number | string;\n  color?: string;\n  baseUrl?: string;\n  prefix?: string;\n  className?: string;\n  title?: string;\n  mode?: "mask" | "img";\n  style?: React.CSSProperties;\n};\n\nexport function Icon(props: IconProps & React.HTMLAttributes<HTMLSpanElement>): JSX.Element | null;\n`;
+  const typesModule = `import * as React from "react";\n\nexport type IconWeight = ${iconWeightUnion};\n\nexport type IconMeta = {\n  id: string;\n  name: string;\n  sourceName: string;\n  category: string;\n  weights: IconWeight[];\n  tags: string[];\n};\n\nexport type IconManifest = {\n  version: string;\n  generatedAt: string;\n  weights: IconWeight[];\n  icons: IconMeta[];\n};\n\nexport const manifest: IconManifest;\nexport const icons: IconMeta[];\nexport const weights: IconWeight[];\nexport const fallbackWeights: IconWeight[];\n\nexport function getIcon(nameOrId: string): IconMeta | undefined;\nexport function resolveWeight(\n  available: IconWeight[],\n  preferred?: IconWeight,\n  fallbackOrder?: IconWeight[]\n): IconWeight;\n\nexport function getIconUrl(options: {\n  baseUrl?: string;\n  prefix?: string;\n  id: string;\n  weight: IconWeight;\n}): string;\n\nexport type IconProps = {\n  name: string;\n  weight?: IconWeight;\n  size?: number | string;\n  color?: string;\n  baseUrl?: string;\n  prefix?: string;\n  className?: string;\n  title?: string;\n  mode?: "mask" | "img";\n  style?: React.CSSProperties;\n};\n\nexport function Icon(props: IconProps & React.HTMLAttributes<HTMLSpanElement>): JSX.Element | null;\n`;
 
   await fs.writeFile(path.join(distDir, "manifest.mjs"), manifestModule, "utf8");
   await fs.writeFile(path.join(distDir, "index.mjs"), indexModule, "utf8");
@@ -177,6 +177,7 @@ const build = async () => {
       sourceName: sourceId,
       category,
       weights: sortWeights(iconWeights),
+      tags: icon.tags || [],
     });
   }
 

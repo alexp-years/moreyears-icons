@@ -1,6 +1,6 @@
 export const manifest = {
   "version": "1.0.0",
-  "generatedAt": "2026-02-15T19:04:45.485Z",
+  "generatedAt": "2026-02-17T11:41:04.973Z",
   "weights": [
     "linear",
     "bold",
@@ -22,6 +22,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "HD",
+        "core",
+        "display",
+        "essential",
+        "interface",
+        "quality",
+        "resolution",
+        "ui",
+        "ultra",
+        "video"
       ]
     },
     {
@@ -36,6 +48,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "a11y",
+        "accessible",
+        "core",
+        "disability",
+        "essential",
+        "inclusive",
+        "interface",
+        "ui",
+        "universal"
       ]
     },
     {
@@ -50,6 +73,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "automotive",
+        "battery",
+        "car",
+        "cell",
+        "charge",
+        "commute",
+        "energy",
+        "power",
+        "transport",
+        "travel",
+        "vehicle"
       ]
     },
     {
@@ -59,6 +95,15 @@ export const manifest = {
       "category": "Additional",
       "weights": [
         "bold"
+      ],
+      "tags": [
+        "create",
+        "extra",
+        "insert",
+        "misc",
+        "new",
+        "plus",
+        "ui"
       ]
     },
     {
@@ -73,6 +118,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "circle",
+        "core",
+        "create",
+        "essential",
+        "insert",
+        "interface",
+        "new",
+        "plus",
+        "ui"
       ]
     },
     {
@@ -87,6 +143,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "create",
+        "directory",
+        "folder",
+        "mkdir",
+        "new-folder",
+        "organize",
+        "storage"
       ]
     },
     {
@@ -101,6 +166,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "create",
+        "essential",
+        "insert",
+        "interface",
+        "new",
+        "plus",
+        "square",
+        "ui"
       ]
     },
     {
@@ -115,6 +191,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bandage",
+        "bandaid",
+        "clinical",
+        "first-aid",
+        "health",
+        "healthcare",
+        "medical",
+        "medicine",
+        "pharmacy",
+        "plaster",
+        "wound"
       ]
     },
     {
@@ -129,6 +218,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bandage",
+        "bandaid",
+        "clinical",
+        "health",
+        "healthcare",
+        "medical",
+        "medicine",
+        "pharmacy",
+        "plaster",
+        "wound"
       ]
     },
     {
@@ -143,6 +244,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "AirPods",
+        "audio",
+        "device",
+        "earbuds",
+        "earphones",
+        "electronic",
+        "gadget",
+        "hardware",
+        "headphones",
+        "tech",
+        "technology",
+        "wireless"
       ]
     },
     {
@@ -157,6 +272,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "AirPods",
+        "case",
+        "charging",
+        "device",
+        "earbuds",
+        "electronic",
+        "gadget",
+        "hardware",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -171,6 +298,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "AirPods",
+        "battery",
+        "charging",
+        "device",
+        "earbuds",
+        "electronic",
+        "gadget",
+        "hardware",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -185,6 +324,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "AirPods",
+        "case",
+        "device",
+        "earbuds",
+        "electronic",
+        "gadget",
+        "hardware",
+        "minimal",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -199,6 +350,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "AirPods",
+        "case",
+        "device",
+        "earbuds",
+        "electronic",
+        "gadget",
+        "hardware",
+        "open",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -213,6 +376,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "battery",
+        "charging",
+        "device",
+        "earbuds",
+        "electronic",
+        "gadget",
+        "hardware",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -227,6 +401,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "connected",
+        "device",
+        "earbuds",
+        "electronic",
+        "gadget",
+        "hardware",
+        "paired",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -241,6 +426,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "earbud",
+        "electronic",
+        "gadget",
+        "hardware",
+        "left",
+        "single",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -255,6 +451,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "disconnect",
+        "earbuds",
+        "electronic",
+        "gadget",
+        "hardware",
+        "tech",
+        "technology",
+        "unpair"
       ]
     },
     {
@@ -269,6 +476,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "earbud",
+        "electronic",
+        "gadget",
+        "hardware",
+        "right",
+        "single",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -283,6 +501,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alert",
+        "buzzer",
+        "clock",
+        "date",
+        "duration",
+        "morning",
+        "reminder",
+        "schedule",
+        "time",
+        "timing",
+        "wake-up"
       ]
     },
     {
@@ -297,6 +528,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clock",
+        "create",
+        "date",
+        "duration",
+        "new-alarm",
+        "schedule",
+        "set-alarm",
+        "time",
+        "timing"
       ]
     },
     {
@@ -311,6 +553,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clock",
+        "date",
+        "delay",
+        "duration",
+        "pause",
+        "schedule",
+        "snooze",
+        "time",
+        "timing"
       ]
     },
     {
@@ -325,6 +578,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "clock",
+        "date",
+        "duration",
+        "resume",
+        "schedule",
+        "start",
+        "time",
+        "timing"
       ]
     },
     {
@@ -339,6 +603,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cancel",
+        "clock",
+        "date",
+        "delete-alarm",
+        "dismiss",
+        "duration",
+        "schedule",
+        "time",
+        "timing"
       ]
     },
     {
@@ -353,6 +628,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bedtime",
+        "clock",
+        "date",
+        "duration",
+        "rest",
+        "schedule",
+        "snooze",
+        "time",
+        "timing",
+        "zzz"
       ]
     },
     {
@@ -367,6 +654,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clock",
+        "date",
+        "dismiss",
+        "duration",
+        "schedule",
+        "silence",
+        "stop",
+        "time",
+        "timing"
       ]
     },
     {
@@ -381,6 +679,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "CD",
+        "audio",
+        "collection",
+        "cover",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "video",
+        "vinyl"
       ]
     },
     {
@@ -395,6 +706,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alignment",
+        "bottom",
+        "creative",
+        "design",
+        "editor",
+        "graphics",
+        "layout",
+        "tools",
+        "vertical"
       ]
     },
     {
@@ -409,6 +731,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alignment",
+        "creative",
+        "design",
+        "distribute",
+        "editor",
+        "graphics",
+        "horizontal",
+        "layout",
+        "spacing",
+        "tools"
       ]
     },
     {
@@ -423,6 +757,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alignment",
+        "center",
+        "creative",
+        "design",
+        "editor",
+        "graphics",
+        "layout",
+        "middle",
+        "tools"
       ]
     },
     {
@@ -437,6 +782,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alignment",
+        "creative",
+        "design",
+        "editor",
+        "graphics",
+        "layout",
+        "left",
+        "text-align",
+        "tools"
       ]
     },
     {
@@ -451,6 +807,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alignment",
+        "creative",
+        "design",
+        "editor",
+        "graphics",
+        "layout",
+        "right",
+        "text-align",
+        "tools"
       ]
     },
     {
@@ -465,6 +832,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alignment",
+        "creative",
+        "design",
+        "editor",
+        "graphics",
+        "layout",
+        "tools",
+        "top",
+        "vertical"
       ]
     },
     {
@@ -479,6 +857,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alignment",
+        "center",
+        "creative",
+        "design",
+        "editor",
+        "graphics",
+        "layout",
+        "middle",
+        "tools"
       ]
     },
     {
@@ -493,6 +882,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alignment",
+        "creative",
+        "design",
+        "distribute",
+        "editor",
+        "graphics",
+        "layout",
+        "spacing",
+        "tools",
+        "vertical"
       ]
     },
     {
@@ -503,6 +904,18 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "allergy",
+        "benefit",
+        "body",
+        "health",
+        "intolerance",
+        "nutrition",
+        "reaction",
+        "sensitive",
+        "warning",
+        "wellness"
       ]
     },
     {
@@ -517,6 +930,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chevron",
+        "direction",
+        "down",
+        "dropdown",
+        "expand",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -531,6 +954,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "back",
+        "chevron",
+        "direction",
+        "move",
+        "navigation",
+        "pointer",
+        "previous"
       ]
     },
     {
@@ -545,6 +977,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chevron",
+        "direction",
+        "forward",
+        "move",
+        "navigation",
+        "next",
+        "pointer"
       ]
     },
     {
@@ -559,6 +1000,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chevron",
+        "collapse",
+        "direction",
+        "move",
+        "navigation",
+        "pointer",
+        "up"
       ]
     },
     {
@@ -569,6 +1019,19 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "cooking",
+        "dietary",
+        "food",
+        "fruit",
+        "healthy",
+        "ingredient",
+        "natural",
+        "nutrition",
+        "recipe",
+        "snack",
+        "vitamin"
       ]
     },
     {
@@ -583,6 +1046,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "backup",
+        "document",
+        "documentation",
+        "filed",
+        "history",
+        "notes",
+        "old",
+        "record",
+        "store",
+        "writing"
       ]
     },
     {
@@ -597,6 +1072,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "completed",
+        "document",
+        "documentation",
+        "notes",
+        "record",
+        "stored",
+        "verified",
+        "writing"
       ]
     },
     {
@@ -611,6 +1096,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "document",
+        "documentation",
+        "download",
+        "notes",
+        "record",
+        "restore",
+        "retrieve",
+        "writing"
       ]
     },
     {
@@ -625,6 +1120,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "document",
+        "documentation",
+        "download",
+        "minimal",
+        "notes",
+        "record",
+        "retrieve",
+        "writing"
       ]
     },
     {
@@ -639,6 +1144,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "document",
+        "documentation",
+        "filed",
+        "minimal",
+        "notes",
+        "record",
+        "store",
+        "writing"
       ]
     },
     {
@@ -653,6 +1168,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "document",
+        "documentation",
+        "notes",
+        "record",
+        "save",
+        "store",
+        "upload",
+        "writing"
       ]
     },
     {
@@ -667,6 +1192,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "document",
+        "documentation",
+        "minimal",
+        "notes",
+        "record",
+        "store",
+        "upload",
+        "writing"
       ]
     },
     {
@@ -681,6 +1216,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chair",
+        "comfortable",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "lounge",
+        "relax",
+        "seat"
       ]
     },
     {
@@ -695,6 +1243,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chair",
+        "comfortable",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "lounge",
+        "seat"
       ]
     },
     {
@@ -709,6 +1269,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "below",
+        "descend",
+        "direction",
+        "down",
+        "dropdown",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -718,6 +1288,15 @@ export const manifest = {
       "category": "Additional",
       "weights": [
         "bold"
+      ],
+      "tags": [
+        "below",
+        "descend",
+        "down",
+        "dropdown",
+        "extra",
+        "misc",
+        "ui"
       ]
     },
     {
@@ -731,6 +1310,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "back",
+        "direction",
+        "left",
+        "move",
+        "navigation",
+        "pointer",
+        "previous",
+        "return"
       ]
     },
     {
@@ -740,6 +1329,15 @@ export const manifest = {
       "category": "Additional",
       "weights": [
         "bold"
+      ],
+      "tags": [
+        "back",
+        "extra",
+        "left",
+        "misc",
+        "previous",
+        "return",
+        "ui"
       ]
     },
     {
@@ -754,6 +1352,14 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "diagonal",
+        "direction",
+        "down-left",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -768,6 +1374,14 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "diagonal",
+        "direction",
+        "move",
+        "navigation",
+        "pointer",
+        "up-left"
       ]
     },
     {
@@ -782,6 +1396,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "continue",
+        "direction",
+        "forward",
+        "move",
+        "navigation",
+        "next",
+        "pointer",
+        "right"
       ]
     },
     {
@@ -791,6 +1415,15 @@ export const manifest = {
       "category": "Additional",
       "weights": [
         "bold"
+      ],
+      "tags": [
+        "continue",
+        "extra",
+        "forward",
+        "misc",
+        "next",
+        "right",
+        "ui"
       ]
     },
     {
@@ -805,6 +1438,14 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "diagonal",
+        "direction",
+        "down-right",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -819,6 +1460,14 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "diagonal",
+        "direction",
+        "move",
+        "navigation",
+        "pointer",
+        "up-right"
       ]
     },
     {
@@ -833,6 +1482,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "interaction",
+        "move",
+        "navigation"
       ]
     },
     {
@@ -847,6 +1502,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "interaction",
+        "move",
+        "navigation"
       ]
     },
     {
@@ -861,6 +1522,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "interaction",
+        "move",
+        "navigation"
       ]
     },
     {
@@ -875,6 +1542,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "interaction",
+        "move",
+        "navigation"
       ]
     },
     {
@@ -888,6 +1561,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "above",
+        "ascend",
+        "direction",
+        "move",
+        "navigation",
+        "pointer",
+        "rise",
+        "up"
       ]
     },
     {
@@ -897,6 +1580,15 @@ export const manifest = {
       "category": "Additional",
       "weights": [
         "bold"
+      ],
+      "tags": [
+        "above",
+        "ascend",
+        "extra",
+        "misc",
+        "rise",
+        "ui",
+        "up"
       ]
     },
     {
@@ -911,6 +1603,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cosmos",
+        "meteor",
+        "rock",
+        "science",
+        "space",
+        "space-rock",
+        "universe"
       ]
     },
     {
@@ -925,6 +1626,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cosmos",
+        "molecular",
+        "nuclear",
+        "particle",
+        "physics",
+        "science",
+        "space",
+        "universe"
       ]
     },
     {
@@ -939,6 +1650,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "3D",
+        "AR",
+        "core",
+        "essential",
+        "immersive",
+        "interface",
+        "mixed-reality",
+        "ui",
+        "virtual"
       ]
     },
     {
@@ -953,6 +1675,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "bag",
+        "carry",
+        "education",
+        "hike",
+        "knowledge",
+        "learning",
+        "rucksack",
+        "school",
+        "school-bag",
+        "study"
       ]
     },
     {
@@ -967,6 +1702,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "back",
+        "clear",
+        "delete",
+        "editor",
+        "erase",
+        "font",
+        "formatting",
+        "remove",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -981,6 +1729,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clinical",
+        "germ",
+        "gut",
+        "health",
+        "healthcare",
+        "infection",
+        "medical",
+        "medicine",
+        "microbe",
+        "microorganism",
+        "pharmacy"
       ]
     },
     {
@@ -991,6 +1752,18 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "benefit",
+        "body",
+        "germ",
+        "gut",
+        "health",
+        "infection",
+        "microbe",
+        "microorganism",
+        "nutrition",
+        "wellness"
       ]
     },
     {
@@ -1005,6 +1778,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "carrier",
+        "commerce",
+        "ecommerce",
+        "purchase",
+        "retail",
+        "shopping",
+        "shopping-bag",
+        "store",
+        "tote"
       ]
     },
     {
@@ -1019,6 +1804,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "carrier",
+        "commerce",
+        "ecommerce",
+        "purchase",
+        "retail",
+        "shopping",
+        "shopping-bag",
+        "store",
+        "tote"
       ]
     },
     {
@@ -1033,6 +1830,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "carrier",
+        "commerce",
+        "ecommerce",
+        "purchase",
+        "retail",
+        "shopping",
+        "shopping-bag",
+        "store",
+        "tote"
       ]
     },
     {
@@ -1047,6 +1856,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "carrier",
+        "commerce",
+        "ecommerce",
+        "purchase",
+        "retail",
+        "shopping",
+        "shopping-bag",
+        "store",
+        "tote"
       ]
     },
     {
@@ -1061,6 +1882,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "carrier",
+        "commerce",
+        "ecommerce",
+        "purchase",
+        "retail",
+        "shopping",
+        "shopping-bag",
+        "store",
+        "tote"
       ]
     },
     {
@@ -1075,6 +1908,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "commerce",
+        "confirmed",
+        "ecommerce",
+        "order-complete",
+        "purchase",
+        "purchased",
+        "retail",
+        "shopping",
+        "store"
       ]
     },
     {
@@ -1089,6 +1934,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "cancelled",
+        "commerce",
+        "ecommerce",
+        "empty",
+        "purchase",
+        "removed",
+        "retail",
+        "shopping",
+        "store"
       ]
     },
     {
@@ -1103,6 +1960,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "commerce",
+        "ecommerce",
+        "favourite",
+        "liked",
+        "purchase",
+        "retail",
+        "saved",
+        "shopping",
+        "store",
+        "wishlist"
       ]
     },
     {
@@ -1117,6 +1987,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "commerce",
+        "ecommerce",
+        "music-store",
+        "purchase",
+        "records",
+        "retail",
+        "shopping",
+        "store",
+        "vinyl"
       ]
     },
     {
@@ -1131,6 +2013,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "commerce",
+        "ecommerce",
+        "music-store",
+        "purchase",
+        "retail",
+        "shopping",
+        "store",
+        "vinyl"
       ]
     },
     {
@@ -1145,6 +2038,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "commerce",
+        "ecommerce",
+        "good-purchase",
+        "happy-shopping",
+        "purchase",
+        "retail",
+        "satisfied",
+        "shopping",
+        "store"
       ]
     },
     {
@@ -1159,6 +2064,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "birthday",
+        "celebration",
+        "core",
+        "essential",
+        "festive",
+        "fun",
+        "interface",
+        "party",
+        "ui"
       ]
     },
     {
@@ -1173,6 +2089,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "ball",
+        "exercise",
+        "fitness",
+        "games",
+        "gym",
+        "play",
+        "sport",
+        "sports-balls",
+        "workout"
       ]
     },
     {
@@ -1187,6 +2116,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "bill",
+        "cash",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "money",
+        "note",
+        "paper-money",
+        "payment"
       ]
     },
     {
@@ -1201,6 +2143,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "bill",
+        "cash",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "money",
+        "paper-money",
+        "payment"
       ]
     },
     {
@@ -1215,6 +2169,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "counter",
+        "decor",
+        "furniture",
+        "high-chair",
+        "home",
+        "house",
+        "interior",
+        "kitchen",
+        "living",
+        "stool"
       ]
     },
     {
@@ -1229,6 +2195,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "NBA",
+        "active",
+        "athletic",
+        "ball",
+        "court",
+        "exercise",
+        "fitness",
+        "gym",
+        "hoop",
+        "sport",
+        "workout"
       ]
     },
     {
@@ -1243,6 +2222,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bathroom",
+        "bathtub",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "shower",
+        "soak",
+        "tub",
+        "wash"
       ]
     },
     {
@@ -1257,6 +2250,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "charging",
+        "core",
+        "electric",
+        "energy",
+        "essential",
+        "interface",
+        "power",
+        "ui"
       ]
     },
     {
@@ -1271,6 +2274,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "charging",
+        "core",
+        "energy",
+        "essential",
+        "interface",
+        "minimal",
+        "power",
+        "ui"
       ]
     },
     {
@@ -1285,6 +2298,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "100%",
+        "charged",
+        "complete",
+        "core",
+        "essential",
+        "interface",
+        "power",
+        "ui"
       ]
     },
     {
@@ -1299,6 +2322,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "charged",
+        "core",
+        "essential",
+        "interface",
+        "minimal",
+        "power",
+        "ui"
       ]
     },
     {
@@ -1313,6 +2345,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "50%",
+        "core",
+        "essential",
+        "interface",
+        "mid-charge",
+        "power",
+        "ui"
       ]
     },
     {
@@ -1327,6 +2368,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "50%",
+        "core",
+        "essential",
+        "interface",
+        "minimal",
+        "power",
+        "ui"
       ]
     },
     {
@@ -1341,6 +2391,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "dying",
+        "essential",
+        "interface",
+        "low",
+        "power",
+        "ui",
+        "warning"
       ]
     },
     {
@@ -1355,6 +2415,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "essential",
+        "interface",
+        "low",
+        "minimal",
+        "power",
+        "ui",
+        "warning"
       ]
     },
     {
@@ -1369,6 +2439,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bedroom",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "mattress",
+        "night",
+        "rest",
+        "sleep"
       ]
     },
     {
@@ -1383,6 +2466,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bedroom",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "nightstand",
+        "side-table"
       ]
     },
     {
@@ -1397,6 +2491,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "nightstand",
+        "side-table"
       ]
     },
     {
@@ -1411,6 +2515,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "nightstand",
+        "side-table"
       ]
     },
     {
@@ -1425,6 +2539,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "nightstand",
+        "side-table"
       ]
     },
     {
@@ -1439,6 +2563,14 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alarm",
+        "alert",
+        "notification",
+        "reminder",
+        "ring",
+        "update"
       ]
     },
     {
@@ -1453,6 +2585,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "alert",
+        "new",
+        "notification",
+        "reminder",
+        "sound",
+        "update"
       ]
     },
     {
@@ -1467,6 +2608,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alert",
+        "disabled",
+        "do-not-disturb",
+        "mute",
+        "notification",
+        "reminder",
+        "silent",
+        "update"
       ]
     },
     {
@@ -1481,6 +2632,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chemical",
+        "chemistry",
+        "clinical",
+        "compound",
+        "health",
+        "healthcare",
+        "medical",
+        "medicine",
+        "molecule",
+        "organic",
+        "pharmacy"
       ]
     },
     {
@@ -1495,6 +2659,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "bicycle",
+        "bike",
+        "cycling",
+        "exercise",
+        "fitness",
+        "gym",
+        "pedal",
+        "ride",
+        "sport",
+        "workout"
       ]
     },
     {
@@ -1509,6 +2687,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "bike",
+        "cycling",
+        "exercise",
+        "fitness",
+        "gym",
+        "ride",
+        "sport",
+        "workout"
       ]
     },
     {
@@ -1523,6 +2713,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "charge",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "invoice",
+        "money",
+        "payment",
+        "receipt",
+        "statement"
       ]
     },
     {
@@ -1537,6 +2740,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "charge",
+        "invoice",
+        "list",
+        "order",
+        "organize",
+        "receipt",
+        "statement",
+        "task",
+        "todo"
       ]
     },
     {
@@ -1551,6 +2765,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "approved",
+        "banking",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "money",
+        "paid",
+        "payment",
+        "receipt",
+        "verified"
       ]
     },
     {
@@ -1565,6 +2792,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "cancelled",
+        "commerce",
+        "currency",
+        "declined",
+        "finance",
+        "financial",
+        "money",
+        "payment",
+        "rejected",
+        "unpaid"
       ]
     },
     {
@@ -1579,6 +2819,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "breakdown",
+        "commerce",
+        "currency",
+        "details",
+        "finance",
+        "financial",
+        "itemized",
+        "money",
+        "payment",
+        "statement"
       ]
     },
     {
@@ -1593,6 +2846,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cosmos",
+        "gravity",
+        "science",
+        "singularity",
+        "space",
+        "universe",
+        "void"
       ]
     },
     {
@@ -1607,6 +2869,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cosmos",
+        "gravity",
+        "science",
+        "singularity",
+        "space",
+        "universe",
+        "void"
       ]
     },
     {
@@ -1621,6 +2892,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cosmos",
+        "gravity",
+        "science",
+        "singularity",
+        "space",
+        "universe",
+        "void"
       ]
     },
     {
@@ -1635,6 +2915,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "connection",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "pair",
+        "sync",
+        "tech",
+        "technology",
+        "wireless"
       ]
     },
     {
@@ -1649,6 +2941,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "connection",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "pair",
+        "tech",
+        "technology",
+        "wireless"
       ]
     },
     {
@@ -1663,6 +2966,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "connection",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "pair",
+        "tech",
+        "technology",
+        "wireless"
       ]
     },
     {
@@ -1677,6 +2991,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "connected",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "signal",
+        "tech",
+        "technology",
+        "wireless"
       ]
     },
     {
@@ -1691,6 +3017,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "anatomy",
+        "core",
+        "essential",
+        "figure",
+        "human",
+        "interface",
+        "person",
+        "silhouette",
+        "ui"
       ]
     },
     {
@@ -1705,6 +3042,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "build",
+        "exercise",
+        "figure",
+        "fitness",
+        "gym",
+        "physique",
+        "silhouette",
+        "sport",
+        "workout"
       ]
     },
     {
@@ -1719,6 +3069,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "exercise",
+        "fitness",
+        "gym",
+        "minimal",
+        "physique",
+        "silhouette",
+        "sport",
+        "workout"
       ]
     },
     {
@@ -1733,6 +3095,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "electric",
+        "energy",
+        "essential",
+        "fast",
+        "flash",
+        "interface",
+        "lightning",
+        "power",
+        "speed",
+        "ui"
       ]
     },
     {
@@ -1747,6 +3122,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "circle",
+        "core",
+        "energy",
+        "essential",
+        "flash",
+        "interface",
+        "lightning",
+        "power",
+        "ui"
       ]
     },
     {
@@ -1761,6 +3147,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "danger",
+        "destroy",
+        "explosive",
+        "lock",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "threat"
       ]
     },
     {
@@ -1775,6 +3173,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "angry",
+        "cartoon",
+        "danger",
+        "explosive",
+        "lock",
+        "privacy",
+        "protection",
+        "safety",
+        "security"
       ]
     },
     {
@@ -1789,6 +3199,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "danger",
+        "explosive",
+        "lock",
+        "minimal",
+        "privacy",
+        "protection",
+        "safety",
+        "security"
       ]
     },
     {
@@ -1803,6 +3224,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "calcium",
+        "clinical",
+        "health",
+        "healthcare",
+        "joint",
+        "medical",
+        "medicine",
+        "orthopedic",
+        "pharmacy",
+        "skeleton"
       ]
     },
     {
@@ -1817,6 +3250,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "break",
+        "clinical",
+        "crack",
+        "fracture",
+        "health",
+        "healthcare",
+        "injury",
+        "medical",
+        "medicine",
+        "pharmacy"
       ]
     },
     {
@@ -1831,6 +3276,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clinical",
+        "damage",
+        "fracture",
+        "health",
+        "healthcare",
+        "injury",
+        "medical",
+        "medicine",
+        "pharmacy"
       ]
     },
     {
@@ -1845,6 +3301,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "anatomy",
+        "clinical",
+        "health",
+        "healthcare",
+        "medical",
+        "medicine",
+        "pharmacy",
+        "skeleton",
+        "structure"
       ]
     },
     {
@@ -1859,6 +3326,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adventure",
+        "campfire",
+        "camping",
+        "flame",
+        "nature",
+        "outdoor",
+        "travel",
+        "warm"
       ]
     },
     {
@@ -1873,6 +3350,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "education",
+        "knowledge",
+        "learning",
+        "library",
+        "literature",
+        "novel",
+        "read",
+        "school",
+        "study",
+        "textbook"
       ]
     },
     {
@@ -1887,6 +3377,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "education",
+        "knowledge",
+        "learning",
+        "novel",
+        "read",
+        "school",
+        "study",
+        "textbook"
       ]
     },
     {
@@ -1901,6 +3402,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "education",
+        "knowledge",
+        "learning",
+        "marked",
+        "page",
+        "reading",
+        "saved",
+        "school",
+        "study"
       ]
     },
     {
@@ -1915,6 +3428,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "education",
+        "knowledge",
+        "learning",
+        "minimal",
+        "reading",
+        "saved",
+        "school",
+        "study"
       ]
     },
     {
@@ -1929,6 +3453,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "education",
+        "knowledge",
+        "learning",
+        "minimal",
+        "read",
+        "school",
+        "study",
+        "textbook"
       ]
     },
     {
@@ -1943,6 +3478,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "education",
+        "favourite",
+        "flag",
+        "knowledge",
+        "later",
+        "learning",
+        "mark",
+        "save",
+        "school",
+        "study"
       ]
     },
     {
@@ -1957,6 +3505,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "education",
+        "favourite",
+        "knowledge",
+        "learning",
+        "mark",
+        "save",
+        "school",
+        "study"
       ]
     },
     {
@@ -1971,6 +3530,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "education",
+        "knowledge",
+        "learning",
+        "open",
+        "reading",
+        "saved",
+        "school",
+        "study"
       ]
     },
     {
@@ -1985,6 +3555,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "education",
+        "favourite",
+        "knowledge",
+        "learning",
+        "mark",
+        "save",
+        "school",
+        "study"
       ]
     },
     {
@@ -1999,6 +3580,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "education",
+        "favourite",
+        "knowledge",
+        "learning",
+        "minimal",
+        "save",
+        "school",
+        "study"
       ]
     },
     {
@@ -2013,6 +3605,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "music",
+        "retro",
+        "speaker",
+        "stereo",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -2027,6 +3632,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "beverage",
+        "chef",
+        "container",
+        "cooking",
+        "culinary",
+        "drink",
+        "food",
+        "kitchen",
+        "liquid",
+        "recipe",
+        "water"
       ]
     },
     {
@@ -2041,6 +3659,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "ball",
+        "exercise",
+        "fitness",
+        "gym",
+        "lane",
+        "pins",
+        "sport",
+        "strike",
+        "workout"
       ]
     },
     {
@@ -2055,6 +3686,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "container",
+        "core",
+        "delivery",
+        "essential",
+        "interface",
+        "package",
+        "parcel",
+        "product",
+        "shipping",
+        "ui"
       ]
     },
     {
@@ -2069,6 +3712,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "container",
+        "core",
+        "essential",
+        "interface",
+        "minimal",
+        "package",
+        "parcel",
+        "ui"
       ]
     },
     {
@@ -2079,6 +3732,20 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "benefit",
+        "body",
+        "cognitive",
+        "health",
+        "intelligence",
+        "memory",
+        "mental",
+        "mind",
+        "nutrition",
+        "smart",
+        "think",
+        "wellness"
       ]
     },
     {
@@ -2093,6 +3760,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "decision",
+        "directions",
+        "diverge",
+        "fork",
+        "geo",
+        "location",
+        "map",
+        "navigation",
+        "place",
+        "route",
+        "split",
+        "travel"
       ]
     },
     {
@@ -2107,6 +3788,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "converge",
+        "directions",
+        "geo",
+        "join",
+        "location",
+        "map",
+        "merge",
+        "navigation",
+        "place",
+        "route",
+        "travel"
       ]
     },
     {
@@ -2121,6 +3815,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clean",
+        "clear",
+        "core",
+        "essential",
+        "interface",
+        "maintenance",
+        "sweep",
+        "tidy",
+        "ui"
       ]
     },
     {
@@ -2135,6 +3840,22 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "code",
+        "coding",
+        "debug",
+        "defect",
+        "developer",
+        "error",
+        "glitch",
+        "issue",
+        "problem",
+        "programming",
+        "software",
+        "tech",
+        "web"
       ]
     },
     {
@@ -2149,6 +3870,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "code",
+        "coding",
+        "debug",
+        "defect",
+        "developer",
+        "error",
+        "minimal",
+        "programming",
+        "software",
+        "tech",
+        "web"
       ]
     },
     {
@@ -2163,6 +3898,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "architecture",
+        "building",
+        "city",
+        "commercial",
+        "office",
+        "property",
+        "real estate",
+        "skyscraper",
+        "urban"
       ]
     },
     {
@@ -2177,6 +3923,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "architecture",
+        "building",
+        "city",
+        "commercial",
+        "office",
+        "property",
+        "real estate",
+        "skyscraper",
+        "urban"
       ]
     },
     {
@@ -2191,6 +3948,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "architecture",
+        "building",
+        "city",
+        "commercial",
+        "office",
+        "property",
+        "real estate",
+        "skyscraper",
+        "urban"
       ]
     },
     {
@@ -2205,6 +3973,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "automotive",
+        "car",
+        "coach",
+        "commute",
+        "public-transport",
+        "ride",
+        "transit",
+        "transport",
+        "travel",
+        "vehicle"
       ]
     },
     {
@@ -2215,6 +3995,20 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "baking",
+        "birthday",
+        "celebration",
+        "cooking",
+        "dessert",
+        "dietary",
+        "food",
+        "ingredient",
+        "nutrition",
+        "recipe",
+        "sweet",
+        "treat"
       ]
     },
     {
@@ -2229,6 +4023,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "arithmetic",
+        "calculate",
+        "compute",
+        "education",
+        "knowledge",
+        "learning",
+        "math",
+        "numbers",
+        "school",
+        "study"
       ]
     },
     {
@@ -2243,6 +4050,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "compute",
+        "education",
+        "knowledge",
+        "learning",
+        "math",
+        "minimal",
+        "school",
+        "study"
       ]
     },
     {
@@ -2257,6 +4075,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clock",
+        "date",
+        "diary",
+        "duration",
+        "event",
+        "month",
+        "planner",
+        "schedule",
+        "time",
+        "timing"
       ]
     },
     {
@@ -2271,6 +4101,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "book",
+        "clock",
+        "create",
+        "date",
+        "duration",
+        "new-event",
+        "schedule",
+        "time",
+        "timing"
       ]
     },
     {
@@ -2285,6 +4126,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "appointment",
+        "clock",
+        "date",
+        "day",
+        "duration",
+        "schedule",
+        "specific-date",
+        "time",
+        "timing"
       ]
     },
     {
@@ -2299,6 +4151,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clock",
+        "date",
+        "duration",
+        "event",
+        "flagged",
+        "important",
+        "marked",
+        "schedule",
+        "time",
+        "timing"
       ]
     },
     {
@@ -2313,6 +4177,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clock",
+        "date",
+        "duration",
+        "minimal",
+        "schedule",
+        "time",
+        "timing"
       ]
     },
     {
@@ -2327,6 +4200,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clock",
+        "date",
+        "duration",
+        "find-event",
+        "lookup",
+        "schedule",
+        "search-date",
+        "time",
+        "timing"
       ]
     },
     {
@@ -2341,6 +4225,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "block",
+        "calling",
+        "communication",
+        "contact",
+        "decline",
+        "phone",
+        "reject",
+        "telephone"
       ]
     },
     {
@@ -2355,6 +4249,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "block",
+        "calling",
+        "communication",
+        "contact",
+        "decline",
+        "phone",
+        "reject",
+        "telephone"
       ]
     },
     {
@@ -2369,6 +4273,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "calling",
+        "communication",
+        "contact",
+        "message",
+        "phone",
+        "sms",
+        "telephone",
+        "text",
+        "voicemail"
       ]
     },
     {
@@ -2383,6 +4298,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "calling",
+        "communication",
+        "contact",
+        "message",
+        "phone",
+        "sms",
+        "telephone",
+        "text"
       ]
     },
     {
@@ -2397,6 +4322,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "calling",
+        "communication",
+        "contact",
+        "disconnected",
+        "failed",
+        "lost",
+        "missed",
+        "phone",
+        "telephone"
       ]
     },
     {
@@ -2411,6 +4347,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "calling",
+        "communication",
+        "contact",
+        "failed",
+        "lost",
+        "missed",
+        "phone",
+        "telephone"
       ]
     },
     {
@@ -2425,6 +4371,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "ambulance",
+        "calling",
+        "communication",
+        "contact",
+        "doctor",
+        "emergency",
+        "health",
+        "hospital",
+        "phone",
+        "telephone"
       ]
     },
     {
@@ -2439,6 +4397,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "calling",
+        "communication",
+        "contact",
+        "doctor",
+        "emergency",
+        "health",
+        "phone",
+        "telephone"
       ]
     },
     {
@@ -2453,6 +4421,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "capture",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "photo",
+        "photograph",
+        "picture",
+        "snap",
+        "sound",
+        "video"
       ]
     },
     {
@@ -2467,6 +4449,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "capture",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "new-photo",
+        "sound",
+        "take-picture",
+        "video"
       ]
     },
     {
@@ -2481,6 +4475,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "capture",
+        "entertainment",
+        "media",
+        "minimal",
+        "multimedia",
+        "music",
+        "photo",
+        "sound",
+        "video"
       ]
     },
     {
@@ -2495,6 +4501,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "flip",
+        "front-camera",
+        "media",
+        "multimedia",
+        "music",
+        "selfie",
+        "sound",
+        "switch",
+        "video"
       ]
     },
     {
@@ -2509,6 +4528,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "capture",
+        "entertainment",
+        "frame",
+        "media",
+        "multimedia",
+        "music",
+        "photo",
+        "sound",
+        "video"
       ]
     },
     {
@@ -2523,6 +4554,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bank-card",
+        "banking",
+        "commerce",
+        "credit-card",
+        "currency",
+        "debit",
+        "finance",
+        "financial",
+        "mastercard",
+        "money",
+        "payment",
+        "visa"
       ]
     },
     {
@@ -2537,6 +4582,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bank-card",
+        "banking",
+        "commerce",
+        "credit-card",
+        "currency",
+        "debit",
+        "finance",
+        "financial",
+        "money",
+        "payment"
       ]
     },
     {
@@ -2551,6 +4608,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "commerce",
+        "currency",
+        "deposit",
+        "finance",
+        "financial",
+        "incoming",
+        "money",
+        "payment",
+        "receive-payment"
       ]
     },
     {
@@ -2565,6 +4634,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "check",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "find-transaction",
+        "lookup",
+        "money",
+        "payment"
       ]
     },
     {
@@ -2579,6 +4660,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "money",
+        "pay",
+        "payment",
+        "send-payment",
+        "transfer"
       ]
     },
     {
@@ -2593,6 +4686,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "commerce",
+        "currency",
+        "exchange",
+        "finance",
+        "financial",
+        "money",
+        "payment",
+        "swap-card",
+        "switch"
       ]
     },
     {
@@ -2607,6 +4712,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "card-case",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "holder",
+        "money",
+        "payment",
+        "wallet"
       ]
     },
     {
@@ -2617,6 +4734,20 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "cooking",
+        "dietary",
+        "food",
+        "healthy",
+        "ingredient",
+        "nutrition",
+        "orange",
+        "recipe",
+        "root",
+        "veg",
+        "vegetable",
+        "vitamin-A"
       ]
     },
     {
@@ -2631,6 +4762,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "basket",
+        "buy",
+        "checkout",
+        "commerce",
+        "ecommerce",
+        "purchase",
+        "retail",
+        "shopping",
+        "shopping-cart",
+        "store",
+        "trolley"
       ]
     },
     {
@@ -2645,6 +4789,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "basket",
+        "buy",
+        "commerce",
+        "ecommerce",
+        "purchase",
+        "retail",
+        "shopping",
+        "shopping-cart",
+        "store",
+        "trolley"
       ]
     },
     {
@@ -2659,6 +4815,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "commerce",
+        "ecommerce",
+        "purchase",
+        "retail",
+        "shopping",
+        "shopping-cart",
+        "store",
+        "trolley"
       ]
     },
     {
@@ -2673,6 +4840,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "commerce",
+        "ecommerce",
+        "purchase",
+        "retail",
+        "shopping",
+        "shopping-cart",
+        "store",
+        "trolley"
       ]
     },
     {
@@ -2687,6 +4865,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "commerce",
+        "ecommerce",
+        "purchase",
+        "retail",
+        "shopping",
+        "shopping-cart",
+        "store",
+        "trolley"
       ]
     },
     {
@@ -2701,6 +4890,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "checkout",
+        "commerce",
+        "confirmed",
+        "ecommerce",
+        "order",
+        "purchase",
+        "purchased",
+        "retail",
+        "shopping",
+        "store"
       ]
     },
     {
@@ -2715,6 +4917,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "cancelled",
+        "commerce",
+        "ecommerce",
+        "empty-cart",
+        "purchase",
+        "remove-item",
+        "retail",
+        "shopping",
+        "store"
       ]
     },
     {
@@ -2729,6 +4943,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "big",
+        "buy",
+        "commerce",
+        "ecommerce",
+        "purchase",
+        "retail",
+        "shopping",
+        "shopping-cart",
+        "store",
+        "trolley"
       ]
     },
     {
@@ -2743,6 +4969,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "commerce",
+        "ecommerce",
+        "purchase",
+        "retail",
+        "shopping",
+        "shopping-cart",
+        "store",
+        "trolley"
       ]
     },
     {
@@ -2757,6 +4994,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "commerce",
+        "ecommerce",
+        "purchase",
+        "retail",
+        "shopping",
+        "shopping-cart",
+        "store",
+        "trolley"
       ]
     },
     {
@@ -2771,6 +5019,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "commerce",
+        "ecommerce",
+        "purchase",
+        "retail",
+        "shopping",
+        "shopping-cart",
+        "store",
+        "trolley"
       ]
     },
     {
@@ -2785,6 +5044,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "commerce",
+        "ecommerce",
+        "minimal",
+        "purchase",
+        "retail",
+        "shopping",
+        "shopping-cart",
+        "store"
       ]
     },
     {
@@ -2799,6 +5069,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "add-item",
+        "add-to-cart",
+        "buy",
+        "commerce",
+        "ecommerce",
+        "purchase",
+        "retail",
+        "shopping",
+        "store"
       ]
     },
     {
@@ -2813,6 +5094,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "briefcase",
+        "business",
+        "education",
+        "knowledge",
+        "learning",
+        "portfolio",
+        "professional",
+        "school",
+        "study",
+        "work"
       ]
     },
     {
@@ -2827,6 +5121,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "briefcase",
+        "education",
+        "knowledge",
+        "learning",
+        "minimal",
+        "portfolio",
+        "school",
+        "study"
       ]
     },
     {
@@ -2841,6 +5146,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "briefcase",
+        "business",
+        "education",
+        "knowledge",
+        "learning",
+        "portfolio",
+        "school",
+        "study"
       ]
     },
     {
@@ -2855,6 +5171,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "briefcase",
+        "education",
+        "knowledge",
+        "learning",
+        "minimal",
+        "portfolio",
+        "school",
+        "study"
       ]
     },
     {
@@ -2869,6 +5196,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "commerce",
+        "currency",
+        "expense",
+        "finance",
+        "financial",
+        "money",
+        "payment",
+        "payout",
+        "spend",
+        "withdraw"
       ]
     },
     {
@@ -2883,6 +5223,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "80s",
+        "audio",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "music",
+        "retro",
+        "tape",
+        "tech",
+        "technology",
+        "vintage"
       ]
     },
     {
@@ -2897,6 +5251,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "music",
+        "retro",
+        "tape",
+        "tech",
+        "technology",
+        "vintage"
       ]
     },
     {
@@ -2911,6 +5278,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "animal",
+        "core",
+        "essential",
+        "feline",
+        "interface",
+        "kitten",
+        "pet",
+        "ui"
       ]
     },
     {
@@ -2925,6 +5302,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "decor",
+        "dining",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "seat",
+        "sit",
+        "wooden"
       ]
     },
     {
@@ -2939,6 +5328,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "decor",
+        "desk",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "office-chair",
+        "seat",
+        "sit"
       ]
     },
     {
@@ -2953,6 +5354,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "ceiling",
+        "decor",
+        "elegant",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "lamp",
+        "light",
+        "living",
+        "luxury"
       ]
     },
     {
@@ -2967,6 +5381,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "bar-chart",
+        "business",
+        "chart",
+        "dashboard",
+        "data",
+        "graph",
+        "report",
+        "reporting",
+        "statistics",
+        "visualization"
       ]
     },
     {
@@ -2981,6 +5408,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "bar-chart",
+        "business",
+        "chart",
+        "dashboard",
+        "data",
+        "graph",
+        "report",
+        "reporting",
+        "statistics",
+        "visualization"
       ]
     },
     {
@@ -2995,6 +5435,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "bar-chart",
+        "business",
+        "chart",
+        "dashboard",
+        "data",
+        "graph",
+        "report",
+        "reporting",
+        "statistics",
+        "visualization"
       ]
     },
     {
@@ -3009,6 +5462,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "composing",
+        "conversation",
+        "email",
+        "loading",
+        "mail",
+        "message",
+        "thinking",
+        "typing"
       ]
     },
     {
@@ -3023,6 +5488,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bubble",
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message",
+        "text"
       ]
     },
     {
@@ -3037,6 +5512,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bubble",
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message"
       ]
     },
     {
@@ -3051,6 +5535,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message",
+        "phone",
+        "voice-chat"
       ]
     },
     {
@@ -3065,6 +5560,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "confirmed",
+        "conversation",
+        "delivered",
+        "email",
+        "mail",
+        "message",
+        "sent"
       ]
     },
     {
@@ -3079,6 +5585,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "loading",
+        "mail",
+        "message",
+        "thinking",
+        "typing"
       ]
     },
     {
@@ -3093,6 +5610,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "liked",
+        "mail",
+        "message",
+        "reaction",
+        "thumbs-up"
       ]
     },
     {
@@ -3107,6 +5635,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bubble",
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message",
+        "text"
       ]
     },
     {
@@ -3121,6 +5659,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "finance",
+        "mail",
+        "message",
+        "payment",
+        "transaction"
       ]
     },
     {
@@ -3135,6 +5684,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message",
+        "new-message",
+        "notification",
+        "unseen"
       ]
     },
     {
@@ -3149,6 +5709,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "call",
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "facetime",
+        "mail",
+        "message",
+        "video-chat"
       ]
     },
     {
@@ -3163,6 +5734,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bubble",
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message",
+        "text"
       ]
     },
     {
@@ -3177,6 +5758,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "business",
+        "chart",
+        "dashboard",
+        "data",
+        "graph",
+        "reporting",
+        "statistics",
+        "visualization"
       ]
     },
     {
@@ -3191,6 +5783,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "forward",
+        "mail",
+        "message",
+        "redirect",
+        "share"
       ]
     },
     {
@@ -3205,6 +5808,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message",
+        "phone",
+        "voice-chat"
       ]
     },
     {
@@ -3219,6 +5833,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "confirmed",
+        "conversation",
+        "delivered",
+        "email",
+        "mail",
+        "message",
+        "sent"
       ]
     },
     {
@@ -3233,6 +5858,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "code-review",
+        "communication",
+        "conversation",
+        "developer",
+        "email",
+        "mail",
+        "message",
+        "snippet",
+        "technical"
       ]
     },
     {
@@ -3247,6 +5884,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "liked",
+        "mail",
+        "message",
+        "reaction",
+        "thumbs-up"
       ]
     },
     {
@@ -3261,6 +5909,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "badge",
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message",
+        "new-message",
+        "notification"
       ]
     },
     {
@@ -3275,6 +5934,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "approved",
+        "complete",
+        "confirm",
+        "core",
+        "done",
+        "essential",
+        "interface",
+        "success",
+        "tick",
+        "ui",
+        "yes"
       ]
     },
     {
@@ -3289,6 +5961,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "delivered",
+        "double-tick",
+        "email",
+        "mail",
+        "message",
+        "read-receipt",
+        "seen"
       ]
     },
     {
@@ -3303,6 +5987,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "checkbox",
+        "complete",
+        "core",
+        "done",
+        "essential",
+        "interface",
+        "success",
+        "tick",
+        "ui"
       ]
     },
     {
@@ -3317,6 +6012,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "checkbox",
+        "complete",
+        "done",
+        "list",
+        "order",
+        "organize",
+        "task",
+        "tasks",
+        "tick",
+        "todo"
       ]
     },
     {
@@ -3331,6 +6038,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "list",
+        "minimal",
+        "order",
+        "organize",
+        "task",
+        "tasks",
+        "tick",
+        "todo"
       ]
     },
     {
@@ -3341,6 +6058,19 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "calcium",
+        "cooking",
+        "dairy",
+        "dietary",
+        "food",
+        "fromage",
+        "ingredient",
+        "lactose",
+        "milk",
+        "nutrition",
+        "recipe"
       ]
     },
     {
@@ -3355,6 +6085,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "baker",
+        "chef",
+        "cook",
+        "cooking",
+        "culinary",
+        "food",
+        "kitchen",
+        "professional",
+        "recipe",
+        "restaurant"
       ]
     },
     {
@@ -3369,6 +6111,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chef",
+        "cook",
+        "cooking",
+        "culinary",
+        "favourite",
+        "food",
+        "kitchen",
+        "love",
+        "passion",
+        "recipe"
       ]
     },
     {
@@ -3383,6 +6137,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "baker",
+        "chef",
+        "cook",
+        "cooking",
+        "culinary",
+        "food",
+        "kitchen",
+        "minimal",
+        "recipe"
       ]
     },
     {
@@ -3393,6 +6158,19 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "cooked",
+        "cooking",
+        "dietary",
+        "food",
+        "ingredient",
+        "meat",
+        "nutrition",
+        "poultry",
+        "protein",
+        "recipe",
+        "steam"
       ]
     },
     {
@@ -3407,6 +6185,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "interaction",
+        "move",
+        "navigation"
       ]
     },
     {
@@ -3421,6 +6205,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "interaction",
+        "move",
+        "navigation"
       ]
     },
     {
@@ -3435,6 +6225,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "interaction",
+        "move",
+        "navigation"
       ]
     },
     {
@@ -3449,6 +6245,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "interaction",
+        "move",
+        "navigation"
       ]
     },
     {
@@ -3463,6 +6265,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "architecture",
+        "building",
+        "city",
+        "downtown",
+        "metropolitan",
+        "property",
+        "real estate",
+        "skyline",
+        "town",
+        "urban"
       ]
     },
     {
@@ -3477,6 +6291,21 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "audio",
+        "cinema",
+        "director",
+        "entertainment",
+        "film",
+        "media",
+        "movie",
+        "multimedia",
+        "music",
+        "scene",
+        "sound",
+        "video"
       ]
     },
     {
@@ -3491,6 +6320,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "cut",
+        "edit",
+        "entertainment",
+        "film",
+        "media",
+        "multimedia",
+        "music",
+        "post-production",
+        "sound",
+        "video"
       ]
     },
     {
@@ -3505,6 +6347,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "film",
+        "media",
+        "multimedia",
+        "music",
+        "scene",
+        "sound",
+        "take",
+        "video"
       ]
     },
     {
@@ -3519,6 +6373,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "film",
+        "media",
+        "multimedia",
+        "music",
+        "playing",
+        "screening",
+        "sound",
+        "video"
       ]
     },
     {
@@ -3533,6 +6399,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "film",
+        "media",
+        "movie",
+        "multimedia",
+        "music",
+        "play",
+        "sound",
+        "video",
+        "watch"
       ]
     },
     {
@@ -3547,6 +6426,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "dialogue",
+        "entertainment",
+        "film",
+        "media",
+        "multimedia",
+        "music",
+        "script",
+        "sound",
+        "subtitle",
+        "video"
       ]
     },
     {
@@ -3561,6 +6453,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "board",
+        "copy",
+        "document",
+        "documentation",
+        "notes",
+        "paste",
+        "record",
+        "task",
+        "writing"
       ]
     },
     {
@@ -3575,6 +6478,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "add-item",
+        "create",
+        "document",
+        "documentation",
+        "new-task",
+        "notes",
+        "record",
+        "writing"
       ]
     },
     {
@@ -3589,6 +6502,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "completed",
+        "document",
+        "documentation",
+        "done",
+        "notes",
+        "record",
+        "verified",
+        "writing"
       ]
     },
     {
@@ -3603,6 +6526,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "checklist",
+        "document",
+        "documentation",
+        "items",
+        "notes",
+        "record",
+        "tasks",
+        "todo",
+        "writing"
       ]
     },
     {
@@ -3617,6 +6551,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "delete-task",
+        "document",
+        "documentation",
+        "notes",
+        "record",
+        "remove-item",
+        "writing"
       ]
     },
     {
@@ -3631,6 +6574,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "content",
+        "document",
+        "documentation",
+        "memo",
+        "note",
+        "notes",
+        "record",
+        "text",
+        "writing"
       ]
     },
     {
@@ -3645,6 +6599,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clock",
+        "date",
+        "duration",
+        "hour",
+        "round",
+        "schedule",
+        "time",
+        "timer",
+        "timing",
+        "watch"
       ]
     },
     {
@@ -3659,6 +6625,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clock",
+        "date",
+        "duration",
+        "hour",
+        "schedule",
+        "time",
+        "timer",
+        "timing",
+        "watch"
       ]
     },
     {
@@ -3673,6 +6650,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cancel",
+        "core",
+        "cross",
+        "delete",
+        "dismiss",
+        "essential",
+        "interface",
+        "remove",
+        "ui",
+        "x"
       ]
     },
     {
@@ -3687,6 +6676,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cancel",
+        "core",
+        "cross",
+        "delete",
+        "essential",
+        "interface",
+        "remove",
+        "ui",
+        "x"
       ]
     },
     {
@@ -3701,6 +6701,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clothes",
+        "cupboard",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "storage",
+        "wardrobe"
       ]
     },
     {
@@ -3715,6 +6727,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clothes",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "storage",
+        "wardrobe"
       ]
     },
     {
@@ -3729,6 +6752,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "cloudy",
+        "cumulus",
+        "forecast",
+        "overcast",
+        "sky",
+        "weather"
       ]
     },
     {
@@ -3743,6 +6776,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "electric",
+        "forecast",
+        "lightning",
+        "sky",
+        "storm",
+        "thunder",
+        "weather"
       ]
     },
     {
@@ -3757,6 +6801,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "forecast",
+        "minimal",
+        "sky",
+        "storm",
+        "thunder",
+        "weather"
       ]
     },
     {
@@ -3771,6 +6825,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "cloud-ok",
+        "forecast",
+        "sky",
+        "synced",
+        "uploaded",
+        "verified",
+        "weather"
       ]
     },
     {
@@ -3785,6 +6850,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "download",
+        "fetch",
+        "forecast",
+        "save",
+        "sky",
+        "sync",
+        "weather"
       ]
     },
     {
@@ -3799,6 +6875,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "backup",
+        "cloud",
+        "document",
+        "file",
+        "online",
+        "remote",
+        "storage",
+        "sync"
       ]
     },
     {
@@ -3813,6 +6899,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "cloud-storage",
+        "delete",
+        "forecast",
+        "remove",
+        "sky",
+        "weather"
       ]
     },
     {
@@ -3827,6 +6923,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "add",
+        "atmospheric",
+        "climate",
+        "cloud-storage",
+        "forecast",
+        "sky",
+        "upload",
+        "weather"
       ]
     },
     {
@@ -3841,6 +6947,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "drizzle",
+        "forecast",
+        "precipitation",
+        "rain",
+        "rainy",
+        "shower",
+        "sky",
+        "weather",
+        "wet"
       ]
     },
     {
@@ -3855,6 +6974,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "blizzard",
+        "climate",
+        "cold",
+        "flurry",
+        "forecast",
+        "sky",
+        "snow",
+        "weather",
+        "winter"
       ]
     },
     {
@@ -3869,6 +7000,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "forecast",
+        "minimal",
+        "sky",
+        "snow",
+        "weather",
+        "winter"
       ]
     },
     {
@@ -3883,6 +7024,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "backup",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "online",
+        "remote",
+        "server",
+        "sync",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -3897,6 +7051,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "forecast",
+        "severe",
+        "sky",
+        "storm",
+        "tempest",
+        "thunder",
+        "weather"
       ]
     },
     {
@@ -3911,6 +7076,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "break",
+        "climate",
+        "fair",
+        "forecast",
+        "mild",
+        "partly-cloudy",
+        "sky",
+        "weather"
       ]
     },
     {
@@ -3925,6 +7101,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "fair",
+        "forecast",
+        "mild",
+        "partly-cloudy",
+        "sky",
+        "weather"
       ]
     },
     {
@@ -3939,6 +7125,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "backup",
+        "climate",
+        "forecast",
+        "push",
+        "sky",
+        "sync",
+        "upload",
+        "weather"
       ]
     },
     {
@@ -3953,6 +7150,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "drizzle",
+        "forecast",
+        "light-rain",
+        "moisture",
+        "rain",
+        "sky",
+        "weather"
       ]
     },
     {
@@ -3967,6 +7175,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "downpour",
+        "forecast",
+        "heavy-rain",
+        "rain",
+        "sky",
+        "weather"
       ]
     },
     {
@@ -3981,6 +7199,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "cloudy",
+        "cover",
+        "forecast",
+        "grey",
+        "overcast",
+        "sky",
+        "weather"
       ]
     },
     {
@@ -3995,6 +7224,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "dusk",
+        "evening",
+        "forecast",
+        "night",
+        "partly-cloudy",
+        "sky",
+        "weather"
       ]
     },
     {
@@ -4009,6 +7249,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "cloud-error",
+        "disconnected",
+        "forecast",
+        "no-cloud",
+        "offline",
+        "sky",
+        "weather"
       ]
     },
     {
@@ -4023,6 +7274,21 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "HTML",
+        "IT",
+        "brackets",
+        "code",
+        "coding",
+        "developer",
+        "development",
+        "markup",
+        "programming",
+        "software",
+        "syntax",
+        "tech",
+        "web"
       ]
     },
     {
@@ -4037,6 +7303,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "HTML",
+        "IT",
+        "brackets",
+        "code",
+        "coding",
+        "developer",
+        "development",
+        "programming",
+        "software",
+        "tech",
+        "web"
       ]
     },
     {
@@ -4051,6 +7330,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "brackets",
+        "circle",
+        "code",
+        "coding",
+        "developer",
+        "development",
+        "programming",
+        "software",
+        "tech",
+        "web"
       ]
     },
     {
@@ -4065,6 +7357,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "code",
+        "developer",
+        "document",
+        "file",
+        "programming",
+        "script",
+        "source",
+        "storage"
       ]
     },
     {
@@ -4079,6 +7381,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "QR",
+        "access",
+        "barcode",
+        "identify",
+        "lock",
+        "privacy",
+        "protection",
+        "read",
+        "safety",
+        "scan",
+        "security"
       ]
     },
     {
@@ -4093,6 +7408,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "brackets",
+        "code",
+        "coding",
+        "developer",
+        "development",
+        "programming",
+        "software",
+        "square",
+        "tech",
+        "web"
       ]
     },
     {
@@ -4103,6 +7431,19 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "benefit",
+        "body",
+        "brain",
+        "clarity",
+        "focus",
+        "health",
+        "intelligence",
+        "mental",
+        "nutrition",
+        "thinking",
+        "wellness"
       ]
     },
     {
@@ -4117,6 +7458,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "HSL",
+        "adjust",
+        "brightness",
+        "color",
+        "creative",
+        "design",
+        "editor",
+        "graphics",
+        "hue",
+        "saturation",
+        "tools"
       ]
     },
     {
@@ -4131,6 +7485,22 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "Mac",
+        "cmd",
+        "code",
+        "coding",
+        "developer",
+        "keyboard",
+        "programming",
+        "shortcut",
+        "software",
+        "tech",
+        "terminal",
+        "web",
+        "⌘"
       ]
     },
     {
@@ -4145,6 +7515,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bearing",
+        "direction",
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "navigate",
+        "navigation",
+        "north",
+        "orientation",
+        "place",
+        "travel"
       ]
     },
     {
@@ -4159,6 +7543,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "navigation",
+        "north",
+        "orientation",
+        "place",
+        "travel"
       ]
     },
     {
@@ -4173,6 +7569,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "navigation",
+        "north",
+        "orientation",
+        "place",
+        "travel"
       ]
     },
     {
@@ -4187,6 +7595,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "AC",
+        "HVAC",
+        "air-conditioning",
+        "climate",
+        "cooling",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living"
       ]
     },
     {
@@ -4201,6 +7622,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "AC",
+        "air-conditioning",
+        "cooling",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living"
       ]
     },
     {
@@ -4215,6 +7647,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "celebration",
+        "congrats",
+        "core",
+        "essential",
+        "festive",
+        "interface",
+        "party",
+        "success",
+        "ui"
       ]
     },
     {
@@ -4229,6 +7672,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "celebration",
+        "congrats",
+        "core",
+        "essential",
+        "interface",
+        "minimal",
+        "party",
+        "ui"
       ]
     },
     {
@@ -4243,6 +7696,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "confused",
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "frustrated",
+        "mood",
+        "reaction",
+        "troubled",
+        "upset"
       ]
     },
     {
@@ -4257,6 +7723,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "confused",
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "frustrated",
+        "mood",
+        "reaction",
+        "upset"
       ]
     },
     {
@@ -4271,6 +7749,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clipboard",
+        "clone",
+        "core",
+        "duplicate",
+        "essential",
+        "interface",
+        "paste",
+        "ui"
       ]
     },
     {
@@ -4285,6 +7773,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "essential",
+        "intellectual-property",
+        "interface",
+        "legal",
+        "rights",
+        "ui",
+        "©"
       ]
     },
     {
@@ -4299,6 +7797,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bar",
+        "bottle",
+        "chef",
+        "cooking",
+        "culinary",
+        "food",
+        "kitchen",
+        "opener",
+        "recipe",
+        "wine"
       ]
     },
     {
@@ -4313,6 +7823,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "beauty",
+        "core",
+        "essential",
+        "interface",
+        "lipstick",
+        "makeup",
+        "skincare",
+        "ui"
       ]
     },
     {
@@ -4327,6 +7847,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "business",
+        "chart",
+        "dashboard",
+        "data",
+        "decline",
+        "decrease",
+        "drop",
+        "loss",
+        "reporting",
+        "statistics",
+        "trend"
       ]
     },
     {
@@ -4341,6 +7875,21 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "business",
+        "chart",
+        "dashboard",
+        "data",
+        "gain",
+        "growth",
+        "increase",
+        "profit",
+        "reporting",
+        "rise",
+        "statistics",
+        "trend"
       ]
     },
     {
@@ -4355,6 +7904,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chip",
+        "computing",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "microchip",
+        "processor",
+        "silicon",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -4369,6 +7931,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "electronic",
+        "fast",
+        "gadget",
+        "hardware",
+        "performance",
+        "processor",
+        "tech",
+        "technology",
+        "turbo"
       ]
     },
     {
@@ -4383,6 +7957,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "CC",
+        "core",
+        "essential",
+        "free",
+        "interface",
+        "license",
+        "open-source",
+        "ui"
       ]
     },
     {
@@ -4397,6 +7981,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "creative",
+        "cut",
+        "design",
+        "editor",
+        "frame",
+        "graphics",
+        "resize",
+        "tools",
+        "trim"
       ]
     },
     {
@@ -4411,6 +8006,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "creative",
+        "cut",
+        "design",
+        "editor",
+        "frame",
+        "graphics",
+        "minimal",
+        "resize",
+        "tools",
+        "trim"
       ]
     },
     {
@@ -4425,6 +8032,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "VIP",
+        "core",
+        "essential",
+        "interface",
+        "king",
+        "leader",
+        "premium",
+        "queen",
+        "royal",
+        "ui"
       ]
     },
     {
@@ -4439,6 +8058,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "essential",
+        "interface",
+        "king",
+        "premium",
+        "queen",
+        "royal",
+        "ui"
       ]
     },
     {
@@ -4453,6 +8082,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "essential",
+        "interface",
+        "king",
+        "minimal",
+        "premium",
+        "queen",
+        "royal",
+        "ui"
       ]
     },
     {
@@ -4467,6 +8107,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "essential",
+        "featured",
+        "interface",
+        "king",
+        "premium",
+        "queen",
+        "royal",
+        "ui"
       ]
     },
     {
@@ -4481,6 +8132,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "beverage",
+        "coffee",
+        "core",
+        "drink",
+        "essential",
+        "interface",
+        "mug",
+        "tea",
+        "ui"
       ]
     },
     {
@@ -4495,6 +8157,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "beverage",
+        "chef",
+        "coffee",
+        "cooking",
+        "culinary",
+        "drink",
+        "food",
+        "kitchen",
+        "mug",
+        "recipe",
+        "tea"
       ]
     },
     {
@@ -4509,6 +8184,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "1st",
+        "champion",
+        "core",
+        "essential",
+        "gold",
+        "interface",
+        "trophy",
+        "ui",
+        "winner"
       ]
     },
     {
@@ -4523,6 +8209,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "brew",
+        "chef",
+        "coffee",
+        "cooking",
+        "culinary",
+        "food",
+        "hot-drink",
+        "kitchen",
+        "latte",
+        "recipe",
+        "tea",
+        "warm"
       ]
     },
     {
@@ -4537,6 +8237,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "Grammy",
+        "award",
+        "core",
+        "essential",
+        "interface",
+        "music",
+        "trophy",
+        "ui"
       ]
     },
     {
@@ -4551,6 +8261,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chef",
+        "coffee",
+        "cooking",
+        "culinary",
+        "disposable",
+        "food",
+        "kitchen",
+        "recipe",
+        "takeaway",
+        "to-go"
       ]
     },
     {
@@ -4565,6 +8287,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "champion",
+        "core",
+        "essential",
+        "featured",
+        "interface",
+        "trophy",
+        "ui",
+        "winner"
       ]
     },
     {
@@ -4579,6 +8311,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "arrow",
+        "click",
+        "core",
+        "essential",
+        "interface",
+        "mouse",
+        "pointer",
+        "select",
+        "ui"
       ]
     },
     {
@@ -4593,6 +8336,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "click",
+        "core",
+        "essential",
+        "interface",
+        "mouse",
+        "pointer",
+        "select",
+        "ui"
       ]
     },
     {
@@ -4607,6 +8360,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alert",
+        "caution",
+        "core",
+        "error",
+        "essential",
+        "hazard",
+        "interface",
+        "ui",
+        "warning"
       ]
     },
     {
@@ -4621,6 +8385,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alert",
+        "caution",
+        "circle",
+        "core",
+        "error",
+        "essential",
+        "interface",
+        "ui",
+        "warning"
       ]
     },
     {
@@ -4635,6 +8410,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alert",
+        "caution",
+        "core",
+        "error",
+        "essential",
+        "interface",
+        "square",
+        "ui",
+        "warning"
       ]
     },
     {
@@ -4649,6 +8435,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alert",
+        "caution",
+        "core",
+        "essential",
+        "exclamation",
+        "hazard",
+        "interface",
+        "ui",
+        "warning"
       ]
     },
     {
@@ -4663,6 +8460,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "SQL",
+        "backend",
+        "core",
+        "data",
+        "essential",
+        "interface",
+        "server",
+        "storage",
+        "table",
+        "ui"
       ]
     },
     {
@@ -4677,6 +8486,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "courier",
+        "essential",
+        "interface",
+        "logistics",
+        "package",
+        "shipping",
+        "transport",
+        "truck",
+        "ui"
       ]
     },
     {
@@ -4691,6 +8512,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cross-platform",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "multi-device",
+        "responsive",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -4705,6 +8537,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "business",
+        "chart",
+        "dashboard",
+        "data",
+        "decline",
+        "decrease",
+        "flowchart",
+        "reporting",
+        "statistics",
+        "trend"
       ]
     },
     {
@@ -4719,6 +8564,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "business",
+        "chart",
+        "dashboard",
+        "data",
+        "flowchart",
+        "growth",
+        "increase",
+        "reporting",
+        "statistics",
+        "trend"
       ]
     },
     {
@@ -4733,6 +8591,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "discussion",
+        "email",
+        "mail",
+        "message",
+        "talk",
+        "two-way"
       ]
     },
     {
@@ -4747,6 +8616,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "discussion",
+        "email",
+        "mail",
+        "message",
+        "talk"
       ]
     },
     {
@@ -4761,6 +8640,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "award",
+        "certificate",
+        "degree",
+        "education",
+        "graduation",
+        "knowledge",
+        "learning",
+        "qualification",
+        "school",
+        "study"
       ]
     },
     {
@@ -4775,6 +8667,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "accredited",
+        "certified",
+        "education",
+        "knowledge",
+        "learning",
+        "school",
+        "study",
+        "verified"
       ]
     },
     {
@@ -4789,6 +8692,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "disk",
+        "electronic",
+        "floppy",
+        "gadget",
+        "hardware",
+        "retro",
+        "save",
+        "storage",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -4803,6 +8719,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "appreciation",
+        "bad",
+        "disagree",
+        "downvote",
+        "favourite",
+        "feedback",
+        "like",
+        "love",
+        "negative",
+        "rating",
+        "thumbs-down"
       ]
     },
     {
@@ -4817,6 +8746,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "LCD",
+        "desktop",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "monitor",
+        "screen",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -4831,6 +8772,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "biology",
+        "clinical",
+        "gene",
+        "genetics",
+        "genome",
+        "health",
+        "healthcare",
+        "helix",
+        "hereditary",
+        "medical",
+        "medicine",
+        "pharmacy"
       ]
     },
     {
@@ -4845,6 +8800,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "doc",
+        "education",
+        "file",
+        "knowledge",
+        "learning",
+        "page",
+        "paper",
+        "school",
+        "sheet",
+        "study"
       ]
     },
     {
@@ -4859,6 +8827,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "doc",
+        "document",
+        "documentation",
+        "file",
+        "notes",
+        "page",
+        "paper",
+        "record",
+        "sheet",
+        "writing"
       ]
     },
     {
@@ -4873,6 +8853,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "create",
+        "document",
+        "documentation",
+        "new-document",
+        "new-page",
+        "notes",
+        "record",
+        "writing"
       ]
     },
     {
@@ -4887,6 +8877,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "document",
+        "documentation",
+        "medical-record",
+        "notes",
+        "prescription",
+        "record",
+        "report",
+        "writing"
       ]
     },
     {
@@ -4901,6 +8901,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "article",
+        "content",
+        "document",
+        "documentation",
+        "notes",
+        "page",
+        "readme",
+        "record",
+        "writing"
       ]
     },
     {
@@ -4915,6 +8926,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "batch",
+        "document",
+        "documentation",
+        "files",
+        "multiple",
+        "notes",
+        "pages",
+        "papers",
+        "record",
+        "writing"
       ]
     },
     {
@@ -4929,6 +8952,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "document",
+        "documentation",
+        "minimal",
+        "multiple",
+        "notes",
+        "pages",
+        "record",
+        "writing"
       ]
     },
     {
@@ -4939,6 +8972,16 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "animal",
+        "canine",
+        "dog",
+        "hound",
+        "pet",
+        "pooch",
+        "pup",
+        "puppy"
       ]
     },
     {
@@ -4949,6 +8992,16 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "animal",
+        "canine",
+        "dog",
+        "hound",
+        "pet",
+        "pooch",
+        "pup",
+        "puppy"
       ]
     },
     {
@@ -4959,6 +9012,15 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "animal",
+        "canine",
+        "dog",
+        "pet",
+        "profile",
+        "puppy",
+        "silhouette"
       ]
     },
     {
@@ -4973,6 +9035,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "American",
+        "USD",
+        "banking",
+        "commerce",
+        "cost",
+        "currency",
+        "finance",
+        "financial",
+        "money",
+        "payment",
+        "price"
       ]
     },
     {
@@ -4987,6 +9062,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "USD",
+        "banking",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "minimal",
+        "money",
+        "payment",
+        "price"
       ]
     },
     {
@@ -5001,6 +9088,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bakery",
+        "chef",
+        "cooking",
+        "culinary",
+        "doughnut",
+        "food",
+        "kitchen",
+        "pastry",
+        "recipe",
+        "snack",
+        "sweet",
+        "treat"
       ]
     },
     {
@@ -5015,6 +9116,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bite",
+        "chef",
+        "cooking",
+        "culinary",
+        "doughnut",
+        "eaten",
+        "food",
+        "kitchen",
+        "recipe",
+        "snack"
       ]
     },
     {
@@ -5029,6 +9142,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chevron",
+        "direction",
+        "fast",
+        "move",
+        "navigation",
+        "page-down",
+        "pointer",
+        "skip"
       ]
     },
     {
@@ -5043,6 +9166,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chevron",
+        "direction",
+        "fast",
+        "first",
+        "move",
+        "navigation",
+        "pointer",
+        "rewind"
       ]
     },
     {
@@ -5057,6 +9190,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chevron",
+        "direction",
+        "fast",
+        "forward",
+        "last",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -5071,6 +9214,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chevron",
+        "direction",
+        "fast",
+        "move",
+        "navigation",
+        "page-up",
+        "pointer",
+        "skip"
       ]
     },
     {
@@ -5085,6 +9238,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "fetch",
+        "get",
+        "interaction",
+        "move",
+        "navigation",
+        "receive",
+        "save"
       ]
     },
     {
@@ -5099,6 +9262,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "fetch",
+        "get",
+        "interaction",
+        "minimal",
+        "move",
+        "navigation",
+        "receive",
+        "save"
       ]
     },
     {
@@ -5113,6 +9287,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "fetch",
+        "get",
+        "interaction",
+        "move",
+        "navigation",
+        "receive",
+        "save",
+        "square"
       ]
     },
     {
@@ -5127,6 +9312,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "batch",
+        "interaction",
+        "move",
+        "multiple",
+        "navigation",
+        "save"
       ]
     },
     {
@@ -5141,6 +9335,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clinical",
+        "dose",
+        "essential-oil",
+        "health",
+        "healthcare",
+        "liquid",
+        "medical",
+        "medicine",
+        "pharmacy",
+        "pipette",
+        "tincture"
       ]
     },
     {
@@ -5155,6 +9362,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clinical",
+        "dose",
+        "health",
+        "healthcare",
+        "liquid",
+        "medical",
+        "medicine",
+        "pharmacy",
+        "pipette"
       ]
     },
     {
@@ -5169,6 +9387,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clinical",
+        "dose",
+        "health",
+        "healthcare",
+        "liquid",
+        "medical",
+        "medicine",
+        "pharmacy",
+        "pipette"
       ]
     },
     {
@@ -5183,6 +9412,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clinical",
+        "health",
+        "healthcare",
+        "liquid",
+        "medical",
+        "medicine",
+        "minimal",
+        "pharmacy",
+        "pipette"
       ]
     },
     {
@@ -5197,6 +9437,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clinical",
+        "health",
+        "healthcare",
+        "liquid",
+        "medical",
+        "medicine",
+        "minimal",
+        "pharmacy",
+        "pipette"
       ]
     },
     {
@@ -5211,6 +9462,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "barbell",
+        "exercise",
+        "fitness",
+        "gym",
+        "iron",
+        "lift",
+        "sport",
+        "strength",
+        "weight",
+        "workout"
       ]
     },
     {
@@ -5225,6 +9490,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "exercise",
+        "fitness",
+        "gym",
+        "heavy",
+        "sport",
+        "strength",
+        "weight",
+        "workout"
       ]
     },
     {
@@ -5239,6 +9516,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "exercise",
+        "fitness",
+        "gym",
+        "heavy",
+        "minimal",
+        "sport",
+        "weight",
+        "workout"
       ]
     },
     {
@@ -5253,6 +9542,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "exercise",
+        "fitness",
+        "gym",
+        "light",
+        "sport",
+        "toning",
+        "weight",
+        "workout"
       ]
     },
     {
@@ -5267,6 +9568,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "exercise",
+        "fitness",
+        "gym",
+        "lift",
+        "pair",
+        "sport",
+        "weights",
+        "workout"
       ]
     },
     {
@@ -5281,6 +9594,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "exercise",
+        "fitness",
+        "gym",
+        "lift",
+        "pair",
+        "sport",
+        "weights",
+        "workout"
       ]
     },
     {
@@ -5295,6 +9620,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cosmos",
+        "global",
+        "globe",
+        "international",
+        "planet",
+        "science",
+        "space",
+        "universe",
+        "world"
       ]
     },
     {
@@ -5305,6 +9641,18 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "breakfast",
+        "cooking",
+        "dietary",
+        "food",
+        "ingredient",
+        "nutrition",
+        "oval",
+        "poultry",
+        "protein",
+        "recipe"
       ]
     },
     {
@@ -5315,6 +9663,17 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "breakfast",
+        "cooking",
+        "dietary",
+        "food",
+        "fry",
+        "ingredient",
+        "nutrition",
+        "recipe",
+        "sunny-side-up"
       ]
     },
     {
@@ -5329,6 +9688,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "EV",
+        "automotive",
+        "car",
+        "charge",
+        "commute",
+        "electric-vehicle",
+        "green",
+        "plug-in",
+        "transport",
+        "travel",
+        "vehicle"
       ]
     },
     {
@@ -5343,6 +9715,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "LOL",
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "funny",
+        "joy",
+        "laugh",
+        "mood",
+        "reaction",
+        "silly"
       ]
     },
     {
@@ -5357,6 +9743,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "funny",
+        "joy",
+        "laugh",
+        "mood",
+        "reaction",
+        "silly"
       ]
     },
     {
@@ -5371,6 +9770,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "calling",
+        "communication",
+        "contact",
+        "decline",
+        "disconnect",
+        "hangup",
+        "phone",
+        "stop",
+        "telephone"
       ]
     },
     {
@@ -5385,6 +9795,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "calling",
+        "communication",
+        "contact",
+        "decline",
+        "disconnect",
+        "hangup",
+        "phone",
+        "stop",
+        "telephone"
       ]
     },
     {
@@ -5399,6 +9820,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clean",
+        "clear",
+        "delete",
+        "editor",
+        "font",
+        "formatting",
+        "remove",
+        "rubber",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -5413,6 +9847,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clear",
+        "delete",
+        "editor",
+        "font",
+        "formatting",
+        "remove",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -5427,6 +9872,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clear",
+        "delete",
+        "editor",
+        "font",
+        "formatting",
+        "remove",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -5441,6 +9897,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "EUR",
+        "European",
+        "banking",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "money",
+        "payment",
+        "price"
       ]
     },
     {
@@ -5455,6 +9923,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "close",
+        "escape",
+        "interaction",
+        "leave",
+        "move",
+        "navigation",
+        "quit"
       ]
     },
     {
@@ -5469,6 +9947,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "18+",
+        "NSFW",
+        "adult",
+        "content-warning",
+        "core",
+        "essential",
+        "interface",
+        "mature",
+        "ui"
       ]
     },
     {
@@ -5483,6 +9972,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "external",
+        "interaction",
+        "move",
+        "navigation",
+        "output",
+        "send",
+        "share"
       ]
     },
     {
@@ -5497,6 +9996,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "blank",
+        "deadpan",
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "mood",
+        "neutral",
+        "poker-face",
+        "reaction"
       ]
     },
     {
@@ -5511,6 +10023,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "blank",
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "mood",
+        "neutral",
+        "poker-face",
+        "reaction"
       ]
     },
     {
@@ -5525,6 +10049,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "lock",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "see",
+        "show",
+        "view",
+        "visibility",
+        "visible",
+        "watch"
       ]
     },
     {
@@ -5539,6 +10077,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "blind",
+        "hidden",
+        "hide",
+        "invisible",
+        "lock",
+        "privacy",
+        "private",
+        "protection",
+        "safety",
+        "security"
       ]
     },
     {
@@ -5548,6 +10099,18 @@ export const manifest = {
       "category": "Health Benefits",
       "weights": [
         "bold"
+      ],
+      "tags": [
+        "benefit",
+        "body",
+        "eye-care",
+        "health",
+        "nutrition",
+        "optical",
+        "see",
+        "sight",
+        "vision",
+        "wellness"
       ]
     },
     {
@@ -5562,6 +10125,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "biometric",
+        "identify",
+        "lock",
+        "privacy",
+        "protection",
+        "recognition",
+        "retina",
+        "safety",
+        "security"
       ]
     },
     {
@@ -5576,6 +10151,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "biometric",
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "facial-recognition",
+        "feeling",
+        "identify",
+        "mood",
+        "reaction",
+        "scan"
       ]
     },
     {
@@ -5590,6 +10178,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "biometric",
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "facial-recognition",
+        "feeling",
+        "identify",
+        "mood",
+        "reaction"
       ]
     },
     {
@@ -5604,6 +10204,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "covid",
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "health",
+        "mask",
+        "medical",
+        "mood",
+        "protection",
+        "reaction"
       ]
     },
     {
@@ -5618,6 +10232,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "covid",
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "health",
+        "mask",
+        "medical",
+        "mood",
+        "reaction"
       ]
     },
     {
@@ -5632,6 +10259,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "RSS",
+        "content",
+        "core",
+        "essential",
+        "interface",
+        "news",
+        "stream",
+        "timeline",
+        "ui"
       ]
     },
     {
@@ -5646,6 +10284,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "amusement",
+        "carnival",
+        "core",
+        "essential",
+        "fair",
+        "fun",
+        "interface",
+        "park",
+        "ui"
       ]
     },
     {
@@ -5660,6 +10309,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "UI",
+        "core",
+        "design",
+        "essential",
+        "interface",
+        "prototype",
+        "software",
+        "tool",
+        "ui"
       ]
     },
     {
@@ -5674,6 +10334,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "Figma",
+        "UI",
+        "design",
+        "document",
+        "file",
+        "prototype",
+        "storage"
       ]
     },
     {
@@ -5688,6 +10357,14 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "blank",
+        "document",
+        "file",
+        "generic",
+        "page",
+        "storage"
       ]
     },
     {
@@ -5702,6 +10379,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "approved",
+        "complete",
+        "document",
+        "done",
+        "file",
+        "storage",
+        "verified"
       ]
     },
     {
@@ -5716,6 +10402,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "broken",
+        "corrupt",
+        "damaged",
+        "document",
+        "error",
+        "file",
+        "storage"
       ]
     },
     {
@@ -5730,6 +10425,14 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "document",
+        "fetch",
+        "file",
+        "get",
+        "save",
+        "storage"
       ]
     },
     {
@@ -5744,6 +10447,14 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bookmarked",
+        "document",
+        "file",
+        "important",
+        "starred",
+        "storage"
       ]
     },
     {
@@ -5758,6 +10469,14 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "document",
+        "file",
+        "move",
+        "previous",
+        "storage",
+        "transfer"
       ]
     },
     {
@@ -5772,6 +10491,14 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "delete",
+        "discard",
+        "document",
+        "file",
+        "storage",
+        "trash"
       ]
     },
     {
@@ -5786,6 +10513,14 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "document",
+        "file",
+        "move",
+        "next",
+        "storage",
+        "transfer"
       ]
     },
     {
@@ -5800,6 +10535,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "document",
+        "email",
+        "file",
+        "share",
+        "storage",
+        "submit",
+        "transfer"
       ]
     },
     {
@@ -5814,6 +10558,14 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "document",
+        "file",
+        "friendly",
+        "fun",
+        "happy",
+        "storage"
       ]
     },
     {
@@ -5828,6 +10580,14 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "content",
+        "document",
+        "file",
+        "readme",
+        "storage",
+        "text"
       ]
     },
     {
@@ -5842,6 +10602,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "criteria",
+        "essential",
+        "funnel",
+        "interface",
+        "narrow",
+        "refine",
+        "sort",
+        "ui"
       ]
     },
     {
@@ -5856,6 +10627,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adjust",
+        "creative",
+        "design",
+        "editor",
+        "effect",
+        "graphics",
+        "image",
+        "photo",
+        "tools"
       ]
     },
     {
@@ -5870,6 +10652,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adventure",
+        "blaze",
+        "burn",
+        "flame",
+        "heat",
+        "hot",
+        "nature",
+        "outdoor",
+        "travel",
+        "trending"
       ]
     },
     {
@@ -5884,6 +10678,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adventure",
+        "burn",
+        "flame",
+        "hot",
+        "minimal",
+        "nature",
+        "outdoor",
+        "travel"
       ]
     },
     {
@@ -5898,6 +10702,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adventure",
+        "burn",
+        "contained",
+        "flame",
+        "hot",
+        "nature",
+        "outdoor",
+        "travel"
       ]
     },
     {
@@ -5908,6 +10722,19 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "aquatic",
+        "cooking",
+        "dietary",
+        "food",
+        "ingredient",
+        "nutrition",
+        "omega-3",
+        "protein",
+        "recipe",
+        "salmon",
+        "seafood"
       ]
     },
     {
@@ -5922,6 +10749,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bookmark",
+        "core",
+        "country",
+        "essential",
+        "interface",
+        "mark",
+        "milestone",
+        "report",
+        "ui"
       ]
     },
     {
@@ -5936,6 +10774,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "country",
+        "essential",
+        "interface",
+        "mark",
+        "milestone",
+        "report",
+        "ui"
       ]
     },
     {
@@ -5950,6 +10798,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adventure",
+        "blaze",
+        "burn",
+        "fire",
+        "heat",
+        "hot",
+        "nature",
+        "outdoor",
+        "travel"
       ]
     },
     {
@@ -5964,6 +10823,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "USB",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "pen-drive",
+        "portable",
+        "storage",
+        "tech",
+        "technology",
+        "thumb-drive"
       ]
     },
     {
@@ -5978,6 +10850,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "beam",
+        "core",
+        "dark",
+        "essential",
+        "illuminate",
+        "interface",
+        "light",
+        "torch",
+        "ui"
       ]
     },
     {
@@ -5992,6 +10875,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "beam",
+        "core",
+        "essential",
+        "interface",
+        "light",
+        "on",
+        "torch",
+        "ui"
       ]
     },
     {
@@ -6006,6 +10900,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "creative",
+        "design",
+        "editor",
+        "graphics",
+        "horizontal",
+        "mirror",
+        "reflect",
+        "tools",
+        "transform"
       ]
     },
     {
@@ -6020,6 +10925,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "creative",
+        "design",
+        "editor",
+        "graphics",
+        "mirror",
+        "reflect",
+        "tools",
+        "transform",
+        "vertical"
       ]
     },
     {
@@ -6034,6 +10950,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "ambient",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "light",
+        "living",
+        "reading",
+        "standing-lamp"
       ]
     },
     {
@@ -6048,6 +10976,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "light",
+        "living",
+        "minimal",
+        "standing-lamp"
       ]
     },
     {
@@ -6062,6 +11001,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "foggy",
+        "forecast",
+        "haze",
+        "mist",
+        "murky",
+        "sky",
+        "visibility",
+        "weather"
       ]
     },
     {
@@ -6076,6 +11027,13 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "container",
+        "directory",
+        "folder",
+        "organize",
+        "storage"
       ]
     },
     {
@@ -6090,6 +11048,13 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "container",
+        "directory",
+        "folder",
+        "organize",
+        "storage"
       ]
     },
     {
@@ -6104,6 +11069,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "approved",
+        "complete",
+        "directory",
+        "folder",
+        "organize",
+        "storage",
+        "verified"
       ]
     },
     {
@@ -6118,6 +11092,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "backup",
+        "cloud",
+        "directory",
+        "folder",
+        "online",
+        "organize",
+        "remote",
+        "storage",
+        "sync"
       ]
     },
     {
@@ -6132,6 +11117,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "broken",
+        "directory",
+        "folder",
+        "missing",
+        "organize",
+        "problem",
+        "storage",
+        "warning"
       ]
     },
     {
@@ -6146,6 +11141,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "directory",
+        "folder",
+        "important",
+        "organize",
+        "saved",
+        "starred",
+        "storage"
       ]
     },
     {
@@ -6160,6 +11164,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "directory",
+        "folder",
+        "important",
+        "organize",
+        "saved",
+        "starred",
+        "storage"
       ]
     },
     {
@@ -6174,6 +11187,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "browse",
+        "directory",
+        "explore",
+        "folder",
+        "opened",
+        "organize",
+        "storage",
+        "view"
       ]
     },
     {
@@ -6188,6 +11211,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "directory",
+        "folder",
+        "link",
+        "network",
+        "organize",
+        "shared",
+        "shortcut",
+        "storage"
       ]
     },
     {
@@ -6202,6 +11235,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "directory",
+        "encrypted",
+        "folder",
+        "locked",
+        "organize",
+        "private",
+        "protected",
+        "secure",
+        "storage"
       ]
     },
     {
@@ -6216,6 +11260,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "contents",
+        "directory",
+        "documents",
+        "folder",
+        "full",
+        "many",
+        "organize",
+        "storage"
       ]
     },
     {
@@ -6230,6 +11284,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "ball",
+        "exercise",
+        "fitness",
+        "goal",
+        "gym",
+        "match",
+        "pitch",
+        "soccer",
+        "sport",
+        "workout"
       ]
     },
     {
@@ -6244,6 +11312,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banned",
+        "blocked",
+        "core",
+        "essential",
+        "interface",
+        "not-allowed",
+        "prohibited",
+        "restricted",
+        "ui"
       ]
     },
     {
@@ -6258,6 +11337,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banned",
+        "blocked",
+        "core",
+        "essential",
+        "interface",
+        "prohibited",
+        "restricted",
+        "ui"
       ]
     },
     {
@@ -6272,6 +11361,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "advance",
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message",
+        "next",
+        "send"
       ]
     },
     {
@@ -6286,6 +11386,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "advance",
+        "interaction",
+        "move",
+        "navigation",
+        "next",
+        "send"
       ]
     },
     {
@@ -6300,6 +11409,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "advance",
+        "interaction",
+        "move",
+        "navigation",
+        "next",
+        "send"
       ]
     },
     {
@@ -6314,6 +11432,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "appliance",
+        "cold",
+        "decor",
+        "freezer",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "kitchen",
+        "living",
+        "refrigerator"
       ]
     },
     {
@@ -6328,6 +11459,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "diesel",
+        "energy",
+        "essential",
+        "gas",
+        "interface",
+        "petrol",
+        "station",
+        "ui"
       ]
     },
     {
@@ -6342,6 +11484,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "enlarge",
+        "entertainment",
+        "expand",
+        "fullscreen",
+        "maximize",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "video"
       ]
     },
     {
@@ -6356,6 +11511,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "expand",
+        "fullscreen",
+        "maximize",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "video"
       ]
     },
     {
@@ -6370,6 +11537,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "expand",
+        "fullscreen",
+        "maximize",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "video"
       ]
     },
     {
@@ -6384,6 +11563,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "album",
+        "audio",
+        "collection",
+        "entertainment",
+        "grid",
+        "images",
+        "media",
+        "multimedia",
+        "music",
+        "photos",
+        "sound",
+        "video"
       ]
     },
     {
@@ -6398,6 +11591,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "add-image",
+        "audio",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "new-photo",
+        "sound",
+        "upload-photo",
+        "video"
       ]
     },
     {
@@ -6412,6 +11617,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "approved",
+        "audio",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "selected",
+        "sound",
+        "verified",
+        "video"
       ]
     },
     {
@@ -6426,6 +11643,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "collection",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "photos",
+        "round",
+        "sound",
+        "video"
       ]
     },
     {
@@ -6440,6 +11669,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "download-photo",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "save-image",
+        "sound",
+        "video"
       ]
     },
     {
@@ -6454,6 +11694,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adjust",
+        "audio",
+        "edit-photo",
+        "entertainment",
+        "media",
+        "modify-image",
+        "multimedia",
+        "music",
+        "sound",
+        "video"
       ]
     },
     {
@@ -6468,6 +11720,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "heart",
+        "liked-photo",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "starred",
+        "video"
       ]
     },
     {
@@ -6482,6 +11746,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "images",
+        "media",
+        "minimal",
+        "multimedia",
+        "music",
+        "photos",
+        "sound",
+        "video"
       ]
     },
     {
@@ -6496,6 +11772,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "delete-photo",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "remove-image",
+        "sound",
+        "video"
       ]
     },
     {
@@ -6510,6 +11797,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "collection",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "photos",
+        "round",
+        "sound",
+        "video"
       ]
     },
     {
@@ -6524,6 +11823,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "send-image",
+        "share-photo",
+        "sound",
+        "video"
       ]
     },
     {
@@ -6538,6 +11848,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "landscape",
+        "media",
+        "multimedia",
+        "music",
+        "panorama",
+        "sound",
+        "video",
+        "widescreen"
       ]
     },
     {
@@ -6552,6 +11874,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "Nintendo",
+        "console",
+        "device",
+        "electronic",
+        "gadget",
+        "gaming",
+        "handheld",
+        "hardware",
+        "portable",
+        "retro",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -6566,6 +11902,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "console",
+        "controller",
+        "device",
+        "electronic",
+        "gadget",
+        "gaming",
+        "hardware",
+        "joystick",
+        "play",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -6580,6 +11929,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "battery",
+        "charging",
+        "controller",
+        "device",
+        "electronic",
+        "gadget",
+        "gaming",
+        "hardware",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -6594,6 +11955,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "controller",
+        "device",
+        "electronic",
+        "gadget",
+        "gaming",
+        "hardware",
+        "minimal",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -6608,6 +11980,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "controller",
+        "dead-battery",
+        "device",
+        "electronic",
+        "gadget",
+        "gaming",
+        "hardware",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -6622,6 +12005,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "classic",
+        "controller",
+        "device",
+        "electronic",
+        "gadget",
+        "gaming",
+        "hardware",
+        "retro",
+        "tech",
+        "technology",
+        "vintage"
       ]
     },
     {
@@ -6636,6 +12032,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "architecture",
+        "building",
+        "car",
+        "city",
+        "parking",
+        "property",
+        "real estate",
+        "storage",
+        "vehicle"
       ]
     },
     {
@@ -6650,6 +12057,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "automotive",
+        "car",
+        "commute",
+        "diesel",
+        "fuel",
+        "petrol",
+        "refuel",
+        "transport",
+        "travel",
+        "vehicle"
       ]
     },
     {
@@ -6664,6 +12083,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "essential",
+        "halloween",
+        "hidden",
+        "interface",
+        "phantom",
+        "spirit",
+        "spooky",
+        "ui"
       ]
     },
     {
@@ -6678,6 +12108,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "cute",
+        "essential",
+        "friendly",
+        "halloween",
+        "interface",
+        "spooky",
+        "ui"
       ]
     },
     {
@@ -6692,6 +12132,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "birthday",
+        "bonus",
+        "celebration",
+        "core",
+        "essential",
+        "interface",
+        "present",
+        "reward",
+        "surprise",
+        "ui"
       ]
     },
     {
@@ -6706,6 +12158,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "essential",
+        "eyewear",
+        "interface",
+        "nerdy",
+        "reading",
+        "smart",
+        "spectacles",
+        "ui",
+        "vision"
       ]
     },
     {
@@ -6720,6 +12184,21 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "directions",
+        "earth",
+        "geo",
+        "globe",
+        "international",
+        "language",
+        "location",
+        "map",
+        "navigation",
+        "place",
+        "travel",
+        "world",
+        "worldwide"
       ]
     },
     {
@@ -6734,6 +12213,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "directions",
+        "earth",
+        "geo",
+        "geography",
+        "globe",
+        "international",
+        "location",
+        "map",
+        "navigation",
+        "place",
+        "travel",
+        "world"
       ]
     },
     {
@@ -6744,6 +12237,20 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "allergy",
+        "bread",
+        "celiac",
+        "cooking",
+        "dietary",
+        "food",
+        "grain",
+        "ingredient",
+        "intolerance",
+        "nutrition",
+        "recipe",
+        "wheat"
       ]
     },
     {
@@ -6758,6 +12265,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "ball",
+        "club",
+        "exercise",
+        "fitness",
+        "green",
+        "gym",
+        "hole",
+        "sport",
+        "tee",
+        "workout"
       ]
     },
     {
@@ -6772,6 +12293,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "coordinate",
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "navigation",
+        "place",
+        "position",
+        "satellite",
+        "tracking",
+        "travel"
       ]
     },
     {
@@ -6782,6 +12316,20 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "cereal",
+        "cooking",
+        "dietary",
+        "fibre",
+        "food",
+        "ingredient",
+        "nutrition",
+        "oat",
+        "recipe",
+        "rice",
+        "wheat",
+        "whole-grain"
       ]
     },
     {
@@ -6796,6 +12344,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "business",
+        "chart",
+        "dashboard",
+        "data",
+        "line-graph",
+        "reporting",
+        "statistics",
+        "trend",
+        "visualization"
       ]
     },
     {
@@ -6810,6 +12370,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "business",
+        "chart",
+        "dashboard",
+        "data",
+        "decline",
+        "decrease",
+        "loss",
+        "negative",
+        "reporting",
+        "statistics"
       ]
     },
     {
@@ -6824,6 +12397,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "business",
+        "chart",
+        "dashboard",
+        "data",
+        "decline",
+        "decrease",
+        "loss",
+        "recent",
+        "reporting",
+        "statistics"
       ]
     },
     {
@@ -6838,6 +12424,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "business",
+        "chart",
+        "dashboard",
+        "data",
+        "fresh",
+        "recent",
+        "reporting",
+        "statistics"
       ]
     },
     {
@@ -6852,6 +12449,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "business",
+        "chart",
+        "dashboard",
+        "data",
+        "growth",
+        "increase",
+        "positive",
+        "recent",
+        "reporting",
+        "statistics"
       ]
     },
     {
@@ -6866,6 +12476,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "business",
+        "chart",
+        "dashboard",
+        "data",
+        "growth",
+        "increase",
+        "positive",
+        "profit",
+        "reporting",
+        "statistics",
+        "success"
       ]
     },
     {
@@ -6880,6 +12504,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "burger",
+        "core",
+        "essential",
+        "interface",
+        "menu",
+        "nav",
+        "navigation",
+        "sidebar",
+        "three-lines",
+        "ui"
       ]
     },
     {
@@ -6894,6 +12530,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "care",
+        "charity",
+        "donate",
+        "gesture",
+        "giving",
+        "hand",
+        "kindness",
+        "love",
+        "support",
+        "volunteer"
       ]
     },
     {
@@ -6908,6 +12556,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cashback",
+        "donate",
+        "gesture",
+        "giving",
+        "hand",
+        "pay",
+        "payment",
+        "receive",
+        "support",
+        "tip"
       ]
     },
     {
@@ -6922,6 +12582,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "dose",
+        "gesture",
+        "giving",
+        "hand",
+        "medication",
+        "pharmacy",
+        "prescription",
+        "support",
+        "treatment"
       ]
     },
     {
@@ -6936,6 +12607,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "agreement",
+        "collaboration",
+        "deal",
+        "gesture",
+        "giving",
+        "hand",
+        "partnership",
+        "support",
+        "trust",
+        "welcome"
       ]
     },
     {
@@ -6950,6 +12633,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "excellent",
+        "gesture",
+        "giving",
+        "hand",
+        "magic",
+        "premium",
+        "quality",
+        "sparkle",
+        "support"
       ]
     },
     {
@@ -6964,6 +12658,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "closet",
+        "clothes",
+        "coat",
+        "core",
+        "essential",
+        "fashion",
+        "interface",
+        "ui",
+        "wardrobe"
       ]
     },
     {
@@ -6978,6 +12683,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "closet",
+        "clothes",
+        "core",
+        "essential",
+        "fashion",
+        "interface",
+        "ui",
+        "wardrobe"
       ]
     },
     {
@@ -6992,6 +12707,22 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "#",
+        "IT",
+        "code",
+        "coding",
+        "developer",
+        "number",
+        "pound",
+        "programming",
+        "social-media",
+        "software",
+        "tag",
+        "tech",
+        "topic",
+        "web"
       ]
     },
     {
@@ -7006,6 +12737,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "channel",
+        "code",
+        "coding",
+        "developer",
+        "programming",
+        "social",
+        "software",
+        "tag",
+        "tech",
+        "topic",
+        "web"
       ]
     },
     {
@@ -7020,6 +12765,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "code",
+        "coding",
+        "developer",
+        "number",
+        "programming",
+        "software",
+        "tag",
+        "tech",
+        "topic",
+        "web"
       ]
     },
     {
@@ -7034,6 +12792,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "code",
+        "coding",
+        "developer",
+        "number",
+        "programming",
+        "software",
+        "tag",
+        "tech",
+        "topic",
+        "web"
       ]
     },
     {
@@ -7048,6 +12819,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "device",
+        "earphones",
+        "electronic",
+        "gadget",
+        "hardware",
+        "headset",
+        "listening",
+        "music",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -7062,6 +12846,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "headset",
+        "music",
+        "playing",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -7076,6 +12872,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "headset",
+        "music",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -7090,6 +12897,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "headset",
+        "music",
+        "playing",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -7104,6 +12923,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clinical",
+        "cross",
+        "first-aid",
+        "health",
+        "healthcare",
+        "hospital",
+        "medical",
+        "medicine",
+        "pharmacy",
+        "plus"
       ]
     },
     {
@@ -7118,6 +12949,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "appreciation",
+        "favourite",
+        "feedback",
+        "like",
+        "love",
+        "passion",
+        "rating",
+        "valentine"
       ]
     },
     {
@@ -7132,6 +12973,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "appreciation",
+        "favourite",
+        "feedback",
+        "like",
+        "love",
+        "modern",
+        "rating"
       ]
     },
     {
@@ -7146,6 +12996,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "appreciation",
+        "breakup",
+        "favourite",
+        "feedback",
+        "heartbreak",
+        "like",
+        "love",
+        "rating",
+        "sad",
+        "split"
       ]
     },
     {
@@ -7160,6 +13022,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "appreciation",
+        "favourite",
+        "feedback",
+        "like",
+        "locked",
+        "love",
+        "private",
+        "protected",
+        "rating",
+        "secret"
       ]
     },
     {
@@ -7174,6 +13048,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "ECG",
+        "alive",
+        "cardio",
+        "clinical",
+        "health",
+        "healthcare",
+        "heartbeat",
+        "medical",
+        "medicine",
+        "pharmacy",
+        "vital"
       ]
     },
     {
@@ -7188,6 +13075,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "ECG",
+        "cardio",
+        "clinical",
+        "health",
+        "healthcare",
+        "heartbeat",
+        "medical",
+        "medicine",
+        "pharmacy"
       ]
     },
     {
@@ -7202,6 +13100,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "appreciation",
+        "favourite",
+        "feedback",
+        "like",
+        "love",
+        "popular",
+        "rating",
+        "sparkle"
       ]
     },
     {
@@ -7216,6 +13124,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "appreciation",
+        "favourite",
+        "feedback",
+        "free",
+        "like",
+        "love",
+        "open",
+        "rating",
+        "unlocked"
       ]
     },
     {
@@ -7230,6 +13149,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "affection",
+        "appreciation",
+        "favourite",
+        "feedback",
+        "like",
+        "love",
+        "many",
+        "multiple",
+        "rating"
       ]
     },
     {
@@ -7244,6 +13174,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "FAQ",
+        "assistance",
+        "core",
+        "essential",
+        "guide",
+        "interface",
+        "question",
+        "support",
+        "ui"
       ]
     },
     {
@@ -7258,6 +13199,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "HD",
+        "core",
+        "essential",
+        "interface",
+        "quality",
+        "resolution",
+        "ui",
+        "video"
       ]
     },
     {
@@ -7272,6 +13223,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "HQ",
+        "core",
+        "crisp",
+        "essential",
+        "interface",
+        "premium",
+        "resolution",
+        "ui"
       ]
     },
     {
@@ -7286,6 +13247,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "exercise",
+        "fitness",
+        "gym",
+        "mountain",
+        "outdoor",
+        "sport",
+        "trail",
+        "trek",
+        "walk",
+        "workout"
       ]
     },
     {
@@ -7300,6 +13275,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "exercise",
+        "fitness",
+        "gym",
+        "minimal",
+        "sport",
+        "trek",
+        "walk",
+        "workout"
       ]
     },
     {
@@ -7314,6 +13301,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "exercise",
+        "fitness",
+        "gym",
+        "sport",
+        "trail",
+        "trek",
+        "walk",
+        "workout"
       ]
     },
     {
@@ -7328,6 +13327,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "activity",
+        "clock",
+        "date",
+        "duration",
+        "log",
+        "past",
+        "previously",
+        "recent",
+        "schedule",
+        "time",
+        "timing",
+        "undo"
       ]
     },
     {
@@ -7342,6 +13355,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clock",
+        "date",
+        "duration",
+        "log",
+        "past",
+        "recent",
+        "schedule",
+        "time",
+        "timing"
       ]
     },
     {
@@ -7356,6 +13380,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clock",
+        "date",
+        "duration",
+        "log",
+        "past",
+        "recent",
+        "schedule",
+        "time",
+        "timing"
       ]
     },
     {
@@ -7370,6 +13405,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "essential",
+        "homepage",
+        "house",
+        "interface",
+        "main",
+        "residence",
+        "start",
+        "ui"
       ]
     },
     {
@@ -7384,6 +13430,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "architecture",
+        "building",
+        "city",
+        "homepage",
+        "house",
+        "main",
+        "property",
+        "real estate",
+        "residence",
+        "start"
       ]
     },
     {
@@ -7398,6 +13456,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "essential",
+        "homepage",
+        "house",
+        "interface",
+        "main",
+        "ui"
       ]
     },
     {
@@ -7412,6 +13479,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "build",
+        "core",
+        "create",
+        "essential",
+        "house",
+        "interface",
+        "new-home",
+        "ui"
       ]
     },
     {
@@ -7426,6 +13503,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "create",
+        "essential",
+        "house",
+        "interface",
+        "new-home",
+        "ui"
       ]
     },
     {
@@ -7440,6 +13526,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "essential",
+        "house",
+        "interface",
+        "modern",
+        "roof",
+        "ui"
       ]
     },
     {
@@ -7454,6 +13549,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "essential",
+        "house",
+        "interface",
+        "modern",
+        "roof",
+        "ui"
       ]
     },
     {
@@ -7468,6 +13572,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "cozy",
+        "essential",
+        "happy",
+        "house",
+        "interface",
+        "ui",
+        "welcome"
       ]
     },
     {
@@ -7482,6 +13596,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "essential",
+        "happy",
+        "house",
+        "interface",
+        "ui",
+        "welcome"
       ]
     },
     {
@@ -7496,6 +13619,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IoT",
+        "connected",
+        "core",
+        "essential",
+        "interface",
+        "smart-home",
+        "ui",
+        "wireless"
       ]
     },
     {
@@ -7510,6 +13643,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IoT",
+        "connected",
+        "core",
+        "essential",
+        "interface",
+        "smart-home",
+        "ui"
       ]
     },
     {
@@ -7524,6 +13666,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "architecture",
+        "building",
+        "city",
+        "clinic",
+        "emergency",
+        "health",
+        "healthcare",
+        "medical",
+        "property",
+        "real estate"
       ]
     },
     {
@@ -7538,6 +13692,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clock",
+        "countdown",
+        "date",
+        "duration",
+        "loading",
+        "patience",
+        "sand",
+        "schedule",
+        "time",
+        "timer",
+        "timing",
+        "wait"
       ]
     },
     {
@@ -7552,6 +13720,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clock",
+        "date",
+        "duration",
+        "loading",
+        "schedule",
+        "time",
+        "timer",
+        "timing",
+        "wait"
       ]
     },
     {
@@ -7566,6 +13745,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "bring-in",
+        "incoming",
+        "input",
+        "interaction",
+        "load",
+        "move",
+        "navigation"
       ]
     },
     {
@@ -7580,6 +13769,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "mailbox",
+        "message",
+        "messages",
+        "received",
+        "tray"
       ]
     },
     {
@@ -7594,6 +13795,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "filed",
+        "mail",
+        "message",
+        "old",
+        "saved",
+        "store"
       ]
     },
     {
@@ -7608,6 +13821,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "arrive",
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "incoming",
+        "mail",
+        "message",
+        "receive"
       ]
     },
     {
@@ -7622,6 +13846,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "clean",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message",
+        "messages",
+        "tray"
       ]
     },
     {
@@ -7636,6 +13871,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message",
+        "outbox",
+        "outgoing",
+        "sent"
       ]
     },
     {
@@ -7650,6 +13896,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message",
+        "new",
+        "notification",
+        "pending",
+        "unread"
       ]
     },
     {
@@ -7664,6 +13922,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "anonymous",
+        "disguise",
+        "hidden",
+        "lock",
+        "privacy",
+        "private",
+        "protection",
+        "safety",
+        "security",
+        "stealth"
       ]
     },
     {
@@ -7678,6 +13949,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "answer",
+        "calling",
+        "communication",
+        "contact",
+        "phone",
+        "receive",
+        "ringing",
+        "telephone"
       ]
     },
     {
@@ -7692,6 +13973,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "answer",
+        "calling",
+        "communication",
+        "contact",
+        "phone",
+        "receive",
+        "ringing",
+        "telephone"
       ]
     },
     {
@@ -7706,6 +13997,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cosmos",
+        "endless",
+        "eternal",
+        "forever",
+        "loop",
+        "science",
+        "space",
+        "universe",
+        "unlimited"
       ]
     },
     {
@@ -7720,6 +14022,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "about",
+        "core",
+        "details",
+        "essential",
+        "help",
+        "i",
+        "information",
+        "interface",
+        "ui"
       ]
     },
     {
@@ -7734,6 +14047,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "about",
+        "core",
+        "details",
+        "essential",
+        "help",
+        "information",
+        "interface",
+        "ui"
       ]
     },
     {
@@ -7748,6 +14071,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "Apple",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "iOS",
+        "mobile",
+        "phone",
+        "smartphone",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -7762,6 +14098,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bottle",
+        "clinical",
+        "health",
+        "healthcare",
+        "medical",
+        "medication",
+        "medicine",
+        "pharmacy",
+        "prescription"
       ]
     },
     {
@@ -7776,6 +14123,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bottle",
+        "clinical",
+        "health",
+        "healthcare",
+        "medical",
+        "medication",
+        "medicine",
+        "pharmacy",
+        "prescription"
       ]
     },
     {
@@ -7790,6 +14148,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "credential",
+        "lock",
+        "password",
+        "privacy",
+        "protection",
+        "safety",
+        "secret",
+        "security",
+        "unlock"
       ]
     },
     {
@@ -7804,6 +14174,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "lock",
+        "password",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "unlock"
       ]
     },
     {
@@ -7818,6 +14198,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "lock",
+        "password",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "unlock"
       ]
     },
     {
@@ -7832,6 +14222,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "lock",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "unlock"
       ]
     },
     {
@@ -7846,6 +14245,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "lock",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "unlock"
       ]
     },
     {
@@ -7860,6 +14268,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "lock",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "unlock"
       ]
     },
     {
@@ -7874,6 +14291,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "lock",
+        "password",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "unlock"
       ]
     },
     {
@@ -7888,6 +14315,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "lock",
+        "password",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "unlock"
       ]
     },
     {
@@ -7902,6 +14339,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "input",
+        "keys",
+        "peripheral",
+        "qwerty",
+        "tech",
+        "technology",
+        "typing"
       ]
     },
     {
@@ -7916,6 +14366,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "automotive",
+        "car",
+        "commute",
+        "electric-scooter",
+        "micro-mobility",
+        "ride",
+        "scooter",
+        "transport",
+        "travel",
+        "vehicle"
       ]
     },
     {
@@ -7926,6 +14388,17 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "benefit",
+        "body",
+        "detox",
+        "filter",
+        "health",
+        "nutrition",
+        "organ",
+        "renal",
+        "wellness"
       ]
     },
     {
@@ -7936,6 +14409,20 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "cooking",
+        "cutlery",
+        "dietary",
+        "dining",
+        "eat",
+        "food",
+        "ingredient",
+        "meal",
+        "nutrition",
+        "recipe",
+        "restaurant",
+        "utensils"
       ]
     },
     {
@@ -7950,6 +14437,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chef",
+        "cooking",
+        "culinary",
+        "food",
+        "kitchen",
+        "pot",
+        "recipe",
+        "serve",
+        "soup",
+        "spoon"
       ]
     },
     {
@@ -7964,6 +14463,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "decor",
+        "desk-lamp",
+        "furniture",
+        "home",
+        "house",
+        "illuminate",
+        "interior",
+        "light",
+        "living",
+        "reading",
+        "table-lamp"
       ]
     },
     {
@@ -7978,6 +14490,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "MacBook",
+        "PC",
+        "computer",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "notebook",
+        "portable",
+        "tech",
+        "technology",
+        "work"
       ]
     },
     {
@@ -7992,6 +14518,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "computer",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "notebook",
+        "portable",
+        "tech",
+        "technology",
+        "work"
       ]
     },
     {
@@ -8006,6 +14544,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "computer",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "notebook",
+        "portable",
+        "tech",
+        "technology",
+        "work"
       ]
     },
     {
@@ -8020,6 +14570,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "computer",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "minimal",
+        "notebook",
+        "tech",
+        "technology",
+        "work"
       ]
     },
     {
@@ -8034,6 +14596,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "creative",
+        "depth",
+        "design",
+        "editor",
+        "graphics",
+        "overlap",
+        "stack",
+        "tools",
+        "z-index"
       ]
     },
     {
@@ -8048,6 +14621,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "creative",
+        "design",
+        "editor",
+        "graphics",
+        "overlap",
+        "stack",
+        "tools",
+        "z-index"
       ]
     },
     {
@@ -8062,6 +14645,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adventure",
+        "eco",
+        "environment",
+        "green",
+        "natural",
+        "nature",
+        "organic",
+        "outdoor",
+        "plant",
+        "travel",
+        "tree"
       ]
     },
     {
@@ -8072,6 +14668,19 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "bean",
+        "cooking",
+        "dietary",
+        "food",
+        "ingredient",
+        "lentil",
+        "nutrition",
+        "protein",
+        "pulse",
+        "recipe",
+        "vegan"
       ]
     },
     {
@@ -8086,6 +14695,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "envelope",
+        "mail",
+        "message",
+        "post"
       ]
     },
     {
@@ -8100,6 +14719,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message",
+        "opened",
+        "read",
+        "viewed"
       ]
     },
     {
@@ -8114,6 +14744,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message",
+        "new",
+        "notification",
+        "unread"
       ]
     },
     {
@@ -8128,6 +14769,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "archive",
+        "audio",
+        "catalog",
+        "collection",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "video"
       ]
     },
     {
@@ -8142,6 +14795,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bright",
+        "creative",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "idea",
+        "innovation",
+        "lamp",
+        "light",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -8156,6 +14823,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "electronic",
+        "energy",
+        "gadget",
+        "hardware",
+        "idea",
+        "innovation",
+        "light",
+        "power",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -8170,6 +14850,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "idea",
+        "lamp",
+        "light",
+        "minimal",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -8184,6 +14876,22 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bolt",
+        "device",
+        "electric",
+        "electronic",
+        "energy",
+        "fast",
+        "flash",
+        "gadget",
+        "hardware",
+        "power",
+        "speed",
+        "tech",
+        "technology",
+        "thunder"
       ]
     },
     {
@@ -8193,6 +14901,19 @@ export const manifest = {
       "category": "Additional",
       "weights": [
         "bold"
+      ],
+      "tags": [
+        "bolt",
+        "electric",
+        "energy",
+        "extra",
+        "fast",
+        "flash",
+        "misc",
+        "power",
+        "speed",
+        "thunder",
+        "ui"
       ]
     },
     {
@@ -8207,6 +14928,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "agree",
+        "appreciation",
+        "approve",
+        "favourite",
+        "feedback",
+        "good",
+        "like",
+        "love",
+        "positive",
+        "rating",
+        "thumbs-up",
+        "upvote"
       ]
     },
     {
@@ -8221,6 +14956,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "URL",
+        "chain",
+        "connect",
+        "editor",
+        "font",
+        "formatting",
+        "href",
+        "hyperlink",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -8235,6 +14983,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "broken-link",
+        "disconnect",
+        "editor",
+        "font",
+        "formatting",
+        "text",
+        "typography",
+        "unlink",
+        "writing"
       ]
     },
     {
@@ -8249,6 +15008,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "disconnect",
+        "editor",
+        "font",
+        "formatting",
+        "minimal",
+        "text",
+        "typography",
+        "unlink",
+        "writing"
       ]
     },
     {
@@ -8263,6 +15033,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "URL",
+        "chain",
+        "editor",
+        "font",
+        "formatting",
+        "hyperlink",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -8277,6 +15058,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "URL",
+        "chain",
+        "editor",
+        "font",
+        "formatting",
+        "hyperlink",
+        "minimal",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -8291,6 +15084,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "URL",
+        "editor",
+        "font",
+        "formatting",
+        "hyperlink",
+        "minimal",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -8305,6 +15109,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "URL",
+        "chain",
+        "editor",
+        "font",
+        "formatting",
+        "hyperlink",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -8319,6 +15134,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "URL",
+        "angled",
+        "editor",
+        "font",
+        "formatting",
+        "hyperlink",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -8333,6 +15159,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "URL",
+        "chain",
+        "editor",
+        "font",
+        "formatting",
+        "hyperlink",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -8347,6 +15184,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bullet",
+        "enumerate",
+        "items",
+        "list",
+        "menu",
+        "options",
+        "order",
+        "organize",
+        "task",
+        "todo"
       ]
     },
     {
@@ -8361,6 +15210,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "descending",
+        "list",
+        "order",
+        "organize",
+        "sort",
+        "task",
+        "todo"
       ]
     },
     {
@@ -8375,6 +15233,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "descending",
+        "list",
+        "minimal",
+        "order",
+        "organize",
+        "sort",
+        "task",
+        "todo"
       ]
     },
     {
@@ -8389,6 +15257,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "ascending",
+        "list",
+        "order",
+        "organize",
+        "sort",
+        "task",
+        "todo"
       ]
     },
     {
@@ -8403,6 +15280,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "ascending",
+        "list",
+        "minimal",
+        "order",
+        "organize",
+        "sort",
+        "task",
+        "todo"
       ]
     },
     {
@@ -8417,6 +15304,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "approved",
+        "completed",
+        "done",
+        "list",
+        "order",
+        "organize",
+        "task",
+        "todo",
+        "verified"
       ]
     },
     {
@@ -8431,6 +15329,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "completed",
+        "done",
+        "list",
+        "minimal",
+        "order",
+        "organize",
+        "task",
+        "todo"
       ]
     },
     {
@@ -8445,6 +15353,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cancelled",
+        "error",
+        "failed",
+        "list",
+        "order",
+        "organize",
+        "rejected",
+        "task",
+        "todo"
       ]
     },
     {
@@ -8459,6 +15378,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "failed",
+        "list",
+        "minimal",
+        "order",
+        "organize",
+        "rejected",
+        "task",
+        "todo"
       ]
     },
     {
@@ -8473,6 +15402,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "list",
+        "lower",
+        "move-down",
+        "order",
+        "organize",
+        "priority",
+        "task",
+        "todo"
       ]
     },
     {
@@ -8487,6 +15426,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "list",
+        "lower",
+        "minimal",
+        "move-down",
+        "order",
+        "organize",
+        "task",
+        "todo"
       ]
     },
     {
@@ -8501,6 +15450,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "favourites",
+        "liked",
+        "list",
+        "order",
+        "organize",
+        "saved",
+        "task",
+        "todo",
+        "wishlist"
       ]
     },
     {
@@ -8515,6 +15475,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "favourites",
+        "list",
+        "minimal",
+        "order",
+        "organize",
+        "task",
+        "todo",
+        "wishlist"
       ]
     },
     {
@@ -8529,6 +15499,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "higher",
+        "list",
+        "move-up",
+        "order",
+        "organize",
+        "priority",
+        "task",
+        "todo"
       ]
     },
     {
@@ -8543,6 +15523,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "higher",
+        "list",
+        "minimal",
+        "move-up",
+        "order",
+        "organize",
+        "task",
+        "todo"
       ]
     },
     {
@@ -8557,6 +15547,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "closed",
+        "encrypted",
+        "lock",
+        "locked",
+        "padlock",
+        "privacy",
+        "protection",
+        "safety",
+        "secure",
+        "security"
       ]
     },
     {
@@ -8571,6 +15574,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "lock",
+        "locked",
+        "padlock",
+        "privacy",
+        "protection",
+        "safety",
+        "secure",
+        "security"
       ]
     },
     {
@@ -8585,6 +15599,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "lock",
+        "locked",
+        "minimal",
+        "privacy",
+        "protection",
+        "safety",
+        "secure",
+        "security"
       ]
     },
     {
@@ -8599,6 +15624,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "lock",
+        "minimal",
+        "open",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "unlocked"
       ]
     },
     {
@@ -8613,6 +15649,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "accessible",
+        "lock",
+        "open",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "unlocked"
       ]
     },
     {
@@ -8627,6 +15674,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "PIN",
+        "access",
+        "code",
+        "lock",
+        "password",
+        "privacy",
+        "protection",
+        "safety",
+        "secure",
+        "security"
       ]
     },
     {
@@ -8641,6 +15700,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "lock",
+        "open",
+        "password",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "unlocked"
       ]
     },
     {
@@ -8655,6 +15725,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "accessible",
+        "lock",
+        "open",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "unlocked"
       ]
     },
     {
@@ -8669,6 +15750,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "action",
+        "authenticate",
+        "enter",
+        "interaction",
+        "move",
+        "navigation",
+        "sign-in"
       ]
     },
     {
@@ -8683,6 +15774,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "action",
+        "authenticate",
+        "enter",
+        "interaction",
+        "move",
+        "navigation",
+        "sign-in"
       ]
     },
     {
@@ -8697,6 +15798,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "action",
+        "authenticate",
+        "enter",
+        "interaction",
+        "move",
+        "navigation",
+        "sign-in"
       ]
     },
     {
@@ -8711,6 +15822,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "disconnect",
+        "exit",
+        "interaction",
+        "leave",
+        "move",
+        "navigation",
+        "sign-out"
       ]
     },
     {
@@ -8725,6 +15846,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "disconnect",
+        "exit",
+        "interaction",
+        "leave",
+        "move",
+        "navigation",
+        "sign-out"
       ]
     },
     {
@@ -8739,6 +15870,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "disconnect",
+        "exit",
+        "interaction",
+        "leave",
+        "move",
+        "navigation",
+        "sign-out"
       ]
     },
     {
@@ -8749,6 +15890,18 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "air",
+        "benefit",
+        "body",
+        "breath",
+        "breathing",
+        "health",
+        "nutrition",
+        "oxygen",
+        "respiratory",
+        "wellness"
       ]
     },
     {
@@ -8763,6 +15916,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "AI",
+        "auto",
+        "core",
+        "enchant",
+        "essential",
+        "generate",
+        "interface",
+        "ui",
+        "wand",
+        "wizard"
       ]
     },
     {
@@ -8777,6 +15942,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "auto",
+        "core",
+        "enchant",
+        "essential",
+        "interface",
+        "ui",
+        "wand",
+        "wizard"
       ]
     },
     {
@@ -8791,6 +15966,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "auto",
+        "core",
+        "enchant",
+        "essential",
+        "interface",
+        "ui",
+        "wand",
+        "wizard"
       ]
     },
     {
@@ -8805,6 +15990,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "attract",
+        "core",
+        "essential",
+        "horseshoe",
+        "interface",
+        "magnetic",
+        "pull",
+        "ui"
       ]
     },
     {
@@ -8819,6 +16014,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "attract",
+        "core",
+        "essential",
+        "interface",
+        "magnetic",
+        "pull",
+        "ui"
       ]
     },
     {
@@ -8833,6 +16038,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "discover",
+        "find",
+        "glass",
+        "lens",
+        "look",
+        "lookup",
+        "magnify",
+        "search",
+        "zoom"
       ]
     },
     {
@@ -8847,6 +16063,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "debug",
+        "discover",
+        "find",
+        "find-error",
+        "inspect",
+        "lookup",
+        "magnify",
+        "search",
+        "search-bug"
       ]
     },
     {
@@ -8861,6 +16088,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "closer",
+        "discover",
+        "enlarge",
+        "find",
+        "lookup",
+        "magnify",
+        "plus",
+        "search",
+        "zoom-in"
       ]
     },
     {
@@ -8875,6 +16113,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "discover",
+        "find",
+        "further",
+        "lookup",
+        "magnify",
+        "minus",
+        "search",
+        "shrink",
+        "zoom-out"
       ]
     },
     {
@@ -8889,6 +16138,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "letterbox",
+        "mail",
+        "message",
+        "postal",
+        "postbox"
       ]
     },
     {
@@ -8903,6 +16163,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "area",
+        "atlas",
+        "directions",
+        "geo",
+        "geography",
+        "location",
+        "map",
+        "navigation",
+        "place",
+        "region",
+        "terrain",
+        "travel"
       ]
     },
     {
@@ -8917,6 +16191,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "navigate",
+        "navigation",
+        "place",
+        "south",
+        "travel"
       ]
     },
     {
@@ -8931,6 +16217,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "navigate",
+        "navigation",
+        "place",
+        "travel",
+        "west"
       ]
     },
     {
@@ -8945,6 +16243,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "directions",
+        "east",
+        "geo",
+        "location",
+        "map",
+        "navigate",
+        "navigation",
+        "place",
+        "travel"
       ]
     },
     {
@@ -8959,6 +16269,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cursor",
+        "direction",
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "navigate",
+        "navigation",
+        "place",
+        "travel"
       ]
     },
     {
@@ -8973,6 +16295,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "navigate",
+        "navigation",
+        "north",
+        "place",
+        "travel"
       ]
     },
     {
@@ -8987,6 +16321,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "destination",
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "marker",
+        "navigation",
+        "pin",
+        "place",
+        "travel"
       ]
     },
     {
@@ -9001,6 +16347,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "add-place",
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "navigation",
+        "new-location",
+        "pin",
+        "place",
+        "travel"
       ]
     },
     {
@@ -9015,6 +16373,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bookmark",
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "navigation",
+        "pin",
+        "place",
+        "saved-place",
+        "starred",
+        "travel"
       ]
     },
     {
@@ -9029,6 +16400,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clinic",
+        "directions",
+        "emergency",
+        "geo",
+        "hospital",
+        "location",
+        "map",
+        "medical",
+        "navigation",
+        "place",
+        "travel"
       ]
     },
     {
@@ -9043,6 +16427,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "delete-location",
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "navigation",
+        "pin",
+        "place",
+        "remove-place",
+        "travel"
       ]
     },
     {
@@ -9057,6 +16453,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "navigation",
+        "pin",
+        "place",
+        "spin",
+        "travel",
+        "update"
       ]
     },
     {
@@ -9071,6 +16479,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "campus",
+        "directions",
+        "education",
+        "geo",
+        "location",
+        "map",
+        "navigation",
+        "place",
+        "school",
+        "travel"
       ]
     },
     {
@@ -9085,6 +16505,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "directions",
+        "find-location",
+        "geo",
+        "location",
+        "map",
+        "navigation",
+        "pin",
+        "place",
+        "search-place",
+        "travel"
       ]
     },
     {
@@ -9099,6 +16531,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "broadcast",
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "navigation",
+        "nearby",
+        "pin",
+        "place",
+        "signal",
+        "travel"
       ]
     },
     {
@@ -9113,6 +16558,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "anonymous",
+        "comedy",
+        "core",
+        "disguise",
+        "essential",
+        "happy",
+        "interface",
+        "theatre",
+        "ui"
       ]
     },
     {
@@ -9127,6 +16583,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "disguise",
+        "essential",
+        "interface",
+        "sad",
+        "theatre",
+        "tragedy",
+        "ui"
       ]
     },
     {
@@ -9141,6 +16607,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "comedy-tragedy",
+        "core",
+        "drama",
+        "essential",
+        "interface",
+        "performing",
+        "theatre",
+        "ui"
       ]
     },
     {
@@ -9155,6 +16631,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "bigger",
+        "enlarge",
+        "expand",
+        "fullscreen",
+        "interaction",
+        "move",
+        "navigation"
       ]
     },
     {
@@ -9169,6 +16655,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "enlarge",
+        "expand",
+        "fullscreen",
+        "interaction",
+        "move",
+        "navigation"
       ]
     },
     {
@@ -9183,6 +16678,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "enlarge",
+        "expand",
+        "fullscreen",
+        "interaction",
+        "move",
+        "navigation"
       ]
     },
     {
@@ -9197,6 +16701,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "enlarge",
+        "expand",
+        "fullscreen",
+        "interaction",
+        "move",
+        "navigation"
       ]
     },
     {
@@ -9211,6 +16724,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "enlarge",
+        "expand",
+        "fullscreen",
+        "interaction",
+        "minimal",
+        "move",
+        "navigation"
       ]
     },
     {
@@ -9221,6 +16744,19 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "beef",
+        "butcher",
+        "cooking",
+        "dietary",
+        "food",
+        "ingredient",
+        "nutrition",
+        "protein",
+        "recipe",
+        "red-meat",
+        "steak"
       ]
     },
     {
@@ -9235,6 +16771,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "achievement",
+        "appreciation",
+        "award",
+        "badge",
+        "favourite",
+        "feedback",
+        "honour",
+        "like",
+        "love",
+        "prize",
+        "rating"
       ]
     },
     {
@@ -9249,6 +16798,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "achievement",
+        "appreciation",
+        "award",
+        "excellence",
+        "favourite",
+        "feedback",
+        "like",
+        "love",
+        "rating",
+        "star"
       ]
     },
     {
@@ -9263,6 +16824,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "achievement",
+        "appreciation",
+        "award",
+        "favourite",
+        "feedback",
+        "like",
+        "love",
+        "multiple",
+        "rating",
+        "star"
       ]
     },
     {
@@ -9277,6 +16850,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "achievement",
+        "appreciation",
+        "award",
+        "favourite",
+        "feedback",
+        "gold",
+        "like",
+        "love",
+        "rating",
+        "winner"
       ]
     },
     {
@@ -9291,6 +16876,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "achievement",
+        "appreciation",
+        "award",
+        "badge",
+        "favourite",
+        "feedback",
+        "like",
+        "love",
+        "rating"
       ]
     },
     {
@@ -9305,6 +16901,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "achievement",
+        "appreciation",
+        "award",
+        "badge",
+        "favourite",
+        "feedback",
+        "like",
+        "love",
+        "rating"
       ]
     },
     {
@@ -9319,6 +16926,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "box",
+        "clinical",
+        "emergency",
+        "first-aid",
+        "health",
+        "healthcare",
+        "medical",
+        "medicine",
+        "pharmacy",
+        "supplies"
       ]
     },
     {
@@ -9333,6 +16952,21 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "breathe",
+        "calm",
+        "exercise",
+        "fitness",
+        "gym",
+        "mindfulness",
+        "peace",
+        "sport",
+        "workout",
+        "yoga",
+        "zen"
       ]
     },
     {
@@ -9347,6 +16981,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "exercise",
+        "fitness",
+        "gym",
+        "mindfulness",
+        "sport",
+        "workout",
+        "yoga",
+        "zen"
       ]
     },
     {
@@ -9361,6 +17007,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cosmos",
+        "gender",
+        "male",
+        "man",
+        "mars",
+        "science",
+        "space",
+        "universe"
       ]
     },
     {
@@ -9375,6 +17031,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "@",
+        "at",
+        "core",
+        "essential",
+        "interface",
+        "notify",
+        "reference",
+        "tag",
+        "ui"
       ]
     },
     {
@@ -9389,6 +17056,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "@",
+        "at",
+        "core",
+        "essential",
+        "interface",
+        "reference",
+        "tag",
+        "ui"
       ]
     },
     {
@@ -9403,6 +17080,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "ellipsis",
+        "essential",
+        "interface",
+        "kebab",
+        "more",
+        "options",
+        "overflow",
+        "three-dots",
+        "ui"
       ]
     },
     {
@@ -9417,6 +17106,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "ellipsis",
+        "essential",
+        "interface",
+        "more",
+        "options",
+        "ui"
       ]
     },
     {
@@ -9431,6 +17129,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "ellipsis",
+        "essential",
+        "interface",
+        "more",
+        "options",
+        "ui"
       ]
     },
     {
@@ -9445,6 +17152,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "media",
+        "mic",
+        "multimedia",
+        "music",
+        "podcast",
+        "record",
+        "sound",
+        "speak",
+        "video",
+        "voice"
       ]
     },
     {
@@ -9459,6 +17180,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "media",
+        "mic",
+        "multimedia",
+        "music",
+        "record",
+        "sound",
+        "video",
+        "voice"
       ]
     },
     {
@@ -9473,6 +17206,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "media",
+        "mic",
+        "multimedia",
+        "music",
+        "record",
+        "sound",
+        "video"
       ]
     },
     {
@@ -9487,6 +17231,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "karaoke",
+        "media",
+        "mic",
+        "multimedia",
+        "music",
+        "perform",
+        "sound",
+        "stage",
+        "video"
       ]
     },
     {
@@ -9501,6 +17258,14 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "discover",
+        "find",
+        "lookup",
+        "magnify",
+        "minimal",
+        "search"
       ]
     },
     {
@@ -9515,6 +17280,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "debug",
+        "discover",
+        "find",
+        "lookup",
+        "magnify",
+        "minimal",
+        "search",
+        "search-bug"
       ]
     },
     {
@@ -9529,6 +17304,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "discover",
+        "enlarge",
+        "find",
+        "lookup",
+        "magnify",
+        "minimal",
+        "search",
+        "zoom-in"
       ]
     },
     {
@@ -9543,6 +17328,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "discover",
+        "find",
+        "lookup",
+        "magnify",
+        "minimal",
+        "search",
+        "shrink",
+        "zoom-out"
       ]
     },
     {
@@ -9557,6 +17352,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "collapse",
+        "interaction",
+        "move",
+        "navigation",
+        "reduce",
+        "shrink",
+        "smaller"
       ]
     },
     {
@@ -9571,6 +17376,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "collapse",
+        "interaction",
+        "move",
+        "navigation",
+        "reduce",
+        "shrink"
       ]
     },
     {
@@ -9585,6 +17399,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "collapse",
+        "interaction",
+        "move",
+        "navigation",
+        "reduce",
+        "shrink"
       ]
     },
     {
@@ -9599,6 +17422,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "collapse",
+        "interaction",
+        "move",
+        "navigation",
+        "reduce",
+        "shrink"
       ]
     },
     {
@@ -9613,6 +17445,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "collapse",
+        "interaction",
+        "minimal",
+        "move",
+        "navigation",
+        "reduce",
+        "shrink"
       ]
     },
     {
@@ -9623,6 +17465,19 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "cooking",
+        "dietary",
+        "flavour",
+        "food",
+        "fresh",
+        "garnish",
+        "green",
+        "herb",
+        "ingredient",
+        "nutrition",
+        "recipe"
       ]
     },
     {
@@ -9637,6 +17492,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "decrease",
+        "delete",
+        "essential",
+        "interface",
+        "less",
+        "remove",
+        "subtract",
+        "ui"
       ]
     },
     {
@@ -9651,6 +17517,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "decrease",
+        "essential",
+        "interface",
+        "less",
+        "remove",
+        "subtract",
+        "ui"
       ]
     },
     {
@@ -9665,6 +17541,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bathroom",
+        "core",
+        "essential",
+        "glass",
+        "interface",
+        "reflect",
+        "ui",
+        "vanity"
       ]
     },
     {
@@ -9679,6 +17565,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bathroom",
+        "decor",
+        "furniture",
+        "glass",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "reflect",
+        "vanity"
       ]
     },
     {
@@ -9693,6 +17591,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "creative",
+        "design",
+        "editor",
+        "flip",
+        "graphics",
+        "reflect",
+        "symmetry",
+        "tools"
       ]
     },
     {
@@ -9707,6 +17615,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "creative",
+        "design",
+        "editor",
+        "flip",
+        "graphics",
+        "reflect",
+        "symmetry",
+        "tools"
       ]
     },
     {
@@ -9721,6 +17639,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "jackpot",
+        "money",
+        "payment",
+        "profit",
+        "rich",
+        "savings",
+        "wealth"
       ]
     },
     {
@@ -9735,6 +17667,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "LCD",
+        "computer",
+        "desktop",
+        "device",
+        "display",
+        "electronic",
+        "gadget",
+        "hardware",
+        "screen",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -9749,6 +17694,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "meeting",
+        "screen",
+        "tech",
+        "technology",
+        "video-call",
+        "webcam"
       ]
     },
     {
@@ -9763,6 +17720,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adaptive",
+        "cross-platform",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "multi-device",
+        "responsive",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -9777,6 +17746,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "crescent",
+        "dark",
+        "evening",
+        "forecast",
+        "lunar",
+        "night",
+        "sky",
+        "weather"
       ]
     },
     {
@@ -9791,6 +17772,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "evening",
+        "forecast",
+        "hazy",
+        "mist",
+        "night",
+        "sky",
+        "weather"
       ]
     },
     {
@@ -9805,6 +17797,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "bedtime",
+        "climate",
+        "forecast",
+        "night",
+        "rest",
+        "sky",
+        "sleep",
+        "weather",
+        "zzz"
       ]
     },
     {
@@ -9819,6 +17823,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "clear-night",
+        "climate",
+        "evening",
+        "forecast",
+        "night",
+        "sky",
+        "starry",
+        "weather"
       ]
     },
     {
@@ -9833,6 +17848,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "click",
+        "computer",
+        "cursor",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "input",
+        "peripheral",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -9847,6 +17875,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "click",
+        "cursor",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "input",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -9861,6 +17900,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "click",
+        "cursor",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "input",
+        "minimal",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -9875,6 +17926,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "directory",
+        "file",
+        "folder",
+        "organize",
+        "sort",
+        "storage",
+        "transfer"
       ]
     },
     {
@@ -9889,6 +17949,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "fast-forward",
+        "mail",
+        "message",
+        "rewind",
+        "skip-back"
       ]
     },
     {
@@ -9903,6 +17974,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "fast-forward",
+        "mail",
+        "message",
+        "skip-ahead"
       ]
     },
     {
@@ -9917,6 +17998,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "catalog",
+        "collection",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "songs",
+        "sound",
+        "video"
       ]
     },
     {
@@ -9931,6 +18024,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "catalog",
+        "collection",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "songs",
+        "sound",
+        "video"
       ]
     },
     {
@@ -9945,6 +18050,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "media",
+        "melody",
+        "multimedia",
+        "music",
+        "note",
+        "song",
+        "sound",
+        "tune",
+        "video",
+        "♪"
       ]
     },
     {
@@ -9959,6 +18078,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "media",
+        "melody",
+        "multimedia",
+        "music",
+        "note",
+        "song",
+        "sound",
+        "tune",
+        "video"
       ]
     },
     {
@@ -9973,6 +18105,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "media",
+        "melody",
+        "multimedia",
+        "music",
+        "note",
+        "sound",
+        "tune",
+        "video"
       ]
     },
     {
@@ -9987,6 +18131,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "media",
+        "melody",
+        "multimedia",
+        "music",
+        "note",
+        "sound",
+        "tune",
+        "video"
       ]
     },
     {
@@ -10001,6 +18157,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "DJ",
+        "adjust",
+        "audio",
+        "entertainment",
+        "equalizer",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "video"
       ]
     },
     {
@@ -10015,6 +18183,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "DJ",
+        "adjust",
+        "audio",
+        "entertainment",
+        "equalizer",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "video"
       ]
     },
     {
@@ -10029,6 +18209,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "harmony",
+        "media",
+        "melody",
+        "multimedia",
+        "music",
+        "song",
+        "sound",
+        "tune",
+        "video",
+        "♫"
       ]
     },
     {
@@ -10043,6 +18237,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "no-sound",
+        "off",
+        "quiet",
+        "silent",
+        "sound",
+        "video"
       ]
     },
     {
@@ -10057,6 +18264,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "book",
+        "diary",
+        "education",
+        "journal",
+        "knowledge",
+        "learning",
+        "memo",
+        "notepad",
+        "school",
+        "study"
       ]
     },
     {
@@ -10071,6 +18291,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "book",
+        "diary",
+        "document",
+        "documentation",
+        "journal",
+        "memo",
+        "notepad",
+        "notes",
+        "record",
+        "writing"
       ]
     },
     {
@@ -10085,6 +18317,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "education",
+        "journal",
+        "knowledge",
+        "learning",
+        "marked",
+        "reading",
+        "school",
+        "study"
       ]
     },
     {
@@ -10099,6 +18342,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "education",
+        "journal",
+        "knowledge",
+        "learning",
+        "minimal",
+        "notepad",
+        "school",
+        "study"
       ]
     },
     {
@@ -10113,6 +18367,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "education",
+        "journal",
+        "knowledge",
+        "learning",
+        "notepad",
+        "planner",
+        "school",
+        "study"
       ]
     },
     {
@@ -10127,6 +18392,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "document",
+        "documentation",
+        "jot",
+        "memo",
+        "notes",
+        "record",
+        "reminder",
+        "sticky-note",
+        "writing"
       ]
     },
     {
@@ -10141,6 +18417,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "document",
+        "documentation",
+        "memo",
+        "minimal",
+        "notes",
+        "record",
+        "sticky-note",
+        "writing"
       ]
     },
     {
@@ -10155,6 +18441,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alert",
+        "clear",
+        "dismiss",
+        "notification",
+        "reminder",
+        "remove",
+        "update"
       ]
     },
     {
@@ -10169,6 +18464,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alert",
+        "clear",
+        "delete",
+        "dismiss",
+        "notification",
+        "reminder",
+        "update"
       ]
     },
     {
@@ -10183,6 +18487,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alert",
+        "badge",
+        "dot",
+        "new",
+        "notification",
+        "pending",
+        "reminder",
+        "update"
       ]
     },
     {
@@ -10197,6 +18511,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alert",
+        "badge",
+        "multiple",
+        "new",
+        "notification",
+        "pending",
+        "reminder",
+        "update"
       ]
     },
     {
@@ -10211,6 +18535,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "AR",
+        "access",
+        "detect",
+        "identify",
+        "lock",
+        "privacy",
+        "protection",
+        "recognize",
+        "safety",
+        "scan",
+        "security"
       ]
     },
     {
@@ -10225,6 +18562,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "calling",
+        "calling-out",
+        "communication",
+        "contact",
+        "dial",
+        "make-call",
+        "phone",
+        "telephone"
       ]
     },
     {
@@ -10239,6 +18586,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "calling",
+        "communication",
+        "contact",
+        "dial",
+        "make-call",
+        "phone",
+        "telephone"
       ]
     },
     {
@@ -10253,6 +18609,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "baking",
+        "chef",
+        "cooking",
+        "culinary",
+        "food",
+        "gloves",
+        "heat",
+        "hot",
+        "kitchen",
+        "protection",
+        "recipe"
       ]
     },
     {
@@ -10267,6 +18636,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "baking",
+        "chef",
+        "cooking",
+        "culinary",
+        "food",
+        "heat",
+        "kitchen",
+        "minimal",
+        "protection",
+        "recipe"
       ]
     },
     {
@@ -10281,6 +18662,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "colour",
+        "creative",
+        "decorate",
+        "design",
+        "editor",
+        "fill",
+        "graphics",
+        "paint",
+        "tools",
+        "wall"
       ]
     },
     {
@@ -10295,6 +18688,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "art",
+        "color",
+        "colour",
+        "creative",
+        "design",
+        "editor",
+        "graphics",
+        "paint",
+        "swatch",
+        "tools"
       ]
     },
     {
@@ -10309,6 +18714,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "art",
+        "color",
+        "colour",
+        "creative",
+        "design",
+        "editor",
+        "graphics",
+        "paint",
+        "tools"
       ]
     },
     {
@@ -10323,6 +18739,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "art",
+        "color",
+        "colour",
+        "creative",
+        "design",
+        "editor",
+        "graphics",
+        "paint",
+        "tools"
       ]
     },
     {
@@ -10337,6 +18764,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "360",
+        "audio",
+        "entertainment",
+        "landscape",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "video",
+        "wide",
+        "widescreen"
       ]
     },
     {
@@ -10351,6 +18791,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bin",
+        "core",
+        "delete",
+        "essential",
+        "interface",
+        "recycle",
+        "rubbish",
+        "trash",
+        "ui",
+        "waste"
       ]
     },
     {
@@ -10365,6 +18817,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "attach",
+        "attachment",
+        "chat",
+        "clip",
+        "communication",
+        "conversation",
+        "email",
+        "file",
+        "mail",
+        "message"
       ]
     },
     {
@@ -10379,6 +18843,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "attach",
+        "attachment",
+        "chat",
+        "clip",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message"
       ]
     },
     {
@@ -10393,6 +18868,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "attach",
+        "attachment",
+        "chat",
+        "clip",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message"
       ]
     },
     {
@@ -10407,6 +18893,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "attach",
+        "attachment",
+        "chat",
+        "clip",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message"
       ]
     },
     {
@@ -10421,6 +18918,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "editor",
+        "font",
+        "formatting",
+        "gap",
+        "leading",
+        "line-height",
+        "spacing",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -10435,6 +18944,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "ID",
+        "academic",
+        "document",
+        "education",
+        "identity",
+        "knowledge",
+        "learning",
+        "school",
+        "study",
+        "travel",
+        "visa"
       ]
     },
     {
@@ -10449,6 +18971,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "ID",
+        "academic",
+        "education",
+        "identity",
+        "knowledge",
+        "learning",
+        "minimal",
+        "school",
+        "study",
+        "travel"
       ]
     },
     {
@@ -10463,6 +18997,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "PIN",
+        "access",
+        "code",
+        "credential",
+        "dots",
+        "lock",
+        "privacy",
+        "protection",
+        "safety",
+        "secret",
+        "security"
       ]
     },
     {
@@ -10477,6 +19024,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "PIN",
+        "access",
+        "code",
+        "lock",
+        "minimal",
+        "privacy",
+        "protection",
+        "safety",
+        "secret",
+        "security"
       ]
     },
     {
@@ -10491,6 +19050,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "PIN",
+        "access",
+        "code",
+        "field",
+        "form",
+        "lock",
+        "privacy",
+        "protection",
+        "safety",
+        "security"
       ]
     },
     {
@@ -10505,6 +19076,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "break",
+        "entertainment",
+        "hold",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "stop",
+        "video",
+        "wait"
       ]
     },
     {
@@ -10519,6 +19103,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "hold",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "stop",
+        "video",
+        "wait"
       ]
     },
     {
@@ -10533,6 +19129,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "animal",
+        "cat",
+        "core",
+        "dog",
+        "essential",
+        "footprint",
+        "interface",
+        "pet",
+        "track",
+        "ui"
       ]
     },
     {
@@ -10543,6 +19151,16 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "animal",
+        "canine",
+        "dog",
+        "footprint",
+        "paw-print",
+        "pet",
+        "puppy",
+        "track"
       ]
     },
     {
@@ -10553,6 +19171,19 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "allergy",
+        "cooking",
+        "dietary",
+        "food",
+        "ingredient",
+        "legume",
+        "nut",
+        "nutrition",
+        "protein",
+        "recipe",
+        "snack"
       ]
     },
     {
@@ -10567,6 +19198,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "author",
+        "chat",
+        "communication",
+        "compose",
+        "conversation",
+        "edit",
+        "email",
+        "mail",
+        "message",
+        "write"
       ]
     },
     {
@@ -10581,6 +19224,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "author",
+        "chat",
+        "communication",
+        "compose",
+        "conversation",
+        "edit",
+        "email",
+        "mail",
+        "message",
+        "write"
       ]
     },
     {
@@ -10595,6 +19250,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "compose",
+        "conversation",
+        "create",
+        "email",
+        "mail",
+        "message",
+        "new-message",
+        "write"
       ]
     },
     {
@@ -10609,6 +19276,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "compose",
+        "conversation",
+        "create",
+        "email",
+        "mail",
+        "message",
+        "new-message",
+        "write"
       ]
     },
     {
@@ -10623,6 +19302,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "around",
+        "close",
+        "directions",
+        "discover",
+        "geo",
+        "local",
+        "location",
+        "map",
+        "navigation",
+        "place",
+        "proximity",
+        "travel"
       ]
     },
     {
@@ -10637,6 +19330,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "beauty",
+        "core",
+        "cosmetic",
+        "essential",
+        "fragrance",
+        "interface",
+        "scent",
+        "spray",
+        "ui"
       ]
     },
     {
@@ -10647,6 +19351,18 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "animal",
+        "bowl",
+        "canine",
+        "dinner",
+        "dog",
+        "feeding",
+        "kibble",
+        "meal",
+        "pet",
+        "puppy"
       ]
     },
     {
@@ -10661,6 +19377,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "call",
+        "calling",
+        "communication",
+        "contact",
+        "dial",
+        "mobile",
+        "phone",
+        "telephone"
       ]
     },
     {
@@ -10675,6 +19401,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "calling",
+        "communication",
+        "contact",
+        "dial",
+        "incoming",
+        "phone",
+        "ringing",
+        "telephone"
       ]
     },
     {
@@ -10689,6 +19426,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "calling",
+        "communication",
+        "contact",
+        "incoming",
+        "phone",
+        "ringing",
+        "telephone"
       ]
     },
     {
@@ -10703,6 +19450,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "call",
+        "calling",
+        "communication",
+        "contact",
+        "dial",
+        "phone",
+        "telephone"
       ]
     },
     {
@@ -10717,6 +19473,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "breakdown",
+        "business",
+        "chart",
+        "dashboard",
+        "data",
+        "donut-chart",
+        "percentage",
+        "proportion",
+        "reporting",
+        "segment",
+        "statistics"
       ]
     },
     {
@@ -10731,6 +19501,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "business",
+        "chart",
+        "dashboard",
+        "data",
+        "donut-chart",
+        "percentage",
+        "proportion",
+        "reporting",
+        "statistics"
       ]
     },
     {
@@ -10745,6 +19527,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "business",
+        "chart",
+        "dashboard",
+        "data",
+        "donut-chart",
+        "percentage",
+        "proportion",
+        "reporting",
+        "statistics"
       ]
     },
     {
@@ -10759,6 +19553,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "capsule",
+        "clinical",
+        "drug",
+        "health",
+        "healthcare",
+        "medical",
+        "medication",
+        "medicine",
+        "pharmacy",
+        "supplement",
+        "tablet"
       ]
     },
     {
@@ -10773,6 +19580,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "capsules",
+        "clinical",
+        "health",
+        "healthcare",
+        "medical",
+        "medication",
+        "medicine",
+        "pharmacy",
+        "supplements",
+        "tablets"
       ]
     },
     {
@@ -10787,6 +19606,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "capsules",
+        "clinical",
+        "health",
+        "healthcare",
+        "medical",
+        "medication",
+        "medicine",
+        "pharmacy",
+        "tablets"
       ]
     },
     {
@@ -10801,6 +19631,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "capsules",
+        "clinical",
+        "health",
+        "healthcare",
+        "medical",
+        "medication",
+        "medicine",
+        "pharmacy",
+        "tablets"
       ]
     },
     {
@@ -10815,6 +19656,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "attach",
+        "core",
+        "essential",
+        "interface",
+        "location",
+        "mark",
+        "pushpin",
+        "save",
+        "thumbtack",
+        "ui"
       ]
     },
     {
@@ -10829,6 +19682,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "essential",
+        "interface",
+        "location",
+        "mark",
+        "thumbtack",
+        "ui"
       ]
     },
     {
@@ -10843,6 +19705,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "attached",
+        "bookmarked",
+        "core",
+        "essential",
+        "interface",
+        "pinned",
+        "saved",
+        "ui"
       ]
     },
     {
@@ -10857,6 +19729,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "float",
+        "media",
+        "mini-player",
+        "multimedia",
+        "music",
+        "overlay",
+        "picture-in-picture",
+        "sound",
+        "video"
       ]
     },
     {
@@ -10871,6 +19756,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "float",
+        "media",
+        "multimedia",
+        "music",
+        "overlay",
+        "picture-in-picture",
+        "sound",
+        "video"
       ]
     },
     {
@@ -10885,6 +19782,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "color-picker",
+        "colour-picker",
+        "creative",
+        "design",
+        "editor",
+        "eyedropper",
+        "graphics",
+        "sample",
+        "tools"
       ]
     },
     {
@@ -10899,6 +19807,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "list",
+        "minimal",
+        "order",
+        "organize",
+        "queue",
+        "songs",
+        "task",
+        "todo",
+        "tracklist"
       ]
     },
     {
@@ -10913,6 +19832,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "dispatch",
+        "email",
+        "mail",
+        "message",
+        "paper-plane",
+        "send",
+        "submit"
       ]
     },
     {
@@ -10927,6 +19858,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message",
+        "paper-plane",
+        "send",
+        "submit"
       ]
     },
     {
@@ -10941,6 +19883,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message",
+        "paper-plane",
+        "send",
+        "submit"
       ]
     },
     {
@@ -10955,6 +19908,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "celestial",
+        "cosmos",
+        "orbit",
+        "science",
+        "space",
+        "universe",
+        "world"
       ]
     },
     {
@@ -10969,6 +19931,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "celestial",
+        "cosmos",
+        "orbit",
+        "science",
+        "space",
+        "universe",
+        "world"
       ]
     },
     {
@@ -10983,6 +19954,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "celestial",
+        "cosmos",
+        "orbit",
+        "science",
+        "space",
+        "universe",
+        "world"
       ]
     },
     {
@@ -10997,6 +19977,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "celestial",
+        "cosmos",
+        "orbit",
+        "science",
+        "space",
+        "universe",
+        "world"
       ]
     },
     {
@@ -11011,6 +20000,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "dining",
+        "dish",
+        "essential",
+        "food",
+        "interface",
+        "meal",
+        "restaurant",
+        "ui"
       ]
     },
     {
@@ -11025,6 +20025,21 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "begin",
+        "entertainment",
+        "listen",
+        "media",
+        "multimedia",
+        "music",
+        "resume",
+        "sound",
+        "start",
+        "video",
+        "watch",
+        "▶"
       ]
     },
     {
@@ -11039,6 +20054,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "begin",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "resume",
+        "sound",
+        "start",
+        "video"
       ]
     },
     {
@@ -11053,6 +20080,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "broadcast",
+        "entertainment",
+        "live",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "streaming",
+        "video"
       ]
     },
     {
@@ -11067,6 +20106,21 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "1x",
+        "2x",
+        "audio",
+        "entertainment",
+        "fast",
+        "media",
+        "multimedia",
+        "music",
+        "rate",
+        "slow",
+        "sound",
+        "speed",
+        "video"
       ]
     },
     {
@@ -11081,6 +20135,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "list",
+        "music",
+        "order",
+        "organize",
+        "queue",
+        "songs",
+        "task",
+        "todo",
+        "tracklist"
       ]
     },
     {
@@ -11095,6 +20160,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "list",
+        "order",
+        "organize",
+        "queue",
+        "songs",
+        "task",
+        "todo",
+        "tracklist"
       ]
     },
     {
@@ -11109,6 +20184,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "list",
+        "minimal",
+        "order",
+        "organize",
+        "queue",
+        "task",
+        "todo",
+        "tracklist"
       ]
     },
     {
@@ -11123,6 +20208,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "list",
+        "minimal",
+        "order",
+        "organize",
+        "queue",
+        "task",
+        "todo",
+        "tracklist"
       ]
     },
     {
@@ -11137,6 +20232,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "charge",
+        "connect",
+        "device",
+        "electricity",
+        "electronic",
+        "gadget",
+        "hardware",
+        "outlet",
+        "power",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -11151,6 +20259,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "arithmetic",
+        "calculate",
+        "education",
+        "knowledge",
+        "learning",
+        "math",
+        "school",
+        "study",
+        "±"
       ]
     },
     {
@@ -11165,6 +20285,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "RSS",
+        "audio",
+        "broadcast",
+        "entertainment",
+        "episode",
+        "listen",
+        "media",
+        "multimedia",
+        "music",
+        "show",
+        "sound",
+        "video"
       ]
     },
     {
@@ -11179,6 +20313,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "current-location",
+        "directions",
+        "geo",
+        "here",
+        "location",
+        "map",
+        "marker",
+        "navigation",
+        "place",
+        "travel",
+        "you-are-here"
       ]
     },
     {
@@ -11193,6 +20340,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "3D",
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "marker",
+        "navigation",
+        "perspective",
+        "place",
+        "tilt",
+        "travel"
       ]
     },
     {
@@ -11207,6 +20367,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cards",
+        "core",
+        "essential",
+        "gallery",
+        "interface",
+        "slider",
+        "stories",
+        "swipe",
+        "ui"
       ]
     },
     {
@@ -11221,6 +20392,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "essential",
+        "feed",
+        "interface",
+        "scroll",
+        "slider",
+        "stories",
+        "ui"
       ]
     },
     {
@@ -11235,6 +20416,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "essential",
+        "interface",
+        "on-off",
+        "shutdown",
+        "standby",
+        "switch",
+        "toggle",
+        "ui"
       ]
     },
     {
@@ -11249,6 +20441,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "business",
+        "chart",
+        "dashboard",
+        "data",
+        "deck",
+        "meeting",
+        "pitch",
+        "projector",
+        "reporting",
+        "slideshow",
+        "statistics"
       ]
     },
     {
@@ -11263,6 +20469,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "document",
+        "electronic",
+        "gadget",
+        "hardware",
+        "office",
+        "output",
+        "paper",
+        "print",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -11277,6 +20496,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "office",
+        "output",
+        "paper",
+        "print",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -11291,6 +20522,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "minimal",
+        "output",
+        "paper",
+        "print",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -11305,6 +20548,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "code",
+        "coding",
+        "develop",
+        "developer",
+        "engineer",
+        "programming",
+        "script",
+        "software",
+        "tech",
+        "web"
       ]
     },
     {
@@ -11319,6 +20575,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cinema",
+        "device",
+        "display",
+        "electronic",
+        "gadget",
+        "hardware",
+        "meeting",
+        "presentation",
+        "screen",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -11333,6 +20602,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "ECG",
+        "clinical",
+        "health",
+        "healthcare",
+        "heartbeat",
+        "medical",
+        "medicine",
+        "monitoring",
+        "pharmacy",
+        "rhythm",
+        "vital"
       ]
     },
     {
@@ -11347,6 +20629,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clinical",
+        "health",
+        "healthcare",
+        "heartbeat",
+        "medical",
+        "medicine",
+        "pharmacy",
+        "rhythm",
+        "vital"
       ]
     },
     {
@@ -11361,6 +20654,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "URL",
+        "access",
+        "barcode",
+        "code",
+        "link",
+        "lock",
+        "matrix",
+        "privacy",
+        "protection",
+        "safety",
+        "scan",
+        "security"
       ]
     },
     {
@@ -11375,6 +20682,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "?",
+        "FAQ",
+        "core",
+        "essential",
+        "help",
+        "interface",
+        "support",
+        "ui",
+        "unknown"
       ]
     },
     {
@@ -11389,6 +20707,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "?",
+        "FAQ",
+        "core",
+        "essential",
+        "help",
+        "interface",
+        "ui",
+        "unknown"
       ]
     },
     {
@@ -11403,6 +20731,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "exit-fullscreen",
+        "media",
+        "minimize",
+        "multimedia",
+        "music",
+        "restore",
+        "sound",
+        "video"
       ]
     },
     {
@@ -11417,6 +20757,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "exit-fullscreen",
+        "media",
+        "minimize",
+        "multimedia",
+        "music",
+        "sound",
+        "video"
       ]
     },
     {
@@ -11431,6 +20782,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "exit-fullscreen",
+        "media",
+        "minimize",
+        "multimedia",
+        "music",
+        "sound",
+        "video"
       ]
     },
     {
@@ -11445,6 +20807,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "close-overlay",
+        "entertainment",
+        "exit-pip",
+        "media",
+        "multimedia",
+        "music",
+        "restore",
+        "sound",
+        "video"
       ]
     },
     {
@@ -11459,6 +20833,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "detect",
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "navigation",
+        "place",
+        "range",
+        "scan",
+        "signal",
+        "sonar",
+        "travel"
       ]
     },
     {
@@ -11473,6 +20861,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "detect",
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "navigation",
+        "place",
+        "scan",
+        "signal",
+        "travel"
       ]
     },
     {
@@ -11487,6 +20887,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "blur",
+        "bokeh",
+        "creative",
+        "design",
+        "editor",
+        "effect",
+        "focus",
+        "graphics",
+        "tools"
       ]
     },
     {
@@ -11501,6 +20912,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "AM",
+        "FM",
+        "broadcast",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "retro",
+        "station",
+        "tech",
+        "technology",
+        "tune"
       ]
     },
     {
@@ -11515,6 +20940,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "FM",
+        "broadcast",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "minimal",
+        "tech",
+        "technology",
+        "tune"
       ]
     },
     {
@@ -11529,6 +20966,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "competition",
+        "exercise",
+        "fitness",
+        "gym",
+        "leaderboard",
+        "position",
+        "rank",
+        "sport",
+        "standing",
+        "workout"
       ]
     },
     {
@@ -11543,6 +20994,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "get",
+        "incoming",
+        "interaction",
+        "move",
+        "navigation",
+        "receive"
       ]
     },
     {
@@ -11557,6 +21017,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "batch",
+        "incoming",
+        "interaction",
+        "move",
+        "navigation",
+        "receive"
       ]
     },
     {
@@ -11571,6 +21040,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "capture",
+        "entertainment",
+        "live",
+        "media",
+        "multimedia",
+        "music",
+        "recording",
+        "red-dot",
+        "sound",
+        "video"
       ]
     },
     {
@@ -11585,6 +21067,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "audio",
+        "entertainment",
+        "live",
+        "media",
+        "multimedia",
+        "music",
+        "recording",
+        "sound",
+        "video"
       ]
     },
     {
@@ -11599,6 +21093,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "calling",
+        "communication",
+        "contact",
+        "live",
+        "phone",
+        "recording",
+        "telephone"
       ]
     },
     {
@@ -11613,6 +21117,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "calling",
+        "communication",
+        "contact",
+        "phone",
+        "recording",
+        "telephone"
       ]
     },
     {
@@ -11627,6 +21140,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "calling",
+        "communication",
+        "contact",
+        "phone",
+        "recording",
+        "telephone"
       ]
     },
     {
@@ -11641,6 +21163,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "Instagram",
+        "audio",
+        "cinema",
+        "entertainment",
+        "film-reel",
+        "media",
+        "movie",
+        "multimedia",
+        "music",
+        "short-video",
+        "sound",
+        "video"
       ]
     },
     {
@@ -11655,6 +21191,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "film-reel",
+        "media",
+        "movie",
+        "multimedia",
+        "music",
+        "short-video",
+        "sound",
+        "video"
       ]
     },
     {
@@ -11669,6 +21217,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer",
+        "reload",
+        "retry",
+        "sync",
+        "update"
       ]
     },
     {
@@ -11683,6 +21241,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "circle",
+        "direction",
+        "move",
+        "navigation",
+        "pointer",
+        "reload",
+        "retry",
+        "sync",
+        "update"
       ]
     },
     {
@@ -11697,6 +21266,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer",
+        "reload",
+        "retry",
+        "square",
+        "sync",
+        "update"
       ]
     },
     {
@@ -11707,6 +21287,19 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "benefit",
+        "body",
+        "calm",
+        "chill",
+        "health",
+        "nutrition",
+        "peace",
+        "stress-free",
+        "unwind",
+        "wellness",
+        "zen"
       ]
     },
     {
@@ -11721,6 +21314,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "TV-remote",
+        "control",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "wireless"
       ]
     },
     {
@@ -11735,6 +21339,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "TV-remote",
+        "control",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living"
       ]
     },
     {
@@ -11749,6 +21363,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "TV-remote",
+        "control",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "minimal"
       ]
     },
     {
@@ -11763,6 +21388,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "delete",
+        "directory",
+        "discard",
+        "folder",
+        "organize",
+        "rmdir",
+        "storage",
+        "trash"
       ]
     },
     {
@@ -11777,6 +21412,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "drag",
+        "essential",
+        "interface",
+        "organize",
+        "rearrange",
+        "sort",
+        "ui"
       ]
     },
     {
@@ -11791,6 +21436,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "drag",
+        "interaction",
+        "move",
+        "navigation",
+        "organize",
+        "rearrange",
+        "sort"
       ]
     },
     {
@@ -11805,6 +21460,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "again",
+        "audio",
+        "cycle",
+        "entertainment",
+        "loop",
+        "media",
+        "multimedia",
+        "music",
+        "replay",
+        "sound",
+        "video"
       ]
     },
     {
@@ -11819,6 +21487,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "loop-one",
+        "media",
+        "multimedia",
+        "music",
+        "single-repeat",
+        "song-repeat",
+        "sound",
+        "video"
       ]
     },
     {
@@ -11833,6 +21513,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "loop-one",
+        "media",
+        "minimal",
+        "multimedia",
+        "music",
+        "single-repeat",
+        "sound",
+        "video"
       ]
     },
     {
@@ -11847,6 +21539,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "answer",
+        "back",
+        "interaction",
+        "move",
+        "navigation",
+        "respond"
       ]
     },
     {
@@ -11861,6 +21562,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "answer",
+        "back",
+        "interaction",
+        "move",
+        "navigation",
+        "respond"
       ]
     },
     {
@@ -11875,6 +21585,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "again",
+        "direction",
+        "loop",
+        "move",
+        "navigation",
+        "pointer",
+        "redo",
+        "reset"
       ]
     },
     {
@@ -11889,6 +21609,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "circle",
+        "direction",
+        "loop",
+        "move",
+        "navigation",
+        "pointer",
+        "redo",
+        "reset"
       ]
     },
     {
@@ -11903,6 +21633,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "loop",
+        "move",
+        "navigation",
+        "pointer",
+        "redo",
+        "reset",
+        "square"
       ]
     },
     {
@@ -11917,6 +21657,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "essential",
+        "interface",
+        "poll",
+        "redo",
+        "retry",
+        "ui",
+        "vote-again"
       ]
     },
     {
@@ -11931,6 +21681,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "10s",
+        "audio",
+        "back",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "rewind",
+        "sound",
+        "video"
       ]
     },
     {
@@ -11945,6 +21707,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "10s",
+        "audio",
+        "entertainment",
+        "forward",
+        "media",
+        "multimedia",
+        "music",
+        "skip",
+        "sound",
+        "video"
       ]
     },
     {
@@ -11959,6 +21733,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "15s",
+        "audio",
+        "back",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "rewind",
+        "sound",
+        "video"
       ]
     },
     {
@@ -11973,6 +21759,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "15s",
+        "audio",
+        "entertainment",
+        "forward",
+        "media",
+        "multimedia",
+        "music",
+        "skip",
+        "sound",
+        "video"
       ]
     },
     {
@@ -11987,6 +21785,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "5s",
+        "audio",
+        "back",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "rewind",
+        "skip-back",
+        "sound",
+        "video"
       ]
     },
     {
@@ -12001,6 +21812,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "5s",
+        "audio",
+        "entertainment",
+        "forward",
+        "media",
+        "multimedia",
+        "music",
+        "skip",
+        "skip-ahead",
+        "sound",
+        "video"
       ]
     },
     {
@@ -12015,6 +21839,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "back",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "previous",
+        "rewind",
+        "sound",
+        "video"
       ]
     },
     {
@@ -12029,6 +21865,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "back",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "previous",
+        "rewind",
+        "sound",
+        "video"
       ]
     },
     {
@@ -12043,6 +21891,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "ahead",
+        "audio",
+        "entertainment",
+        "fast-forward",
+        "media",
+        "multimedia",
+        "music",
+        "next",
+        "sound",
+        "video"
       ]
     },
     {
@@ -12057,6 +21917,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "fast-forward",
+        "media",
+        "multimedia",
+        "music",
+        "next",
+        "sound",
+        "video"
       ]
     },
     {
@@ -12071,6 +21942,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "boost",
+        "cosmos",
+        "fly",
+        "launch",
+        "science",
+        "space",
+        "spaceship",
+        "speed",
+        "startup",
+        "universe"
       ]
     },
     {
@@ -12085,6 +21968,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "boost",
+        "cosmos",
+        "fly",
+        "launch",
+        "science",
+        "space",
+        "spaceship",
+        "speed",
+        "startup",
+        "universe"
       ]
     },
     {
@@ -12099,6 +21994,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "baking",
+        "chef",
+        "cooking",
+        "culinary",
+        "dough",
+        "flatten",
+        "food",
+        "kitchen",
+        "pastry",
+        "recipe"
       ]
     },
     {
@@ -12113,6 +22020,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12127,6 +22040,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12141,6 +22060,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12155,6 +22080,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12169,6 +22100,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12183,6 +22120,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12197,6 +22140,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12211,6 +22160,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12225,6 +22180,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12239,6 +22200,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12253,6 +22220,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12267,6 +22240,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12281,6 +22260,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12295,6 +22280,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12309,6 +22300,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12323,6 +22320,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12337,6 +22340,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "analytics",
+        "business",
+        "chart",
+        "circular",
+        "dashboard",
+        "data",
+        "gauge",
+        "meter",
+        "radial",
+        "reporting",
+        "statistics"
       ]
     },
     {
@@ -12351,6 +22367,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12365,6 +22387,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12379,6 +22407,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12393,6 +22427,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12407,6 +22447,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -12421,6 +22467,14 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "discover",
+        "find",
+        "lookup",
+        "magnify",
+        "rounded",
+        "search"
       ]
     },
     {
@@ -12435,6 +22489,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "debug",
+        "discover",
+        "find",
+        "lookup",
+        "magnify",
+        "rounded",
+        "search",
+        "search-bug"
       ]
     },
     {
@@ -12449,6 +22513,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "discover",
+        "enlarge",
+        "find",
+        "lookup",
+        "magnify",
+        "rounded",
+        "search",
+        "zoom-in"
       ]
     },
     {
@@ -12463,6 +22537,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "discover",
+        "find",
+        "lookup",
+        "magnify",
+        "rounded",
+        "search",
+        "shrink",
+        "zoom-out"
       ]
     },
     {
@@ -12477,6 +22561,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "directions",
+        "geo",
+        "journey",
+        "location",
+        "map",
+        "navigation",
+        "path",
+        "place",
+        "road",
+        "travel",
+        "trip",
+        "way"
       ]
     },
     {
@@ -12491,6 +22589,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "directions",
+        "geo",
+        "journey",
+        "location",
+        "map",
+        "navigation",
+        "path",
+        "place",
+        "travel",
+        "way"
       ]
     },
     {
@@ -12505,6 +22615,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "navigation",
+        "path",
+        "place",
+        "travel",
+        "way"
       ]
     },
     {
@@ -12519,6 +22640,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "navigation",
+        "path",
+        "place",
+        "travel",
+        "way"
       ]
     },
     {
@@ -12533,6 +22665,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "RUB",
+        "Russian",
+        "banking",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "money",
+        "payment"
       ]
     },
     {
@@ -12547,6 +22690,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "ball",
+        "exercise",
+        "fitness",
+        "gym",
+        "oval",
+        "scrum",
+        "sport",
+        "tackle",
+        "workout"
       ]
     },
     {
@@ -12561,6 +22717,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "creative",
+        "design",
+        "dimension",
+        "editor",
+        "graphics",
+        "length",
+        "measure",
+        "pixel",
+        "size",
+        "tools"
       ]
     },
     {
@@ -12575,6 +22743,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "angle",
+        "creative",
+        "degree",
+        "design",
+        "editor",
+        "graphics",
+        "measure",
+        "protractor",
+        "tools"
       ]
     },
     {
@@ -12589,6 +22768,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "creative",
+        "design",
+        "draft",
+        "draw",
+        "editor",
+        "graphics",
+        "measure",
+        "precision",
+        "tools"
       ]
     },
     {
@@ -12603,6 +22793,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "creative",
+        "design",
+        "draft",
+        "draw",
+        "editor",
+        "graphics",
+        "measure",
+        "tools"
       ]
     },
     {
@@ -12617,6 +22817,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "cardio",
+        "exercise",
+        "fitness",
+        "gym",
+        "jog",
+        "marathon",
+        "race",
+        "sport",
+        "sprint",
+        "workout"
       ]
     },
     {
@@ -12631,6 +22845,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "cardio",
+        "exercise",
+        "fitness",
+        "gym",
+        "jog",
+        "race",
+        "sport",
+        "sprint",
+        "workout"
       ]
     },
     {
@@ -12645,6 +22872,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "exercise",
+        "fitness",
+        "gym",
+        "jog",
+        "race",
+        "sport",
+        "sprint",
+        "workout"
       ]
     },
     {
@@ -12659,6 +22898,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "disappointed",
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "frown",
+        "mood",
+        "reaction",
+        "unhappy",
+        "upset"
       ]
     },
     {
@@ -12673,6 +22925,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "disappointed",
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "frown",
+        "mood",
+        "reaction",
+        "unhappy"
       ]
     },
     {
@@ -12687,6 +22951,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "commerce",
+        "currency",
+        "deposit",
+        "finance",
+        "financial",
+        "money",
+        "payment",
+        "secure",
+        "strongbox",
+        "vault"
       ]
     },
     {
@@ -12701,6 +22978,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "money",
+        "payment",
+        "secure",
+        "strongbox",
+        "vault"
       ]
     },
     {
@@ -12715,6 +23004,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "money",
+        "payment",
+        "secure",
+        "strongbox",
+        "vault"
       ]
     },
     {
@@ -12729,6 +23030,21 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "bargain",
+        "commerce",
+        "currency",
+        "deal",
+        "discount",
+        "finance",
+        "financial",
+        "money",
+        "offer",
+        "payment",
+        "percent",
+        "promotion"
       ]
     },
     {
@@ -12743,6 +23059,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "commerce",
+        "currency",
+        "deal",
+        "discount",
+        "finance",
+        "financial",
+        "money",
+        "offer",
+        "payment",
+        "promotion"
       ]
     },
     {
@@ -12757,6 +23086,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "GPS",
+        "broadcast",
+        "communication",
+        "cosmos",
+        "orbit",
+        "science",
+        "signal",
+        "space",
+        "universe"
       ]
     },
     {
@@ -12771,6 +23111,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "interaction",
+        "move",
+        "navigation",
+        "proportion",
+        "resize",
+        "size",
+        "transform"
       ]
     },
     {
@@ -12785,6 +23135,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "barcode",
+        "identify",
+        "lock",
+        "privacy",
+        "protection",
+        "read",
+        "safety",
+        "scan",
+        "security"
       ]
     },
     {
@@ -12799,6 +23161,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "identify",
+        "lock",
+        "privacy",
+        "protection",
+        "read",
+        "safety",
+        "scan",
+        "security"
       ]
     },
     {
@@ -12813,6 +23186,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "coupon",
+        "craft",
+        "cut",
+        "essential",
+        "interface",
+        "snip",
+        "trim",
+        "ui"
       ]
     },
     {
@@ -12827,6 +23211,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "coupon",
+        "cut",
+        "essential",
+        "interface",
+        "snip",
+        "trim",
+        "ui"
       ]
     },
     {
@@ -12841,6 +23235,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "automotive",
+        "car",
+        "commute",
+        "moped",
+        "ride",
+        "transport",
+        "travel",
+        "two-wheel",
+        "vehicle",
+        "vespa"
       ]
     },
     {
@@ -12855,6 +23261,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "broadcast",
+        "display",
+        "interaction",
+        "meeting",
+        "move",
+        "navigation",
+        "present",
+        "stream"
       ]
     },
     {
@@ -12869,6 +23286,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "broadcast",
+        "code",
+        "coding",
+        "demo",
+        "developer",
+        "present",
+        "programming",
+        "share-screen",
+        "software",
+        "tech",
+        "web"
       ]
     },
     {
@@ -12883,6 +23314,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "broadcast",
+        "code",
+        "coding",
+        "developer",
+        "present",
+        "programming",
+        "share-screen",
+        "software",
+        "tech",
+        "web"
       ]
     },
     {
@@ -12897,6 +23341,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "camera",
+        "device",
+        "electronic",
+        "expandable",
+        "gadget",
+        "hardware",
+        "memory",
+        "storage",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -12911,6 +23367,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "dispatch",
+        "interaction",
+        "move",
+        "navigation",
+        "post",
+        "submit"
       ]
     },
     {
@@ -12925,6 +23390,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "batch",
+        "dispatch",
+        "interaction",
+        "move",
+        "navigation",
+        "submit"
       ]
     },
     {
@@ -12939,6 +23413,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "backend",
+        "cloud",
+        "database",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "hosting",
+        "infrastructure",
+        "rack",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -12953,6 +23441,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "backend",
+        "database",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "hosting",
+        "rack",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -12967,6 +23467,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "backend",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "hosting",
+        "minimal",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -12981,6 +23492,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "connection",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "infrastructure",
+        "network",
+        "routing",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -12995,6 +23518,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "backend",
+        "database",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "hosting",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -13009,6 +23543,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "SaaS",
+        "cloud-computing",
+        "cloud-hosting",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -13023,6 +23568,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "deploy",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "hosting",
+        "maintenance",
+        "tech",
+        "technology",
+        "update"
       ]
     },
     {
@@ -13033,6 +23590,18 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "Asian",
+        "allergy",
+        "cooking",
+        "dietary",
+        "food",
+        "ingredient",
+        "nutrition",
+        "recipe",
+        "seed",
+        "topping"
       ]
     },
     {
@@ -13047,6 +23616,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "admin",
+        "cog",
+        "config",
+        "configuration",
+        "control",
+        "customize",
+        "gear",
+        "options",
+        "preferences",
+        "settings"
       ]
     },
     {
@@ -13061,6 +23642,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "admin",
+        "cog",
+        "configuration",
+        "control",
+        "customize",
+        "gear",
+        "minimal",
+        "preferences",
+        "settings"
       ]
     },
     {
@@ -13075,6 +23667,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "distribute",
+        "essential",
+        "forward",
+        "interface",
+        "post",
+        "send",
+        "social",
+        "ui"
       ]
     },
     {
@@ -13089,6 +23692,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "distribute",
+        "essential",
+        "forward",
+        "interface",
+        "send",
+        "social",
+        "ui"
       ]
     },
     {
@@ -13103,6 +23716,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "antivirus",
+        "defend",
+        "firewall",
+        "guard",
+        "lock",
+        "privacy",
+        "protect",
+        "protection",
+        "safety",
+        "security"
       ]
     },
     {
@@ -13117,6 +23743,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "approved",
+        "lock",
+        "privacy",
+        "protected",
+        "protection",
+        "safety",
+        "secure",
+        "security",
+        "verified"
       ]
     },
     {
@@ -13131,6 +23769,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "lock",
+        "privacy",
+        "protection",
+        "rejected",
+        "safety",
+        "security",
+        "unprotected",
+        "vulnerable"
       ]
     },
     {
@@ -13145,6 +23794,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "lock",
+        "locked",
+        "privacy",
+        "protected",
+        "protection",
+        "safety",
+        "secure",
+        "security"
       ]
     },
     {
@@ -13159,6 +23819,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "lock",
+        "locked",
+        "minimal",
+        "privacy",
+        "protection",
+        "safety",
+        "secure",
+        "security"
       ]
     },
     {
@@ -13173,6 +23844,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "guard",
+        "lock",
+        "minimal",
+        "privacy",
+        "protect",
+        "protection",
+        "safety",
+        "security"
       ]
     },
     {
@@ -13187,6 +23869,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "downgrade",
+        "lock",
+        "privacy",
+        "protection",
+        "remove-protection",
+        "safety",
+        "security"
       ]
     },
     {
@@ -13201,6 +23893,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "VPN",
+        "access",
+        "firewall",
+        "lock",
+        "network-security",
+        "privacy",
+        "protection",
+        "safety",
+        "security"
       ]
     },
     {
@@ -13215,6 +23918,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "add-protection",
+        "enhance",
+        "lock",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "upgrade"
       ]
     },
     {
@@ -13229,6 +23943,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "lock",
+        "premium",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "trusted",
+        "verified"
       ]
     },
     {
@@ -13242,6 +23967,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "improve",
+        "lock",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "update",
+        "upload"
       ]
     },
     {
@@ -13256,6 +23992,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "account-security",
+        "lock",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "user-protection"
       ]
     },
     {
@@ -13270,6 +24016,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "alert",
+        "caution",
+        "lock",
+        "privacy",
+        "protection",
+        "risk",
+        "safety",
+        "security",
+        "threat"
       ]
     },
     {
@@ -13284,6 +24042,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "absorb",
+        "automotive",
+        "car",
+        "commute",
+        "damper",
+        "spring",
+        "suspension",
+        "transport",
+        "travel",
+        "vehicle"
       ]
     },
     {
@@ -13298,6 +24068,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "business",
+        "buy",
+        "commerce",
+        "ecommerce",
+        "market",
+        "purchase",
+        "retail",
+        "shopping",
+        "store",
+        "storefront"
       ]
     },
     {
@@ -13312,6 +24094,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "commerce",
+        "ecommerce",
+        "purchase",
+        "retail",
+        "shopping",
+        "store",
+        "storefront"
       ]
     },
     {
@@ -13326,6 +24118,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "buy",
+        "commerce",
+        "ecommerce",
+        "minimal",
+        "purchase",
+        "retail",
+        "shopping",
+        "store",
+        "storefront"
       ]
     },
     {
@@ -13336,6 +24139,18 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "cooking",
+        "crustacean",
+        "dietary",
+        "food",
+        "ingredient",
+        "nutrition",
+        "prawn",
+        "recipe",
+        "seafood",
+        "shellfish"
       ]
     },
     {
@@ -13350,6 +24165,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "disorder",
+        "entertainment",
+        "media",
+        "mix",
+        "multimedia",
+        "music",
+        "random",
+        "randomize",
+        "sound",
+        "video"
       ]
     },
     {
@@ -13364,6 +24192,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IDE",
+        "IT",
+        "code",
+        "coding",
+        "developer",
+        "editor",
+        "panel",
+        "programming",
+        "software",
+        "tech",
+        "web"
       ]
     },
     {
@@ -13378,6 +24219,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "code",
+        "coding",
+        "developer",
+        "layout",
+        "navigation",
+        "panel",
+        "programming",
+        "software",
+        "tech",
+        "web"
       ]
     },
     {
@@ -13392,6 +24246,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "code",
+        "coding",
+        "developer",
+        "layout",
+        "menu",
+        "navigation",
+        "panel",
+        "programming",
+        "software",
+        "tech",
+        "web"
       ]
     },
     {
@@ -13406,6 +24274,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "directions",
+        "geo",
+        "guide",
+        "location",
+        "map",
+        "navigation",
+        "place",
+        "road-sign",
+        "travel",
+        "way",
+        "waypoint"
       ]
     },
     {
@@ -13420,6 +24302,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "directions",
+        "geo",
+        "guide",
+        "location",
+        "map",
+        "navigation",
+        "place",
+        "road-sign",
+        "travel",
+        "way"
       ]
     },
     {
@@ -13434,6 +24329,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "carrier",
+        "cellular",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "mobile",
+        "phone",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -13448,6 +24355,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cellular",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "minimal",
+        "mobile",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -13462,6 +24380,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cellular",
+        "device",
+        "dual-SIM",
+        "electronic",
+        "gadget",
+        "hardware",
+        "mobile",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -13476,6 +24405,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "alarm",
+        "alert",
+        "ambulance",
+        "emergency",
+        "lock",
+        "police",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "warning"
       ]
     },
     {
@@ -13490,6 +24433,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "access",
+        "alarm",
+        "emergency",
+        "lock",
+        "police",
+        "privacy",
+        "protection",
+        "safety",
+        "security",
+        "warning"
       ]
     },
     {
@@ -13504,6 +24459,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "board",
+        "exercise",
+        "fitness",
+        "gym",
+        "skate",
+        "sport",
+        "street",
+        "trick",
+        "workout"
       ]
     },
     {
@@ -13518,6 +24486,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "exercise",
+        "fitness",
+        "gym",
+        "halfpipe",
+        "skate",
+        "sport",
+        "street",
+        "trick",
+        "workout"
       ]
     },
     {
@@ -13532,6 +24513,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "exercise",
+        "fitness",
+        "gym",
+        "skate",
+        "sport",
+        "street",
+        "trick",
+        "workout"
       ]
     },
     {
@@ -13541,6 +24534,18 @@ export const manifest = {
       "category": "Health Benefits",
       "weights": [
         "linear"
+      ],
+      "tags": [
+        "benefit",
+        "body",
+        "coat",
+        "complexion",
+        "dermatology",
+        "fur",
+        "glow",
+        "health",
+        "nutrition",
+        "wellness"
       ]
     },
     {
@@ -13555,6 +24560,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "advance",
+        "audio",
+        "entertainment",
+        "forward",
+        "media",
+        "multimedia",
+        "music",
+        "next-track",
+        "sound",
+        "video"
       ]
     },
     {
@@ -13569,6 +24586,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "back",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "previous-track",
+        "rewind",
+        "sound",
+        "video"
       ]
     },
     {
@@ -13583,6 +24612,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "apparel",
+        "clothing",
+        "core",
+        "dress",
+        "essential",
+        "fashion",
+        "garment",
+        "interface",
+        "ui"
       ]
     },
     {
@@ -13597,6 +24637,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "cancel",
+        "code",
+        "coding",
+        "developer",
+        "disabled",
+        "forbidden",
+        "no",
+        "programming",
+        "software",
+        "tech",
+        "web"
       ]
     },
     {
@@ -13611,6 +24665,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "cancel",
+        "code",
+        "coding",
+        "developer",
+        "disabled",
+        "no",
+        "programming",
+        "software",
+        "tech",
+        "web"
       ]
     },
     {
@@ -13625,6 +24692,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "break",
+        "core",
+        "demolish",
+        "essential",
+        "heavy",
+        "interface",
+        "strong",
+        "tool",
+        "ui"
       ]
     },
     {
@@ -13635,6 +24713,19 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "bedtime",
+        "benefit",
+        "body",
+        "health",
+        "night",
+        "nutrition",
+        "recovery",
+        "rest",
+        "sleeping",
+        "wellness",
+        "zzz"
       ]
     },
     {
@@ -13649,6 +24740,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "dormant",
+        "essential",
+        "inactive",
+        "interface",
+        "night",
+        "rest",
+        "sleep",
+        "ui",
+        "zzz"
       ]
     },
     {
@@ -13663,6 +24766,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "mood",
+        "reaction",
+        "rest",
+        "sleep",
+        "snore",
+        "tired",
+        "zzz"
       ]
     },
     {
@@ -13677,6 +24794,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "mood",
+        "reaction",
+        "rest",
+        "sleep",
+        "tired",
+        "zzz"
       ]
     },
     {
@@ -13691,6 +24821,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adjust",
+        "control",
+        "core",
+        "essential",
+        "input",
+        "interface",
+        "range",
+        "scrub",
+        "ui"
       ]
     },
     {
@@ -13705,6 +24846,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adjust",
+        "control",
+        "core",
+        "essential",
+        "interface",
+        "minimal",
+        "range",
+        "ui"
       ]
     },
     {
@@ -13719,6 +24870,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adjust",
+        "control",
+        "core",
+        "essential",
+        "interface",
+        "range",
+        "ui",
+        "vertical"
       ]
     },
     {
@@ -13733,6 +24894,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adjust",
+        "control",
+        "core",
+        "essential",
+        "interface",
+        "minimal",
+        "range",
+        "ui"
       ]
     },
     {
@@ -13747,6 +24918,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IoT",
+        "automation",
+        "connected",
+        "core",
+        "domotics",
+        "essential",
+        "interface",
+        "ui"
       ]
     },
     {
@@ -13761,6 +24942,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IoT",
+        "automation",
+        "connected",
+        "core",
+        "essential",
+        "interface",
+        "ui"
       ]
     },
     {
@@ -13775,6 +24965,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "Alexa",
+        "HomePod",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "smart-home",
+        "tech",
+        "technology",
+        "voice-assistant"
       ]
     },
     {
@@ -13789,6 +24991,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "smart-home",
+        "tech",
+        "technology",
+        "voice-assistant"
       ]
     },
     {
@@ -13803,6 +25015,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "minimal",
+        "smart-home",
+        "tech",
+        "technology",
+        "voice-assistant"
       ]
     },
     {
@@ -13817,6 +25040,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "automated",
+        "clean",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "robot",
+        "roomba"
       ]
     },
     {
@@ -13831,6 +25066,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clean",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "robot",
+        "roomba"
       ]
     },
     {
@@ -13845,6 +25091,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "Android",
+        "cell",
+        "device",
+        "electronic",
+        "gadget",
+        "handheld",
+        "hardware",
+        "mobile",
+        "phone",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -13859,6 +25118,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cell",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "mobile",
+        "phone",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -13873,6 +25143,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "landscape",
+        "orientation",
+        "portrait",
+        "rotate",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -13887,6 +25169,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "orientation",
+        "rotate",
+        "tech",
+        "technology",
+        "tilt"
       ]
     },
     {
@@ -13901,6 +25194,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "landscape",
+        "portrait",
+        "rotate",
+        "screen-rotation",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -13915,6 +25220,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "phone",
+        "refresh",
+        "tech",
+        "technology",
+        "update",
+        "upgrade"
       ]
     },
     {
@@ -13929,6 +25246,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alert",
+        "device",
+        "electronic",
+        "gadget",
+        "haptic",
+        "hardware",
+        "phone",
+        "silent",
+        "tech",
+        "technology",
+        "vibrate"
       ]
     },
     {
@@ -13943,6 +25273,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "content",
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "happy",
+        "joy",
+        "mood",
+        "pleased",
+        "reaction",
+        "smiley"
       ]
     },
     {
@@ -13957,6 +25301,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "content",
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "happy",
+        "mood",
+        "pleased",
+        "reaction",
+        "smiley"
       ]
     },
     {
@@ -13971,6 +25328,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "cold",
+        "forecast",
+        "frost",
+        "frozen",
+        "ice",
+        "sky",
+        "snow",
+        "weather",
+        "winter"
       ]
     },
     {
@@ -13985,6 +25355,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "electricity",
+        "electronic",
+        "gadget",
+        "hardware",
+        "outlet",
+        "plug",
+        "power",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -13999,6 +25381,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "comfortable",
+        "couch",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "living-room",
+        "lounge",
+        "settee"
       ]
     },
     {
@@ -14013,6 +25408,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "couch",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "living-room",
+        "settee"
       ]
     },
     {
@@ -14027,6 +25433,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "couch",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "living-room",
+        "settee"
       ]
     },
     {
@@ -14041,6 +25458,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "A-Z",
+        "arrange",
+        "core",
+        "essential",
+        "filter",
+        "interface",
+        "order",
+        "organize",
+        "ui"
       ]
     },
     {
@@ -14055,6 +25483,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "A-Z",
+        "alphabetical",
+        "arrange",
+        "list",
+        "order",
+        "organize",
+        "task",
+        "todo"
       ]
     },
     {
@@ -14069,6 +25507,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chronological",
+        "date",
+        "list",
+        "oldest",
+        "order",
+        "organize",
+        "recent",
+        "task",
+        "todo"
       ]
     },
     {
@@ -14083,6 +25532,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "ascending",
+        "list",
+        "low-to-high",
+        "order",
+        "organize",
+        "task",
+        "todo"
       ]
     },
     {
@@ -14097,6 +25555,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "descending",
+        "high-to-low",
+        "list",
+        "order",
+        "organize",
+        "task",
+        "todo"
       ]
     },
     {
@@ -14111,6 +25578,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "arrange",
+        "direction",
+        "horizontal",
+        "move",
+        "navigation",
+        "pointer",
+        "reorder"
       ]
     },
     {
@@ -14125,6 +25601,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "arrange",
+        "direction",
+        "move",
+        "navigation",
+        "pointer",
+        "reorder",
+        "vertical"
       ]
     },
     {
@@ -14139,6 +25624,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "equalizer",
+        "frequency",
+        "media",
+        "multimedia",
+        "music",
+        "signal",
+        "sound",
+        "video",
+        "waveform"
       ]
     },
     {
@@ -14153,6 +25651,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "frequency",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "video",
+        "waveform"
       ]
     },
     {
@@ -14167,6 +25676,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "frequency",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "video",
+        "waveform"
       ]
     },
     {
@@ -14177,6 +25697,20 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "Asian",
+        "cooking",
+        "dietary",
+        "food",
+        "ingredient",
+        "legume",
+        "nutrition",
+        "protein",
+        "recipe",
+        "soy",
+        "tofu",
+        "vegan"
       ]
     },
     {
@@ -14191,6 +25725,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "music",
+        "sound",
+        "stereo",
+        "subwoofer"
       ]
     },
     {
@@ -14205,6 +25752,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "minimal",
+        "sound"
       ]
     },
     {
@@ -14219,6 +25777,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "FX",
+        "core",
+        "enhance",
+        "essential",
+        "interface",
+        "magic",
+        "shine",
+        "sparkle",
+        "ui"
       ]
     },
     {
@@ -14233,6 +25802,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "RPM",
+        "automotive",
+        "car",
+        "commute",
+        "dial",
+        "gauge",
+        "slow",
+        "speed",
+        "transport",
+        "travel",
+        "vehicle"
       ]
     },
     {
@@ -14247,6 +25829,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "automotive",
+        "car",
+        "commute",
+        "dial",
+        "fast",
+        "gauge",
+        "maximum",
+        "speed",
+        "transport",
+        "travel",
+        "vehicle"
       ]
     },
     {
@@ -14261,6 +25856,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "automotive",
+        "car",
+        "commute",
+        "dial",
+        "gauge",
+        "moderate",
+        "speed",
+        "transport",
+        "travel",
+        "vehicle"
       ]
     },
     {
@@ -14271,6 +25878,20 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "cooking",
+        "dietary",
+        "food",
+        "fresh",
+        "green",
+        "growth",
+        "ingredient",
+        "microgreen",
+        "nutrition",
+        "recipe",
+        "seedling",
+        "young"
       ]
     },
     {
@@ -14285,6 +25906,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "degree",
+        "education",
+        "graduation",
+        "hat",
+        "knowledge",
+        "learning",
+        "mortarboard",
+        "school",
+        "study",
+        "university"
       ]
     },
     {
@@ -14299,6 +25933,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "academic",
+        "education",
+        "graduation",
+        "knowledge",
+        "learning",
+        "mortarboard",
+        "school",
+        "study",
+        "university"
       ]
     },
     {
@@ -14313,6 +25958,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14327,6 +25978,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14341,6 +25998,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14355,6 +26018,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14369,6 +26038,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14383,6 +26058,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14397,6 +26078,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14411,6 +26098,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14425,6 +26118,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14439,6 +26138,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14453,6 +26158,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14467,6 +26178,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14481,6 +26198,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "interaction",
+        "move",
+        "navigation"
       ]
     },
     {
@@ -14495,6 +26218,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "interaction",
+        "move",
+        "navigation"
       ]
     },
     {
@@ -14509,6 +26238,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14523,6 +26258,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14537,6 +26278,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14551,6 +26298,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14565,6 +26318,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "mail",
+        "message",
+        "redirect",
+        "send",
+        "share"
       ]
     },
     {
@@ -14579,6 +26343,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chat",
+        "communication",
+        "conversation",
+        "email",
+        "external",
+        "link",
+        "mail",
+        "message",
+        "share"
       ]
     },
     {
@@ -14593,6 +26368,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14607,6 +26388,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14621,6 +26408,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "interaction",
+        "move",
+        "navigation"
       ]
     },
     {
@@ -14635,6 +26428,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "interaction",
+        "move",
+        "navigation"
       ]
     },
     {
@@ -14649,6 +26448,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14663,6 +26468,12 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "move",
+        "navigation",
+        "pointer"
       ]
     },
     {
@@ -14677,6 +26488,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "disk",
+        "drive",
+        "electronic",
+        "fast",
+        "gadget",
+        "hardware",
+        "solid-state",
+        "storage",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -14691,6 +26515,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "disk",
+        "drive",
+        "electronic",
+        "fast",
+        "gadget",
+        "hardware",
+        "solid-state",
+        "storage",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -14705,6 +26542,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bookmark",
+        "celestial",
+        "cosmos",
+        "favourite",
+        "night",
+        "rating",
+        "science",
+        "space",
+        "universe"
       ]
     },
     {
@@ -14719,6 +26567,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "appreciation",
+        "bookmark",
+        "celestial",
+        "favourite",
+        "feedback",
+        "like",
+        "love",
+        "night",
+        "rating"
       ]
     },
     {
@@ -14733,6 +26592,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bookmark",
+        "cosmos",
+        "favourite",
+        "rating",
+        "science",
+        "space",
+        "universe"
       ]
     },
     {
@@ -14747,6 +26615,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cosmos",
+        "favourite",
+        "featured",
+        "rating",
+        "science",
+        "space",
+        "universe"
       ]
     },
     {
@@ -14761,6 +26638,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cosmos",
+        "meteor",
+        "science",
+        "shooting-star",
+        "space",
+        "universe",
+        "wish"
       ]
     },
     {
@@ -14775,6 +26661,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cosmos",
+        "meteor",
+        "science",
+        "shooting-star",
+        "space",
+        "universe",
+        "wish"
       ]
     },
     {
@@ -14789,6 +26684,14 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cosmos",
+        "science",
+        "shooting-star",
+        "space",
+        "universe",
+        "wish"
       ]
     },
     {
@@ -14803,6 +26706,14 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cosmos",
+        "science",
+        "shooting-star",
+        "space",
+        "universe",
+        "wish"
       ]
     },
     {
@@ -14817,6 +26728,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "colourful",
+        "cosmos",
+        "magic",
+        "science",
+        "space",
+        "special",
+        "universe"
       ]
     },
     {
@@ -14831,6 +26751,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cosmos",
+        "orbit",
+        "ring",
+        "saturn",
+        "science",
+        "space",
+        "universe"
       ]
     },
     {
@@ -14845,6 +26774,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cosmos",
+        "orbit",
+        "rings",
+        "saturn",
+        "science",
+        "space",
+        "universe"
       ]
     },
     {
@@ -14859,6 +26797,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "appreciation",
+        "favourite",
+        "featured",
+        "feedback",
+        "glow",
+        "like",
+        "love",
+        "premium",
+        "rating",
+        "sparkle"
       ]
     },
     {
@@ -14873,6 +26823,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "constellation",
+        "forecast",
+        "night",
+        "sky",
+        "sparkle",
+        "weather"
       ]
     },
     {
@@ -14887,6 +26847,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "constellation",
+        "cosmos",
+        "night",
+        "science",
+        "sky",
+        "space",
+        "sparkle",
+        "universe"
       ]
     },
     {
@@ -14901,6 +26871,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cosmos",
+        "night",
+        "rating",
+        "science",
+        "space",
+        "sparkle",
+        "universe"
       ]
     },
     {
@@ -14915,6 +26894,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cosmos",
+        "night",
+        "rating",
+        "science",
+        "space",
+        "sparkle",
+        "universe"
       ]
     },
     {
@@ -14929,6 +26917,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "code",
+        "coding",
+        "developer",
+        "hub",
+        "node",
+        "programming",
+        "server",
+        "software",
+        "tech",
+        "web",
+        "workstation"
       ]
     },
     {
@@ -14943,6 +26945,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "code",
+        "coding",
+        "developer",
+        "minimal",
+        "programming",
+        "server",
+        "software",
+        "tech",
+        "web",
+        "workstation"
       ]
     },
     {
@@ -14957,6 +26972,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clinical",
+        "diagnose",
+        "doctor",
+        "examine",
+        "health",
+        "healthcare",
+        "listen",
+        "medical",
+        "medicine",
+        "pharmacy"
       ]
     },
     {
@@ -14971,6 +26998,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "badge",
+        "decal",
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "label",
+        "mood",
+        "reaction",
+        "tag"
       ]
     },
     {
@@ -14985,6 +27025,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "badge",
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "fun",
+        "happy",
+        "label",
+        "mood",
+        "reaction"
       ]
     },
     {
@@ -14999,6 +27052,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "badge",
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "happy",
+        "label",
+        "mood",
+        "reaction"
       ]
     },
     {
@@ -15013,6 +27078,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "badge",
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "happy",
+        "label",
+        "mood",
+        "reaction"
       ]
     },
     {
@@ -15027,6 +27104,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "badge",
+        "decal",
+        "emoji",
+        "emotion",
+        "expression",
+        "face",
+        "feeling",
+        "label",
+        "mood",
+        "reaction",
+        "tag"
       ]
     },
     {
@@ -15037,6 +27127,19 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "belly",
+        "benefit",
+        "body",
+        "digestion",
+        "digestive",
+        "gut",
+        "health",
+        "intestine",
+        "nutrition",
+        "tummy",
+        "wellness"
       ]
     },
     {
@@ -15051,6 +27154,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "cease",
+        "end",
+        "entertainment",
+        "halt",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "video",
+        "■"
       ]
     },
     {
@@ -15065,6 +27181,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "cease",
+        "end",
+        "entertainment",
+        "halt",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "video"
       ]
     },
     {
@@ -15079,6 +27207,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chrono",
+        "clock",
+        "countdown",
+        "date",
+        "duration",
+        "lap",
+        "schedule",
+        "speed",
+        "time",
+        "timer",
+        "timing"
       ]
     },
     {
@@ -15093,6 +27234,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clock",
+        "date",
+        "duration",
+        "hold",
+        "paused",
+        "schedule",
+        "time",
+        "timer",
+        "timing"
       ]
     },
     {
@@ -15107,6 +27259,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clock",
+        "date",
+        "duration",
+        "running",
+        "schedule",
+        "start",
+        "time",
+        "timer",
+        "timing"
       ]
     },
     {
@@ -15121,6 +27284,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "broadcast",
+        "entertainment",
+        "live",
+        "media",
+        "multimedia",
+        "music",
+        "real-time",
+        "sound",
+        "streaming",
+        "video"
       ]
     },
     {
@@ -15135,6 +27311,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "avenue",
+        "city",
+        "directions",
+        "geo",
+        "lane",
+        "location",
+        "map",
+        "navigation",
+        "place",
+        "road",
+        "travel",
+        "urban"
       ]
     },
     {
@@ -15149,6 +27339,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "address",
+        "directions",
+        "geo",
+        "location",
+        "map",
+        "navigation",
+        "place",
+        "road",
+        "travel"
       ]
     },
     {
@@ -15163,6 +27364,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "GPS",
+        "directions",
+        "drive",
+        "geo",
+        "location",
+        "map",
+        "navigation",
+        "place",
+        "road",
+        "travel"
       ]
     },
     {
@@ -15177,6 +27390,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "cool-down",
+        "exercise",
+        "fitness",
+        "flex",
+        "gym",
+        "mobility",
+        "sport",
+        "warmup",
+        "workout"
       ]
     },
     {
@@ -15191,6 +27417,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "exercise",
+        "fitness",
+        "flex",
+        "gym",
+        "mobility",
+        "sport",
+        "warmup",
+        "workout"
       ]
     },
     {
@@ -15205,6 +27443,21 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "architecture",
+        "code",
+        "coding",
+        "developer",
+        "hierarchy",
+        "org-chart",
+        "programming",
+        "sitemap",
+        "software",
+        "tech",
+        "tree",
+        "web"
       ]
     },
     {
@@ -15219,6 +27472,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "CC",
+        "accessibility",
+        "captions",
+        "core",
+        "essential",
+        "interface",
+        "subs",
+        "text",
+        "ui"
       ]
     },
     {
@@ -15228,6 +27492,15 @@ export const manifest = {
       "category": "Additional",
       "weights": [
         "bold"
+      ],
+      "tags": [
+        "delete",
+        "extra",
+        "minus",
+        "misc",
+        "reduce",
+        "remove",
+        "ui"
       ]
     },
     {
@@ -15242,6 +27515,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adventure",
+        "baggage",
+        "holiday",
+        "luggage",
+        "nature",
+        "outdoor",
+        "travel",
+        "trip",
+        "vacation"
       ]
     },
     {
@@ -15256,6 +27540,14 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adventure",
+        "baggage",
+        "luggage",
+        "nature",
+        "outdoor",
+        "travel"
       ]
     },
     {
@@ -15270,6 +27562,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adventure",
+        "baggage",
+        "label",
+        "luggage",
+        "nature",
+        "outdoor",
+        "travel"
       ]
     },
     {
@@ -15284,6 +27585,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "bright",
+        "clear",
+        "climate",
+        "daylight",
+        "forecast",
+        "sky",
+        "solar",
+        "sunny",
+        "warm",
+        "weather"
       ]
     },
     {
@@ -15298,6 +27612,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "bright",
+        "climate",
+        "daylight",
+        "forecast",
+        "sky",
+        "sunny",
+        "weather"
       ]
     },
     {
@@ -15312,6 +27636,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "dawn",
+        "forecast",
+        "haze",
+        "misty",
+        "morning",
+        "sky",
+        "weather"
       ]
     },
     {
@@ -15326,6 +27661,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "dawn",
+        "daybreak",
+        "early",
+        "forecast",
+        "morning",
+        "sky",
+        "weather"
       ]
     },
     {
@@ -15340,6 +27686,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "dusk",
+        "evening",
+        "forecast",
+        "golden-hour",
+        "sky",
+        "twilight",
+        "weather"
       ]
     },
     {
@@ -15354,6 +27711,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "absorber",
+        "automotive",
+        "car",
+        "commute",
+        "damper",
+        "smooth",
+        "spring",
+        "transport",
+        "travel",
+        "vehicle"
       ]
     },
     {
@@ -15368,6 +27737,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "automotive",
+        "car",
+        "commute",
+        "electric",
+        "powered",
+        "spring",
+        "transport",
+        "travel",
+        "vehicle"
       ]
     },
     {
@@ -15382,6 +27762,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "automotive",
+        "broken",
+        "car",
+        "commute",
+        "damaged",
+        "problem",
+        "transport",
+        "travel",
+        "vehicle"
       ]
     },
     {
@@ -15396,6 +27787,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "aquatic",
+        "athletic",
+        "exercise",
+        "fitness",
+        "gym",
+        "pool",
+        "sport",
+        "stroke",
+        "swim",
+        "water",
+        "workout"
       ]
     },
     {
@@ -15410,6 +27815,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clinical",
+        "health",
+        "healthcare",
+        "injection",
+        "jab",
+        "medical",
+        "medicine",
+        "needle",
+        "pharmacy",
+        "shot",
+        "vaccine"
       ]
     },
     {
@@ -15424,6 +27842,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "apparel",
+        "clothing",
+        "core",
+        "essential",
+        "fashion",
+        "interface",
+        "merch",
+        "tee",
+        "ui",
+        "wear"
       ]
     },
     {
@@ -15438,6 +27868,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "iPad",
+        "portable",
+        "slate",
+        "tech",
+        "technology",
+        "touchscreen"
       ]
     },
     {
@@ -15452,6 +27894,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "category",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "label",
+        "metadata",
+        "money",
+        "payment",
+        "price-tag"
       ]
     },
     {
@@ -15466,6 +27921,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "category",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "label",
+        "money",
+        "payment",
+        "price-tag"
       ]
     },
     {
@@ -15480,6 +27947,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "commerce",
+        "cost",
+        "currency",
+        "finance",
+        "financial",
+        "label",
+        "money",
+        "payment",
+        "price",
+        "value"
       ]
     },
     {
@@ -15494,6 +27974,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "aim",
+        "bullseye",
+        "core",
+        "crosshair",
+        "essential",
+        "focus",
+        "goal",
+        "interface",
+        "objective",
+        "ui"
       ]
     },
     {
@@ -15508,6 +28000,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "brew",
+        "chef",
+        "cooking",
+        "culinary",
+        "drink",
+        "food",
+        "herbal",
+        "hot",
+        "kitchen",
+        "recipe",
+        "tea"
       ]
     },
     {
@@ -15522,6 +28027,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "astronomy",
+        "device",
+        "discover",
+        "electronic",
+        "gadget",
+        "hardware",
+        "observe",
+        "science",
+        "stargazing",
+        "tech",
+        "technology",
+        "zoom"
       ]
     },
     {
@@ -15536,6 +28055,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "celsius",
+        "climate",
+        "cold",
+        "degrees",
+        "fahrenheit",
+        "forecast",
+        "hot",
+        "sky",
+        "thermometer",
+        "weather"
       ]
     },
     {
@@ -15550,6 +28082,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "ball",
+        "court",
+        "exercise",
+        "fitness",
+        "gym",
+        "match",
+        "racket",
+        "sport",
+        "workout"
       ]
     },
     {
@@ -15564,6 +28109,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "ball",
+        "court",
+        "exercise",
+        "fitness",
+        "gym",
+        "racket",
+        "sport",
+        "workout"
       ]
     },
     {
@@ -15578,6 +28135,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chemistry",
+        "clinical",
+        "experiment",
+        "health",
+        "healthcare",
+        "lab",
+        "medical",
+        "medicine",
+        "pharmacy",
+        "research",
+        "sample",
+        "science"
       ]
     },
     {
@@ -15592,6 +28163,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clinical",
+        "experiment",
+        "health",
+        "healthcare",
+        "lab",
+        "medical",
+        "medicine",
+        "minimal",
+        "pharmacy",
+        "science"
       ]
     },
     {
@@ -15606,6 +28189,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "characters",
+        "content",
+        "editor",
+        "font",
+        "formatting",
+        "label",
+        "string",
+        "text",
+        "type",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -15620,6 +28216,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "B",
+        "bold",
+        "editor",
+        "emphasis",
+        "font",
+        "formatting",
+        "strong",
+        "text",
+        "typography",
+        "weight",
+        "writing"
       ]
     },
     {
@@ -15634,6 +28243,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "B",
+        "bold",
+        "editor",
+        "font",
+        "formatting",
+        "strong",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -15648,6 +28268,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "B",
+        "bold",
+        "editor",
+        "font",
+        "formatting",
+        "strong",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -15662,6 +28293,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "editor",
+        "font",
+        "formatting",
+        "label",
+        "text",
+        "type",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -15676,6 +28317,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "delete",
+        "editor",
+        "font",
+        "formatting",
+        "remove-text",
+        "strikethrough",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -15690,6 +28342,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "delete",
+        "editor",
+        "font",
+        "formatting",
+        "strikethrough",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -15704,6 +28366,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "delete",
+        "editor",
+        "font",
+        "formatting",
+        "strikethrough",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -15718,6 +28390,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "editor",
+        "field",
+        "font",
+        "form",
+        "formatting",
+        "input",
+        "text",
+        "textbox",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -15732,6 +28416,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "cursor",
+        "editing",
+        "editor",
+        "font",
+        "formatting",
+        "input",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -15746,6 +28442,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "I",
+        "editor",
+        "emphasis",
+        "font",
+        "formatting",
+        "italic",
+        "slanted",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -15760,6 +28468,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "I",
+        "editor",
+        "font",
+        "formatting",
+        "italic",
+        "slanted",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -15774,6 +28493,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "I",
+        "editor",
+        "font",
+        "formatting",
+        "italic",
+        "slanted",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -15788,6 +28518,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cursor",
+        "editor",
+        "font",
+        "formatting",
+        "highlight",
+        "range",
+        "select",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -15802,6 +28544,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "box",
+        "editor",
+        "font",
+        "formatting",
+        "label",
+        "text",
+        "type",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -15816,6 +28569,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "box",
+        "editor",
+        "font",
+        "formatting",
+        "label",
+        "text",
+        "type",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -15830,6 +28594,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "U",
+        "editor",
+        "emphasis",
+        "font",
+        "formatting",
+        "highlight",
+        "text",
+        "typography",
+        "underline",
+        "writing"
       ]
     },
     {
@@ -15844,6 +28620,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "U",
+        "editor",
+        "font",
+        "formatting",
+        "text",
+        "typography",
+        "underline",
+        "writing"
       ]
     },
     {
@@ -15858,6 +28644,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clear-format",
+        "editor",
+        "font",
+        "formatting",
+        "remove-underline",
+        "text",
+        "typography",
+        "writing"
       ]
     },
     {
@@ -15872,6 +28668,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clinical",
+        "cold",
+        "fever",
+        "health",
+        "healthcare",
+        "heat",
+        "measure",
+        "medical",
+        "medicine",
+        "pharmacy",
+        "temperature"
       ]
     },
     {
@@ -15886,6 +28695,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "components",
+        "creative",
+        "design",
+        "editor",
+        "graphics",
+        "grid",
+        "layout",
+        "tiles",
+        "tools"
       ]
     },
     {
@@ -15900,6 +28720,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "VIP",
+        "banking",
+        "commerce",
+        "currency",
+        "featured",
+        "finance",
+        "financial",
+        "money",
+        "payment",
+        "premium",
+        "special",
+        "ticket"
       ]
     },
     {
@@ -15914,6 +28748,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "admission",
+        "banking",
+        "commerce",
+        "coupon",
+        "currency",
+        "entry",
+        "finance",
+        "financial",
+        "money",
+        "pass",
+        "payment",
+        "voucher"
       ]
     },
     {
@@ -15928,6 +28776,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "commerce",
+        "coupon",
+        "currency",
+        "deal",
+        "discount",
+        "finance",
+        "financial",
+        "money",
+        "offer",
+        "payment"
       ]
     },
     {
@@ -15942,6 +28803,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "enter-pip",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "overlay",
+        "picture-in-picture",
+        "sound",
+        "video"
       ]
     },
     {
@@ -15952,6 +28825,18 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "benefit",
+        "body",
+        "dental",
+        "dentist",
+        "health",
+        "nutrition",
+        "oral",
+        "smile",
+        "teeth",
+        "wellness"
       ]
     },
     {
@@ -15966,6 +28851,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "cyclone",
+        "forecast",
+        "severe",
+        "sky",
+        "storm",
+        "twister",
+        "weather",
+        "wind"
       ]
     },
     {
@@ -15980,6 +28877,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "cyclone",
+        "forecast",
+        "sky",
+        "twister",
+        "weather",
+        "wind"
       ]
     },
     {
@@ -15994,6 +28901,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "essential",
+        "interface",
+        "road",
+        "signal",
+        "stop-go",
+        "stoplight",
+        "ui"
       ]
     },
     {
@@ -16008,6 +28925,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "efficient",
+        "essential",
+        "go",
+        "green",
+        "interface",
+        "signal",
+        "ui"
       ]
     },
     {
@@ -16022,6 +28949,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "automotive",
+        "car",
+        "commute",
+        "public-transport",
+        "rail",
+        "streetcar",
+        "transport",
+        "travel",
+        "trolley",
+        "vehicle"
       ]
     },
     {
@@ -16036,6 +28975,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "exchange",
+        "horizontal",
+        "move",
+        "navigation",
+        "pointer",
+        "swap",
+        "switch"
       ]
     },
     {
@@ -16050,6 +28999,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "direction",
+        "exchange",
+        "move",
+        "navigation",
+        "pointer",
+        "swap",
+        "switch",
+        "vertical"
       ]
     },
     {
@@ -16064,6 +29023,21 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "code",
+        "coding",
+        "developer",
+        "global",
+        "i18n",
+        "language",
+        "localization",
+        "programming",
+        "software",
+        "tech",
+        "translate",
+        "web"
       ]
     },
     {
@@ -16078,6 +29052,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "code",
+        "coding",
+        "developer",
+        "i18n",
+        "language",
+        "localization",
+        "programming",
+        "software",
+        "tech",
+        "translate",
+        "web"
       ]
     },
     {
@@ -16092,6 +29080,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "automatic",
+        "automotive",
+        "car",
+        "commute",
+        "drive",
+        "gear",
+        "gearbox",
+        "manual",
+        "transport",
+        "travel",
+        "vehicle"
       ]
     },
     {
@@ -16106,6 +29107,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "automotive",
+        "car",
+        "commute",
+        "drive",
+        "gear",
+        "gearbox",
+        "transport",
+        "travel",
+        "vehicle"
       ]
     },
     {
@@ -16120,6 +29132,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "automotive",
+        "car",
+        "commute",
+        "drive",
+        "gear",
+        "gearbox",
+        "transport",
+        "travel",
+        "vehicle"
       ]
     },
     {
@@ -16134,6 +29157,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bin",
+        "core",
+        "delete",
+        "essential",
+        "interface",
+        "remove",
+        "rubbish",
+        "ui",
+        "waste"
       ]
     },
     {
@@ -16148,6 +29182,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "bin",
+        "core",
+        "delete",
+        "essential",
+        "interface",
+        "minimal",
+        "remove",
+        "rubbish",
+        "ui"
       ]
     },
     {
@@ -16162,6 +29207,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "delete",
+        "essential",
+        "interface",
+        "minimal",
+        "remove",
+        "rubbish",
+        "ui"
       ]
     },
     {
@@ -16176,6 +29231,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "delete",
+        "essential",
+        "interface",
+        "remove",
+        "rubbish",
+        "ui",
+        "waste"
       ]
     },
     {
@@ -16190,6 +29255,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "cardio",
+        "exercise",
+        "fitness",
+        "gym",
+        "indoor",
+        "machine",
+        "run",
+        "sport",
+        "workout"
       ]
     },
     {
@@ -16204,6 +29282,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "cardio",
+        "exercise",
+        "fitness",
+        "gym",
+        "indoor",
+        "run",
+        "sport",
+        "workout"
       ]
     },
     {
@@ -16218,6 +29308,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "climb",
+        "decor",
+        "furniture",
+        "garden",
+        "home",
+        "house",
+        "interior",
+        "lattice",
+        "living",
+        "outdoor",
+        "plant"
       ]
     },
     {
@@ -16232,6 +29335,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adjust",
+        "admin",
+        "configuration",
+        "control",
+        "customize",
+        "equalizer",
+        "fine-tune",
+        "preferences",
+        "settings",
+        "sliders",
+        "tweak"
       ]
     },
     {
@@ -16246,6 +29362,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adjust",
+        "admin",
+        "configuration",
+        "control",
+        "customize",
+        "fine-tune",
+        "preferences",
+        "settings",
+        "tweak"
       ]
     },
     {
@@ -16260,6 +29387,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adjust",
+        "admin",
+        "configuration",
+        "control",
+        "customize",
+        "fine-tune",
+        "preferences",
+        "settings",
+        "tweak"
       ]
     },
     {
@@ -16274,6 +29412,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adjust",
+        "admin",
+        "configuration",
+        "control",
+        "customize",
+        "fine-tune",
+        "preferences",
+        "settings",
+        "tweak"
       ]
     },
     {
@@ -16288,6 +29437,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adjust",
+        "admin",
+        "configuration",
+        "control",
+        "customize",
+        "fine-tune",
+        "preferences",
+        "settings",
+        "tweak"
       ]
     },
     {
@@ -16302,6 +29462,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adjust",
+        "admin",
+        "configuration",
+        "control",
+        "customize",
+        "fine-tune",
+        "preferences",
+        "settings",
+        "tweak"
       ]
     },
     {
@@ -16316,6 +29487,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "DJ",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "music",
+        "record-player",
+        "retro",
+        "tech",
+        "technology",
+        "vinyl"
       ]
     },
     {
@@ -16330,6 +29514,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "DJ",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "minimal",
+        "music",
+        "tech",
+        "technology",
+        "vinyl"
       ]
     },
     {
@@ -16344,6 +29540,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "DJ",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "music",
+        "playing",
+        "tech",
+        "technology",
+        "vinyl"
       ]
     },
     {
@@ -16358,6 +29566,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "device",
+        "display",
+        "electronic",
+        "entertainment",
+        "gadget",
+        "hardware",
+        "monitor",
+        "screen",
+        "streaming",
+        "tech",
+        "technology",
+        "television"
       ]
     },
     {
@@ -16372,6 +29594,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alien",
+        "cosmos",
+        "extraterrestrial",
+        "flying-saucer",
+        "sci-fi",
+        "science",
+        "space",
+        "universe"
       ]
     },
     {
@@ -16386,6 +29618,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alien",
+        "cosmos",
+        "extraterrestrial",
+        "flying-saucer",
+        "sci-fi",
+        "science",
+        "space",
+        "universe"
       ]
     },
     {
@@ -16400,6 +29642,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alien",
+        "cosmos",
+        "extraterrestrial",
+        "flying-saucer",
+        "sci-fi",
+        "science",
+        "space",
+        "universe"
       ]
     },
     {
@@ -16414,6 +29666,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "essential",
+        "interface",
+        "parasol",
+        "protection",
+        "rain",
+        "shelter",
+        "ui",
+        "weather"
       ]
     },
     {
@@ -16428,6 +29691,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "back",
+        "history",
+        "interaction",
+        "move",
+        "navigation",
+        "revert",
+        "undo"
       ]
     },
     {
@@ -16442,6 +29715,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "back",
+        "interaction",
+        "move",
+        "navigation",
+        "revert",
+        "undo"
       ]
     },
     {
@@ -16456,6 +29738,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "back",
+        "interaction",
+        "move",
+        "navigation",
+        "revert",
+        "undo"
       ]
     },
     {
@@ -16470,6 +29761,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "back",
+        "interaction",
+        "move",
+        "navigation",
+        "revert",
+        "undo"
       ]
     },
     {
@@ -16484,6 +29784,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "forward",
+        "interaction",
+        "move",
+        "navigation",
+        "redo",
+        "repeat"
       ]
     },
     {
@@ -16498,6 +29807,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "forward",
+        "interaction",
+        "move",
+        "navigation",
+        "redo",
+        "repeat"
       ]
     },
     {
@@ -16512,6 +29830,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "forward",
+        "interaction",
+        "move",
+        "navigation",
+        "redo",
+        "repeat"
       ]
     },
     {
@@ -16526,6 +29853,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "forward",
+        "interaction",
+        "move",
+        "navigation",
+        "redo",
+        "repeat"
       ]
     },
     {
@@ -16540,6 +29876,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "badge",
+        "chat",
+        "communication",
+        "conversation",
+        "dot",
+        "email",
+        "mail",
+        "message",
+        "new",
+        "notification",
+        "unseen"
       ]
     },
     {
@@ -16554,6 +29903,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "interaction",
+        "move",
+        "navigation",
+        "publish",
+        "push",
+        "send",
+        "share"
       ]
     },
     {
@@ -16568,6 +29927,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "interaction",
+        "minimal",
+        "move",
+        "navigation",
+        "publish",
+        "push",
+        "send",
+        "share"
       ]
     },
     {
@@ -16582,6 +29952,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "interaction",
+        "move",
+        "navigation",
+        "publish",
+        "push",
+        "send",
+        "share",
+        "square"
       ]
     },
     {
@@ -16596,6 +29977,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "add-music",
+        "audio",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "publish",
+        "sound",
+        "upload-song",
+        "video"
       ]
     },
     {
@@ -16610,6 +30003,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "add-music",
+        "audio",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "upload-song",
+        "video"
       ]
     },
     {
@@ -16624,6 +30028,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "action",
+        "batch",
+        "interaction",
+        "move",
+        "multiple",
+        "navigation",
+        "publish",
+        "send"
       ]
     },
     {
@@ -16638,6 +30052,21 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "cable",
+        "code",
+        "coding",
+        "connection",
+        "data-transfer",
+        "developer",
+        "plug",
+        "port",
+        "programming",
+        "software",
+        "tech",
+        "web"
       ]
     },
     {
@@ -16652,6 +30081,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "cable",
+        "code",
+        "coding",
+        "connection",
+        "developer",
+        "plug",
+        "programming",
+        "software",
+        "tech",
+        "web"
       ]
     },
     {
@@ -16666,6 +30108,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "cable",
+        "code",
+        "coding",
+        "connection",
+        "developer",
+        "plug",
+        "programming",
+        "software",
+        "tech",
+        "web"
       ]
     },
     {
@@ -16680,6 +30135,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "avatar",
+        "human",
+        "member",
+        "people",
+        "person",
+        "profile",
+        "user"
       ]
     },
     {
@@ -16694,6 +30159,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "banned",
+        "blocked",
+        "human",
+        "member",
+        "people",
+        "person",
+        "profile",
+        "restricted",
+        "user"
       ]
     },
     {
@@ -16708,6 +30185,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "banned",
+        "blocked",
+        "human",
+        "member",
+        "people",
+        "person",
+        "profile",
+        "restricted",
+        "user"
       ]
     },
     {
@@ -16722,6 +30211,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "approved",
+        "confirmed",
+        "human",
+        "member",
+        "people",
+        "person",
+        "profile",
+        "user",
+        "verified"
       ]
     },
     {
@@ -16736,6 +30237,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "approved",
+        "confirmed",
+        "human",
+        "member",
+        "people",
+        "person",
+        "profile",
+        "user",
+        "verified"
       ]
     },
     {
@@ -16750,6 +30263,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "avatar",
+        "human",
+        "member",
+        "people",
+        "person",
+        "photo",
+        "profile",
+        "profile-pic",
+        "user"
       ]
     },
     {
@@ -16764,6 +30289,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "delete",
+        "human",
+        "member",
+        "people",
+        "person",
+        "profile",
+        "reject",
+        "remove",
+        "user"
       ]
     },
     {
@@ -16778,6 +30315,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "delete",
+        "human",
+        "member",
+        "people",
+        "person",
+        "profile",
+        "reject",
+        "remove",
+        "user"
       ]
     },
     {
@@ -16792,6 +30341,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "human",
+        "member",
+        "people",
+        "person",
+        "profile",
+        "question",
+        "raise-hand",
+        "user",
+        "volunteer"
       ]
     },
     {
@@ -16806,6 +30367,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "collaboration",
+        "human",
+        "member",
+        "people",
+        "person",
+        "profile",
+        "support",
+        "team",
+        "user"
       ]
     },
     {
@@ -16820,6 +30393,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "favourite",
+        "human",
+        "liked",
+        "loved",
+        "member",
+        "people",
+        "person",
+        "profile",
+        "user"
       ]
     },
     {
@@ -16834,6 +30419,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "favourite",
+        "human",
+        "liked",
+        "loved",
+        "member",
+        "people",
+        "person",
+        "profile",
+        "user"
       ]
     },
     {
@@ -16848,6 +30445,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "ID-card",
+        "account",
+        "badge",
+        "credential",
+        "human",
+        "identity",
+        "member",
+        "people",
+        "person",
+        "profile",
+        "user"
       ]
     },
     {
@@ -16862,6 +30472,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "delete",
+        "human",
+        "member",
+        "people",
+        "person",
+        "profile",
+        "remove-user",
+        "unfriend",
+        "user"
       ]
     },
     {
@@ -16876,6 +30498,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "human",
+        "member",
+        "people",
+        "person",
+        "profile",
+        "remove-user",
+        "unfriend",
+        "user"
       ]
     },
     {
@@ -16890,6 +30523,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "add-user",
+        "human",
+        "invite",
+        "member",
+        "new-member",
+        "people",
+        "person",
+        "profile",
+        "register",
+        "sign-up",
+        "user"
       ]
     },
     {
@@ -16904,6 +30551,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "add-user",
+        "human",
+        "invite",
+        "member",
+        "people",
+        "person",
+        "profile",
+        "register",
+        "user"
       ]
     },
     {
@@ -16918,6 +30577,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "avatar",
+        "human",
+        "member",
+        "people",
+        "person",
+        "profile",
+        "user"
       ]
     },
     {
@@ -16932,6 +30601,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "human",
+        "member",
+        "people",
+        "person",
+        "presenter",
+        "profile",
+        "speaker",
+        "talking",
+        "user",
+        "voice"
       ]
     },
     {
@@ -16946,6 +30628,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "human",
+        "member",
+        "people",
+        "person",
+        "profile",
+        "speaker",
+        "talking",
+        "user",
+        "voice"
       ]
     },
     {
@@ -16960,6 +30654,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "community",
+        "group",
+        "human",
+        "member",
+        "members",
+        "organization",
+        "people",
+        "person",
+        "profile",
+        "team",
+        "user"
       ]
     },
     {
@@ -16974,6 +30682,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "account",
+        "couple",
+        "duo",
+        "human",
+        "member",
+        "pair",
+        "partner",
+        "people",
+        "person",
+        "profile",
+        "user"
       ]
     },
     {
@@ -16984,6 +30705,20 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "cooking",
+        "dietary",
+        "food",
+        "garden",
+        "greens",
+        "ingredient",
+        "nutrition",
+        "produce",
+        "recipe",
+        "salad",
+        "veg",
+        "veggies"
       ]
     },
     {
@@ -16998,6 +30733,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "approved",
+        "authentic",
+        "banking",
+        "commerce",
+        "confirmed",
+        "currency",
+        "finance",
+        "financial",
+        "money",
+        "payment",
+        "trusted",
+        "verified"
       ]
     },
     {
@@ -17012,6 +30761,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "clip",
+        "entertainment",
+        "frame",
+        "media",
+        "multimedia",
+        "music",
+        "scene",
+        "shot",
+        "sound",
+        "video"
       ]
     },
     {
@@ -17026,6 +30788,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "clip",
+        "entertainment",
+        "frame",
+        "media",
+        "multimedia",
+        "music",
+        "scene",
+        "sound",
+        "video"
       ]
     },
     {
@@ -17040,6 +30814,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "cut",
+        "edit",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "splice",
+        "trim",
+        "video"
       ]
     },
     {
@@ -17054,6 +30841,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "edit",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "splice",
+        "trim",
+        "video"
       ]
     },
     {
@@ -17068,6 +30867,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "landscape",
+        "media",
+        "multimedia",
+        "music",
+        "play",
+        "sound",
+        "video",
+        "widescreen"
       ]
     },
     {
@@ -17082,6 +30893,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "play",
+        "portrait",
+        "sound",
+        "vertical-video",
+        "video"
       ]
     },
     {
@@ -17096,6 +30919,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "change",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "substitute",
+        "swap",
+        "video"
       ]
     },
     {
@@ -17110,6 +30945,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "catalog",
+        "collection",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "video",
+        "videos"
       ]
     },
     {
@@ -17124,6 +30971,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "camcorder",
+        "entertainment",
+        "film",
+        "media",
+        "multimedia",
+        "music",
+        "record",
+        "shoot",
+        "sound",
+        "video"
       ]
     },
     {
@@ -17138,6 +30998,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "new-video",
+        "sound",
+        "start-recording",
+        "video"
       ]
     },
     {
@@ -17152,6 +31023,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "filming",
+        "live",
+        "media",
+        "multimedia",
+        "music",
+        "recording",
+        "sound",
+        "video"
       ]
     },
     {
@@ -17166,6 +31049,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "LP",
+        "analogue",
+        "audio",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "record",
+        "retro",
+        "sound",
+        "turntable",
+        "video"
       ]
     },
     {
@@ -17180,6 +31077,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "LP",
+        "audio",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "retro",
+        "sound",
+        "turntable",
+        "video"
       ]
     },
     {
@@ -17194,6 +31103,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clinical",
+        "covid",
+        "disease",
+        "flu",
+        "germ",
+        "health",
+        "healthcare",
+        "infection",
+        "medical",
+        "medicine",
+        "pathogen",
+        "pharmacy"
       ]
     },
     {
@@ -17204,6 +31127,18 @@ export const manifest = {
       "weights": [
         "linear",
         "bold"
+      ],
+      "tags": [
+        "antibody",
+        "benefit",
+        "body",
+        "defence",
+        "health",
+        "immune",
+        "nutrition",
+        "protection",
+        "resist",
+        "wellness"
       ]
     },
     {
@@ -17218,6 +31153,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "ball",
+        "beach",
+        "exercise",
+        "fitness",
+        "gym",
+        "net",
+        "spike",
+        "sport",
+        "workout"
       ]
     },
     {
@@ -17232,6 +31180,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "ball",
+        "beach",
+        "exercise",
+        "fitness",
+        "gym",
+        "net",
+        "sport",
+        "workout"
       ]
     },
     {
@@ -17246,6 +31206,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "level",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "speaker",
+        "video"
       ]
     },
     {
@@ -17260,6 +31231,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "mute",
+        "no-sound",
+        "off",
+        "silent",
+        "sound",
+        "video"
       ]
     },
     {
@@ -17274,6 +31258,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adjust",
+        "audio",
+        "control",
+        "decor",
+        "dial",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "living",
+        "turn"
       ]
     },
     {
@@ -17288,6 +31285,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "blast",
+        "entertainment",
+        "high-volume",
+        "loud",
+        "max",
+        "media",
+        "multimedia",
+        "music",
+        "sound",
+        "video"
       ]
     },
     {
@@ -17302,6 +31312,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "entertainment",
+        "low",
+        "low-volume",
+        "media",
+        "multimedia",
+        "music",
+        "quiet",
+        "soft",
+        "sound",
+        "video"
       ]
     },
     {
@@ -17316,6 +31339,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "bundle",
+        "cash",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "money",
+        "payment",
+        "rich",
+        "stack",
+        "wealth"
       ]
     },
     {
@@ -17330,6 +31367,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "exercise",
+        "fitness",
+        "footstep",
+        "gym",
+        "pedestrian",
+        "sport",
+        "step",
+        "stroll",
+        "workout"
       ]
     },
     {
@@ -17344,6 +31394,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "exercise",
+        "fitness",
+        "gym",
+        "pedestrian",
+        "sport",
+        "step",
+        "stroll",
+        "workout"
       ]
     },
     {
@@ -17358,6 +31420,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "billfold",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "money",
+        "payment",
+        "purse"
       ]
     },
     {
@@ -17372,6 +31445,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "banking",
+        "billfold",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "money",
+        "payment",
+        "purse"
       ]
     },
     {
@@ -17386,6 +31470,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "balance",
+        "banking",
+        "cash",
+        "commerce",
+        "currency",
+        "finance",
+        "financial",
+        "funds",
+        "money",
+        "payment",
+        "savings"
       ]
     },
     {
@@ -17400,6 +31497,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "audio",
+        "background",
+        "desktop",
+        "entertainment",
+        "media",
+        "multimedia",
+        "music",
+        "screensaver",
+        "sound",
+        "theme",
+        "video"
       ]
     },
     {
@@ -17414,6 +31524,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "appliance",
+        "clean",
+        "clothes",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "laundry",
+        "living",
+        "washer"
       ]
     },
     {
@@ -17428,6 +31551,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clean",
+        "decor",
+        "furniture",
+        "home",
+        "house",
+        "interior",
+        "laundry",
+        "living",
+        "minimal"
       ]
     },
     {
@@ -17442,6 +31576,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clock",
+        "date",
+        "duration",
+        "schedule",
+        "smart-watch",
+        "time",
+        "timepiece",
+        "timing",
+        "wearable",
+        "wristwatch"
       ]
     },
     {
@@ -17456,6 +31602,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "Apple-Watch",
+        "clock",
+        "date",
+        "duration",
+        "schedule",
+        "smart-watch",
+        "time",
+        "timing",
+        "wristwatch"
       ]
     },
     {
@@ -17470,6 +31627,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "clock",
+        "date",
+        "duration",
+        "minimal",
+        "schedule",
+        "smart-watch",
+        "time",
+        "timing",
+        "wristwatch"
       ]
     },
     {
@@ -17484,6 +31652,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "battery",
+        "charging",
+        "clock",
+        "date",
+        "duration",
+        "schedule",
+        "smart-watch",
+        "time",
+        "timing"
       ]
     },
     {
@@ -17498,6 +31677,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "aqua",
+        "athletic",
+        "exercise",
+        "fitness",
+        "gym",
+        "liquid",
+        "ocean",
+        "sea",
+        "sport",
+        "wave",
+        "workout"
       ]
     },
     {
@@ -17512,6 +31705,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "active",
+        "athletic",
+        "beach",
+        "exercise",
+        "fitness",
+        "gym",
+        "holiday",
+        "sport",
+        "summer",
+        "tropical",
+        "vacation",
+        "workout"
       ]
     },
     {
@@ -17526,6 +31733,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "core",
+        "droplet",
+        "essential",
+        "hydration",
+        "interface",
+        "liquid",
+        "rain",
+        "ui",
+        "water"
       ]
     },
     {
@@ -17540,6 +31758,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "atmospheric",
+        "climate",
+        "drops",
+        "forecast",
+        "humidity",
+        "moisture",
+        "rain",
+        "sky",
+        "water",
+        "weather"
       ]
     },
     {
@@ -17554,6 +31784,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "balance",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "mass",
+        "measure",
+        "scale",
+        "tech",
+        "technology",
+        "weight"
       ]
     },
     {
@@ -17568,6 +31811,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "automotive",
+        "car",
+        "commute",
+        "rim",
+        "rotate",
+        "round",
+        "tire",
+        "transport",
+        "travel",
+        "tyre",
+        "vehicle"
       ]
     },
     {
@@ -17582,6 +31838,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "automotive",
+        "car",
+        "commute",
+        "steering",
+        "tire",
+        "transport",
+        "travel",
+        "turn",
+        "tyre",
+        "vehicle"
       ]
     },
     {
@@ -17596,6 +31864,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "baking",
+        "beat",
+        "chef",
+        "cooking",
+        "culinary",
+        "egg",
+        "food",
+        "kitchen",
+        "mix",
+        "recipe",
+        "stir"
       ]
     },
     {
@@ -17610,6 +31891,22 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "WiFi",
+        "broadband",
+        "code",
+        "coding",
+        "connectivity",
+        "developer",
+        "internet",
+        "network",
+        "programming",
+        "software",
+        "tech",
+        "web",
+        "wireless"
       ]
     },
     {
@@ -17624,6 +31921,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "WiFi",
+        "code",
+        "coding",
+        "developer",
+        "internet",
+        "minimal",
+        "programming",
+        "software",
+        "tech",
+        "web",
+        "wireless"
       ]
     },
     {
@@ -17638,6 +31949,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "WiFi",
+        "code",
+        "coding",
+        "developer",
+        "internet",
+        "programming",
+        "software",
+        "tech",
+        "web",
+        "wireless"
       ]
     },
     {
@@ -17652,6 +31976,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "admin",
+        "block",
+        "card",
+        "component",
+        "configuration",
+        "control",
+        "customize",
+        "module",
+        "preferences",
+        "settings",
+        "tile"
       ]
     },
     {
@@ -17666,6 +32003,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "admin",
+        "block",
+        "component",
+        "configuration",
+        "control",
+        "customize",
+        "module",
+        "preferences",
+        "settings"
       ]
     },
     {
@@ -17680,6 +32028,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "admin",
+        "block",
+        "component",
+        "configuration",
+        "control",
+        "customize",
+        "module",
+        "preferences",
+        "settings"
       ]
     },
     {
@@ -17694,6 +32053,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "admin",
+        "block",
+        "component",
+        "configuration",
+        "control",
+        "customize",
+        "module",
+        "preferences",
+        "settings"
       ]
     },
     {
@@ -17708,6 +32078,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "admin",
+        "block",
+        "component",
+        "configuration",
+        "control",
+        "customize",
+        "module",
+        "preferences",
+        "settings"
       ]
     },
     {
@@ -17722,6 +32103,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "admin",
+        "block",
+        "component",
+        "configuration",
+        "control",
+        "customize",
+        "module",
+        "preferences",
+        "settings"
       ]
     },
     {
@@ -17736,6 +32128,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "add-component",
+        "admin",
+        "configuration",
+        "control",
+        "create-widget",
+        "customize",
+        "new-module",
+        "preferences",
+        "settings"
       ]
     },
     {
@@ -17750,6 +32153,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "air",
+        "atmospheric",
+        "blow",
+        "breeze",
+        "climate",
+        "forecast",
+        "gust",
+        "sky",
+        "weather",
+        "windy"
       ]
     },
     {
@@ -17764,6 +32179,21 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "IT",
+        "app",
+        "application",
+        "browser",
+        "code",
+        "coding",
+        "developer",
+        "programming",
+        "software",
+        "tab",
+        "tech",
+        "web",
+        "window"
       ]
     },
     {
@@ -17778,6 +32208,20 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "alcohol",
+        "bar",
+        "chef",
+        "cocktail",
+        "cooking",
+        "culinary",
+        "drink",
+        "food",
+        "kitchen",
+        "recipe",
+        "toast",
+        "wine"
       ]
     },
     {
@@ -17792,6 +32236,18 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "chef",
+        "cocktail",
+        "cooking",
+        "culinary",
+        "drink",
+        "food",
+        "kitchen",
+        "martini",
+        "recipe",
+        "wine"
       ]
     },
     {
@@ -17806,6 +32262,17 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "archive",
+        "compress",
+        "core",
+        "essential",
+        "extract",
+        "file",
+        "interface",
+        "ui",
+        "zip"
       ]
     },
     {
@@ -17820,6 +32287,19 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "Qi",
+        "battery",
+        "charging",
+        "cordless",
+        "device",
+        "electronic",
+        "gadget",
+        "hardware",
+        "inductive",
+        "tech",
+        "technology"
       ]
     },
     {
@@ -17834,6 +32314,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "cosmos",
+        "female",
+        "gender",
+        "science",
+        "space",
+        "universe",
+        "venus",
+        "woman"
       ]
     },
     {
@@ -17848,6 +32338,16 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "adult",
+        "blocked",
+        "core",
+        "essential",
+        "interface",
+        "mature",
+        "restricted",
+        "ui"
       ]
     },
     {
@@ -17862,6 +32362,15 @@ export const manifest = {
         "outline",
         "line-duotone",
         "broken"
+      ],
+      "tags": [
+        "archive",
+        "bundle",
+        "compressed",
+        "document",
+        "file",
+        "package",
+        "storage"
       ]
     }
   ]
