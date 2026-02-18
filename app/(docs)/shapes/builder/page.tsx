@@ -3,7 +3,6 @@
 import { useMemo, useRef, useState } from "react";
 import { Check, Copy, Download, Palette, RotateCcw } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
   Popover,
@@ -35,8 +34,8 @@ const DEFAULT_WIDTH = 256;
 const DEFAULT_HEIGHT = 256;
 const DEFAULT_POWER = 5;
 
-const MIN_DIM = 24;
-const MAX_DIM = 2048;
+const MIN_DIM = 1;
+const MAX_DIM = 2000;
 const MIN_POWER = 0.3;
 const MAX_POWER = 20;
 const POWER_STEP = 0.1;
@@ -55,6 +54,8 @@ const PRESETS = [
 export default function SuperellipseBuilderPage() {
   const [width, setWidth] = useState(DEFAULT_WIDTH);
   const [height, setHeight] = useState(DEFAULT_HEIGHT);
+  const [widthRaw, setWidthRaw] = useState(String(DEFAULT_WIDTH));
+  const [heightRaw, setHeightRaw] = useState(String(DEFAULT_HEIGHT));
   const [power, setPower] = useState(DEFAULT_POWER);
   const [color, setColor] = useState(DEFAULT_COLOR);
   const [customHex, setCustomHex] = useState(DEFAULT_COLOR);
@@ -78,11 +79,19 @@ export default function SuperellipseBuilderPage() {
 
   /* Handlers */
   const handleDimension = (axis: "width" | "height", raw: string) => {
+    if (axis === "width") setWidthRaw(raw);
+    else setHeightRaw(raw);
     const n = parseInt(raw, 10);
-    if (isNaN(n)) return;
-    const clamped = Math.max(MIN_DIM, Math.min(MAX_DIM, n));
+    if (!isFinite(n) || n < MIN_DIM) return;
+    const clamped = Math.min(MAX_DIM, n);
     if (axis === "width") setWidth(clamped);
     else setHeight(clamped);
+  };
+
+  const handleDimensionBlur = (axis: "width" | "height") => {
+    const clamped = Math.max(MIN_DIM, Math.min(MAX_DIM, axis === "width" ? width : height));
+    if (axis === "width") { setWidth(clamped); setWidthRaw(String(clamped)); }
+    else { setHeight(clamped); setHeightRaw(String(clamped)); }
   };
 
   const handlePower = (raw: string) => {
@@ -109,12 +118,16 @@ export default function SuperellipseBuilderPage() {
   const handlePreset = (p: (typeof PRESETS)[number]) => {
     setWidth(p.width);
     setHeight(p.height);
+    setWidthRaw(String(p.width));
+    setHeightRaw(String(p.height));
     setPower(p.power);
   };
 
   const handleReset = () => {
     setWidth(DEFAULT_WIDTH);
     setHeight(DEFAULT_HEIGHT);
+    setWidthRaw(String(DEFAULT_WIDTH));
+    setHeightRaw(String(DEFAULT_HEIGHT));
     setPower(DEFAULT_POWER);
     setColor(DEFAULT_COLOR);
     setCustomHex(DEFAULT_COLOR);
@@ -203,22 +216,21 @@ export default function SuperellipseBuilderPage() {
               Dimensions
             </span>
             <div className="flex items-center gap-3">
-              <div className="flex flex-1 items-center gap-1.5">
+              <div className="flex items-center gap-1.5">
                 <label
                   htmlFor="se-width"
                   className="text-xs text-muted-foreground"
                 >
                   W
                 </label>
-                <div className="flex items-center gap-1 rounded-lg border border-[var(--years-purple-200)] bg-[var(--years-purple-50)] p-1">
+                <div className="flex items-center gap-1 rounded-[10px] border border-[var(--years-purple-200)] bg-[var(--years-purple-50)] px-[5px] py-px">
                   <Input
                     id="se-width"
-                    type="number"
-                    min={MIN_DIM}
-                    max={MAX_DIM}
-                    step={1}
-                    value={width}
+                    type="text"
+                    inputMode="numeric"
+                    value={widthRaw}
                     onChange={(e) => handleDimension("width", e.target.value)}
+                    onBlur={() => handleDimensionBlur("width")}
                     className="h-7 w-20 border-0 bg-transparent text-center text-sm font-semibold shadow-none focus-visible:ring-0"
                   />
                   <span className="pr-1 text-xs text-muted-foreground">
@@ -229,22 +241,21 @@ export default function SuperellipseBuilderPage() {
 
               <span className="text-xs text-muted-foreground">&times;</span>
 
-              <div className="flex flex-1 items-center gap-1.5">
+              <div className="flex items-center gap-1.5">
                 <label
                   htmlFor="se-height"
                   className="text-xs text-muted-foreground"
                 >
                   H
                 </label>
-                <div className="flex items-center gap-1 rounded-lg border border-[var(--years-purple-200)] bg-[var(--years-purple-50)] p-1">
+                <div className="flex items-center gap-1 rounded-[10px] border border-[var(--years-purple-200)] bg-[var(--years-purple-50)] px-[5px] py-px">
                   <Input
                     id="se-height"
-                    type="number"
-                    min={MIN_DIM}
-                    max={MAX_DIM}
-                    step={1}
-                    value={height}
+                    type="text"
+                    inputMode="numeric"
+                    value={heightRaw}
                     onChange={(e) => handleDimension("height", e.target.value)}
+                    onBlur={() => handleDimensionBlur("height")}
                     className="h-7 w-20 border-0 bg-transparent text-center text-sm font-semibold shadow-none focus-visible:ring-0"
                   />
                   <span className="pr-1 text-xs text-muted-foreground">
@@ -370,24 +381,28 @@ export default function SuperellipseBuilderPage() {
           {/* Actions */}
           <div className="flex flex-col gap-3 border-t border-[var(--years-purple-200)] pt-4">
             <div className="flex gap-2">
-              <Button onClick={handleDownloadSvg} className="flex-1">
+              <button
+                type="button"
+                onClick={handleDownloadSvg}
+                className="flex h-9 flex-1 cursor-pointer items-center justify-center gap-2 rounded-[8px] border border-[var(--years-purple-200)] bg-[var(--years-purple-100)] text-sm font-medium text-[var(--years-purple-700)] transition-colors hover:bg-[var(--years-purple-200)]"
+              >
                 <Download className="size-4" />
                 SVG
-              </Button>
-              <Button
+              </button>
+              <button
+                type="button"
                 onClick={handleDownloadPng}
-                variant="secondary"
-                className="flex-1"
+                className="flex h-9 flex-1 cursor-pointer items-center justify-center gap-2 rounded-[8px] border border-[var(--years-purple-200)] bg-[var(--years-purple-100)] text-sm font-medium text-[var(--years-purple-700)] transition-colors hover:bg-[var(--years-purple-200)]"
               >
                 <Download className="size-4" />
                 PNG
-              </Button>
+              </button>
             </div>
 
-            <Button
+            <button
+              type="button"
               onClick={handleCopyClipPath}
-              variant="secondary"
-              className="w-full"
+              className="flex h-9 w-full cursor-pointer items-center justify-center gap-2 rounded-[8px] border border-[var(--years-purple-200)] bg-[var(--years-purple-100)] text-sm font-medium text-[var(--years-purple-700)] transition-colors hover:bg-[var(--years-purple-200)]"
             >
               {copied === "clip-path" ? (
                 <Check className="size-4" />
@@ -395,12 +410,12 @@ export default function SuperellipseBuilderPage() {
                 <Copy className="size-4" />
               )}
               {copied === "clip-path" ? "Copied!" : "Copy CSS clip-path"}
-            </Button>
+            </button>
 
             <button
               type="button"
               onClick={handleReset}
-              className="flex cursor-pointer items-center justify-center gap-2 rounded-lg border border-[var(--years-purple-200)] bg-[var(--years-purple-100)] px-4 py-2.5 text-sm text-[var(--years-gray-600)] transition-colors hover:bg-[var(--years-purple-200)] hover:text-[var(--years-gray-900)]"
+              className="flex h-[42px] w-full cursor-pointer items-center justify-center gap-2 rounded-[10px] border border-[var(--years-purple-100)] bg-[var(--years-purple-50)] text-sm text-[var(--years-purple-600)] transition-colors hover:bg-[var(--years-purple-100)] hover:text-[var(--years-purple-700)]"
             >
               <RotateCcw className="size-3.5" />
               Reset
