@@ -19,6 +19,8 @@ const packageDir = path.join(rootDir, "packages", "icons");
 const distDir = path.join(packageDir, "dist");
 const packageIconsDir = path.join(distDir, "icons");
 const publicIconsDir = path.join(rootDir, "public", "icons");
+const getVersionedPublicIconsDir = (version) =>
+  path.join(publicIconsDir, `v${version}`);
 
 const toKebab = (name) =>
   name
@@ -123,15 +125,18 @@ const build = async () => {
   const upstreamManifest = JSON.parse(
     await fs.readFile(upstreamManifestPath, "utf8")
   );
+  const manifestVersion = upstreamPackage.version;
+  const versionedPublicIconsDir = getVersionedPublicIconsDir(manifestVersion);
 
   await fs.rm(distDir, { recursive: true, force: true });
   await fs.rm(publicIconsDir, { recursive: true, force: true });
   await ensureDir(distDir);
   await ensureDir(packageIconsDir);
   await ensureDir(publicIconsDir);
+  await ensureDir(versionedPublicIconsDir);
 
   const manifest = {
-    version: upstreamManifest.version ?? upstreamPackage.version,
+    version: manifestVersion,
     generatedAt: new Date().toISOString(),
     weights: [],
     icons: [],
@@ -162,6 +167,7 @@ const build = async () => {
 
       await copySvg(sourceSvgPath, packageIconsDir, weightSlug, id);
       await copySvg(sourceSvgPath, publicIconsDir, weightSlug, id);
+      await copySvg(sourceSvgPath, versionedPublicIconsDir, weightSlug, id);
 
       if (!iconWeights.includes(weightSlug)) {
         iconWeights.push(weightSlug);
@@ -194,11 +200,16 @@ const build = async () => {
     JSON.stringify(manifest, null, 2),
     "utf8"
   );
+  await fs.writeFile(
+    path.join(versionedPublicIconsDir, "manifest.json"),
+    JSON.stringify(manifest, null, 2),
+    "utf8"
+  );
 
   await writeModules(manifest);
 
   console.log(
-    `Synced ${manifest.icons.length} icons from @moreyears/icons@${upstreamPackage.version}`
+    `Synced ${manifest.icons.length} icons from @moreyears/icons@${upstreamPackage.version} (legacy + /icons/v${manifestVersion})`
   );
 };
 

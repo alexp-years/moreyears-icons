@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "generatedAt": "2026-02-22T05:23:28.466Z",
+  "version": "1.0.4",
+  "generatedAt": "2026-02-22T06:08:04.957Z",
   "weights": [
     "linear",
     "bold",
@@ -1016,7 +1016,12 @@
       "sourceName": "school/backpack",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -1997,7 +2002,12 @@
       "sourceName": "school/book",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -2007,7 +2017,12 @@
       "sourceName": "school/book-2",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -2017,7 +2032,12 @@
       "sourceName": "school/book-bookmark",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -2027,7 +2047,12 @@
       "sourceName": "school/book-bookmark-minimalistic",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -2037,7 +2062,12 @@
       "sourceName": "school/book-minimalistic",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -2047,7 +2077,12 @@
       "sourceName": "school/bookmark",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -2057,7 +2092,12 @@
       "sourceName": "school/bookmark-circle",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -2067,7 +2107,12 @@
       "sourceName": "school/bookmark-opened",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -2077,7 +2122,12 @@
       "sourceName": "school/bookmark-square",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -2087,7 +2137,12 @@
       "sourceName": "school/bookmark-square-minimalistic",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -2329,7 +2384,12 @@
       "sourceName": "school/calculator",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -2339,7 +2399,12 @@
       "sourceName": "school/calculator-minimalistic",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -2945,7 +3010,12 @@
       "sourceName": "school/case",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -2955,7 +3025,12 @@
       "sourceName": "school/case-minimalistic",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -2965,7 +3040,12 @@
       "sourceName": "school/case-round",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -2975,7 +3055,12 @@
       "sourceName": "school/case-round-minimalistic",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -5008,7 +5093,12 @@
       "sourceName": "school/diploma",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -5018,7 +5108,12 @@
       "sourceName": "school/diploma-verified",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -5088,7 +5183,12 @@
       "sourceName": "school/document",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -10672,7 +10772,12 @@
       "sourceName": "school/notebook",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -10697,7 +10802,12 @@
       "sourceName": "school/notebook-bookmark",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -10707,7 +10817,12 @@
       "sourceName": "school/notebook-minimalistic",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -10717,7 +10832,12 @@
       "sourceName": "school/notebook-square",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -11057,7 +11177,12 @@
       "sourceName": "school/passport",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -11067,7 +11192,12 @@
       "sourceName": "school/passport-minimalistic",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -11815,7 +11945,12 @@
       "sourceName": "school/plus-minus",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -15156,7 +15291,12 @@
       "sourceName": "school/square-academic-cap",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },
@@ -15166,7 +15306,12 @@
       "sourceName": "school/square-academic-cap-2",
       "category": "School",
       "weights": [
-        "linear"
+        "linear",
+        "bold",
+        "bold-duotone",
+        "outline",
+        "line-duotone",
+        "broken"
       ],
       "tags": []
     },

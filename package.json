@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "build:poc": "npm run icons:build && npm run build -- --webpack",
+    "build": "npm run icons:build && npm run icons:verify && next build --webpack",
+    "build:poc": "npm run build",
     "start": "next start",
     "lint": "eslint",
     "icons:build": "node scripts/build-icons.mjs",
+    "icons:verify": "node scripts/verify-icons.mjs",
     "icons:pack": "npm run icons:build && npm pack ./packages/icons"
   },
   "dependencies": {

@@ -5,64 +5,86 @@ Documentation site and CDN for the More Years design system, built with Next.js 
 ## Scope
 
 - Public app routes: `/`, `/icons`
-- Static CDN assets: `/icons/<weight>/<id>.svg`, `/icons/manifest.json`
+- Static CDN assets (recommended): `/icons/v<version>/<weight>/<id>.svg`
+- Static CDN assets (legacy, supported): `/icons/<weight>/<id>.svg`
+- Manifest endpoints:
+  - `/icons/manifest.json`
+  - `/icons/v<version>/manifest.json`
 - Package output: `packages/icons/dist`
 
 ---
 
 ## Icons / NPM Package Management
 
-The site displays icons sourced from the `@moreyears/icons` npm package. Icons are served as static SVG files from `public/icons/` — they are **not** bundled at build time. Whenever the npm package is updated, the package lock must be updated **and** the static SVG assets must be re-synced and committed.
+The site displays icons sourced from the published `@moreyears/icons` npm package. SVG assets are generated into `public/icons/` and committed to this repo.
 
-### How it works
+### Authoritative build flow
+
+`npm run build` is the production-safe, authoritative command. It now runs:
+
+1. `npm run icons:build`
+2. `npm run icons:verify`
+3. `next build --webpack`
+
+This guarantees icon sync + validation before every production build.
+
+### How icon sync works
 
 ```
 @moreyears/icons (npm)
         │
         ▼
-npm run icons:build        ← copies SVGs + generates manifest
+npm run icons:build
         │
-        ├── public/icons/  ← served as static files by Vercel
+        ├── public/icons/<weight>/<id>.svg            (legacy)
+        ├── public/icons/v<version>/<weight>/<id>.svg (versioned)
+        ├── public/icons/manifest.json
+        ├── public/icons/v<version>/manifest.json
         └── packages/icons/dist/
 ```
 
-`public/icons/` is committed to the repo. Vercel's build command (`next build`) does not run `icons:build`, so the static files must be synced and committed locally before pushing.
+Versioned URLs are preferred for clients to avoid stale CDN misses during icon updates. Legacy URLs remain supported for backward compatibility.
 
 ### Updating the icons package
 
-Run these commands in order whenever a new version of `@moreyears/icons` is published:
+Run these commands when a new `@moreyears/icons` version is published:
 
 ```bash
-# 1. Update the package lock to the latest version
+# 1. Update lockfile/package install target
 npm update @moreyears/icons
 
-# 2. Sync SVG assets and manifest from the updated package
-npm run icons:build
+# 2. Run the authoritative build (sync + verify + Next build)
+npm run build
 
-# 3. Commit everything together
+# 3. Commit generated assets and lockfile
 git add package-lock.json public/icons packages/icons
 git commit -m "update @moreyears/icons to x.x.x"
 
-# 4. Push — Vercel will auto-deploy
+# 4. Push for Vercel deploy
 git push
 ```
 
-> **Important:** Wait a minute or two after publishing to npm before running `npm update`. npm can take time to propagate a new version, and Vercel's build will fail with a 404 if it tries to install a version that hasn't fully propagated yet.
+> Important: npm propagation can lag briefly after publish. If a new version is not yet resolvable, wait a minute and rerun.
 
 ### Scripts
 
 | Script | Description |
 |---|---|
-| `npm run icons:build` | Syncs SVGs and manifest from `@moreyears/icons` into `public/icons/` and `packages/icons/dist/` |
-| `npm run icons:pack` | Runs `icons:build` then packs `packages/icons` as a local `.tgz` |
+| `npm run build` | Authoritative build: sync icons, verify output integrity, run `next build --webpack` |
+| `npm run icons:build` | Sync SVGs/manifests from `@moreyears/icons` into `public/icons` and `packages/icons/dist` |
+| `npm run icons:verify` | Validate canonical weights and required files in both legacy and versioned icon trees |
+| `npm run icons:pack` | Run `icons:build` then pack `packages/icons` as a local `.tgz` |
 
 ### Troubleshooting
 
-**Icons updated on npm but not reflecting on the site**
-The most common cause is forgetting to run `npm run icons:build` and commit the result. The Vercel build only runs `next build` — it never re-syncs the static assets. Always run `icons:build` and commit `public/icons/` alongside the package update.
+**Only one weight appears in the icon browser**
+- Run `npm run icons:build` and `npm run icons:verify`.
+- Confirm `public/icons/manifest.json` includes all canonical weights.
+- Confirm `public/icons/v<version>/manifest.json` exists and matches icon count.
 
-**Vercel build fails with a 404 on the package**
-The npm version hasn't fully propagated yet. Wait a minute and trigger a fresh redeploy from the Vercel dashboard — leave "Use existing build cache" unchecked.
+**Icons are stale after deploy**
+- Prefer versioned URLs (`/icons/v<version>/...`) to avoid stale misses.
+- Legacy `/icons/<weight>/<id>.svg` endpoints are intentionally cached for a shorter TTL, not immutable.
 
 ---
 
@@ -71,6 +93,7 @@ The npm version hasn't fully propagated yet. Wait a minute and trigger a fresh r
 ```bash
 npm install
 npm run icons:build
+npm run icons:verify
 npm run dev
 ```
 
@@ -78,7 +101,7 @@ npm run dev
 
 Build command:
 ```bash
-next build
+npm run build
 ```
 
 Environment variable:

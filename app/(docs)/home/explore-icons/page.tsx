@@ -21,6 +21,10 @@ async function getManifest() {
 export default async function ExploreIconsPage() {
   const manifest = await getManifest();
   const baseUrl = process.env.NEXT_PUBLIC_ICON_CDN_BASE ?? "";
+  const prefix =
+    manifest && typeof manifest.version === "string" && manifest.version.trim()
+      ? `/icons/v${manifest.version.trim()}`
+      : "/icons";
 
   return (
     <div className="space-y-6">
@@ -34,7 +38,7 @@ export default async function ExploreIconsPage() {
       </div>
 
       {manifest ? (
-        <IconGrid manifest={manifest} baseUrl={baseUrl} />
+        <IconGrid manifest={manifest} baseUrl={baseUrl} prefix={prefix} />
       ) : (
         <Card className="border-border/60">
           <CardContent className="py-6 text-sm text-muted-foreground">
