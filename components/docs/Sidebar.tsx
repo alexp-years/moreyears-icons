@@ -11,6 +11,7 @@ import {
   CircleHelp,
   Home,
   Shapes,
+  Dog,
 } from "lucide-react";
 import { docsNav } from "@/lib/docs-nav";
 import { cn } from "@/lib/utils";
@@ -32,7 +33,7 @@ import {
 } from "@/components/ui/sidebar";
 
 const sectionIcons = {
-  home: Home,
+  home: Dog,
   shapes: Shapes,
   help: CircleHelp,
 };
@@ -132,6 +133,8 @@ export function Sidebar() {
                             "flex-1 rounded-lg px-2.5 py-2",
                             topLevelActive
                               ? "text-[var(--years-yellow-500)]"
+                              : hasActiveChild
+                              ? "text-[var(--years-purple-400)]"
                               : "text-sidebar-foreground"
                           )}
                         >
@@ -139,8 +142,10 @@ export function Sidebar() {
                             <Icon
                               className={cn(
                                 "size-4",
-                                active
+                                topLevelActive
                                   ? "text-[var(--years-yellow-500)]"
+                                  : hasActiveChild
+                                  ? "text-[var(--years-purple-400)]"
                                   : "text-sidebar-foreground/78"
                               )}
                             />
@@ -153,7 +158,7 @@ export function Sidebar() {
                           isActive={false}
                           className={cn(
                             "justify-between rounded-lg px-2.5 py-2",
-                            active ? "text-sidebar-foreground" : "text-sidebar-foreground/92"
+                            hasActiveChild ? "text-[var(--years-purple-400)]" : active ? "text-sidebar-foreground" : "text-sidebar-foreground/92"
                           )}
                           onClick={() =>
                             setOpenSections((previous) => ({
@@ -163,7 +168,7 @@ export function Sidebar() {
                           }
                         >
                           <span className="flex items-center gap-2">
-                            <Icon className="size-4 text-sidebar-foreground/78" />
+                            <Icon className={cn("size-4", hasActiveChild ? "text-[var(--years-purple-400)]" : "text-sidebar-foreground/78")} />
                             <span>{section.title}</span>
                           </span>
                           {hasChildren ? (
@@ -210,7 +215,7 @@ export function Sidebar() {
                                 className={cn(
                                   "rounded-md px-2 py-1.5",
                                   childActive
-                                    ? "text-sidebar-foreground"
+                                    ? "text-[var(--years-yellow-500)]"
                                     : "text-sidebar-foreground/78"
                                 )}
                               >
