@@ -75,15 +75,11 @@ export async function downloadSvgFile(svg: string, filename: string) {
   URL.revokeObjectURL(objectUrl);
 }
 
-export async function downloadPngFile(
-  svg: string,
-  filename: string,
-  size = 512
-) {
+export async function svgToPngBlob(svg: string, size = 512): Promise<Blob> {
   const encoded = encodeURIComponent(svg);
   const dataUrl = `data:image/svg+xml;charset=utf-8,${encoded}`;
 
-  await new Promise<void>((resolve, reject) => {
+  return new Promise<Blob>((resolve, reject) => {
     const img = new Image();
     img.onload = () => {
       const canvas = document.createElement("canvas");
@@ -104,21 +100,46 @@ export async function downloadPngFile(
           reject(new Error("PNG conversion failed"));
           return;
         }
-
-        const pngUrl = URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        a.href = pngUrl;
-        a.download = filename;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(pngUrl);
-        resolve();
+        resolve(blob);
       }, "image/png");
     };
     img.onerror = () => reject(new Error("Failed to load SVG as image"));
     img.src = dataUrl;
   });
+}
+
+export async function downloadPngFile(
+  svg: string,
+  filename: string,
+  size = 512
+) {
+  const blob = await svgToPngBlob(svg, size);
+  const pngUrl = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = pngUrl;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(pngUrl);
+}
+
+export async function copyPngToClipboard(
+  svg: string,
+  size = 512
+): Promise<boolean> {
+  try {
+    if (typeof ClipboardItem === "undefined" || !navigator.clipboard?.write) {
+      return false;
+    }
+    const blob = await svgToPngBlob(svg, size);
+    await navigator.clipboard.write([
+      new ClipboardItem({ "image/png": blob }),
+    ]);
+    return true;
+  } catch {
+    return false;
+  }
 }
 
 export function IconSvgPreview({

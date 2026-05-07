@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Script from "next/script";
+import { Toaster } from "sonner";
 import "./globals.css";
 
 const moreYears = localFont({
@@ -30,6 +31,8 @@ export default function RootLayout({
       <body className={`${moreYears.variable} min-h-full antialiased`}>
         <Script src="https://mcp.figma.com/mcp/html-to-design/capture.js" strategy="beforeInteractive" />
         {children}
+        <Toaster position="bottom-center" richColors closeButton />
+
       </body>
     </html>
   );

@@ -9,11 +9,13 @@ import {
 } from "react";
 import {
   ChevronDown,
+  Copy,
   Palette,
   RotateCcw,
   Search,
   X,
 } from "lucide-react";
+import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
@@ -31,7 +33,12 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import { IconDetailModal } from "@/components/docs/IconDetailModal";
-import { IconSvgPreview } from "@/components/docs/IconSvgPreview";
+import {
+  applySvgSettings,
+  copyPngToClipboard,
+  fetchRawSvg,
+  IconSvgPreview,
+} from "@/components/docs/IconSvgPreview";
 import { cn } from "@/lib/utils";
 import { getTileColors } from "@/lib/color-utils";
 
@@ -92,10 +99,21 @@ export function IconGrid({
   baseUrl = "",
   prefix = "/icons",
 }: IconGridProps) {
+  /* Display order: Outline first, Linear last; rest follow manifest order */
+  const orderedWeights = useMemo(() => {
+    const source = manifest.weights?.length
+      ? manifest.weights
+      : ["outline", "bold", "bold-duotone", "line-duotone", "broken", "linear"];
+    const middle = source.filter((w) => w !== "outline" && w !== "linear");
+    return [
+      ...(source.includes("outline") ? ["outline"] : []),
+      ...middle,
+      ...(source.includes("linear") ? ["linear"] : []),
+    ];
+  }, [manifest.weights]);
+
   /* State */
-  const [weight, setWeight] = useState<string>(
-    manifest.weights?.[0] ?? "linear"
-  );
+  const [weight, setWeight] = useState<string>(orderedWeights[0] ?? "outline");
   const [query, setQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [previewColor, setPreviewColor] = useState(DEFAULT_COLOR);
@@ -150,9 +168,7 @@ export function IconGrid({
   );
 
   const hasMore = visibleCount < filteredIcons.length;
-  const weights = manifest.weights?.length
-    ? manifest.weights
-    : ["linear", "bold", "bold-duotone", "outline", "line-duotone", "broken"];
+  const weights = orderedWeights;
   const fallbackWeights = weights;
 
   /* Reset visible count when filters change */
@@ -512,31 +528,16 @@ export function IconGrid({
               const url = getIconUrl(icon.id, resolvedWeight);
 
               return (
-                <button
+                <IconTile
                   key={`${icon.id}-${resolvedWeight}`}
-                  type="button"
-                  onClick={() => setSelectedIcon(icon)}
-                  title={icon.name}
-                  className="group aspect-square rounded-2xl border p-4 transition-all duration-200 hover:shadow-md hover:scale-[1.03] focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none cursor-pointer"
-                  style={{
-                    backgroundColor: tileColors.bg,
-                    borderColor: tileColors.border,
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.borderColor = tileColors.hoverBorder;
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.borderColor = tileColors.border;
-                  }}
-                >
-                  <IconSvgPreview
-                    url={url}
-                    color={previewColor}
-                    strokeWidth={strokeWidth}
-                    applyStrokeWidth={resolvedWeight === "linear"}
-                    className="transition-all duration-200"
-                  />
-                </button>
+                  icon={icon}
+                  resolvedWeight={resolvedWeight}
+                  url={url}
+                  previewColor={previewColor}
+                  strokeWidth={strokeWidth}
+                  tileColors={tileColors}
+                  onOpen={() => setSelectedIcon(icon)}
+                />
               );
             })}
           </div>
@@ -568,6 +569,113 @@ export function IconGrid({
         initialStrokeWidth={strokeWidth}
         getIconUrl={getIconUrl}
       />
+    </div>
+  );
+}
+
+/* ── Icon Tile ── */
+type IconTileProps = {
+  icon: IconMeta;
+  resolvedWeight: string;
+  url: string;
+  previewColor: string;
+  strokeWidth: number;
+  tileColors: ReturnType<typeof getTileColors>;
+  onOpen: () => void;
+};
+
+function IconTile({
+  icon,
+  resolvedWeight,
+  url,
+  previewColor,
+  strokeWidth,
+  tileColors,
+  onOpen,
+}: IconTileProps) {
+  const [copying, setCopying] = useState(false);
+
+  const handleCopy = useCallback(
+    async (e: React.MouseEvent | React.KeyboardEvent) => {
+      e.stopPropagation();
+      if (copying) return;
+      setCopying(true);
+      try {
+        const rawSvg = await fetchRawSvg(url);
+        const transformed = applySvgSettings(
+          rawSvg,
+          previewColor,
+          strokeWidth,
+          resolvedWeight === "linear",
+          512
+        );
+        const ok = await copyPngToClipboard(transformed, 512);
+        if (ok) {
+          toast.success(`Copied ${icon.name} to clipboard`);
+        } else {
+          toast.error("Couldn't copy to clipboard", {
+            description: "Your browser may not support PNG clipboard writes.",
+          });
+        }
+      } catch {
+        toast.error("Couldn't copy to clipboard");
+      } finally {
+        setCopying(false);
+      }
+    },
+    [copying, url, previewColor, strokeWidth, resolvedWeight, icon.name]
+  );
+
+  const handleTileKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
+    if (e.target !== e.currentTarget) return;
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      onOpen();
+    }
+  };
+
+  return (
+    <div
+      role="button"
+      tabIndex={0}
+      onClick={onOpen}
+      onKeyDown={handleTileKeyDown}
+      title={icon.name}
+      className="group relative aspect-square cursor-pointer rounded-2xl border p-4 transition-all duration-200 hover:scale-[1.03] hover:shadow-md focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none"
+      style={{
+        backgroundColor: tileColors.bg,
+        borderColor: tileColors.border,
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.borderColor = tileColors.hoverBorder;
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.borderColor = tileColors.border;
+      }}
+    >
+      <IconSvgPreview
+        url={url}
+        color={previewColor}
+        strokeWidth={strokeWidth}
+        applyStrokeWidth={resolvedWeight === "linear"}
+        className="transition-all duration-200"
+      />
+
+      <button
+        type="button"
+        onClick={handleCopy}
+        disabled={copying}
+        title="Copy as PNG"
+        className={cn(
+          "absolute bottom-2 left-1/2 -translate-x-1/2 inline-flex items-center gap-1 rounded-md border border-[var(--years-purple-200)] bg-white/95 px-2 py-1 text-[10px] font-medium text-[var(--years-gray-700)] shadow-sm transition-all duration-150 cursor-pointer",
+          "opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 focus-visible:opacity-100",
+          "hover:bg-white focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none",
+          "disabled:cursor-wait"
+        )}
+      >
+        <Copy className="size-3" />
+        {copying ? "Copying" : "Copy"}
+      </button>
     </div>
   );
 }
