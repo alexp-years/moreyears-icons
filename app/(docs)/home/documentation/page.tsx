@@ -1,3 +1,5 @@
+import { cn } from "@/lib/utils";
+
 type ReactPropRow = {
   prop: string;
   type: string;
@@ -131,39 +133,45 @@ function DocsCodeBlock({
   language: string;
 }) {
   return (
-    <div className="overflow-hidden rounded-lg border border-border/70 bg-muted/30">
-      <div className="border-b border-border/60 px-3 py-1.5 text-[11px] uppercase tracking-wide text-muted-foreground">
+    <div className="slice-card-tight overflow-hidden">
+      <div className="bg-[var(--slice-code-header-bg)] px-4 py-2 text-[10px] font-bold uppercase tracking-[0.18em] text-[var(--slice-code-header-fg)]">
         {language}
       </div>
-      <pre className="overflow-x-auto p-4 text-xs leading-relaxed text-foreground">
+      <pre className="overflow-x-auto px-4 py-4 text-xs leading-relaxed text-foreground">
         <code>{code}</code>
       </pre>
     </div>
   );
 }
 
+function SoftTable({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="slice-card-tight overflow-hidden">
+      <div className="overflow-x-auto">
+        <table className="min-w-full border-collapse text-sm">{children}</table>
+      </div>
+    </div>
+  );
+}
+
 export default function HomeDocumentationPage() {
   return (
-    <div className="flex flex-col gap-8">
-      <header className="border-b border-border/70 pb-8">
-        <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
-          Package documentation
-        </p>
-        <h1 className="mt-2 font-display text-[clamp(2.25rem,5vw,3.25rem)] leading-none text-foreground">
+    <div className="flex flex-col gap-10">
+      <header className="flex flex-col gap-4">
+        <p className="slice-eyebrow">Package documentation</p>
+        <h1 className="font-display text-[clamp(2.25rem,5vw,3.25rem)] leading-none text-foreground">
           Icons
         </h1>
-        <p className="mt-4 max-w-3xl text-base leading-relaxed text-muted-foreground">
+        <p className="max-w-3xl text-base leading-relaxed text-muted-foreground">
           The Years icon library is available as{" "}
-          <code className="rounded bg-muted px-1.5 py-0.5 text-xs text-foreground">
-            @moreyears/icons
-          </code>
+          <code className="slice-code-inline">@moreyears/icons</code>
           . It provides every icon in six weight variants, usable as React
           components or Web Components via CDN.
         </p>
       </header>
 
       <div className="grid gap-10 xl:grid-cols-[minmax(0,1fr)_260px]">
-        <article className="space-y-10">
+        <article className="slice-prose space-y-10">
           <section id="getting-started" className="scroll-mt-24 space-y-4">
             <h2 className="text-2xl font-semibold text-foreground">Getting started</h2>
             <p className="text-sm leading-7 text-muted-foreground">
@@ -211,34 +219,38 @@ function Notification() {
             />
 
             <h3 className="pt-2 text-base font-semibold text-foreground">Props</h3>
-            <div className="overflow-x-auto rounded-lg border border-border/70">
-              <table className="min-w-full border-collapse text-sm">
-                <thead className="bg-muted/40">
-                  <tr className="border-b border-border/70 text-left">
-                    <th className="px-3 py-2 font-medium text-foreground">Prop</th>
-                    <th className="px-3 py-2 font-medium text-foreground">Type</th>
-                    <th className="px-3 py-2 font-medium text-foreground">Default</th>
-                    <th className="px-3 py-2 font-medium text-foreground">Description</th>
+            <SoftTable>
+              <thead className="bg-[var(--slice-inset-bg)]">
+                <tr className="text-left">
+                  <th className="px-4 py-3 text-[10px] font-bold uppercase tracking-[0.14em] text-[var(--years-purple-700)]">Prop</th>
+                  <th className="px-4 py-3 text-[10px] font-bold uppercase tracking-[0.14em] text-[var(--years-purple-700)]">Type</th>
+                  <th className="px-4 py-3 text-[10px] font-bold uppercase tracking-[0.14em] text-[var(--years-purple-700)]">Default</th>
+                  <th className="px-4 py-3 text-[10px] font-bold uppercase tracking-[0.14em] text-[var(--years-purple-700)]">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                {reactProps.map((row, i) => (
+                  <tr
+                    key={row.prop}
+                    className={cn(
+                      "align-top",
+                      i % 2 === 1 && "bg-[var(--slice-inset-bg)]/60"
+                    )}
+                  >
+                    <td className="px-4 py-3 text-foreground">
+                      <code className="slice-code-inline">{row.prop}</code>
+                    </td>
+                    <td className="px-4 py-3 text-muted-foreground">{row.type}</td>
+                    <td className="px-4 py-3 text-muted-foreground">
+                      {row.defaultValue}
+                    </td>
+                    <td className="px-4 py-3 text-muted-foreground">
+                      {row.description}
+                    </td>
                   </tr>
-                </thead>
-                <tbody>
-                  {reactProps.map((row) => (
-                    <tr key={row.prop} className="border-b border-border/50 align-top">
-                      <td className="px-3 py-2 text-foreground">
-                        <code>{row.prop}</code>
-                      </td>
-                      <td className="px-3 py-2 text-muted-foreground">{row.type}</td>
-                      <td className="px-3 py-2 text-muted-foreground">
-                        {row.defaultValue}
-                      </td>
-                      <td className="px-3 py-2 text-muted-foreground">
-                        {row.description}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+                ))}
+              </tbody>
+            </SoftTable>
             <p className="text-sm leading-7 text-muted-foreground">
               Any additional props (for example <code>onClick</code>,{" "}
               <code>aria-hidden</code>, and <code>data-*</code>) are passed
@@ -270,30 +282,34 @@ function Notification() {
               every weight. If a requested weight is unavailable for a specific
               icon, the component returns <code>null</code>.
             </p>
-            <div className="overflow-x-auto rounded-lg border border-border/70">
-              <table className="min-w-full border-collapse text-sm">
-                <thead className="bg-muted/40">
-                  <tr className="border-b border-border/70 text-left">
-                    <th className="px-3 py-2 font-medium text-foreground">Weight</th>
-                    <th className="px-3 py-2 font-medium text-foreground">Slug</th>
-                    <th className="px-3 py-2 font-medium text-foreground">Description</th>
+            <SoftTable>
+              <thead className="bg-[var(--slice-inset-bg)]">
+                <tr className="text-left">
+                  <th className="px-4 py-3 text-[10px] font-bold uppercase tracking-[0.14em] text-[var(--years-purple-700)]">Weight</th>
+                  <th className="px-4 py-3 text-[10px] font-bold uppercase tracking-[0.14em] text-[var(--years-purple-700)]">Slug</th>
+                  <th className="px-4 py-3 text-[10px] font-bold uppercase tracking-[0.14em] text-[var(--years-purple-700)]">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                {weights.map((row, i) => (
+                  <tr
+                    key={row.slug}
+                    className={cn(
+                      "align-top",
+                      i % 2 === 1 && "bg-[var(--slice-inset-bg)]/60"
+                    )}
+                  >
+                    <td className="px-4 py-3 text-foreground">{row.weight}</td>
+                    <td className="px-4 py-3 text-muted-foreground">
+                      <code className="slice-code-inline">{row.slug}</code>
+                    </td>
+                    <td className="px-4 py-3 text-muted-foreground">
+                      {row.description}
+                    </td>
                   </tr>
-                </thead>
-                <tbody>
-                  {weights.map((row) => (
-                    <tr key={row.slug} className="border-b border-border/50 align-top">
-                      <td className="px-3 py-2 text-foreground">{row.weight}</td>
-                      <td className="px-3 py-2 text-muted-foreground">
-                        <code>{row.slug}</code>
-                      </td>
-                      <td className="px-3 py-2 text-muted-foreground">
-                        {row.description}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+                ))}
+              </tbody>
+            </SoftTable>
             <p className="text-sm leading-7 text-muted-foreground">
               Use <strong>linear</strong> for most UI contexts. Use{" "}
               <strong>bold</strong> for emphasis. Use <strong>outline</strong> at
@@ -327,35 +343,36 @@ function Notification() {
             <h3 className="pt-2 text-base font-semibold text-foreground">
               Attributes
             </h3>
-            <div className="overflow-x-auto rounded-lg border border-border/70">
-              <table className="min-w-full border-collapse text-sm">
-                <thead className="bg-muted/40">
-                  <tr className="border-b border-border/70 text-left">
-                    <th className="px-3 py-2 font-medium text-foreground">Attribute</th>
-                    <th className="px-3 py-2 font-medium text-foreground">Default</th>
-                    <th className="px-3 py-2 font-medium text-foreground">Description</th>
+            <SoftTable>
+              <thead className="bg-[var(--slice-inset-bg)]">
+                <tr className="text-left">
+                  <th className="px-4 py-3 text-[10px] font-bold uppercase tracking-[0.14em] text-[var(--years-purple-700)]">Attribute</th>
+                  <th className="px-4 py-3 text-[10px] font-bold uppercase tracking-[0.14em] text-[var(--years-purple-700)]">Default</th>
+                  <th className="px-4 py-3 text-[10px] font-bold uppercase tracking-[0.14em] text-[var(--years-purple-700)]">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                {webAttributes.map((row, i) => (
+                  <tr
+                    key={row.attribute}
+                    className={cn(
+                      "align-top",
+                      i % 2 === 1 && "bg-[var(--slice-inset-bg)]/60"
+                    )}
+                  >
+                    <td className="px-4 py-3 text-foreground">
+                      <code className="slice-code-inline">{row.attribute}</code>
+                    </td>
+                    <td className="px-4 py-3 text-muted-foreground">
+                      {row.defaultValue}
+                    </td>
+                    <td className="px-4 py-3 text-muted-foreground">
+                      {row.description}
+                    </td>
                   </tr>
-                </thead>
-                <tbody>
-                  {webAttributes.map((row) => (
-                    <tr
-                      key={row.attribute}
-                      className="border-b border-border/50 align-top"
-                    >
-                      <td className="px-3 py-2 text-foreground">
-                        <code>{row.attribute}</code>
-                      </td>
-                      <td className="px-3 py-2 text-muted-foreground">
-                        {row.defaultValue}
-                      </td>
-                      <td className="px-3 py-2 text-muted-foreground">
-                        {row.description}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+                ))}
+              </tbody>
+            </SoftTable>
             <p className="text-sm leading-7 text-muted-foreground">
               Note: Web Component attributes use kebab-case (for example{" "}
               <code>stroke-width</code>) rather than camelCase (
@@ -511,16 +528,14 @@ const weight: IconWeight = 'bold';
         </article>
 
         <aside className="hidden xl:block">
-          <div className="sticky top-20 rounded-lg border border-border/70 bg-background/70 p-4">
-            <p className="mb-3 text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
-              On this page
-            </p>
-            <nav className="space-y-1">
+          <div className="slice-card sticky top-20 p-5">
+            <p className="slice-eyebrow mb-3">On this page</p>
+            <nav className="space-y-0.5">
               {sections.map((section) => (
                 <a
                   key={section.id}
                   href={`#${section.id}`}
-                  className="block rounded px-2 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-muted/60 hover:text-foreground"
+                  className="block rounded-lg px-2.5 py-1.5 text-sm text-muted-foreground transition-colors duration-150 ease-out hover:bg-[var(--slice-inset-bg)] hover:text-foreground"
                 >
                   {section.label}
                 </a>

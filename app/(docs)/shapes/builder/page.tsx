@@ -2,7 +2,6 @@
 
 import { useMemo, useRef, useState } from "react";
 import { Check, Copy, Download, Palette, RotateCcw } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import {
   Popover,
@@ -159,50 +158,43 @@ export default function SuperellipseBuilderPage() {
   };
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col gap-10">
       {/* ── Hero ── */}
-      <section className="flex flex-col gap-2 border-b border-[var(--years-purple-300)] pb-8">
-        <div className="flex flex-col gap-2">
-          <h1 className="font-display text-[clamp(2.5rem,5vw,3rem)] leading-none text-foreground">
-            Superellipse Builder
-          </h1>
-          <p className="max-w-[58rem] text-[clamp(1.1rem,2vw,1.25rem)] leading-snug text-foreground">
-            Create custom superellipses by adjusting the power exponent,
-            dimensions, and color. Export as SVG, PNG, or copy the CSS
-            clip-path.
-          </p>
-        </div>
-        <div className="flex flex-wrap gap-2">
+      <section className="flex flex-col gap-4">
+        <p className="slice-eyebrow">Shapes</p>
+        <h1 className="font-display text-[clamp(2.5rem,5vw,3.25rem)] leading-none text-foreground">
+          Superellipse Builder
+        </h1>
+        <p className="max-w-[58rem] text-[clamp(1.05rem,1.6vw,1.2rem)] leading-snug text-muted-foreground">
+          Create custom superellipses by adjusting the power exponent,
+          dimensions, and color. Export as SVG, PNG, or copy the CSS
+          clip-path.
+        </p>
+        <div className="flex flex-wrap gap-2 pt-1">
           {["Interactive tool", "Export ready", "CSS clip-path"].map(
             (label) => (
-              <Badge
-                key={label}
-                className="rounded-full border-[var(--years-gray-200)] bg-[var(--years-gray-100)] px-3 py-1 text-sm font-normal text-[var(--years-gray-700)]"
-                variant="secondary"
-              >
+              <span key={label} className="slice-chip">
                 {label}
-              </Badge>
+              </span>
             )
           )}
         </div>
       </section>
 
       {/* ── Builder ── */}
-      <section className="flex flex-col gap-8 pt-8 lg:flex-row">
+      <section className="flex flex-col gap-6 lg:flex-row">
         {/* Controls */}
-        <div className="flex flex-col gap-6 lg:w-[340px] lg:shrink-0">
+        <div className="slice-card flex flex-col gap-6 p-6 lg:w-[360px] lg:shrink-0">
           {/* Presets */}
-          <div className="flex flex-col gap-2">
-            <span className="text-sm font-semibold text-foreground">
-              Presets
-            </span>
+          <div className="flex flex-col gap-2.5">
+            <p className="slice-eyebrow">Presets</p>
             <div className="flex flex-wrap gap-2">
               {PRESETS.map((p) => (
                 <button
                   key={p.label}
                   type="button"
                   onClick={() => handlePreset(p)}
-                  className="cursor-pointer rounded-lg border border-[var(--years-purple-200)] bg-[var(--years-purple-100)] px-3 py-1.5 text-sm text-[var(--years-purple-800)] transition-colors hover:bg-[var(--years-purple-200)]"
+                  className="slice-input cursor-pointer px-3 py-1.5 text-sm font-medium text-[var(--years-purple-800)]"
                 >
                   {p.label}
                 </button>
@@ -211,19 +203,17 @@ export default function SuperellipseBuilderPage() {
           </div>
 
           {/* Dimensions */}
-          <div className="flex flex-col gap-2">
-            <span className="text-sm font-semibold text-foreground">
-              Dimensions
-            </span>
+          <div className="flex flex-col gap-2.5">
+            <p className="slice-eyebrow">Dimensions</p>
             <div className="flex items-center gap-3">
               <div className="flex items-center gap-1.5">
                 <label
                   htmlFor="se-width"
-                  className="text-xs text-muted-foreground"
+                  className="text-xs font-semibold text-muted-foreground"
                 >
                   W
                 </label>
-                <div className="flex items-center gap-1 rounded-[10px] border border-[var(--years-purple-200)] bg-[var(--years-purple-50)] px-[5px] py-px">
+                <div className="slice-input flex items-center gap-1 px-1.5 py-0.5">
                   <Input
                     id="se-width"
                     type="text"
@@ -233,9 +223,7 @@ export default function SuperellipseBuilderPage() {
                     onBlur={() => handleDimensionBlur("width")}
                     className="h-7 w-20 border-0 bg-transparent text-center text-sm font-semibold shadow-none focus-visible:ring-0"
                   />
-                  <span className="pr-1 text-xs text-muted-foreground">
-                    px
-                  </span>
+                  <span className="pr-1 text-xs text-muted-foreground">px</span>
                 </div>
               </div>
 
@@ -244,11 +232,11 @@ export default function SuperellipseBuilderPage() {
               <div className="flex items-center gap-1.5">
                 <label
                   htmlFor="se-height"
-                  className="text-xs text-muted-foreground"
+                  className="text-xs font-semibold text-muted-foreground"
                 >
                   H
                 </label>
-                <div className="flex items-center gap-1 rounded-[10px] border border-[var(--years-purple-200)] bg-[var(--years-purple-50)] px-[5px] py-px">
+                <div className="slice-input flex items-center gap-1 px-1.5 py-0.5">
                   <Input
                     id="se-height"
                     type="text"
@@ -258,19 +246,15 @@ export default function SuperellipseBuilderPage() {
                     onBlur={() => handleDimensionBlur("height")}
                     className="h-7 w-20 border-0 bg-transparent text-center text-sm font-semibold shadow-none focus-visible:ring-0"
                   />
-                  <span className="pr-1 text-xs text-muted-foreground">
-                    px
-                  </span>
+                  <span className="pr-1 text-xs text-muted-foreground">px</span>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Power (N) */}
-          <div className="flex flex-col gap-2">
-            <span className="text-sm font-semibold text-foreground">
-              Power (N)
-            </span>
+          <div className="flex flex-col gap-2.5">
+            <p className="slice-eyebrow">Power (N)</p>
             <div className="flex items-center gap-3">
               <input
                 type="range"
@@ -279,9 +263,9 @@ export default function SuperellipseBuilderPage() {
                 step={POWER_STEP}
                 value={power}
                 onChange={(e) => handlePower(e.target.value)}
-                className="h-2 flex-1 cursor-pointer appearance-none rounded-full bg-[var(--years-purple-200)] accent-[var(--years-purple-600)]"
+                className="h-2 flex-1 cursor-pointer appearance-none rounded-full bg-[var(--slice-input-bg)] accent-[var(--years-purple-600)]"
               />
-              <div className="flex items-center gap-1 rounded-lg border border-[var(--years-purple-200)] bg-[var(--years-purple-50)] p-1">
+              <div className="slice-input flex items-center gap-1 px-1.5 py-0.5">
                 <Input
                   type="number"
                   min={MIN_POWER}
@@ -299,8 +283,8 @@ export default function SuperellipseBuilderPage() {
           </div>
 
           {/* Color */}
-          <div className="flex flex-col gap-2">
-            <span className="text-sm font-semibold text-foreground">Color</span>
+          <div className="flex flex-col gap-2.5">
+            <p className="slice-eyebrow">Color</p>
             <div className="flex items-center gap-2">
               {PRESET_COLORS.map((c) => (
                 <button
@@ -312,7 +296,7 @@ export default function SuperellipseBuilderPage() {
                     "size-8 cursor-pointer rounded-full border-2 p-[2px] transition-all hover:scale-110",
                     color === c.value
                       ? "border-[var(--years-purple-500)] border-dashed"
-                      : "border-[var(--years-purple-200)]"
+                      : "border-white"
                   )}
                 >
                   <div
@@ -335,7 +319,7 @@ export default function SuperellipseBuilderPage() {
                       "size-8 cursor-pointer rounded-full border-2 p-[2px] transition-all hover:scale-110 flex items-center justify-center",
                       !isPresetColor
                         ? "border-[var(--years-purple-500)] border-dashed"
-                        : "border-[var(--years-purple-200)]"
+                        : "border-white"
                     )}
                   >
                     {!isPresetColor ? (
@@ -356,7 +340,7 @@ export default function SuperellipseBuilderPage() {
                     <button
                       type="button"
                       onClick={() => colorInputRef.current?.click()}
-                      className="size-9 shrink-0 cursor-pointer overflow-hidden rounded-lg border border-border transition-colors hover:border-foreground"
+                      className="size-9 shrink-0 cursor-pointer overflow-hidden rounded-lg slice-input"
                       style={{ backgroundColor: color }}
                     />
                     <input
@@ -379,12 +363,12 @@ export default function SuperellipseBuilderPage() {
           </div>
 
           {/* Actions */}
-          <div className="flex flex-col gap-3 border-t border-[var(--years-purple-200)] pt-4">
+          <div className="flex flex-col gap-3 pt-2">
             <div className="flex gap-2">
               <button
                 type="button"
                 onClick={handleDownloadSvg}
-                className="flex h-9 flex-1 cursor-pointer items-center justify-center gap-2 rounded-[8px] border border-[var(--years-purple-200)] bg-[var(--years-purple-100)] text-sm font-medium text-[var(--years-purple-700)] transition-colors hover:bg-[var(--years-purple-200)]"
+                className="flex h-10 flex-1 cursor-pointer items-center justify-center gap-2 rounded-full bg-[var(--years-yellow-300)] text-sm font-semibold text-[var(--years-purple-950)] transition-all duration-200 hover:bg-[var(--years-yellow-400)] hover:shadow-[var(--slice-card-shadow)]"
               >
                 <Download className="size-4" />
                 SVG
@@ -392,7 +376,7 @@ export default function SuperellipseBuilderPage() {
               <button
                 type="button"
                 onClick={handleDownloadPng}
-                className="flex h-9 flex-1 cursor-pointer items-center justify-center gap-2 rounded-[8px] border border-[var(--years-purple-200)] bg-[var(--years-purple-100)] text-sm font-medium text-[var(--years-purple-700)] transition-colors hover:bg-[var(--years-purple-200)]"
+                className="flex h-10 flex-1 cursor-pointer items-center justify-center gap-2 rounded-full bg-[var(--years-yellow-300)] text-sm font-semibold text-[var(--years-purple-950)] transition-all duration-200 hover:bg-[var(--years-yellow-400)] hover:shadow-[var(--slice-card-shadow)]"
               >
                 <Download className="size-4" />
                 PNG
@@ -402,7 +386,7 @@ export default function SuperellipseBuilderPage() {
             <button
               type="button"
               onClick={handleCopyClipPath}
-              className="flex h-9 w-full cursor-pointer items-center justify-center gap-2 rounded-[8px] border border-[var(--years-purple-200)] bg-[var(--years-purple-100)] text-sm font-medium text-[var(--years-purple-700)] transition-colors hover:bg-[var(--years-purple-200)]"
+              className="slice-input flex h-10 w-full cursor-pointer items-center justify-center gap-2 text-sm font-medium text-[var(--years-purple-800)]"
             >
               {copied === "clip-path" ? (
                 <Check className="size-4" />
@@ -415,18 +399,18 @@ export default function SuperellipseBuilderPage() {
             <button
               type="button"
               onClick={handleReset}
-              className="flex h-[42px] w-full cursor-pointer items-center justify-center gap-2 rounded-[10px] border border-[var(--years-purple-100)] bg-[var(--years-purple-50)] text-sm text-[var(--years-purple-600)] transition-colors hover:bg-[var(--years-purple-100)] hover:text-[var(--years-purple-700)]"
+              className="flex h-9 w-full cursor-pointer items-center justify-center gap-1.5 rounded-full text-xs font-semibold text-muted-foreground transition-colors duration-150 ease-out hover:text-foreground"
             >
-              <RotateCcw className="size-3.5" />
+              <RotateCcw className="size-3" />
               Reset
             </button>
           </div>
         </div>
 
         {/* Preview */}
-        <div className="flex flex-1 flex-col items-center gap-4">
+        <div className="slice-card flex flex-1 flex-col items-center justify-center gap-4 p-8">
           <div
-            className="flex items-center justify-center rounded-2xl border-2 border-dashed border-[var(--years-purple-300)] bg-[var(--years-purple-50)]"
+            className="flex items-center justify-center rounded-3xl bg-[var(--slice-inset-bg)]"
             style={{
               width: `${PREVIEW_CONTAINER}px`,
               height: `${PREVIEW_CONTAINER}px`,

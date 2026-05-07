@@ -16,9 +16,17 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import { Separator } from "@/components/ui/separator";
 import {
   Check,
+  ChevronDown,
   Copy,
   Palette,
   RotateCcw,
@@ -379,17 +387,32 @@ export function IconDetailModal({
                 <span className="text-xs font-medium text-muted-foreground">
                   Weight
                 </span>
-                <select
-                  value={localWeight}
-                  onChange={(e) => setLocalWeight(e.target.value)}
-                  className="h-8 cursor-pointer rounded-md border border-input bg-transparent px-2 text-xs font-medium outline-none transition-colors hover:bg-muted/50 focus:ring-2 focus:ring-ring/50"
-                >
-                  {icon.weights.map((w) => (
-                    <option key={w} value={w}>
-                      {formatWeightLabel(w)}
-                    </option>
-                  ))}
-                </select>
+                <DropdownMenu>
+                  <DropdownMenuTrigger asChild>
+                    <button
+                      type="button"
+                      className="inline-flex h-8 cursor-pointer items-center justify-between gap-2 rounded-lg bg-[var(--years-purple-50)] px-3 text-xs font-medium text-foreground outline-none transition-[background-color,box-shadow] duration-150 ease-out hover:bg-[var(--years-purple-100)]/70 focus-visible:bg-[var(--years-purple-100)]/70 focus-visible:shadow-[0_0_0_3px_color-mix(in_oklab,var(--years-purple-300)_35%,transparent)]"
+                    >
+                      <span>{formatWeightLabel(localWeight)}</span>
+                      <ChevronDown className="size-3.5 text-muted-foreground" />
+                    </button>
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent
+                    align="start"
+                    className="w-[var(--radix-dropdown-menu-trigger-width)] min-w-0"
+                  >
+                    <DropdownMenuRadioGroup
+                      value={localWeight}
+                      onValueChange={setLocalWeight}
+                    >
+                      {icon.weights.map((w) => (
+                        <DropdownMenuRadioItem key={w} value={w}>
+                          {formatWeightLabel(w)}
+                        </DropdownMenuRadioItem>
+                      ))}
+                    </DropdownMenuRadioGroup>
+                  </DropdownMenuContent>
+                </DropdownMenu>
               </div>
             </div>
           </div>

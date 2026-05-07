@@ -1,5 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
+import { Package } from "lucide-react";
 import { IconGrid } from "@/components/docs/IconGrid";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -27,14 +28,14 @@ export default async function ExploreIconsPage() {
       : "/icons";
 
   return (
-    <div className="space-y-6">
-      {/* Package notice bar */}
-      <div className="inline-flex rounded-[4px] bg-[var(--years-green-100)] px-3 py-2">
-        <p className="text-base text-[var(--years-green-950)]">
-          <span className="font-bold italic">@moreyears/icons package</span>{" "}
-          Synced from the published npm package while keeping stable CDN-style
-          URLs.
-        </p>
+    <div className="space-y-8">
+      {/* Package notice — soft pill chip */}
+      <div className="slice-chip bg-[var(--years-green-200)] text-[var(--years-green-950)]">
+        <Package className="size-4" />
+        <span>
+          <span className="font-semibold">@moreyears/icons</span> — synced from
+          the published npm package with stable CDN URLs.
+        </span>
       </div>
 
       {manifest ? (

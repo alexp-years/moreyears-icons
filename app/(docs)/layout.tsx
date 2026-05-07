@@ -11,7 +11,7 @@ export default function DocsLayout({
       <div className="flex min-h-screen bg-background">
         <Sidebar />
         <SidebarInset>
-          <header className="sticky top-0 z-20 flex h-14 items-center border-b border-border/70 bg-background/92 px-4 backdrop-blur md:hidden">
+          <header className="sticky top-0 z-20 flex h-14 items-center bg-background/85 px-4 backdrop-blur-md md:hidden">
             <SidebarTrigger />
             <p className="ml-2 font-display text-lg text-primary">MoreYears CDN</p>
           </header>

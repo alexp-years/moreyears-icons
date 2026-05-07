@@ -195,3 +195,164 @@
     letter-spacing: 0.01em;
   }
 }
+
+/*
+ * ── Years soft-shell primitives ──
+ * Validated on the Icons slice; promoted here so any page can consume them.
+ *
+ * Three color roles:
+ *   active/structural  → purple   (nav, focus ring, headings/links)
+ *   interactive primary → yellow   (CTAs, primary actions)
+ *   low-key feedback    → cream   (hover tints, inset rows, soft fills)
+ */
+:root {
+  --slice-card-bg: #ffffff;
+  --slice-card-radius: 1.25rem;
+  --slice-card-radius-lg: 1.5rem;
+  --slice-card-shadow:
+    0 1px 2px rgba(56, 37, 105, 0.04),
+    0 12px 32px -10px rgba(56, 37, 105, 0.10);
+  --slice-card-shadow-hover:
+    0 1px 2px rgba(56, 37, 105, 0.05),
+    0 18px 40px -10px rgba(56, 37, 105, 0.16);
+
+  --slice-inset-bg: #fbf7ee;
+  --slice-inset-bg-hover: #f6efde;
+
+  --slice-input-bg: #f7f3e8;
+  --slice-input-bg-hover: #f1ead7;
+  --slice-input-radius: 0.75rem;
+  --slice-input-ring: var(--years-purple-300);
+
+  --slice-eyebrow-color: var(--years-purple-700);
+
+  /* Notice chips — sit against the cream canvas, must contrast */
+  --slice-chip-bg: var(--years-purple-100);
+  --slice-chip-fg: var(--years-purple-900);
+
+  /* Inline code — clearly distinct from canvas + card */
+  --slice-code-inline-bg: var(--years-purple-100);
+  --slice-code-inline-fg: var(--years-purple-900);
+
+  /* Code block language label — neutral, slightly darker than card body */
+  --slice-code-header-bg: var(--years-gray-100);
+  --slice-code-header-fg: var(--years-gray-700);
+
+  --slice-tile-radius: 1.25rem;
+  --slice-tile-shadow-hover:
+    0 1px 2px rgba(56, 37, 105, 0.05),
+    0 14px 28px -10px rgba(56, 37, 105, 0.18);
+}
+
+.slice-card {
+  background-color: var(--slice-card-bg);
+  border-radius: var(--slice-card-radius-lg);
+  box-shadow: var(--slice-card-shadow);
+}
+
+.slice-card-tight {
+  background-color: var(--slice-card-bg);
+  border-radius: var(--slice-card-radius);
+  box-shadow: var(--slice-card-shadow);
+}
+
+.slice-inset-row {
+  background-color: var(--slice-inset-bg);
+  border-radius: var(--slice-card-radius);
+}
+
+.slice-input {
+  background-color: var(--slice-input-bg);
+  border: 0;
+  border-radius: var(--slice-input-radius);
+  transition: background-color 150ms ease, box-shadow 150ms ease;
+}
+.slice-input:hover {
+  background-color: var(--slice-input-bg-hover);
+}
+.slice-input:focus,
+.slice-input:focus-visible,
+.slice-input[data-state="open"] {
+  background-color: var(--slice-input-bg-hover);
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--slice-input-ring) 35%, transparent);
+  outline: none;
+}
+
+.slice-eyebrow {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--slice-eyebrow-color);
+}
+
+.slice-chip {
+  border-radius: 9999px;
+  padding: 0.375rem 0.875rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  background-color: var(--slice-chip-bg);
+  color: var(--slice-chip-fg);
+}
+
+/* Inline code inside prose — distinct from cream canvas/code-block */
+.slice-code-inline,
+.slice-prose code:not(pre code) {
+  background-color: var(--slice-code-inline-bg);
+  color: var(--slice-code-inline-fg);
+  border-radius: 0.375rem;
+  padding: 0.125rem 0.375rem;
+  font-size: 0.8125em;
+  font-family: var(--font-mono);
+}
+
+.slice-tile {
+  border: 0 !important;
+  border-radius: var(--slice-tile-radius);
+  transition:
+    transform 200ms ease,
+    box-shadow 200ms ease,
+    background-color 200ms ease;
+}
+.slice-tile:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: var(--slice-tile-shadow-hover);
+}
+
+/* Soft code block — no hard border, warm cream fill */
+.slice-code {
+  background-color: var(--slice-inset-bg);
+  border-radius: 0.875rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--years-purple-900);
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+/* Soft scrollbar inside floating dropdown/popover surfaces */
+.dropdown-soft-surface {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in oklab, var(--years-purple-300) 70%, transparent) transparent;
+  scrollbar-gutter: stable;
+}
+.dropdown-soft-surface::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.dropdown-soft-surface::-webkit-scrollbar-track {
+  background: transparent;
+  margin-block: 6px;
+}
+.dropdown-soft-surface::-webkit-scrollbar-thumb {
+  background-color: color-mix(in oklab, var(--years-purple-300) 65%, transparent);
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+.dropdown-soft-surface::-webkit-scrollbar-thumb:hover {
+  background-color: color-mix(in oklab, var(--years-purple-400) 80%, transparent);
+}

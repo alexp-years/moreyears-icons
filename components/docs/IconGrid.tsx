@@ -16,9 +16,7 @@ import {
   X,
 } from "lucide-react";
 import { toast } from "sonner";
-import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Separator } from "@/components/ui/separator";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -251,240 +249,233 @@ export function IconGrid({
   );
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-7">
       {/* ── Title ── */}
       <h2 className="font-display text-2xl text-foreground">All icons</h2>
 
-      {/* ── Filters Row ── */}
-      <div className="flex flex-wrap items-center gap-x-8 gap-y-3">
-        {/* Style dropdown */}
-        <div className="flex items-center gap-3">
-          <span className="text-base text-muted-foreground">Style:</span>
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <button
-                type="button"
-                className="inline-flex h-10 w-40 cursor-pointer items-center justify-between rounded-lg border border-[var(--years-purple-100)] bg-[var(--years-purple-50)] px-3 text-base text-foreground outline-none transition-colors hover:bg-[var(--years-purple-100)]/60 focus:ring-2 focus:ring-[var(--years-purple-200)]"
-              >
-                <span>{formatWeightLabel(weight)}</span>
-                <ChevronDown className="size-5 text-muted-foreground" />
-              </button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="start" className="min-w-40">
-              <DropdownMenuRadioGroup
-                value={weight}
-                onValueChange={setWeight}
-              >
-                {weights.map((w) => (
-                  <DropdownMenuRadioItem key={w} value={w}>
-                    {formatWeightLabel(w)}
-                  </DropdownMenuRadioItem>
-                ))}
-              </DropdownMenuRadioGroup>
-            </DropdownMenuContent>
-          </DropdownMenu>
-        </div>
-
-        {/* Category dropdown */}
-        <div className="flex items-center gap-3">
-          <span className="text-base text-muted-foreground">Category:</span>
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <button
-                type="button"
-                className="inline-flex h-10 w-72 cursor-pointer items-center justify-between rounded-lg border border-[var(--years-purple-100)] bg-[var(--years-purple-50)] px-3 text-base text-foreground outline-none transition-colors hover:bg-[var(--years-purple-100)]/60 focus:ring-2 focus:ring-[var(--years-purple-200)]"
-              >
-                <span className="truncate">
-                  {selectedCategory === "all"
-                    ? "All categories"
-                    : selectedCategory}
-                </span>
-                <ChevronDown className="size-5 shrink-0 text-muted-foreground" />
-              </button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent
-              align="start"
-              className="max-h-72 min-w-72 overflow-y-auto"
-            >
-              <DropdownMenuRadioGroup
-                value={selectedCategory}
-                onValueChange={setSelectedCategory}
-              >
-                <DropdownMenuRadioItem value="all">
-                  All categories
-                </DropdownMenuRadioItem>
-                <DropdownMenuSeparator />
-                {categories.map((group) => (
-                  <DropdownMenuRadioItem
-                    key={group.category}
-                    value={group.category}
-                  >
-                    {group.category}
-                    <span className="ml-auto pl-4 text-xs tabular-nums text-muted-foreground">
-                      {group.icons.length}
-                    </span>
-                  </DropdownMenuRadioItem>
-                ))}
-              </DropdownMenuRadioGroup>
-            </DropdownMenuContent>
-          </DropdownMenu>
-        </div>
-
-        {/* Search */}
-        <div className="relative flex-1 min-w-[200px]">
-          <Input
-            ref={searchRef}
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search for an icon..."
-            className="h-10 rounded-lg border-[var(--years-purple-100)] bg-[var(--years-purple-50)] pr-10 text-base transition-colors placeholder:text-[var(--years-gray-400)] hover:border-[var(--years-purple-200)]"
-          />
-          {query ? (
-            <button
-              type="button"
-              onClick={() => {
-                setQuery("");
-                searchRef.current?.focus();
-              }}
-              className="absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer rounded-sm p-0.5 text-muted-foreground transition-colors hover:text-foreground"
-            >
-              <X className="size-4" />
-            </button>
-          ) : (
-            <Search className="pointer-events-none absolute right-3 top-1/2 size-5 -translate-y-1/2 text-[var(--years-purple-600)]" />
-          )}
-        </div>
-      </div>
-
-      {/* ── Icon Preview Settings Toolbar ── */}
-      <div className="flex flex-wrap items-center justify-between gap-4 rounded-xl border border-[var(--years-purple-400)] bg-[var(--years-purple-300)] px-6 py-4">
-        <p className="whitespace-nowrap text-sm font-semibold text-[var(--years-purple-700)]">
-          Icon Preview Settings
-        </p>
-
-        <div className="flex flex-wrap items-center gap-x-8 gap-y-3">
-          {/* Color swatches */}
-          <div className="flex items-center gap-2">
-            <span className="text-sm font-semibold text-[var(--years-gray-900)]">
-              Color
-            </span>
-            <div className="flex items-center gap-2">
-              {PRESET_COLORS.map((c) => (
+      {/* ── Filters card ── */}
+      <div className="slice-card p-5 sm:p-6">
+        <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
+          {/* Style dropdown */}
+          <div className="flex items-center gap-3">
+            <span className="text-sm text-muted-foreground">Style</span>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
                 <button
-                  key={c.value}
                   type="button"
-                  onClick={() => handleColorPreset(c.value)}
-                  title={c.name}
-                  className={cn(
-                    "size-6 cursor-pointer rounded-full border-2 p-[2px] transition-all hover:scale-110",
-                    previewColor === c.value
-                      ? "border-[var(--years-purple-500)] border-dashed"
-                      : "border-white"
-                  )}
+                  className="slice-input inline-flex h-10 w-40 cursor-pointer items-center justify-between px-3.5 text-sm font-medium text-foreground"
                 >
-                  <div
-                    className="size-full rounded-full"
-                    style={{ backgroundColor: c.value }}
-                  />
+                  <span>{formatWeightLabel(weight)}</span>
+                  <ChevronDown className="size-4 text-muted-foreground" />
                 </button>
-              ))}
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="start" className="min-w-40">
+                <DropdownMenuRadioGroup
+                  value={weight}
+                  onValueChange={setWeight}
+                >
+                  {weights.map((w) => (
+                    <DropdownMenuRadioItem key={w} value={w}>
+                      {formatWeightLabel(w)}
+                    </DropdownMenuRadioItem>
+                  ))}
+                </DropdownMenuRadioGroup>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </div>
 
-              {/* Custom color picker */}
-              <Popover
-                open={colorPickerOpen}
-                onOpenChange={setColorPickerOpen}
+          {/* Category dropdown */}
+          <div className="flex items-center gap-3">
+            <span className="text-sm text-muted-foreground">Category</span>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <button
+                  type="button"
+                  className="slice-input inline-flex h-10 w-72 cursor-pointer items-center justify-between px-3.5 text-sm font-medium text-foreground"
+                >
+                  <span className="truncate">
+                    {selectedCategory === "all"
+                      ? "All categories"
+                      : selectedCategory}
+                  </span>
+                  <ChevronDown className="size-4 shrink-0 text-muted-foreground" />
+                </button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent
+                align="start"
+                className="max-h-80 w-[var(--radix-dropdown-menu-trigger-width)] min-w-0"
               >
-                <PopoverTrigger asChild>
+                <DropdownMenuRadioGroup
+                  value={selectedCategory}
+                  onValueChange={setSelectedCategory}
+                >
+                  <DropdownMenuRadioItem value="all">
+                    All categories
+                  </DropdownMenuRadioItem>
+                  <DropdownMenuSeparator />
+                  {categories.map((group) => (
+                    <DropdownMenuRadioItem
+                      key={group.category}
+                      value={group.category}
+                    >
+                      {group.category}
+                      <span className="ml-auto pl-4 text-xs tabular-nums text-muted-foreground">
+                        {group.icons.length}
+                      </span>
+                    </DropdownMenuRadioItem>
+                  ))}
+                </DropdownMenuRadioGroup>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </div>
+
+          {/* Search */}
+          <div className="relative flex-1 min-w-[220px]">
+            <Input
+              ref={searchRef}
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Search for an icon..."
+              className="slice-input h-10 pl-3.5 pr-10 text-sm shadow-none placeholder:text-muted-foreground"
+            />
+            {query ? (
+              <button
+                type="button"
+                onClick={() => {
+                  setQuery("");
+                  searchRef.current?.focus();
+                }}
+                className="absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer rounded-sm p-0.5 text-muted-foreground transition-colors hover:text-foreground"
+              >
+                <X className="size-4" />
+              </button>
+            ) : (
+              <Search className="pointer-events-none absolute right-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
+            )}
+          </div>
+        </div>
+
+        {/* ── Preview Settings inset row ── */}
+        <div className="slice-inset-row mt-5 flex flex-wrap items-center justify-between gap-x-6 gap-y-3 px-5 py-4">
+          <p className="slice-eyebrow whitespace-nowrap">Preview Settings</p>
+
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
+            {/* Color swatches */}
+            <div className="flex items-center gap-2.5">
+              <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                Color
+              </span>
+              <div className="flex items-center gap-2">
+                {PRESET_COLORS.map((c) => (
                   <button
+                    key={c.value}
                     type="button"
-                    title="Custom color"
+                    onClick={() => handleColorPreset(c.value)}
+                    title={c.name}
                     className={cn(
-                      "size-6 cursor-pointer rounded-full border-2 p-[2px] transition-all hover:scale-110 flex items-center justify-center",
-                      !isPresetColor
+                      "size-6 cursor-pointer rounded-full border-2 p-[2px] transition-all hover:scale-110",
+                      previewColor === c.value
                         ? "border-[var(--years-purple-500)] border-dashed"
                         : "border-white"
                     )}
                   >
-                    {!isPresetColor ? (
-                      <div
-                        className="size-full rounded-full"
-                        style={{ backgroundColor: previewColor }}
-                      />
-                    ) : (
-                      <Palette className="size-3.5 text-muted-foreground" />
-                    )}
+                    <div
+                      className="size-full rounded-full"
+                      style={{ backgroundColor: c.value }}
+                    />
                   </button>
-                </PopoverTrigger>
-                <PopoverContent
-                  align="end"
-                  className="w-56 space-y-3 p-3"
+                ))}
+
+                {/* Custom color picker */}
+                <Popover
+                  open={colorPickerOpen}
+                  onOpenChange={setColorPickerOpen}
                 >
-                  <p className="text-xs font-medium text-muted-foreground">
-                    Custom Color
-                  </p>
-                  <div className="flex items-center gap-2">
+                  <PopoverTrigger asChild>
                     <button
                       type="button"
-                      onClick={() => colorInputRef.current?.click()}
-                      className="size-9 shrink-0 rounded-lg border border-border overflow-hidden cursor-pointer transition-colors hover:border-foreground"
-                      style={{ backgroundColor: previewColor }}
-                    />
-                    <input
-                      ref={colorInputRef}
-                      type="color"
-                      value={previewColor}
-                      onChange={handleNativeColorPick}
-                      className="sr-only"
-                    />
-                    <Input
-                      value={customHex}
-                      onChange={(e) => handleCustomColor(e.target.value)}
-                      placeholder="#000000"
-                      className="h-9 font-mono text-xs"
-                    />
-                  </div>
-                </PopoverContent>
-              </Popover>
-            </div>
-          </div>
-
-          {weight === "linear" && (
-            <Separator
-              orientation="vertical"
-              className="h-8 hidden sm:block"
-            />
-          )}
-
-          {/* Stroke Width (Linear only) */}
-          {weight === "linear" && (
-            <div className="flex items-center gap-2">
-              <span className="text-sm font-semibold text-foreground">
-                Stroke Width
-              </span>
-              <div className="flex items-center gap-1 rounded-lg border border-[var(--years-purple-100)] bg-[var(--years-purple-50)] p-1">
-                <Input
-                  type="number"
-                  min={0.5}
-                  max={4}
-                  step={0.5}
-                  value={strokeWidth}
-                  onChange={(e) => handleStrokeWidthChange(e.target.value)}
-                  className="h-7 w-16 border-0 bg-transparent text-center text-sm font-semibold shadow-none focus-visible:ring-0"
-                />
-                <span className="pr-1 text-sm text-muted-foreground">px</span>
+                      title="Custom color"
+                      className={cn(
+                        "size-6 cursor-pointer rounded-full border-2 p-[2px] transition-all hover:scale-110 flex items-center justify-center",
+                        !isPresetColor
+                          ? "border-[var(--years-purple-500)] border-dashed"
+                          : "border-white"
+                      )}
+                    >
+                      {!isPresetColor ? (
+                        <div
+                          className="size-full rounded-full"
+                          style={{ backgroundColor: previewColor }}
+                        />
+                      ) : (
+                        <Palette className="size-3.5 text-muted-foreground" />
+                      )}
+                    </button>
+                  </PopoverTrigger>
+                  <PopoverContent
+                    align="end"
+                    className="w-56 space-y-3 p-3"
+                  >
+                    <p className="text-xs font-medium text-muted-foreground">
+                      Custom Color
+                    </p>
+                    <div className="flex items-center gap-2">
+                      <button
+                        type="button"
+                        onClick={() => colorInputRef.current?.click()}
+                        className="size-9 shrink-0 rounded-lg overflow-hidden cursor-pointer slice-input"
+                        style={{ backgroundColor: previewColor }}
+                      />
+                      <input
+                        ref={colorInputRef}
+                        type="color"
+                        value={previewColor}
+                        onChange={handleNativeColorPick}
+                        className="sr-only"
+                      />
+                      <Input
+                        value={customHex}
+                        onChange={(e) => handleCustomColor(e.target.value)}
+                        placeholder="#000000"
+                        className="slice-input h-9 font-mono text-xs shadow-none"
+                      />
+                    </div>
+                  </PopoverContent>
+                </Popover>
               </div>
             </div>
-          )}
 
-          {/* Reset */}
-          <button
-            type="button"
-            onClick={handleReset}
-            className="flex cursor-pointer items-center gap-2 rounded-lg border border-[var(--years-purple-200)] bg-[var(--years-purple-100)] px-4 py-2.5 text-sm text-[var(--years-gray-600)] transition-colors hover:bg-[var(--years-purple-200)] hover:text-[var(--years-gray-900)]"
-          >
-            <RotateCcw className="size-3.5" />
-            Reset
-          </button>
+            {/* Stroke Width (Linear only) */}
+            {weight === "linear" && (
+              <div className="flex items-center gap-2.5">
+                <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                  Stroke
+                </span>
+                <div className="slice-input flex items-center gap-1 px-1.5 py-0.5">
+                  <Input
+                    type="number"
+                    min={0.5}
+                    max={4}
+                    step={0.5}
+                    value={strokeWidth}
+                    onChange={(e) => handleStrokeWidthChange(e.target.value)}
+                    className="h-7 w-14 border-0 bg-transparent text-center text-sm font-semibold shadow-none focus-visible:ring-0"
+                  />
+                  <span className="pr-1 text-xs text-muted-foreground">px</span>
+                </div>
+              </div>
+            )}
+
+            {/* Reset */}
+            <button
+              type="button"
+              onClick={handleReset}
+              className="flex cursor-pointer items-center gap-1.5 rounded-full bg-white px-3.5 py-1.5 text-xs font-semibold text-[var(--years-purple-800)] shadow-sm transition-all hover:shadow-md"
+            >
+              <RotateCcw className="size-3" />
+              Reset
+            </button>
+          </div>
         </div>
       </div>
 
@@ -641,16 +632,9 @@ function IconTile({
       onClick={onOpen}
       onKeyDown={handleTileKeyDown}
       title={icon.name}
-      className="group relative aspect-square cursor-pointer rounded-2xl border p-4 transition-all duration-200 hover:scale-[1.03] hover:shadow-md focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none"
+      className="slice-tile group relative aspect-square cursor-pointer p-4 focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none"
       style={{
         backgroundColor: tileColors.bg,
-        borderColor: tileColors.border,
-      }}
-      onMouseEnter={(e) => {
-        e.currentTarget.style.borderColor = tileColors.hoverBorder;
-      }}
-      onMouseLeave={(e) => {
-        e.currentTarget.style.borderColor = tileColors.border;
       }}
     >
       <IconSvgPreview
@@ -667,9 +651,9 @@ function IconTile({
         disabled={copying}
         title="Copy as PNG"
         className={cn(
-          "absolute bottom-2 left-1/2 -translate-x-1/2 inline-flex items-center gap-1 rounded-md border border-[var(--years-purple-200)] bg-white/95 px-2 py-1 text-[10px] font-medium text-[var(--years-gray-700)] shadow-sm transition-all duration-150 cursor-pointer",
+          "absolute bottom-2 left-1/2 -translate-x-1/2 inline-flex items-center gap-1 rounded-full bg-white px-2.5 py-1 text-[10px] font-semibold text-[var(--years-purple-800)] shadow-[0_1px_2px_rgba(56,37,105,0.06),0_4px_12px_-4px_rgba(56,37,105,0.18)] transition-all duration-150 cursor-pointer",
           "opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 focus-visible:opacity-100",
-          "hover:bg-white focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none",
+          "hover:shadow-[0_1px_2px_rgba(56,37,105,0.08),0_8px_18px_-4px_rgba(56,37,105,0.24)] focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none",
           "disabled:cursor-wait"
         )}
       >
